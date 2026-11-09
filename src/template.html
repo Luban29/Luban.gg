@@ -1,0 +1,466 @@
+<title>Luban.GG</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: narrow draft-board column. Sticky control bar (lanes as minimap glyphs + search), a split versus banner with class emblems (enemy left, your pick right),
+   then a strip of ten picks (each opens its matchup), the matchup bar, lane tip and note; champion roster below.
+   Team colors carry meaning: ally blue = your pick, enemy red = the champion you face. Gold = selection, emblem trim and brand. */
+:root{
+  --bg:#0a1018; --surface:#111a26; --raise:#182334; --line:#26354a;
+  --ink:#ece6d6; --dim:#8f9cb0;
+  --gold:#d2b26f; --gold-deep:#7d6232;
+  --ally:#3fa9f5; --ally-soft:#12314b; --enemy:#e5534b; --enemy-soft:#4b1f24;
+  --amber:#e8a849; --amber-soft:#3a2c15;
+  --display:"Cinzel", "Trajan Pro", "Palatino Linotype", Georgia, serif;
+  --ui:"Barlow Semi Condensed", "Arial Narrow", system-ui, sans-serif;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  --bg:#eef1f5; --surface:#ffffff; --raise:#f4f6f9; --line:#d3dae4;
+  --ink:#121c2b; --dim:#556275;
+  --gold:#8a6a2c; --gold-deep:#c4a46a;
+  --ally:#1c6db0; --ally-soft:#d8e8f6; --enemy:#b8423a; --enemy-soft:#f4d6d2;
+  --amber:#94570f; --amber-soft:#f7e8d2;
+  color-scheme:light}}
+:root[data-theme="light"]{
+  --bg:#eef1f5; --surface:#ffffff; --raise:#f4f6f9; --line:#d3dae4;
+  --ink:#121c2b; --dim:#556275;
+  --gold:#8a6a2c; --gold-deep:#c4a46a;
+  --ally:#1c6db0; --ally-soft:#d8e8f6; --enemy:#b8423a; --enemy-soft:#f4d6d2;
+  --amber:#94570f; --amber-soft:#f7e8d2;
+  color-scheme:light}
+body{background:var(--bg);color:var(--ink);font-family:var(--ui);font-size:15.5px;font-weight:500;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 32px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+
+/* control bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:12px 12px;
+  display:flex;flex-direction:column;gap:10px;border-bottom:1px solid var(--line)}
+.hero{margin-top:16px;display:flex;align-items:center;gap:14px;padding:18px 16px;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+.hero-text{flex:1;min-width:0}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(1.75rem,7vw,2.15rem);line-height:1.05;margin:0;color:var(--ink);letter-spacing:.03em}
+h1 span{color:var(--gold)}
+.hero p{margin:7px 0 0;color:var(--dim);font-size:.95rem;max-width:34ch}
+.mark{width:84px;height:84px;flex:none}
+.lanes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px}
+.lanes button{display:flex;flex-direction:column;align-items:center;gap:3px;padding:7px 2px 6px;border-radius:6px;cursor:pointer;
+  font:600 .82rem var(--ui);color:var(--dim);background:transparent;border:1px solid transparent}
+.lanes button svg{width:20px;height:20px}
+.lanes button:hover{color:var(--ink)}
+.lanes button[aria-pressed="true"]{color:var(--gold);border-color:var(--gold-deep);background:var(--surface)}
+.search{position:relative}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:17px;height:17px;color:var(--dim);pointer-events:none}
+#q{width:100%;box-sizing:border-box;font:500 1.08rem var(--ui);padding:11px 12px 11px 38px;border-radius:8px;
+  border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+#q::placeholder{color:var(--dim)}
+#q:focus,button:focus-visible,textarea:focus,a:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+
+/* matchup card */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.versus{position:relative;display:grid;grid-template-columns:1fr 1fr;min-height:148px;border-bottom:1px solid var(--line);
+  background:linear-gradient(104deg,var(--enemy-soft) 0 calc(50% - 1.5px),var(--bg) calc(50% - 1.5px) calc(50% + 1.5px),var(--ally-soft) calc(50% + 1.5px))}
+.side{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;gap:1px;padding:16px 30px 14px 16px;min-width:0}
+.side.ally{align-items:flex-end;text-align:right;padding:16px 16px 14px 30px}
+.crest{width:76px;height:76px;display:block;flex:none;margin-bottom:auto}
+.crest+.lbl{margin-top:8px}
+.lbl{font-weight:700;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--enemy)}
+.side.ally .lbl{color:var(--ally)}
+.side.none .lbl{color:var(--dim)}
+.side .name{font-family:var(--display);font-weight:700;font-size:clamp(1.2rem,5.4vw,1.55rem);line-height:1.08;overflow-wrap:anywhere;color:var(--ink);margin-top:2px}
+.side .role{font-size:.9rem;color:var(--dim)}
+.vs{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:1;width:40px;height:40px;border-radius:50%;
+  display:grid;place-items:center;background:var(--surface);border:1.5px solid var(--gold-deep);
+  font-family:var(--display);font-weight:700;font-size:.88rem;color:var(--gold);letter-spacing:.04em}
+.inner{display:flex;flex-direction:column;gap:14px;padding:14px 16px}
+.meter{position:relative;height:10px;border-radius:5px;background:var(--enemy-soft);overflow:hidden}
+.meter .fill{position:absolute;inset:0 auto 0 0;width:50%;background:var(--ally);border-radius:5px 0 0 5px;transition:width .45s cubic-bezier(.2,.7,.2,1)}
+.meter::after{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:2px;margin-left:-1px;background:var(--ink);opacity:.55}
+.stats{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:6px}
+.wr{font-weight:700;font-size:1.45rem;color:var(--ally);font-variant-numeric:tabular-nums;line-height:1}
+.games{color:var(--dim);font-variant-numeric:tabular-nums;display:inline-flex;align-items:center;gap:6px}
+.pips{display:inline-flex;gap:3px}
+.pips i{width:7px;height:7px;border-radius:1px;background:var(--line);transform:rotate(45deg)}
+.pips i.on{background:var(--ink);opacity:.75}
+.small{color:var(--amber);font-weight:600}
+.why{margin:10px 0 0;display:flex;gap:10px;align-items:baseline;font-size:1rem}
+.why span{flex:none;font-weight:700;color:var(--ally)}
+.flag{background:var(--amber-soft);color:var(--amber);border-left:3px solid var(--amber);border-radius:0 6px 6px 0;padding:7px 10px;font-size:.95rem}
+.sub{font-size:.86rem;font-weight:600;color:var(--dim);margin:0 0 6px}
+.alts{display:flex;flex-direction:column;gap:11px;margin:0;padding:0;list-style:none}
+.alts li{display:grid;grid-template-columns:minmax(0,1fr) 64px auto;gap:2px 10px;align-items:center}
+.alts .nm{font-weight:700;font-size:1.06rem;min-width:0;overflow-wrap:anywhere}
+.alts .meter{height:6px}
+.alts .num{font-variant-numeric:tabular-nums;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.alts .cond{grid-column:1 / -1;color:var(--dim);font-size:.94rem;min-width:0}
+.none{color:var(--dim);margin:0}
+.fbpicks{display:flex;flex-wrap:wrap;gap:6px}
+.fbpicks span{padding:3px 9px;border-radius:5px;border:1px solid var(--line);background:var(--raise);font-weight:700;display:inline-flex;align-items:center;gap:6px}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none;background:var(--ally)}
+.tip{background:var(--raise);border-left:3px solid var(--gold);border-radius:0 6px 6px 0;padding:9px 12px}
+.tip p{margin:0}
+.note label{display:block}
+textarea{width:100%;box-sizing:border-box;min-height:52px;font:500 .95rem var(--ui);padding:8px 10px;border-radius:6px;
+  border:1px solid var(--line);background:var(--bg);color:var(--ink);resize:vertical}
+.cardfoot{display:flex;justify-content:flex-end}
+.cardfoot a{color:var(--dim);font-size:.88rem}
+.cardfoot a:hover{color:var(--ink)}
+.empty{color:var(--dim);margin:0;padding:6px 2px}
+.enter .side.enemy{animation:inL .34s cubic-bezier(.2,.7,.2,1) both}
+.enter .side.ally{animation:inR .34s .06s cubic-bezier(.2,.7,.2,1) both}
+.enter .vs{animation:pop .3s .14s cubic-bezier(.2,.7,.2,1) both}
+@keyframes inL{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+@keyframes inR{from{opacity:0;transform:translateX(10px)}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:translate(-50%,-50%) scale(.6)}to{opacity:1;transform:translate(-50%,-50%)}}
+
+/* roster */
+.roster h3{font-family:var(--display);font-weight:600;font-size:1.02rem;color:var(--gold);margin:0}
+.legend{font-size:.86rem;color:var(--dim);margin:2px 0 10px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chips button{font:600 .88rem var(--ui);padding:4px 9px;border-radius:5px;border:1px solid var(--line);background:var(--raise);color:var(--ink);cursor:pointer;
+  display:inline-flex;align-items:center;gap:5px}
+.tier{color:var(--dim);font-size:.82rem;font-weight:600}
+.chips button.cur{border-color:var(--enemy);border-style:solid;color:var(--ink)}
+.chips button.has-note::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.chips button:hover{border-color:var(--gold)}
+.foot{font-size:.86rem;color:var(--dim);margin:0;max-width:62ch}
+.foot.legal{font-size:.78rem;opacity:.85}
+/* section tabs: counters and items share the lane bar and search */
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px;border-radius:10px;background:var(--surface);border:1px solid var(--line)}
+.tabs button{display:flex;align-items:center;justify-content:center;gap:8px;padding:9px 8px;border-radius:7px;border:1px solid transparent;background:transparent;
+  color:var(--dim);font:700 1.02rem var(--ui);letter-spacing:.02em;cursor:pointer}
+.tabs button svg{width:19px;height:19px;flex:none}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected="true"]{background:var(--raise);color:var(--gold);border-color:var(--gold-deep)}
+
+/* pick switcher: each recommended pick opens its own matchup in the banner and the numbers below */
+.pickbox{container-type:inline-size}
+.pickbox .sub{margin-bottom:8px}
+.picks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+.pick{display:flex;align-items:center;gap:6px;min-width:0;min-height:36px;padding:3px 10px 3px 3px;border-radius:999px;border:1px solid var(--line);
+  background:var(--raise);color:var(--ink);font:600 .95rem var(--ui);text-align:left;cursor:pointer}
+.pick .crest.mini{width:26px;height:26px;margin:0;flex:none}
+.pick .pn{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pick .pw{flex:none;color:var(--dim);font-size:.9rem;font-variant-numeric:tabular-nums}
+@container (min-width:520px){.picks{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@container (min-width:250px) and (max-width:335px){.pick{padding-left:10px}.pick .crest.mini{display:none}}
+@container (max-width:249px){.picks{grid-template-columns:1fr}}
+.pick:hover{border-color:var(--ally)}
+.pick[aria-pressed="true"]{background:var(--ally-soft);border-color:var(--ally)}
+.pick[aria-pressed="true"] .pw{color:var(--ally);font-weight:700}
+.pick.fill{border-style:dashed}
+.pick.low .pw{color:var(--enemy)}
+.pick.low[aria-pressed="true"] .pw{color:var(--enemy)}
+.picks .sep{grid-column:1/-1;font-size:.8rem;font-weight:600;color:var(--dim);margin-top:4px}
+.det.swap{animation:fadeup .28s cubic-bezier(.2,.7,.2,1) both}
+@keyframes fadeup{from{opacity:.2;transform:translateY(4px)}to{opacity:1;transform:none}}
+.pop .crest{animation:crestpop .36s cubic-bezier(.2,.7,.2,1) both}
+@keyframes crestpop{from{opacity:0;transform:scale(.72)}to{opacity:1;transform:none}}
+.pnote{margin:6px 0 0;color:var(--dim);font-size:.9rem}
+.acts{display:flex;align-items:center;justify-content:space-between;gap:10px 14px;flex-wrap:wrap}
+.acts a{color:var(--dim);font-size:.88rem}
+.acts a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:7px;padding:7px 12px;border-radius:7px;border:1px solid var(--gold-deep);background:transparent;
+  color:var(--gold);font:700 .95rem var(--ui);cursor:pointer}
+.btn svg{width:17px;height:17px;flex:none}
+.btn:hover{background:var(--raise)}
+
+/* items card */
+.ihead{display:flex;align-items:center;gap:14px;padding:16px;border-bottom:1px solid var(--line);background:linear-gradient(104deg,var(--ally-soft),var(--surface) 78%)}
+.ihead .crest{width:68px;height:68px;margin:0}
+.ih{display:flex;flex-direction:column;min-width:0}
+.ih .lbl{color:var(--ally)}
+.ih .name{font-family:var(--display);font-weight:700;font-size:clamp(1.25rem,5.6vw,1.6rem);line-height:1.08;margin-top:2px;overflow-wrap:anywhere}
+.ih .role{font-size:.9rem;color:var(--dim)}
+.kpis{display:flex;flex-wrap:wrap;gap:2px 14px;margin:6px 0 0;font-size:.88rem;color:var(--dim)}
+.kpis b{color:var(--ink);font-weight:700;font-variant-numeric:tabular-nums}
+.sect{display:flex;flex-direction:column;gap:7px}
+.sect>.sub{margin:0}
+.items{display:flex;flex-wrap:wrap;gap:5px;margin:0;padding:0;list-style:none}
+.item{display:inline-flex;align-items:center;gap:6px;padding:4px 9px;border-radius:6px;border:1px solid var(--line);background:var(--raise);
+  font-weight:600;font-size:.94rem;line-height:1.2}
+.item i{font-style:normal;flex:none;width:18px;height:18px;border-radius:50%;display:grid;place-items:center;font-size:.72rem;font-weight:700;
+  color:var(--gold);border:1px solid var(--gold-deep);background:var(--bg)}
+.item .x{color:var(--dim);font-weight:600;font-variant-numeric:tabular-nums}
+.item.next{background:transparent}
+.item.guess{border-style:dashed}
+.srow{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px}
+.srow .or{color:var(--dim);font-size:.88rem}
+.sh{color:var(--dim);font-size:.88rem;font-variant-numeric:tabular-nums}
+.builds{display:flex;flex-direction:column;margin:0;padding:0;list-style:none}
+.build{display:flex;flex-direction:column;gap:7px;padding:11px 0;border-top:1px solid var(--line)}
+.build:first-child{border-top:0;padding-top:2px}
+.bhead{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px}
+.bwr{font-weight:700;font-size:1.22rem;color:var(--ally);font-variant-numeric:tabular-nums;line-height:1}
+.bhead .sh{margin-left:auto}
+.tag{font-size:.76rem;font-weight:700;color:var(--gold);border:1px solid var(--gold-deep);border-radius:5px;padding:1px 6px;line-height:1.4}
+.build .meter{height:6px}
+.pro{padding-top:14px;border-top:1px solid var(--line)}
+.ph{font-family:var(--display);font-weight:600;font-size:1.02rem;color:var(--gold);margin:0}
+.lead{margin:0;color:var(--dim);font-size:.92rem}
+.pbars{display:flex;flex-direction:column;gap:7px;margin:4px 0;padding:0;list-style:none}
+.pbars li{display:grid;grid-template-columns:minmax(0,1fr) minmax(64px,34%) 40px;gap:10px;align-items:center}
+.pbars .nm{font-weight:600;min-width:0;overflow-wrap:anywhere}
+.pbar{height:8px;border-radius:4px;background:var(--raise);border:1px solid var(--line);overflow:hidden}
+.pbar i{display:block;height:100%;background:var(--gold)}
+.pv{text-align:right;color:var(--dim);font-variant-numeric:tabular-nums;font-size:.9rem}
+.pgames{display:flex;flex-direction:column;gap:11px;margin:0;padding:0;list-style:none}
+.pg{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 9px;margin:0 0 5px}
+.pg .team,.pg .vsn,.pg .kda{color:var(--dim);font-size:.9rem}
+.win,.loss{font-weight:700;font-size:.9rem}
+.win{color:var(--ally)}
+.loss{color:var(--enemy)}
+.pgames .item{font-size:.86rem;padding:3px 8px}
+.chips[data-tab="i"] button.cur{border-color:var(--ally)}
+@media (prefers-reduced-motion: reduce){.meter .fill{transition:none}.enter .side,.enter .vs,.det.swap,.pop .crest{animation:none}}
+@media (max-width:360px){.mark{width:64px;height:64px}.lanes button{font-size:.72rem}.crest{width:62px;height:62px}}
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Luban<span>.GG</span></h1>
+      <p>Counter picky a buildy na všech pět linek. Jen Emerald+ hry za posledních 30 dní.</p>
+    </div>
+    <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><ellipse cx="50" cy="71" rx="29" ry="7" fill="none" stroke="var(--gold-deep)" stroke-width="2.2"/><path d="M50 5 32 26 35 57 50 69z" fill="var(--ally)"/><path d="M50 5 68 26 65 57 50 69z" fill="var(--enemy)"/><path d="M50 5 32 26 50 37z" fill="#fff" opacity=".28"/><path d="M50 5 68 26 50 37z" fill="#fff" opacity=".14"/><path d="M35 57 50 49 65 57 50 69z" fill="#000" opacity=".18"/><path d="M50 5V69M32 26 50 37 68 26M35 57 50 49 65 57" fill="none" stroke="#fff" stroke-width="1.1" opacity=".35"/><path d="M50 5 68 26 65 57 50 69 35 57 32 26z" fill="none" stroke="var(--gold)" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 92H76L70 83H30z" fill="var(--gold-deep)"/><path d="M33 83H67L62 76H38z" fill="var(--gold)"/><path d="M16 28l1.8 3.8L21.6 33.6l-3.8 1.8L16 39.2l-1.8-3.8L10.4 33.6l3.8-1.8zM84 46l1.4 3 3 1.4-3 1.4-1.4 3-1.4-3-3-1.4 3-1.4z" fill="var(--gold)"/></svg>
+  </header>
+  <div class="tabs" role="tablist" aria-label="Sekce">
+    <button type="button" role="tab" id="t-c" data-tab="c" aria-selected="true" aria-controls="out"><svg viewBox="0 0 20 20" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3.5 3.5 12.5 12.5M16.5 3.5 7.5 12.5"/><path d="M10.6 14.6l3.9-3.9M9.4 14.6 5.5 10.7"/><path d="M13.2 13.2l3.3 3.3M6.8 13.2 3.5 16.5"/></g></svg>Countery</button>
+    <button type="button" role="tab" id="t-i" data-tab="i" aria-selected="false" aria-controls="out" tabindex="-1"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M8 2.8h4M9 2.8v4.4L5.3 13.4A3 3 0 0 0 7.9 18h4.2a3 3 0 0 0 2.6-4.6L11 7.2V2.8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/><path d="M6.4 12.6h7.2" stroke="currentColor" stroke-width="1.4" opacity=".7"/></svg>Itemy</button>
+  </div>
+  <div class="bar">
+    <div class="lanes" role="group" aria-label="Linka">
+      <button id="l-top" data-lane="top" aria-pressed="true"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="1.5" y="1.5" width="17" height="17" rx="2.5" fill="none" stroke="currentColor" stroke-opacity=".35"/><path d="M4 16V4h12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Top</button>
+      <button id="l-jungle" data-lane="jungle" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="1.5" y="1.5" width="17" height="17" rx="2.5" fill="none" stroke="currentColor" stroke-opacity=".35"/><path d="M11.8 2.8V11.4C11.8 14.9 9.6 16.7 7.2 16.1 5.4 15.6 4.8 13.7 6 12.7 7 11.9 8.4 12.5 8.2 13.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M11.80 5.40C13.92 6.31 15.65 4.98 16.04 3.15C14.30 2.44 12.23 3.13 11.80 5.40zM11.80 8.80C11.37 6.53 9.30 5.84 7.56 6.55C7.95 8.38 9.68 9.71 11.80 8.80zM11.80 11.60C13.21 12.73 14.82 12.10 15.52 10.81C14.35 9.91 12.62 9.99 11.80 11.60z" fill="currentColor"/></svg>Jungle</button>
+      <button id="l-mid" data-lane="mid" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="1.5" y="1.5" width="17" height="17" rx="2.5" fill="none" stroke="currentColor" stroke-opacity=".35"/><path d="M4.5 15.5l11-11" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>Mid</button>
+      <button id="l-bottom" data-lane="bottom" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="1.5" y="1.5" width="17" height="17" rx="2.5" fill="none" stroke="currentColor" stroke-opacity=".35"/><path d="M4 16h12V4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>ADC</button>
+      <button id="l-support" data-lane="support" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="1.5" y="1.5" width="17" height="17" rx="2.5" fill="none" stroke="currentColor" stroke-opacity=".35"/><path d="M10 3.4 15.4 5.4v4.1c0 3.4-2.3 5.7-5.4 7.1-3.1-1.4-5.4-3.7-5.4-7.1V5.4z" fill="currentColor"/></svg>Support</button>
+    </div>
+    <div class="search">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="q" type="search" placeholder="Proti komu hraješ? Třeba Garen" autocomplete="off" list="names" aria-label="Enemy champion">
+    </div>
+  </div>
+  <datalist id="names"></datalist>
+  <div id="out" role="tabpanel" aria-labelledby="t-c" aria-live="polite"></div>
+  <section class="roster">
+    <h3 id="roster-h">Všichni championi</h3>
+    <p class="legend" id="legend"></p>
+    <div class="chips" id="chips"></div>
+  </section>
+  <p class="foot" data-for="c">Ke každému enemy je deset picků. Nejdřív přímé matchupy nad 50 %, pak další přímé matchupy do 50 %, potom championi s nejlepším winratem proti championům stejného typu jako enemy a nakonec nejsilnější championi na lince podle celkového winratu. Uvnitř skupiny rozhoduje winrat po odečtení nejistoty z malého vzorku, takže vyšší číslo z mála her může stát za nižším z mnoha her. Picky podle typu a podle linky mají čárkovaný okraj. Procento je winrate tvého picku přímo v tomhle matchupu na stejné lince, pokud detail neříká jinak. Modrá část pruhu patří tobě, červená enemy, ryska uprostřed je 50 %. Kosočtverce ukazují, z kolika her číslo je: tři od 1 000 her, dva od 300, jeden méně. Data jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stažená 7. a 8. 11. 2026. Doporučují se jen championi, kteří se na lince opravdu hrají: objeví se aspoň v 1 % her na té lince, nebo v 0,5 %, když tam odehrají aspoň čtvrtinu svých zápasů. Matchup musí mít aspoň 100 her a pod 300 je označený jako malý vzorek. Když se enemy na lince skoro nehraje, picky jsou vybrané podle winratu proti championům stejného typu, a když chybí i to, podle kitu. Hlavní counter a první alternativy mají napsaný důvod proti tomuhle enemy, ostatní picky krátký popis, jak hrají lajnu. Důvody, popisy i tipy na lajnu vycházejí z kitů championů, ne ze statistik. Erby jsou vlastní znaky podle typu championa, ne oficiální obrázky. Poznámka se ukládá jen v tomhle prohlížeči.</p>
+  <p class="foot" data-for="i" hidden>Buildy jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stav k 8. 11. 2026. Základ buildu tvoří první tři dokončené itemy včetně bot v pořadí, v jakém je hráči kupují. Varianty se stejnými itemy, jen v jiném pořadí nebo s jinými botami, se sčítají dohromady. Základy se řadí podle winratu po odečtení nejistoty z malého vzorku a berou se jen ty, které staví aspoň 3 % hráčů (když jich tolik není, i méně časté). Nejhranější je mezi nimi vždycky. Zbytek buildu do šesti itemů, na botu do sedmi, je poskládaný krok po kroku z her, které začaly stejně: vždycky item, který si hráči koupili jako další nejčastěji. Kde takové hry chybí, je item doplněný podle celkové oblíbenosti a má čárkovaný okraj. Buildy s Mejai's Soulstealer se do žebříčku nepočítají, protože ho hráči dokončí hlavně ve hrách, které už vyhrávají. U startu a bot je procento podíl hráčů, kteří je kupují. Itemy proplayerů jsou z pros.lol: hry profesionálních hráčů v sólo frontě a procento říká, v kolika z jejich posledních her item postavili. Názvy itemů jsou anglicky. Erby jsou vlastní znaky podle typu championa, ne oficiální obrázky.</p>
+  <p class="foot legal" lang="en">Luban.GG was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
+</div>
+
+<script>
+const P=/*__DATA__*/null;
+const LANE_PHRASE={top:"na topu",jungle:"v jungli",mid:"na midu",bottom:"na botu",support:"na supportu"};
+const LANE_Q={top:"top",jungle:"jungle",mid:"middle",bottom:"bottom",support:"support"};
+const EXAMPLE={c:{top:"Garen",jungle:"Lee Sin",mid:"Ahri",bottom:"Jinx",support:"Thresh"},i:{top:"Aatrox",jungle:"Lee Sin",mid:"Ahri",bottom:"Jinx",support:"Thresh"}};
+const CLS_NAME={tank:"tank",bruiser:"bruiser",assassin:"assassin",mage:"mage",adc:"střelec",enchanter:"enchanter",catcher:"engage support",specialist:"specialista"};
+const CLS_DAT={tank:"tankům",bruiser:"bruiserům",assassin:"assassinům",mage:"mágům",adc:"střelcům",enchanter:"enchanterům",catcher:"engage supportům",specialist:"specialistům"};
+const CH={};
+let lane="top",tab="c",cur=null;
+const last={c:"",i:""};
+const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+const norm=s=>s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z]/g,"");
+const $=id=>document.getElementById(id);
+const pct=n=>n.toLocaleString("cs-CZ",{minimumFractionDigits:1,maximumFractionDigits:1})+" %";
+const num=n=>n.toLocaleString("cs-CZ");
+const cnt=n=>num(n)+" her";
+const herWord=n=>n===1?"hra":n>=2&&n<=4?"hry":"her";
+const fromLast=n=>n===1?"z poslední hry":`z posledních ${n} her`;
+const SLUG={renataglasc:"renata",nunuwillump:"nunu"};
+const slug=name=>{const s=norm(name);return SLUG[s]||s};
+const vsLink=(pick,enemy)=>`https://lolalytics.com/lol/${slug(pick)}/vs/${slug(enemy)}/build/?lane=${LANE_Q[lane]}&vslane=${LANE_Q[lane]}&tier=emerald_plus&patch=30`;
+const buildLink=name=>`https://lolalytics.com/lol/${slug(name)}/build/?lane=${LANE_Q[lane]}&tier=emerald_plus&patch=30`;
+const proLink=name=>`https://pros.lol/champion/${slug(name)}/probuilds/?lane=${LANE_Q[lane]}`;
+const share=p=>p>=0.01?"jen "+p.toLocaleString("cs-CZ",{maximumFractionDigits:2})+" % her":"méně než 0,01 % her";
+const players=s=>s>=1?`${s} % hráčů`:"méně než 1 % hráčů";
+const itemName=id=>P.items[id]||"neznámý item";
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+const width=wr=>Math.max(3,Math.min(97,(wr-40)/20*100));
+const meter=wr=>`<div class="meter" role="img" aria-label="${pct(wr)} winrate"><div class="fill" data-w="${width(wr).toFixed(1)}"></div></div>`;
+function pips(g){const n=g>=1000?3:g>=300?2:1;const lbl=["malý","střední","velký"][n-1];
+  return `<span class="pips" title="${lbl} vzorek" aria-label="${lbl} vzorek">${[1,2,3].map(i=>`<i class="${i<=n?"on":""}"></i>`).join("")}</span>`}
+const small=g=>g<300?' <span class="small">malý vzorek</span>':"";
+const ICON_ITEMS='<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M8 2.8h4M9 2.8v4.4L5.3 13.4A3 3 0 0 0 7.9 18h4.2a3 3 0 0 0 2.6-4.6L11 7.2V2.8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/><path d="M6.4 12.6h7.2" stroke="currentColor" stroke-width="1.4" opacity=".7"/></svg>';
+
+/* crests: original class emblems on a medallion; ring colour shows the side (blue = your pick, red = enemy) */
+const FRAME='<circle cx="50" cy="50" r="46" fill="var(--tb)" stroke="var(--tc)" stroke-width="3"/><circle cx="50" cy="50" r="40" fill="none" stroke="var(--go)" stroke-width="1" opacity=".55"/><g fill="var(--go)"><circle cx="50" cy="7.5" r="1.5"/><circle cx="80" cy="20" r="1.5"/><circle cx="92.5" cy="50" r="1.5"/><circle cx="80" cy="80" r="1.5"/><circle cx="50" cy="92.5" r="1.5"/><circle cx="20" cy="80" r="1.5"/><circle cx="7.5" cy="50" r="1.5"/><circle cx="20" cy="20" r="1.5"/></g>';
+const EMBLEM={
+  tank:'<circle cx="50" cy="50" r="31" fill="var(--li)"/><circle cx="50" cy="50" r="27.5" fill="var(--tc)"/><path d="M41 24 V76 M59 24 V76 M32.5 28.8 V71.2 M67.5 28.8 V71.2" stroke="var(--tb)" stroke-width="1.4" opacity=".45"/><circle cx="50" cy="50" r="10" fill="var(--go)" stroke="var(--li)" stroke-width="2"/><circle cx="50" cy="50" r="4.5" fill="none" stroke="var(--tb)" stroke-width="1.2" opacity=".45"/><circle cx="47.4" cy="47.4" r="2" fill="var(--li)" opacity=".85"/><g fill="var(--go)"><circle cx="77.02" cy="61.19" r="1.5"/><circle cx="61.19" cy="77.02" r="1.5"/><circle cx="38.81" cy="77.02" r="1.5"/><circle cx="22.98" cy="61.19" r="1.5"/><circle cx="22.98" cy="38.81" r="1.5"/><circle cx="38.81" cy="22.98" r="1.5"/><circle cx="61.19" cy="22.98" r="1.5"/><circle cx="77.02" cy="38.81" r="1.5"/></g>',
+  bruiser:'<rect x="47.5" y="34" width="5" height="45" rx="2.5" fill="var(--go)"/><path d="M50 11 L54 20 H46z" fill="var(--li)"/><rect x="30" y="21" width="40" height="15" rx="2.5" fill="var(--li)"/><rect x="44" y="19" width="12" height="19" rx="2.5" fill="var(--tc)" stroke="var(--li)" stroke-width="1.5"/><rect x="25" y="23" width="7" height="11" rx="1.5" fill="var(--go)"/><path d="M70 23 L80 28.5 L70 34z" fill="var(--li)"/><path d="M47.5 58 H52.5 M47.5 62 H52.5 M47.5 66 H52.5" stroke="var(--tb)" stroke-width="1.6"/><circle cx="50" cy="81" r="3.6" fill="var(--li)" stroke="var(--go)" stroke-width="1.4"/>',
+  assassin:'<g transform="rotate(35 50 44)"><circle cx="50" cy="15" r="3.6" fill="var(--li)" stroke="var(--go)" stroke-width="1.3"/><rect x="47.3" y="18.5" width="5.4" height="12" rx="1.5" fill="var(--go)"/><path d="M47.3 22.5 H52.7 M47.3 26.5 H52.7" stroke="var(--tb)" stroke-width="1.2" opacity=".6"/><path d="M37 30.5 H63 L60 35 H40z" fill="var(--go)"/><path d="M45 35 H55 L54.5 57 L50 71 L45.5 57z" fill="var(--li)"/><path d="M50 38 V55" stroke="var(--tb)" stroke-width="1.3" opacity=".45"/><path d="M45.6 56 C47.5 54.5 48.5 58 50 56.5 C51.5 55 52.5 58 54.4 56 L54.1 58 L50 71 L45.9 58z" fill="var(--tc)"/></g><path d="M34.5 70.6 C37.5 75.1 39.0 77.1 39.0 79.1 C39.0 81.6 37.0 83.6 34.5 83.6 C32.0 83.6 30.0 81.6 30.0 79.1 C30.0 77.1 31.5 75.1 34.5 70.6z" fill="var(--tc)" stroke="var(--li)" stroke-width="1.2"/>',
+  mage:'<rect x="48" y="47" width="4" height="35" rx="2" fill="var(--go)"/><path d="M48 60 H52 M48 64 H52" stroke="var(--tb)" stroke-width="1.3" opacity=".6"/><circle cx="50" cy="83" r="2.6" fill="var(--li)" stroke="var(--go)" stroke-width="1.2"/><path d="M50 13 L58.5 23.5 V38 L50 48 L41.5 38 V23.5z" fill="var(--tc)" stroke="var(--li)" stroke-width="1.4" stroke-linejoin="round"/><path d="M50 13 L41.5 23.5 L50 30z" fill="var(--li)" opacity=".75"/><path d="M50 30 V48 M41.5 23.5 L50 30 L58.5 23.5" fill="none" stroke="var(--li)" stroke-width="1" opacity=".5"/><path d="M40 34 C40 45 44.5 50.5 50 50.5 C55.5 50.5 60 45 60 34" fill="none" stroke="var(--go)" stroke-width="2.8" stroke-linecap="round"/><path d="M30 22 L31.40 25.60 L35 27 L31.40 28.40 L30 32 L28.60 28.40 L25 27 L28.60 25.60z M70 32.4 L71.01 34.99 L73.6 36 L71.01 37.01 L70 39.6 L68.99 37.01 L66.4 36 L68.99 34.99z M31 44.4 L31.73 46.27 L33.6 47 L31.73 47.73 L31 49.6 L30.27 47.73 L28.4 47 L30.27 46.27z M68 15.4 L68.73 17.27 L70.6 18 L68.73 18.73 L68 20.6 L67.27 18.73 L65.4 18 L67.27 17.27z" fill="var(--go)"/>',
+  adc:'<path d="M22 47 C30 37 40 33 50 33 C60 33 70 37 78 47" fill="none" stroke="var(--li)" stroke-width="4.5" stroke-linecap="round"/><path d="M22.5 47 L50 56 L77.5 47" fill="none" stroke="var(--li)" stroke-width="1.2" opacity=".85"/><path d="M46.5 31 H53.5 V69 L56.5 82 H43.5 L46.5 69z" fill="var(--tc)" stroke="var(--li)" stroke-width="1.3" stroke-linejoin="round"/><path d="M50 55 V21" stroke="var(--go)" stroke-width="2.2"/><path d="M50 12.5 L54.2 21.5 H45.8z" fill="var(--li)"/><path d="M50 49 L46.5 53 V57 L50 54z M50 49 L53.5 53 V57 L50 54z" fill="var(--go)"/><path d="M53.5 61 C57.5 62 57.5 67 54 68.5" fill="none" stroke="var(--go)" stroke-width="1.8" stroke-linecap="round"/><circle cx="50" cy="40" r="2.2" fill="var(--go)"/>',
+  enchanter:'<path d="M50 70 C40 72 29 69 21 61 C31 56 42 59 50 70z M50 70 C60 72 71 69 79 61 C69 56 58 59 50 70z" fill="var(--li)" opacity=".7"/><path d="M50 68 C37 64 28 53 27 40 C38 43 47 52 50 68z M50 68 C63 64 72 53 73 40 C62 43 53 52 50 68z" fill="var(--tc)" stroke="var(--li)" stroke-width="1.2"/><path d="M50 30 C59 41 59 57 50 68 C41 57 41 41 50 30z" fill="var(--li)"/><path d="M50 17 L52 23 L58 25 L52 27 L50 33 L48 27 L42 25 L48 23z" fill="var(--go)"/><path d="M32 76 H68" stroke="var(--go)" stroke-width="2" stroke-linecap="round"/>',
+  catcher:'<ellipse cx="62" cy="21" rx="4" ry="6.5" fill="none" stroke="var(--go)" stroke-width="2.6" transform="rotate(35 62 21)"/><circle cx="56" cy="30" r="4.6" fill="none" stroke="var(--go)" stroke-width="3"/><path d="M56 35 V58 A15 15 0 0 1 26 58 V52" fill="none" stroke="var(--li)" stroke-width="6" stroke-linecap="round"/><path d="M26 42 L19.5 55 L33 53z" fill="var(--li)"/><path d="M56 40 V56" stroke="var(--tc)" stroke-width="2"/>',
+  specialist:'<path d="M18 50 H30 M70 50 H82 M50 18 V28 M50 72 V82" stroke="var(--go)" stroke-width="2.4" stroke-linecap="round"/><path d="M50 24 L74 50 L50 76 L26 50z" fill="none" stroke="var(--li)" stroke-width="3.5" stroke-linejoin="round"/><path d="M50 35 L63 50 L50 65 L37 50z" fill="var(--tc)"/><path d="M41 50 C45 44 55 44 59 50 C55 56 45 56 41 50z" fill="var(--li)"/><circle cx="50" cy="50" r="3" fill="var(--tb)"/>',
+  unknown:'<circle cx="50" cy="50" r="6" fill="var(--go)"/>'
+};
+const SIDE={ally:["var(--ally)","#13213a"],enemy:["var(--enemy)","#2a1418"],none:["var(--dim)","#1a212c"]};
+function crest(cls,team,size){
+  const [tc,tb]=SIDE[team]||SIDE.none;
+  return `<svg class="crest${size?" "+size:""}" viewBox="0 0 100 100" aria-hidden="true" focusable="false" style="--tc:${tc};--tb:${tb};--li:#efe7da;--go:#c8a35a">${FRAME}${EMBLEM[cls]||EMBLEM.unknown}</svg>`;
+}
+
+function find(q){const n=norm(q);if(!n)return null;const list=P.champs;
+  return list.find(c=>norm(c.n)===n)||list.find(c=>norm(c.n).startsWith(n))||list.find(c=>norm(c.n).includes(n))||null}
+function fillBars(root){requestAnimationFrame(()=>requestAnimationFrame(()=>root.querySelectorAll(".fill").forEach(f=>f.style.width=f.dataset.w+"%")))}
+function markCur(c){document.querySelectorAll("#chips button").forEach(b=>b.classList.toggle("cur",!!c&&b.dataset.n===c.n))}
+function unknown(){$("out").innerHTML=$("q").value.trim()?'<p class="empty">Takového championa neznám. Zkus jiný zápis jména.</p>':""}
+
+/* counters: ten picks per enemy, every one opens its matchup; the banner, numbers and reason follow the selected pick */
+const KIND_LBL={main:"Nejlepší counter",alt:"Další counter",fill:"Podle typu",lane:"Silný na lince"};
+const KINDS=["main","alt","fill","lane"],VS=["match","cls","lane"];
+/* the usual short names players use, so long names fit the pick grid; the banner and detail keep the full name */
+const SHORT={"Heimerdinger":"Heimer","Mordekaiser":"Morde","Nunu & Willump":"Nunu","Twisted Fate":"TF","Miss Fortune":"MF","Aurelion Sol":"ASol",
+  "Renata Glasc":"Renata","Tahm Kench":"Tahm","Fiddlesticks":"Fiddle","Tryndamere":"Trynd"};
+function picksOf(d){return d[2].map(p=>({n:p[0],wr:p[1],g:p[2],why:p[3]||"",kind:KINDS[p[4]],vs:VS[p[5]]}))}
+function allySide(p){const pc=CH[p.n]||{c:"unknown"};
+  const lbl=p.kind==="alt"&&p.vs!=="lane"&&p.wr<=50?"Záložní pick":KIND_LBL[p.kind];
+  return `<div class="side ally">${crest(pc.c,"ally")}<span class="lbl">${lbl}</span><span class="name">${esc(p.n)}</span><span class="role">${CLS_NAME[pc.c]||""}</span></div>`}
+function detail(p){
+  const games=p.vs==="lane"?`<span class="games">celkový winrate ${LANE_PHRASE[lane]}</span>`
+    :`<span class="games">${cnt(p.g)}${p.vs==="cls"?" proti "+cur.vsCls:""} ${pips(p.g)}${small(p.g)}</span>`;
+  const text=p.why||(P.g[lane]||{})[p.n]||"";
+  let note="";
+  if(p.kind==="fill") note=`Procento je winrate proti ${cur.vsCls} obecně, přímý matchup nemá dost her.`;
+  else if(p.kind==="lane") note=`${cur.mode==="X"?"":"Na tenhle matchup chybí data. "}Patří mezi championy s nejlepším celkovým winratem ${LANE_PHRASE[lane]}.`;
+  else if(p.vs==="match"&&p.wr<50&&p!==cur.ps[0]) note="V tomhle matchupu má pod 50 %, ber ho jako zálohu, když ty lepší picky nehraješ.";
+  return `${meter(p.wr)}<div class="stats"><span class="wr">${pct(p.wr)}</span>${games}</div>${text?`<p class="why"><span>${p.why?"Proč":lane==="jungle"?"V jungli":"Na lajně"}</span>${esc(text)}</p>`:""}${note?`<p class="pnote">${note}</p>`:""}`}
+function actions(p){
+  const b=P.b[lane]&&P.b[lane][p.n]?`<button class="btn" type="button" data-build="${esc(p.n)}">${ICON_ITEMS}Build pro ${esc(p.n)}</button>`:"";
+  const v=p.vs==="match"?`<a href="${vsLink(p.n,cur.c.n)}" target="_blank" rel="noopener">Ověřit matchup na Lolalytics</a>`:"";
+  return b||v?`<div class="acts">${b}${v}</div>`:""}
+function stripHtml(ps){
+  return `<div class="pickbox"><p class="sub" id="pk-l">${ps.length} picků od nejlepšího, klikni na kterýkoli pro detail</p><div class="picks" role="group" aria-labelledby="pk-l">${ps.map((p,i)=>{
+    const prev=ps[i-1];let sep="";
+    if(prev){
+      if(p.kind==="fill"&&prev.kind!=="fill") sep=`Silní proti ${cur.vsCls} obecně`;
+      else if(p.kind==="lane"&&prev.kind!=="lane") sep=`Nejsilnější ${LANE_PHRASE[lane]}`;
+      else if(p.vs!=="lane"&&p.vs===prev.vs&&p.wr<=50&&prev.wr>50) sep="Do 50 %";
+    }
+    const cls="pick"+(p.kind==="fill"||p.kind==="lane"?" fill":"")+(p.vs!=="lane"&&p.wr<50?" low":"");
+    return (sep?`<span class="sep">${sep}</span>`:"")+`<button type="button" class="${cls}" data-i="${i}" aria-pressed="${i===0}" title="${esc(p.n)}" aria-label="${esc(p.n)} ${pct(p.wr)}">${crest((CH[p.n]||{c:"unknown"}).c,"ally","mini")}<span class="pn">${esc(SHORT[p.n]||p.n)}</span><span class="pw">${pct(p.wr)}</span></button>`}).join("")}</div></div>`}
+
+function showCounter(c){
+  const out=$("out");markCur(c);cur=null;
+  if(!c)return unknown();
+  const d=(P.d[lane]||{})[c.n];
+  const key="note:"+lane+":"+c.n;
+  const enemySide=`<div class="side enemy">${crest(c.c,"enemy")}<span class="lbl">Enemy</span><span class="name">${esc(c.n)}</span><span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span></div>`;
+  const tail=`<div class="tip"><p class="sub">Tip na lajnu</p><p>${esc(c.t)}</p></div>
+    <div class="note"><label class="sub" for="note">Moje poznámka</label><textarea id="note" placeholder="Co ti proti němu fungovalo…">${esc(store.get(key)||"")}</textarea></div>`;
+  if(!d){
+    out.innerHTML=`<article class="card enter"><div class="versus">${enemySide}<span class="vs">vs</span><div class="side ally none">${crest("unknown","none")}<span class="lbl">Tvůj counter</span><span class="name">Bez dat</span><span class="role">zkus jinou linku</span></div></div><div class="inner"><p class="none">K tomuhle championovi tu zatím nic není.</p>${tail}</div></article>`;
+  } else {
+    const [mode,pr]=d;
+    const ps=picksOf(d),wr=ps[0].wr;
+    cur={c,ps,mode,vsCls:CLS_DAT[c.c]||"championům stejného typu",i:0};
+    const scarce=`${esc(c.n)} se ${LANE_PHRASE[lane]} v Emerald+ skoro nehraje (${share(pr)})`;
+    let flag="";
+    if(mode==="X") flag=`${scarce} a data chybí i proti championům stejného typu. První picky jsou vybrané podle kitu, procento je celkový winrate ${LANE_PHRASE[lane]}.`;
+    else if(mode==="C") flag=`${scarce}, přímé matchupy nemají dost dat. Picky mají nejlepší winrate proti ${cur.vsCls} obecně a procento je winrate proti nim.`;
+    else if(mode==="S") flag="Málo dat. Přímé matchupy tu mají v Emerald+ za 30 dní skoro vždy pod 300 her, čísla ber jako orientační.";
+    else if(wr<=50) flag="Žádný přímý matchup proti tomuhle championovi nemá přes 50 %. První pick je nejlepší dostupná volba.";
+    else if(wr<52) flag="Tvrdý counter nemá, rozhoduje spíš skill a draft.";
+    out.innerHTML=`<article class="card enter"><div class="versus">${enemySide}<span class="vs">vs</span>${allySide(ps[0])}</div>
+      <div class="inner">${stripHtml(ps)}<div class="det" id="det">${detail(ps[0])}</div>${flag?`<div class="flag">${flag}</div>`:""}<div id="acts">${actions(ps[0])}</div>${tail}</div></article>`;
+  }
+  fillBars(out);
+  $("note").addEventListener("input",e=>{store.set(key,e.target.value);markNotes()});
+}
+function selectPick(i){
+  if(!cur||!cur.ps[i]||cur.i===i)return;
+  cur.i=i;const p=cur.ps[i];
+  document.querySelectorAll("#out .pick").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.i===i)));
+  const a=document.querySelector("#out .side.ally");
+  if(a){const t=document.createElement("div");t.innerHTML=allySide(p);const n=t.firstElementChild;n.classList.add("pop");a.replaceWith(n)}
+  const det=$("det");det.innerHTML=detail(p);det.classList.remove("swap");void det.offsetWidth;det.classList.add("swap");
+  $("acts").innerHTML=actions(p);
+  fillBars(det);
+}
+
+/* items: three best Emerald+ builds, start, boots, 4th item and what pro players build */
+function itemList(ids,numbered){const g=[];ids.forEach(id=>{const l=g[g.length-1];if(!numbered&&l&&l[0]===id)l[1]++;else g.push([id,1])});
+  const tag=numbered?"ol":"ul";
+  return `<${tag} class="items">${g.map(([id,k],i)=>`<li class="item">${numbered?`<i aria-hidden="true">${i+1}</i>`:""}${esc(itemName(id))}${k>1?`<span class="x">×${k}</span>`:""}</li>`).join("")}</${tag}>`}
+function buildItems(ids,k){return `<ol class="items">${ids.map((id,i)=>`<li class="item${i>=3?" next":""}${i>=k?" guess":""}"><i aria-hidden="true">${i+1}</i>${esc(itemName(id))}</li>`).join("")}</ol>`}
+const optList=rows=>`<ul class="items">${rows.map(r=>`<li class="item">${esc(itemName(r[0]))}<span class="x">${r[1]} %</span></li>`).join("")}</ul>`;
+function proSection(c,pro){
+  const head='<h3 class="ph">Co staví proplayeři</h3>';
+  if(!pro)return `<section class="sect pro">${head}<p class="none">Hry proplayerů s ${esc(c.n)} ${LANE_PHRASE[lane]} v datech nejsou.</p></section>`;
+  const [n,used,top,games]=pro;
+  const basis=used===1?"Procenta jsou z jediné hry.":`Procenta říkají, v kolika z posledních ${used} her item postavili.`;
+  const few=n<10?`<p class="pnote">Jen ${n} ${herWord(n)}, ber to jako ukázku, ne jako pravidlo.</p>`:"";
+  return `<section class="sect pro">${head}<p class="lead">${num(n)} ${herWord(n)} proplayerů ${LANE_PHRASE[lane]} v sólo frontě. ${basis}</p>${few}
+    <ul class="pbars">${top.map(t=>`<li><span class="nm">${esc(itemName(t[0]))}</span><span class="pbar"><i style="width:${t[1]}%"></i></span><span class="pv">${t[1]} %</span></li>`).join("")}</ul>
+    ${games.length?`<p class="sub">Poslední hry</p><ul class="pgames">${games.map(g=>`<li><p class="pg"><b>${esc(g[0])}</b><span class="team">${esc(g[1])}</span><span class="${g[2]?"win":"loss"}">${g[2]?"výhra":"prohra"}</span><span class="kda">${esc(g[3])}</span>${g[4]?`<span class="vsn">proti ${esc(g[4])}</span>`:""}</p>${g[5].length?itemList(g[5],true):'<p class="none">Žádný dokončený item.</p>'}</li>`).join("")}</ul>`:""}
+  </section>`}
+function showItems(c){
+  const out=$("out");markCur(c);cur=null;
+  if(!c)return unknown();
+  const e=(P.b[lane]||{})[c.n];
+  const head=extra=>`<div class="ihead">${crest(c.c,"ally")}<div class="ih"><span class="lbl">Tvůj champion</span><span class="name">${esc(c.n)}</span><span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span>${extra||""}</div></div>`;
+  if(!e){
+    const ls=Object.keys(LANE_PHRASE).filter(l=>P.b[l]&&P.b[l][c.n]);
+    out.innerHTML=`<article class="card enter">${head()}<div class="inner"><p class="none">${esc(c.n)} se ${LANE_PHRASE[lane]} v Emerald+ skoro nehraje, takže tu pro tuhle linku build není.</p>${ls.length?`<div class="acts">${ls.map(l=>`<button class="btn" type="button" data-golane="${l}">Build ${LANE_PHRASE[l]}</button>`).join("")}</div>`:""}</div></article>`;
+    return}
+  const [wr,pr,n,start,boots,builds,late,pro]=e;
+  const kpis=`<p class="kpis"><span><b>${pct(wr)}</b> winrate</span><span><b>${pct(pr)}</b> pick rate</span><span><b>${num(n)}</b> her</span></p>`;
+  const startHtml=start.map((s,i)=>`<div class="srow">${i?'<span class="or">nebo</span>':""}${itemList(s[0])}<span class="sh">${players(s[1])}</span></div>`).join("");
+  const buildsHtml=`<ol class="builds">${builds.map(b=>`<li class="build"><div class="bhead"><span class="bwr">${pct(b[1])}</span><span class="games">${cnt(b[2])} ${pips(b[2])}${small(b[2])}</span>${b[4]?'<span class="tag">nejhranější</span>':""}<span class="sh">${players(b[3])}</span></div>${meter(b[1])}${buildItems(b[0],b[5])}</li>`).join("")}</ol>`;
+  const guess=builds.some(b=>b[5]<b[0].length);
+  const cap=`<p class="pnote">Winrate a počet her platí pro první tři itemy. Zbytek buildu je to, co hráči se stejným začátkem kupují nejčastěji.${guess?" Item s čárkovaným okrajem je doplněný podle celkové oblíbenosti, protože tak dlouhých her je v datech málo.":""}</p>`;
+  out.innerHTML=`<article class="card enter">${head(kpis)}<div class="inner">
+    <section class="sect"><p class="sub">Start</p>${startHtml}</section>
+    <section class="sect"><p class="sub">${builds.length===3?"3 nejlepší buildy":"Nejlepší buildy"} v Emerald+</p>${buildsHtml}${cap}</section>
+    ${boots.length?`<section class="sect"><p class="sub">Boty</p>${optList(boots)}</section>`:""}
+    ${late.length?`<section class="sect"><p class="sub">Situační itemy</p>${itemList(late)}<p class="pnote">Další časté itemy, které se do buildů nevešly. Hodí se podle toho, proti komu hraješ.</p></section>`:""}
+    ${proSection(c,pro)}
+    <div class="acts"><a href="${buildLink(c.n)}" target="_blank" rel="noopener">Ověřit build na Lolalytics</a><a href="${proLink(c.n)}" target="_blank" rel="noopener">Hry proplayerů na pros.lol</a></div>
+  </div></article>`;
+  fillBars(out);
+}
+
+function markNotes(){document.querySelectorAll("#chips button").forEach(b=>b.classList.toggle("has-note",tab==="c"&&!!store.get("note:"+lane+":"+b.dataset.n)))}
+function chips(){
+  const list=tab==="i"?P.champs.filter(c=>P.b[lane]&&P.b[lane][c.n]):P.champs;
+  $("roster-h").textContent=tab==="i"?`Championi ${LANE_PHRASE[lane]}`:"Všichni championi";
+  $("legend").textContent=tab==="i"?`Jen ti, kdo se ${LANE_PHRASE[lane]} opravdu hrají. Klikni na toho, za koho hraješ.`:"Klikni na championa, kterého hraje enemy. Zlatá tečka znamená tvou poznámku.";
+  $("chips").dataset.tab=tab;
+  $("chips").innerHTML=list.map(c=>`<button type="button" data-n="${esc(c.n)}">${esc(c.n)}</button>`).join("");
+  markNotes();
+}
+function render(){const c=find($("q").value);if(tab==="i")showItems(c);else showCounter(c)}
+function syncLanes(){document.querySelectorAll(".lanes button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.lane===lane)))}
+function setLane(l){lane=l;store.set("lane",l);syncLanes();chips();render()}
+function setTab(t,focus){tab=t;store.set("tab",t);
+  document.querySelectorAll(".tabs button").forEach(b=>{const on=b.dataset.tab===t;b.setAttribute("aria-selected",String(on));b.tabIndex=on?0:-1;if(on&&focus)b.focus()});
+  $("out").setAttribute("aria-labelledby","t-"+t);
+  $("q").placeholder=t==="i"?"Za koho hraješ? Třeba Aatrox":"Proti komu hraješ? Třeba Garen";
+  $("q").setAttribute("aria-label",t==="i"?"Tvůj champion":"Enemy champion");
+  document.querySelectorAll("[data-for]").forEach(el=>el.hidden=el.dataset.for!==t);
+  $("q").value=last[t]||EXAMPLE[t][lane];
+  chips();render()}
+
+P.champs.forEach(c=>CH[c.n]=c);
+$("names").innerHTML=P.champs.map(c=>`<option value="${esc(c.n)}">`).join("");
+document.querySelectorAll(".lanes button").forEach(b=>b.addEventListener("click",()=>setLane(b.dataset.lane)));
+document.querySelectorAll(".tabs button").forEach(b=>{b.addEventListener("click",()=>setTab(b.dataset.tab));
+  b.addEventListener("keydown",e=>{if(e.key==="ArrowRight"||e.key==="ArrowLeft"){e.preventDefault();setTab(tab==="c"?"i":"c",true)}})});
+$("q").addEventListener("input",e=>{last[tab]=e.target.value;render()});
+$("q").addEventListener("keydown",e=>{if(e.key==="Escape"){e.target.value="";last[tab]="";render()}});
+document.addEventListener("keydown",e=>{if(e.key==="/"&&document.activeElement.tagName!=="INPUT"&&document.activeElement.tagName!=="TEXTAREA"){e.preventDefault();$("q").focus();$("q").select()}});
+$("chips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;$("q").value=b.dataset.n;last[tab]=b.dataset.n;render();window.scrollTo({top:0,behavior:"smooth"})});
+$("out").addEventListener("click",e=>{
+  const p=e.target.closest(".pick");if(p){selectPick(+p.dataset.i);return}
+  const b=e.target.closest("[data-build]");if(b){last.i=b.dataset.build;setTab("i");window.scrollTo({top:0,behavior:"smooth"});return}
+  const g=e.target.closest("[data-golane]");if(g)setLane(g.dataset.golane)});
+
+const saved=store.get("lane");lane=P.d[saved]?saved:"top";syncLanes();
+setTab(store.get("tab")==="i"?"i":"c");
+</script>

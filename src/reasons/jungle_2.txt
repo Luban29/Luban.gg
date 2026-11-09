@@ -1,0 +1,202 @@
+Malphite|Sylas|Ukradne mu R a dává AP damage, proti kterému armor nepomůže.
+Malphite|Nunu & Willump|Bere objektivy rychleji a magic damage obchází jeho armor.
+Malphite|Cho'Gath|Vydrží jeho engage a magic damage obchází jeho armor.
+Malphite|Shyvana|Clearuje rychleji a % HP damage z E ho rozloží.
+Malzahar|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Malzahar|Briar|Je silná early a invaduje ho.
+Malzahar|Naafiri|Psi a burst ho zabijí, Malz nemá únik.
+Malzahar|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Maokai|Jarvan IV|Je silný early a engage má rychlejší.
+Maokai|Taliyah|Ganguje rychle a kamení ho drží od týmu.
+Maokai|Nunu & Willump|Bere objektivy rychleji a ganguje dřív.
+Maokai|Briar|Je silná early a invaduje ho.
+Master Yi|Elise|Je silná early a cocoon ho chytí, než nastackuje.
+Master Yi|Rammus|Armor z W tlumí jeho autoattacky a taunt ho chytí.
+Miss Fortune|Kayn|Projde zdmi a zblízka ji zabije.
+Miss Fortune|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Mordekaiser|Shaco|Invaduje ho early a krabice ho zpomalí.
+Mordekaiser|Kha'Zix|Bursne ho, když je izolovaný.
+Mordekaiser|Rek'Sai|Je silná early a tunely jí dávají rychlé ganky.
+Morgana|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Morgana|Nidalee|Clearuje rychleji a kopím ji pokuje.
+Morgana|Bel'Veth|V duelu ji přetlačí a dashe jí uhnou z rootu.
+Morgana|Zyra|Clearuje rychle a rostliny ji trestají.
+Naafiri|Hecarim|Ganguje rychle a engage má silnější.
+Naafiri|Lillia|Kituje ji a AoE zabije psy.
+Nasus|Cho'Gath|Vydrží jeho Q a W ho umlčí.
+Nasus|Lillia|Kituje ho a uspí ho.
+Nasus|Sylas|Vyhraje duel a ukradne mu R.
+Nasus|Rammus|Armor z W tlumí jeho Q a taunt ho chytí.
+Nautilus|Lillia|Clearuje rychleji a kituje ho.
+Nautilus|Fiddlesticks|Fear a burst ho zastaví a clearuje rychle.
+Nautilus|Talon|Ganguje rychle přes zdi a dřív než Nautilus.
+Nautilus|Naafiri|Psi a burst ho trestají a ganguje rychle.
+Neeko|Cho'Gath|Vydrží její burst a W ji umlčí.
+Neeko|Kayn|Clearuje rychleji a projde zdmi.
+Neeko|Warwick|Sustain vyhrává duel a R ji chytí.
+Neeko|Jarvan IV|Je silný early a engage má rychlejší.
+Nidalee|Amumu|Vydrží její poke a stunem ji chytí.
+Nidalee|Rek'Sai|Invaduje ji early a knockup ji zastaví.
+Nilah|Kayn|Clearuje rychleji a projde zdmi.
+Nocturne|Gwen|Mlha ji chrání a duel s ním vyhraje.
+Nocturne|Rammus|Vydrží jeho burst a tauntem ho chytí.
+Nocturne|Shyvana|Clearuje rychleji a vydrží jeho burst.
+Nunu & Willump|Sejuani|Vydrží jeho engage a CC ho zastaví.
+Olaf|Kindred|Kituje ho a R mu zkazí all-in.
+Olaf|Evelynn|Ze stealthu ho trestá a jeho all-inu se vyhne.
+Ornn|Kayn|Clearuje rychleji a projde zdmi.
+Ornn|Amumu|Clearuje rychleji a stunem ho chytí.
+Ornn|Shyvana|Clearuje rychleji a % HP damage ho rozloží.
+Ornn|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Pantheon|Rammus|Armor z W tlumí jeho burst a taunt ho chytí.
+Pantheon|Taliyah|Ganguje rychle a E ho stunne při skoku.
+Pantheon|Gragas|E ho srazí a W tlumí jeho burst.
+Pantheon|Zac|Vydrží jeho burst a skokem z E ho chytí.
+Poppy|Hecarim|Clearuje rychleji a ganguje rychlostí, kterou Poppy nestíhá.
+Poppy|Shyvana|Clearuje rychleji a % HP damage ji rozloží.
+Poppy|Wukong|Klon ji zmate a R ji vyhodí do vzduchu.
+Poppy|Lillia|Kituje ji a uspí ji.
+Pyke|Master Yi|Clearuje mnohem rychleji, Pyke v jungli nestíhá.
+Pyke|Kayn|Clearuje rychleji a projde zdmi.
+Pyke|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Pyke|Warwick|Sustain vyhrává duel a R ho chytí.
+Qiyana|Skarner|Vydrží její burst a suppress ji chytí.
+Qiyana|Sejuani|Vydrží její burst a CC ji zastaví.
+Qiyana|Shyvana|Clearuje rychleji a vydrží její burst.
+Quinn|Rammus|Armor z W tlumí její autoattacky a taunt ji chytí.
+Quinn|Zyra|Rostliny ji trestají a root ji chytí.
+Quinn|Wukong|Klon ji zmate a R ji vyhodí do vzduchu.
+Quinn|Elise|Je silná early a cocoon ji chytí.
+Rammus|Olaf|R ho udělá imunním na taunt a sekery dávají true damage.
+Rek'Sai|Morgana|Black Shield ruší její knockup a root ji chytí.
+Rek'Sai|Kindred|Kituje ji a R jí zkazí all-in.
+Rek'Sai|Lillia|Kituje ji a uspí ji.
+Renekton|Warwick|Sustain vyhrává duel a clearuje rychleji.
+Renekton|Shyvana|Clearuje rychleji a v duelu ho přetlačí.
+Renekton|Lillia|Kituje ho a uspí ho.
+Renekton|Kayn|Clearuje rychleji a projde zdmi.
+Rengar|Rammus|Armor tlumí jeho burst a taunt ho chytí.
+Rengar|Bel'Veth|V dlouhém duelu ho přetlačí.
+Riven|Wukong|Klon ji zmate a R ji vyhodí do vzduchu.
+Riven|Zac|Vydrží její combo a skokem z E ji chytí.
+Riven|Shyvana|Clearuje rychleji a v duelu ji přetlačí.
+Riven|Sylas|Vyhraje duel a ukradne jí R.
+Rumble|Jarvan IV|Je silný early a engage má rychlejší.
+Rumble|Warwick|Sustain vyhrává duel a R ho chytí.
+Rumble|Udyr|Vyhrává dlouhé duely a clearuje rychle.
+Rumble|Bel'Veth|V dlouhém duelu ho přetlačí.
+Sejuani|Ivern|Štíty a root jí zkazí ganky a o kempy s ní nemusí bojovat.
+Sejuani|Gwen|% HP damage ji rozloží i přes tankiness.
+Sett|Kayn|Clearuje rychleji a projde zdmi.
+Sett|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Sett|Bel'Veth|V dlouhém duelu ho přetlačí.
+Sett|Nocturne|R mu vypne vizi a skočí na něj.
+Shaco|Sejuani|Vydrží jeho burst a CC ho zastaví.
+Shaco|Rek'Sai|Je silná early a knockup ho zastaví.
+Shaco|Neeko|Vydrží jeho burst a root ho chytí.
+Shen|Nocturne|R mu vypne vizi a skočí na něj.
+Shen|Jarvan IV|Je silný early a engage má rychlejší.
+Shen|Kha'Zix|Bursne ho, když je izolovaný.
+Shen|Lillia|Kituje ho a uspí ho.
+Shyvana|Trundle|R jí ukradne odolnosti a pilíř ji chytí.
+Shyvana|Darius|Pull ji chytí a bleed vyhraje duel.
+Shyvana|Zaahen|Vyhraje duel a revive mu dá druhou šanci.
+Singed|Briar|Je silná early a invaduje ho.
+Singed|Diana|Bursne ho a R ho přitáhne.
+Singed|Malphite|Vydrží jeho jed a R ho chytí.
+Singed|Vi|R ho chytí a nedá mu utéct.
+Sion|Lillia|Kituje ho a uspí ho.
+Sion|Zac|Vydrží jeho engage a skokem z E ho chytí.
+Sion|Bel'Veth|V dlouhém duelu ho přetlačí.
+Sion|Kayn|Clearuje rychleji a projde zdmi.
+Skarner|Ivern|Štíty a root mu zkazí ganky.
+Skarner|Talon|Ganguje rychle přes zdi.
+Skarner|Udyr|Vyhrává dlouhé duely a clearuje rychle.
+Sylas|Taliyah|E ho stunne při dashi a kamení mu uzavře cestu.
+Sylas|Gwen|Mlha ji chrání a v duelu ho přetlačí.
+Sylas|Ivern|Štíty a root mu zkazí ganky.
+Tahm Kench|Warwick|Sustain vyhrává duel a clearuje rychleji.
+Tahm Kench|Amumu|Clearuje rychleji a stunem ho chytí.
+Tahm Kench|Lillia|Kituje ho a uspí ho.
+Tahm Kench|Sylas|Vyhraje duel a ukradne mu R.
+Taliyah|Zyra|Rostliny ji trestají a root ji chytí.
+Taliyah|Morgana|Root ji chytí a Black Shield ruší její knockup.
+Talon|Rek'Sai|Je silná early a knockup ho zastaví.
+Talon|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Taric|Kayn|Clearuje rychleji a projde zdmi.
+Taric|Vi|R ho chytí a nedá mu utéct.
+Taric|Ekko|Je mobilní a bursne ho.
+Taric|Cho'Gath|Vydrží jeho stun a W ho umlčí.
+Teemo|Amumu|Vydrží jeho poke a stunem ho chytí.
+Teemo|Udyr|Vyhrává dlouhé duely a clearuje rychle.
+Teemo|Hecarim|Ganguje rychle a engage má silnější.
+Teemo|Shaco|Invaduje ho early a krabice ho zpomalí.
+Tristana|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Tristana|Nocturne|R jí vypne vizi a skočí na ni.
+Tristana|Briar|Je silná early a invaduje ji.
+Tristana|Warwick|Sustain vyhrává duel a R ji chytí.
+Trundle|Nunu & Willump|Bere objektivy rychleji a ganguje dřív.
+Trundle|Ekko|Je mobilní a bursne ho.
+Trundle|Udyr|Vyhrává dlouhé duely a clearuje rychle.
+Trundle|Zac|Vydrží jeho damage a skokem z E ho chytí.
+Tryndamere|Hecarim|Ganguje rychle a engage má silnější.
+Tryndamere|Lillia|Kituje ho a uspí ho.
+Tryndamere|Cho'Gath|Vydrží jeho damage a W ho umlčí.
+Tryndamere|Talon|Ganguje rychleji přes zdi.
+Twisted Fate|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Twisted Fate|Nocturne|R mu vypne vizi a skočí na něj.
+Twisted Fate|Ekko|Je mobilní a bursne ho.
+Twisted Fate|Graves|Clearuje rychleji a bursne ho.
+Twitch|Kha'Zix|Bursne ho, když je izolovaný.
+Twitch|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Twitch|Shaco|Invaduje ho early a krabice ho zpomalí.
+Twitch|Amumu|Vydrží jeho damage a stunem ho chytí.
+Udyr|Ivern|O kempy s ním nemusí bojovat a štíty mu zkazí ganky.
+Udyr|Kindred|Kituje ho a R mu zkazí all-in.
+Udyr|Aatrox|Sustain vyhrává duel a Q ho chytí.
+Urgot|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Urgot|Jarvan IV|Je silný early a engage má rychlejší.
+Urgot|Bel'Veth|V dlouhém duelu ho přetlačí.
+Urgot|Kayn|Clearuje rychleji a projde zdmi.
+Vayne|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Vayne|Zac|Vydrží její damage a skokem z E ji chytí.
+Vayne|Elise|Je silná early a cocoon ji chytí.
+Vayne|Fiddlesticks|Fear ji zastaví a clearuje rychle.
+Vi|Trundle|R jí ukradne odolnosti a pilíř ji chytí.
+Vi|Taliyah|Ganguje rychle a kamení ji drží od týmu.
+Viego|Elise|Je silná early a cocoon ho chytí.
+Volibear|Kha'Zix|Bursne ho, když je izolovaný.
+Volibear|Aatrox|Sustain vyhrává duel a Q ho chytí.
+Volibear|Elise|Je silná early a cocoon ho chytí.
+Volibear|Ivern|Štíty a root mu zkazí ganky.
+Wukong|Zaahen|Vyhraje duel a revive mu dá druhou šanci.
+Wukong|Rumble|Plamen ho trestá a R ho zpomalí.
+Xin Zhao|Gwen|Mlha ji chrání a duel s ním vyhraje.
+Xin Zhao|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Xin Zhao|Warwick|Sustain vyhrává duel a R ho chytí.
+Xin Zhao|Taliyah|E ho stunne při skoku a kamení ho drží od týmu.
+Yasuo|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Yasuo|Vi|R ho chytí a nedá mu utéct.
+Yasuo|Shyvana|Clearuje rychleji a v duelu ho přetlačí.
+Yasuo|Briar|Je silná early a invaduje ho.
+Yone|Graves|Clearuje rychleji a bursne ho z dálky.
+Yone|Elise|Je silná early a cocoon ho chytí.
+Yone|Warwick|Sustain vyhrává duel a R ho chytí.
+Yone|Kha'Zix|Bursne ho, když je izolovaný.
+Yorick|Shyvana|Clearuje rychleji a AoE z E čistí ghouly.
+Yorick|Amumu|Clearuje rychleji a R ho stunne i s ghouly.
+Yorick|Bel'Veth|V dlouhém duelu ho přetlačí.
+Yorick|Kayn|Clearuje rychleji a projde zdmi.
+Zaahen|Udyr|Vyhrává dlouhé duely a clearuje rychle.
+Zaahen|Fiddlesticks|Fear a drain ho zastaví v souboji.
+Zaahen|Volibear|Q ho stunne a v duelu ho přetlačí.
+Zac|Zaahen|Vyhraje duel a revive mu dá druhou šanci.
+Zac|Shyvana|Clearuje rychleji a % HP damage ho rozloží.
+Zed|Kindred|Kituje ho a R mu zkazí burst.
+Zed|Shyvana|Clearuje rychleji a vydrží jeho burst.
+Zeri|Kayn|Clearuje rychleji a projde zdmi.
+Zeri|Evelynn|Ze stealthu ji bursne.
+Zeri|Ekko|Je mobilní a bursne ji.
+Zeri|Hecarim|Ganguje rychle a engage má silnější.
+Zyra|Rammus|Vydrží rostliny a tauntem ji chytí.
+Zyra|Xin Zhao|Je silný early a skokem z E ji dostihne.

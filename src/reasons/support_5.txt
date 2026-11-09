@@ -1,0 +1,34 @@
+Alistar|Zilean|Bomby ho trestají v lajně a R zachrání ADC před jeho kombem.
+Anivia|Thresh|Hookne ji a lantern zachrání ADC.
+Blitzcrank|Rell|Vydrží jeho hook a engage s CC ho zastaví.
+Brand|Soraka|Léčí ADC z jeho poku a silence z E zruší jeho kombo.
+Cho'Gath|Braum|Štít zastaví jeho engage a pasiv ho stunne.
+Elise|Leona|Engagne na ni a CC ji drží.
+Gragas|Neeko|Root ho chytí a R ho vyhodí, když skočí.
+Gragas|Thresh|Hookne ho a lantern zachrání ADC.
+Hwei|Janna|Disengage mu kazí engage a štít chrání ADC před jeho pokem.
+Hwei|Rell|Engagne na něj a CC ho drží.
+Jarvan IV|Janna|Disengage mu kazí engage.
+Lee Sin|Rell|Vydrží jeho engage a CC ho zastaví.
+Malphite|Swain|Vydrží jeho engage drainem a E ho chytí.
+Malphite|Pyke|Hookne ho a R ho popraví.
+Mel|Soraka|Léčí ADC z jejího poku a silence z E ji zastaví.
+Mel|Zilean|Bomby ji trestají a R zachrání ADC.
+Neeko|Leona|Engagne na ni a CC ji drží.
+Neeko|Nami|Bublina ji chytí a léčí ADC.
+Nidalee|Leona|Engagne na ni a CC ji drží.
+Poppy|Senna|Má delší range a W ji rootne.
+Renata Glasc|Senna|Má delší range a pokuje ji z dálky.
+Rengar|Leona|Engagne na něj a CC ho drží.
+Shaco|Taric|Stun ho chytí, když vyleze ze stealthu, a štít chrání ADC.
+Shen|Alistar|Vydrží jeho engage a combo W+Q ho zastaví.
+Shen|Thresh|Hookne ho a lantern zachrání ADC.
+Skarner|Rell|Vydrží jeho engage a CC ho zastaví.
+Soraka|Maokai|Engagne na ni a root ji chytí.
+Sylas|Braum|Štít zastaví jeho engage a pasiv ho stunne.
+Tahm Kench|Braum|Štít zastaví jeho engage a pasiv ho stunne.
+Taliyah|Janna|Disengage jí kazí engage a štít chrání ADC.
+Twitch|Nautilus|Hookne ho a CC ho drží.
+Vel'Koz|Taric|Vydrží jeho poke a stun ho chytí.
+Zed|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Zyra|Rell|Engagne na ni a CC ji drží.

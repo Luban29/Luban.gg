@@ -1,0 +1,121 @@
+Aatrox|Alistar|Vydrží jeho engage a combo W+Q ho zastaví.
+Aatrox|Thresh|Hookne ho a lantern zachrání ADC.
+Aatrox|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Aatrox|Blitzcrank|Hookne ho a CC ho drží.
+Ahri|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Akali|Leona|Engagne na ni a CC ji drží.
+Akali|Thresh|Hookne ji a lantern zachrání ADC.
+Akali|Lux|Pokuje ji z dálky a root ji chytí.
+Akshan|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Ambessa|Thresh|Hookne ji a lantern zachrání ADC.
+Aurelion Sol|Milio|Léčí ADC z jeho poku a R čistí CC.
+Aurelion Sol|Thresh|Hookne ho a lantern zachrání ADC.
+Aurelion Sol|Alistar|Engagne na něj a ASol nemá únik.
+Aurora|Thresh|Hookne ji a lantern zachrání ADC.
+Briar|Leona|Engagne na ni a CC ji drží.
+Briar|Nautilus|Hookne ji a CC ji drží.
+Caitlyn|Thresh|Hookne ji a lantern zachrání ADC.
+Caitlyn|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Cassiopeia|Thresh|Hookne ji a lantern zachrání ADC.
+Cassiopeia|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Cassiopeia|Nautilus|Hookne ji a CC ji drží.
+Darius|Blitzcrank|Hookne ho a CC ho drží.
+Diana|Thresh|Hookne ji a lantern zachrání ADC.
+Dr. Mundo|Thresh|Hookne ho a lantern zachrání ADC.
+Dr. Mundo|Nautilus|Hookne ho a CC ho drží.
+Ekko|Nautilus|Hookne ho a CC ho drží.
+Ekko|Leona|Engagne na něj a CC ho drží.
+Evelynn|Thresh|Hookne ji, když vyleze ze stealthu.
+Evelynn|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Evelynn|Nautilus|Hookne ji a CC ji drží.
+Fizz|Thresh|Hookne ho a lantern zachrání ADC.
+Garen|Lux|Pokuje ho z dálky a root ho chytí.
+Illaoi|Thresh|Hookne ji a lantern zachrání ADC.
+Illaoi|Nautilus|Hookne ji a CC ji drží.
+Jax|Thresh|Hookne ho a lantern zachrání ADC.
+Jax|Karma|Pokuje ho a štít drží ADC.
+Jayce|Nautilus|Hookne ho a CC ho drží.
+Jayce|Leona|Engagne na něj a CC ho drží.
+Jayce|Lux|Má delší range a root ho chytí.
+Jhin|Thresh|Hookne ho a lantern zachrání ADC.
+Jhin|Pyke|Hookne ho a R ho popraví.
+Kai'Sa|Lux|Pokuje ji z dálky a root ji chytí.
+Kai'Sa|Thresh|Hookne ji a lantern zachrání ADC.
+Kai'Sa|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Karthus|Nautilus|Hookne ho a CC ho drží.
+Katarina|Blitzcrank|Hookne ji a CC ji drží.
+Katarina|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Katarina|Nautilus|Hookne ji a CC přeruší její R.
+Kayle|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Kayle|Thresh|Hookne ji a lantern zachrání ADC.
+Kayn|Thresh|Hookne ho a lantern zachrání ADC.
+Kennen|Leona|Engagne na něj a CC ho drží.
+Kled|Nautilus|Hookne ho a CC ho drží.
+Kog'Maw|Thresh|Hookne ho a lantern zachrání ADC.
+Kog'Maw|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Kog'Maw|Nami|Bublina ho chytí a léčí ADC.
+K'Sante|Thresh|Hookne ho a lantern zachrání ADC.
+K'Sante|Rakan|Je mobilní a engagne ho.
+K'Sante|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+K'Sante|Blitzcrank|Hookne ho a CC ho drží.
+Locke|Rell|Engagne na něj a CC ho drží.
+Malzahar|Thresh|Hookne ho a lantern zachrání ADC.
+Malzahar|Seraphine|Pokuje ho a E ho zastaví.
+Malzahar|Karma|Pokuje ho a štít drží ADC.
+Master Yi|Leona|Engagne na něj a CC ho drží.
+Mordekaiser|Yuumi|Je přichycená na ADC, takže ji Mordekaiser nechytí ani přes R.
+Mordekaiser|Thresh|Hookne ho a lantern zachrání ADC.
+Mordekaiser|Nautilus|Hookne ho a CC ho drží.
+Naafiri|Thresh|Hookne ji a lantern zachrání ADC.
+Naafiri|Nautilus|Hookne ji a CC ji drží.
+Nasus|Leona|Engagne na něj a CC ho drží.
+Nasus|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Nasus|Blitzcrank|Hookne ho a CC ho drží.
+Orianna|Thresh|Hookne ji a lantern zachrání ADC.
+Ornn|Braum|Štít ho zastaví a pasiv ho stunne.
+Ornn|Yuumi|Léčí ADC z jeho poku.
+Ornn|Karma|Pokuje ho a štít drží ADC.
+Quinn|Leona|Engagne na ni a CC ji drží.
+Quinn|Thresh|Hookne ji a lantern zachrání ADC.
+Quinn|Senna|Má delší range a W ji rootne.
+Rammus|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Rek'Sai|Nautilus|Hookne ji a CC ji drží.
+Rengar|Thresh|Hookne ho a lantern zachrání ADC.
+Rengar|Rakan|Je mobilní a engagne ho.
+Rumble|Nautilus|Hookne ho a CC ho drží.
+Rumble|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Sejuani|Pyke|Hookne ji a R ji popraví.
+Singed|Thresh|Hookne ho a lantern zachrání ADC.
+Singed|Leona|Engagne na něj a CC ho drží.
+Smolder|Thresh|Hookne ho a lantern zachrání ADC.
+Tristana|Lux|Pokuje ji z dálky a root ji chytí.
+Trundle|Leona|Engagne dřív a CC ho drží.
+Trundle|Blitzcrank|Hookne ho a CC ho drží.
+Varus|Thresh|Hookne ho a lantern zachrání ADC.
+Vayne|Thresh|Hookne ji a lantern zachrání ADC.
+Vex|Thresh|Hookne ji a lantern zachrání ADC.
+Vex|Blitzcrank|Hookne ji a CC ji drží.
+Vi|Janna|Disengage jí kazí engage.
+Vi|Alistar|Vydrží její engage a combo W+Q ji zastaví.
+Viego|Thresh|Hookne ho a lantern zachrání ADC.
+Viktor|Lux|Má delší range a root ho chytí.
+Viktor|Thresh|Hookne ho a lantern zachrání ADC.
+Viktor|Nautilus|Hookne ho a CC ho drží.
+Viktor|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Volibear|Nami|Bublina ho chytí a léčí ADC.
+Volibear|Blitzcrank|Hookne ho a CC ho drží.
+Volibear|Pyke|Hookne ho a R ho popraví.
+Wukong|Leona|Engagne na něj a CC ho drží.
+Wukong|Alistar|Vydrží jeho engage a combo W+Q ho zastaví.
+Wukong|Nautilus|Hookne ho a CC ho drží.
+Yasuo|Leona|Engagne na něj a CC ho drží.
+Yasuo|Thresh|Hookne ho a lantern zachrání ADC.
+Yone|Thresh|Hookne ho a lantern zachrání ADC.
+Yorick|Thresh|Hookne ho a lantern zachrání ADC.
+Zaahen|Thresh|Hookne ho a lantern zachrání ADC.
+Zaahen|Lux|Pokuje ho z dálky a root ho chytí.
+Zaahen|Leona|Engagne na něj a CC ho drží.
+Zed|Thresh|Hookne ho a lantern zachrání ADC.
+Zed|Karma|Pokuje ho a štít drží ADC.
+Ziggs|Lux|Má delší range a root ho chytí.
+Ziggs|Alistar|Engagne na něj a Ziggs nemá únik.

@@ -1,0 +1,282 @@
+Malphite|Kassadin|Dává AP damage, proti kterému armor nepomůže, a R blinkem ho dostihne.
+Malphite|Aurelion Sol|Dává AP damage a pokuje ho z dálky.
+Malzahar|Singed|Proxy farmí a jed ho trestá, Malz ho nechytí.
+Maokai|Olaf|R ho udělá imunním na Maokaiův root a zblízka ho rozseká.
+Maokai|Nasus|Stackuje v klidu a W ho zpomalí.
+Master Yi|Kled|Q ho chytí a Skaarl mu dá druhý život v duelu.
+Mel|Yasuo|Dashe ho dostanou k ní a zblízka ji přetlačí.
+Mel|Sion|Má tolik HP, že ho její poke neubije.
+Mel|Dr. Mundo|Má HP a regeneraci, takže ho její poke neubije.
+Mel|Singed|Jed není projektil, takže ho Mel neodrazí, a flipne ji.
+Miss Fortune|Darius|Pull ji chytí a bleed ji zabije.
+Miss Fortune|Trundle|Pilíř ji chytí a R jí ukradne odolnosti.
+Miss Fortune|Irelia|Dashuje se k ní po minionech a zblízka ji zabije.
+Miss Fortune|Tahm Kench|Vydrží její poke a W ji dostihne.
+Mordekaiser|Hwei|Pokuje ho z dálky a zóny ho drží od těla.
+Mordekaiser|Zilean|Bomby ho pokují a E ho zpomalí, Morde ho nechytí.
+Morgana|Malphite|Vydrží její poke a v teamfightu má silnější engage.
+Morgana|Irelia|Dashuje se k ní po minionech a zblízka ji zabije.
+Morgana|Tryndamere|Dostihne ji přes E a R ho drží naživu.
+Morgana|Nasus|Stackuje v klidu a W ji zpomalí.
+Naafiri|Renekton|Je silný early a W stun ji zastaví.
+Naafiri|Nasus|Vydrží její burst a W ji zpomalí.
+Naafiri|Yone|Vyhraje dlouhé trady a AoE z Q a E zabije psy.
+Naafiri|Kled|Je silný early a Skaarl mu dá druhý život.
+Nasus|Aurelion Sol|Pokuje ho z dálky a nedá mu v klidu stackovat.
+Nasus|Shen|W blokuje jeho Q a taunt ho chytí.
+Nasus|Aatrox|Q ho trestá early a sustain ho drží v lajně.
+Nasus|Anivia|Zeď ho odřízne a z dálky mu nedá stackovat.
+Nautilus|Mordekaiser|R ho izoluje a magic damage ho rozloží.
+Nautilus|Renekton|Je silný early a v lajně ho přetlačí.
+Nautilus|Olaf|R ho udělá imunním na jeho CC.
+Nautilus|Shen|Vydrží jeho engage a taunt ho chytí.
+Neeko|Irelia|Dashuje se k ní po minionech a zblízka ji zabije.
+Neeko|Gwen|Mlha ji chrání a zblízka ji přebije.
+Neeko|Ornn|Vydrží její burst a E ji chytí.
+Neeko|Fiora|W odrazí její root a duel vyhraje.
+Nidalee|Irelia|Dashuje se k ní po minionech a zblízka ji zabije.
+Nidalee|Sett|Vydrží její poke a v all-inu ji přetlačí.
+Nidalee|Kennen|Pokuje ji a stun ji chytí.
+Nidalee|Dr. Mundo|Má HP a regeneraci, takže ho kopí neubijí.
+Nilah|Yone|Je silný v lajně a v dlouhém tradu ji přetlačí.
+Nocturne|Malphite|Armor tlumí jeho damage a R ho chytí.
+Nocturne|Singed|Proxy farmí a flipne ho.
+Nocturne|Camille|True damage z Q vyhrává trady.
+Nocturne|Olaf|Zblízka ho rozseká a R ho udělá imunním na fear.
+Nunu & Willump|Teemo|Blind a poke ho z dálky trestají.
+Nunu & Willump|Sett|Je silný early a v all-inu ho přetlačí.
+Nunu & Willump|Garen|Silence ho zastaví a v dlouhém tradu ho přetlačí.
+Nunu & Willump|Mordekaiser|R ho izoluje a zblízka ho přetlačí.
+Olaf|Camille|True damage z Q obchází jeho sustain a hookshotem mu uteče.
+Orianna|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Orianna|Dr. Mundo|Má HP a regeneraci, takže ho její poke neubije.
+Orianna|Malphite|Vydrží její poke a R ji chytí.
+Orianna|Yasuo|Wind wall blokuje její kouli a dashe ho k ní dostanou.
+Ornn|Shen|Vydrží jeho trady a v teamfightu přijde s R kamkoli.
+Ornn|Rek'Sai|Je silná early a trestá ho, dokud nemá itemy.
+Pantheon|Zoe|Bublina ho uspí a z dálky ho pokuje.
+Pantheon|Dr. Mundo|Má tolik HP a regenerace, že ho Panthův burst nezabije.
+Poppy|Malphite|Vydrží její trady a R ji chytí.
+Poppy|Swain|Léčí se z ní a root ji chytí.
+Poppy|Camille|True damage z Q a hookshot vyhrávají trady.
+Qiyana|Malphite|Armor tlumí její burst a R ji chytí.
+Qiyana|Nasus|Vydrží její burst a W ji zpomalí.
+Qiyana|Gragas|E ji srazí a W tlumí její burst.
+Qiyana|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk z jejího R.
+Quinn|Urgot|Vydrží její poke a E ji chytí.
+Quinn|Sion|Vydrží její poke a škáluje HP.
+Rammus|Mordekaiser|Dává hlavně magic damage z abilit, takže Rammusovo W ho netrestá.
+Rammus|Kled|Je silný early a Skaarl mu dá druhý život.
+Rammus|Shen|Vydrží jeho engage a taunt ho chytí.
+Rammus|Singed|Proxy farmí a jed ho trestá, Rammus ho nechytí.
+Rek'Sai|Volibear|Vydrží její burst a Q ji stunne.
+Rek'Sai|Dr. Mundo|Má HP a regeneraci a Q jí bere % HP.
+Rek'Sai|Shen|W blokuje její autoattacky a taunt ji chytí.
+Rek'Sai|Singed|Proxy farmí a flipne ji.
+Rell|Mordekaiser|R ji izoluje a magic damage ji rozloží.
+Rell|Sett|Je silný early a v all-inu ji přetlačí.
+Rell|Yone|Je silný v lajně a Rell nemá damage.
+Renekton|Zilean|Bomby ho pokují a E ho zpomalí, takže se k Zileanovi nedostane.
+Renekton|Ornn|Vydrží jeho early a v late game ho přeroste.
+Renekton|Dr. Mundo|Má HP a regeneraci, Renekton ho early neprorazí.
+Rengar|Kled|Je silný early a Skaarl mu dá druhý život.
+Rengar|Renekton|Je silný early a W stun přeruší jeho skok.
+Riven|Ahri|Charm ji zastaví a z dálky ji pokuje.
+Riven|Zaahen|Vyhraje dlouhé trady a revive mu dá druhou šanci.
+Riven|Urgot|Vyhrává dlouhé trady a R ji na konci popraví.
+Rumble|Karma|Pokuje ho z dálky a štít z E pohltí jeho plamen.
+Rumble|Ornn|Vydrží jeho poke a itemy si staví v lajně.
+Rumble|Shen|Vydrží jeho poke a taunt ho chytí.
+Ryze|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Ryze|Yasuo|Wind wall blokuje jeho Q.
+Ryze|Shen|Vydrží jeho poke a taunt ho chytí.
+Ryze|Zed|Je mobilnější a bursne ho.
+Samira|Garen|Silence přeruší její combo a W tlumí damage.
+Samira|Sett|Vydrží její all-in a W ji potrestá.
+Samira|Malphite|Armor tlumí její damage a R přeruší její R.
+Samira|Darius|Pull ji chytí a bleed ji zabije.
+Sejuani|Mordekaiser|R ji izoluje a magic damage ji rozloží.
+Sejuani|Dr. Mundo|Má HP a regeneraci a Q jí bere % HP.
+Sejuani|Illaoi|Tentakly ji trestají v dlouhých tradech.
+Sejuani|Fiora|W odrazí její stun a vitaly ji rozloží.
+Senna|Yasuo|Wind wall blokuje její autoattacky.
+Senna|Irelia|Dashuje se k ní po minionech a zblízka ji zabije.
+Senna|Teemo|Blind jí zruší autoattacky.
+Senna|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Seraphine|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Seraphine|Teemo|Blind a poke ji trestají.
+Seraphine|Malphite|Vydrží její poke a R ji chytí.
+Seraphine|Mordekaiser|R ji izoluje a zblízka ji zabije.
+Sett|Zilean|Bomby ho pokují a E ho zpomalí, Sett se k Zileanovi nedostane.
+Sett|Ornn|Vydrží jeho all-in a v late game ho přeroste.
+Shaco|Garen|Silence ho zastaví a E sekne i jeho klon.
+Shaco|Zaahen|Vydrží jeho burst a revive mu dá druhou šanci.
+Shaco|Sion|Má tolik HP, že ho Shacův burst nezabije.
+Shaco|Dr. Mundo|Má HP a regeneraci, takže krabice ho neubijí.
+Shen|Ahri|Charm ho zastaví a z dálky ho pokuje.
+Shen|Singed|Proxy farmí a jed ho trestá.
+Shen|Vel'Koz|Pokuje ho z dálky a true damage ho rozloží.
+Shen|Kled|Je silný early a Skaarl mu dá druhý život.
+Shyvana|Darius|Pull ji chytí a bleed vyhraje dlouhý trade.
+Shyvana|Trundle|R jí ukradne odolnosti a pilíř ji chytí.
+Shyvana|Renekton|Je silný early a stun ji zastaví.
+Shyvana|Kayle|Škáluje a v late game ji přeroste.
+Singed|Lissandra|Zmrazí ho z dálky a R zastaví jeho flip.
+Singed|Xin Zhao|Skočí na něj přes E a early ho rozseká.
+Sion|Darius|Pull ho chytí a bleed vyhraje dlouhý trade.
+Sivir|Malphite|Armor tlumí její damage a R ji chytí.
+Sivir|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Sivir|Teemo|Blind jí zruší autoattacky.
+Sivir|Garen|Silence ji zastaví a W tlumí damage.
+Skarner|Mordekaiser|R ho izoluje a magic damage ho rozloží.
+Skarner|Kayle|Škáluje a v late game ho přeroste.
+Skarner|Fiora|W odrazí jeho suppress a vitaly ho rozloží.
+Skarner|Dr. Mundo|Má HP a regeneraci a Q mu bere % HP.
+Smolder|Irelia|Dashuje se k němu po minionech a trestá ho, dokud nemá stacky.
+Smolder|Yasuo|Wind wall blokuje jeho Q.
+Smolder|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Smolder|Vladimir|Bazén mu uhne z poku a léčení ho drží v lajně.
+Soraka|Yone|Je silný v lajně a zblízka ji zabije dřív, než se vyléčí.
+Soraka|Jax|Skočí na ni přes Q a zblízka ji zabije.
+Soraka|Yasuo|Dashe po minionech ho k ní dostanou a Soraka nemá únik.
+Soraka|Nasus|W ji zpomalí a Q ji trestá, Soraka nemá únik.
+Swain|Irelia|Dashuje se k němu po minionech a stun ho zastaví.
+Swain|Yone|Dashe uhýbají jeho rootu a zblízka ho přetlačí.
+Sylas|Illaoi|Tentakly ho trestají, když skočí dovnitř.
+Sylas|Zaahen|Vyhraje dlouhé trady a revive mu dá druhou šanci.
+Syndra|Camille|Hookshot ji dostane k Syndře a true damage z Q ji zabije.
+Syndra|Fiora|W odrazí její stun a duel vyhraje.
+Syndra|Irelia|Dashuje se k ní po minionech a zblízka ji zabije.
+Syndra|Cho'Gath|Vydrží její burst a W ji umlčí.
+Tahm Kench|Zilean|Bomby ho pokují a E ho zpomalí, Tahm se k němu nedostane.
+Tahm Kench|Heimerdinger|Věžičky ho trestají v lajně a E ho stunne.
+Taliyah|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Taliyah|Nasus|Vydrží její poke a W ji zpomalí.
+Taliyah|Dr. Mundo|Má HP a regeneraci, takže ho její poke neubije.
+Taliyah|Irelia|Dashuje se k ní po minionech a zblízka ji zabije.
+Talon|Malphite|Armor tlumí jeho burst a R ho chytí.
+Talon|Irelia|Vyhraje dlouhé trady a stun ho chytí.
+Talon|Illaoi|Tentakly ho trestají, když skočí dovnitř.
+Talon|Olaf|Sustain a R ho drží v boji.
+Taric|Malphite|Q ho pokuje a armor tlumí jeho trady.
+Taric|Tryndamere|R ho drží naživu a duel vyhraje.
+Taric|Sett|Je silný early a v all-inu ho přetlačí.
+Taric|Darius|Pull ho chytí a bleed vyhraje dlouhý trade.
+Teemo|Olaf|Q ho zpomalí a sustain ho drží v lajně proti poku.
+Teemo|Ahri|Charm ho chytí a z dálky ho bursne.
+Teemo|Ornn|Vydrží jeho poke a itemy si staví v lajně.
+Thresh|Mordekaiser|R ho izoluje a magic damage ho rozloží.
+Thresh|Dr. Mundo|Má HP a regeneraci, takže ho Thresh neprorazí.
+Thresh|Cho'Gath|Vydrží jeho engage a W ho umlčí.
+Thresh|Renekton|Je silný early a v lajně ho přetlačí.
+Tristana|Malphite|Armor tlumí její damage a R ji chytí i po skoku.
+Tristana|Yasuo|Wind wall blokuje její autoattacky.
+Tristana|Gragas|E ji srazí a W tlumí její burst.
+Tristana|Nasus|W ji zpomalí a Nasus vydrží její burst.
+Trundle|Lissandra|Zmrazí ho z dálky a R zastaví jeho all-in.
+Tryndamere|Nasus|W mu sníží attack speed a v late game ho Nasus přeroste.
+Twisted Fate|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Twisted Fate|Kled|Je silný early a Skaarl mu dá druhý život.
+Twisted Fate|Warwick|R ho chytí a sustain vyhrává trady.
+Twisted Fate|Sion|Vydrží jeho poke a škáluje HP.
+Twitch|Sett|Je silný early a v all-inu ho přetlačí.
+Twitch|Jax|E zablokuje jeho autoattacky a stunne ho.
+Twitch|Yasuo|Wind wall blokuje jeho autoattacky.
+Twitch|Volibear|Q ho stunne a zblízka ho rozseká.
+Udyr|Nasus|W mu sníží attack speed a Nasus ho v late game přeroste.
+Udyr|Warwick|Sustain a % HP damage vyhrávají dlouhé trady.
+Udyr|Urgot|Vyhrává dlouhé trady a R ho na konci popraví.
+Urgot|Zilean|Bomby ho pokují a E ho zpomalí, Urgot ho nechytí.
+Urgot|Ekko|Je mobilní a bursne ho dřív, než ho Urgot chytí do E.
+Varus|Olaf|Zblízka ho rozseká a R ho udělá imunním na jeho root.
+Varus|Anivia|Zeď ho odřízne a vajíčko ji drží naživu.
+Varus|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Varus|Ornn|Vydrží jeho poke a E ho chytí.
+Vayne|Qiyana|Bursne ji a R ji omráčí u zdi.
+Vayne|Wukong|Klon ji zmate a R ji vyhodí do vzduchu.
+Veigar|Dr. Mundo|Má tolik HP, že ho Veigarův burst nezabije.
+Veigar|Olaf|Zblízka ho rozseká a R ho udělá imunním na klec.
+Veigar|Nasus|Vydrží jeho burst a W ho zpomalí.
+Veigar|Garen|Silence přeruší jeho combo a W tlumí burst.
+Vel'Koz|Sion|Má tolik HP, že ho poke Vel'Koze rychle neprorazí.
+Vel'Koz|Ambessa|Dashe z pasivu ji k němu dostanou a Vel'Koz nemá únik.
+Vel'Koz|Fiora|W odrazí jeho knockup a zblízka ho zabije.
+Vel'Koz|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Vex|Teemo|Pokuje ji z dálky a nedashuje, takže na něj její pasiv nefunguje.
+Vex|Sion|Má tolik HP, že ho její burst nezabije.
+Vex|Dr. Mundo|Má HP a regeneraci a nemá dash, který by trestala.
+Vex|Nasus|Nemá dash, který by trestala, a vydrží její burst.
+Vi|Darius|Pull ji chytí a bleed vyhraje dlouhý trade.
+Vi|Renekton|Je silný early a stun ji zastaví.
+Vi|Tryndamere|R ho drží naživu a duel vyhraje.
+Vi|Sett|Vydrží její burst a W ji potrestá.
+Viego|Malphite|Armor tlumí jeho damage a R ho chytí.
+Viego|Olaf|Sustain a R ho drží v boji.
+Viego|Pantheon|Je silný early a stun ho chytí.
+Viego|Volibear|Q ho stunne a zblízka ho rozseká.
+Viktor|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Viktor|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Viktor|Camille|Hookshot ji dostane k Viktorovi a true damage ho zabije.
+Viktor|Darius|Pull ho chytí a bleed ho zabije.
+Vladimir|Nasus|Vydrží jeho poke, stackuje a W mu nedá utéct po bazénu.
+Vladimir|Kassadin|Pasivně snižuje magický damage a Q štít pohltí jeho poke.
+Vladimir|Irelia|Dashuje se k němu po minionech a zblízka ho přetlačí.
+Vladimir|Aurora|Je mobilní a pokuje ho z dálky.
+Volibear|Ahri|Charm ho zastaví a z dálky ho pokuje.
+Volibear|Quinn|Kituje ho a blind mu zkazí trady.
+Volibear|Lissandra|Zmrazí ho z dálky a R zastaví jeho all-in.
+Warwick|Heimerdinger|Věžičky ho trestají v lajně a E ho stunne.
+Warwick|Teemo|Blind mu zruší autoattacky a z dálky ho pokuje.
+Warwick|Kennen|Pokuje ho z dálky a stun ho chytí.
+Warwick|Urgot|Vyhrává dlouhé trady a R ho na konci popraví.
+Wukong|Malphite|Armor tlumí jeho damage a R ho chytí.
+Xayah|Malphite|Armor tlumí její damage a R ji chytí.
+Xayah|Darius|Pull ji chytí a bleed ji zabije.
+Xayah|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Xayah|Mordekaiser|R ji izoluje a zblízka ji přetlačí.
+Xerath|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Xerath|Dr. Mundo|Má HP a regeneraci, takže ho Xerathův poke neubije.
+Xerath|Malphite|Vydrží jeho poke a R ho chytí.
+Xerath|Yorick|Ghouly ho přetlačí v lajně, Xerath věž neubrání.
+Xin Zhao|Renekton|Je silný early a stun ho zastaví.
+Xin Zhao|Shen|W blokuje jeho autoattacky a taunt ho chytí.
+Xin Zhao|Malphite|Armor tlumí jeho damage a E mu sníží attack speed.
+Xin Zhao|Pantheon|Je silný early a stun ho chytí.
+Yasuo|Zac|Vydrží jeho trady a skokem z E ho chytí.
+Yasuo|Singed|Proxy farmí a flipne ho, Yasuo ho nechytí.
+Yone|Vex|Pasiv ho trestá za každý dash a fear ho zastaví.
+Yone|Zoe|Bublina ho uspí a z dálky ho pokuje.
+Yorick|Yone|AoE z Q a E čistí ghouly a duel vyhraje.
+Yorick|Zac|Vydrží ghouly a skokem z E ho chytí.
+Yorick|Ornn|Vydrží jeho split a v teamfightu má silnější engage.
+Yorick|Tryndamere|E spin čistí ghouly a R ho drží naživu.
+Yunara|Malphite|Armor tlumí její damage a R ji chytí.
+Yunara|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Yunara|Teemo|Blind jí zruší autoattacky.
+Yunara|Nasus|W jí sníží attack speed a zpomalí ji.
+Zaahen|Teemo|Blind mu zruší autoattacky a z dálky ho pokuje.
+Zaahen|Zilean|Bomby ho pokují a E ho zpomalí, takže se k Zileanovi nedostane.
+Zaahen|Ahri|Charm ho zastaví a z dálky ho pokuje.
+Zac|Poppy|W zastaví jeho skok z E.
+Zac|Volibear|Q ho stunne a v dlouhém tradu ho přetlačí.
+Zac|Mordekaiser|R ho izoluje a magic damage ho rozloží.
+Zed|Garen|W tlumí jeho burst a silence ho zastaví.
+Zeri|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Zeri|Malphite|Armor tlumí její damage a R ji chytí.
+Zeri|Jax|E zablokuje její autoattacky a stunne ji.
+Zeri|Nasus|W ji zpomalí a Nasus vydrží její poke.
+Ziggs|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Ziggs|Yasuo|Wind wall blokuje jeho bomby.
+Ziggs|Ornn|Vydrží jeho poke a E ho chytí.
+Ziggs|Tryndamere|Dostihne ho přes E a R ho drží naživu.
+Zilean|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Zilean|Teemo|Pokuje ho z dálky a blind mu zkazí trady.
+Zilean|Kled|Q ho chytí a Skaarl ho k němu dostane.
+Zoe|Yasuo|Wind wall blokuje její Q i bublinu.
+Zoe|Dr. Mundo|Má HP a regeneraci, takže ho její poke neubije.
+Zoe|Camille|Hookshot ji dostane k Zoe a true damage ji zabije.
+Zoe|Irelia|Dashuje se k ní po minionech a zblízka ji zabije.
+Zyra|Mordekaiser|R ji odtrhne od rostlin a zblízka ji přetlačí.
+Zyra|Sion|Má tolik HP, že ho její poke neubije.
+Zyra|Dr. Mundo|Má HP a regeneraci a rostliny mu nic neudělají.
+Zyra|Yone|Dashe ho k ní dostanou a zblízka ji zabije.

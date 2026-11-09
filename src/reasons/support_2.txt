@@ -1,0 +1,327 @@
+Malphite|Rakan|Je mobilní a engage má rychlejší.
+Malphite|Rell|Engagne dřív a CC ho drží.
+Malphite|Sylas|Ukradne mu R a AP damage obchází jeho armor.
+Malphite|Nautilus|Hookne ho a CC ho drží.
+Malzahar|Leona|Engagne na něj a CC ho drží.
+Malzahar|Zilean|Bomby ho pokují a revive drží ADC naživu.
+Malzahar|Alistar|Vydrží jeho poke a combo W+Q ho zastaví.
+Malzahar|Rell|Engagne na něj a CC ho drží.
+Maokai|Taric|Stun a nesmrtelnost otočí jeho engage.
+Maokai|Leona|Vydrží jeho engage a otočí ho vlastním.
+Maokai|Rakan|Je mobilní a vyhne se jeho rootu.
+Master Yi|Thresh|Hookne ho a lantern zachrání ADC.
+Master Yi|Braum|Štít ho zastaví a pasiv ho stunne.
+Master Yi|Blitzcrank|Hookne ho a CC ho drží.
+Master Yi|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Mel|Leona|Engagne na ni a CC ji drží.
+Mel|Nami|Bublina ji chytí a léčí ADC.
+Mel|Rell|Engagne na ni a CC ji drží.
+Mel|Senna|Pokuje ji z dálky a léčí ADC.
+Milio|Thresh|Hookne ho a lantern zachrání ADC.
+Milio|Senna|Pokuje ho z dálky a W ho rootne.
+Miss Fortune|Janna|Štíty a disengage, MF nemá jak vyhrát trade.
+Miss Fortune|Poppy|W zastaví engage a E ji přišpendlí ke zdi.
+Miss Fortune|Yuumi|Léčí ADC a pokuje ji.
+Miss Fortune|Leona|Engagne na ni a CC ji drží.
+Mordekaiser|Brand|Pokuje ho z dálky a burn ho rozloží.
+Mordekaiser|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Mordekaiser|Nami|Bublina ho chytí a léčí ADC.
+Mordekaiser|Morgana|Root ho chytí a Black Shield chrání ADC.
+Morgana|Sona|Léčí ADC a pokuje ji.
+Morgana|Rell|Má silnější engage a vydrží její poke.
+Naafiri|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Naafiri|Alistar|Vydrží její burst a combo W+Q ji zastaví.
+Naafiri|Janna|Disengage a štíty jí kazí burst.
+Naafiri|Rell|Engagne na ni a CC ji drží.
+Nami|Sona|Léčí stejně dobře a pokuje ji.
+Nasus|Brand|Pokuje ho z dálky a burn ho rozloží.
+Nasus|Sylas|Ukradne mu R a v lajně ho přetlačí.
+Nasus|Teemo|Blind mu zruší Q a pokuje ho.
+Nasus|Thresh|Hookne ho a lantern zachrání ADC.
+Neeko|Zilean|Bomby ji pokují a revive drží ADC naživu.
+Neeko|Sion|Vydrží její poke a engagne.
+Neeko|Amumu|Q ji chytí a R stunne celý bot.
+Neeko|Twisted Fate|Zlatá karta ji stunne a pokuje ji.
+Nidalee|Blitzcrank|Hookne ji a CC ji drží.
+Nidalee|Janna|Štíty a disengage jí kazí trade.
+Nidalee|Yuumi|Léčí ADC z jejího poku.
+Nidalee|Nautilus|Hookne ji a CC ji drží.
+Nocturne|Lux|Pokuje ho z dálky a root ho chytí.
+Nocturne|Thresh|Hookne ho a lantern zachrání ADC.
+Nocturne|Nautilus|Hookne ho a CC ho drží.
+Nocturne|Swain|Léčí se a root ho chytí.
+Nunu & Willump|Alistar|Vydrží jeho engage a combo W+Q ho zastaví.
+Nunu & Willump|Rell|Engagne dřív a CC ho drží.
+Nunu & Willump|Thresh|Hookne ho a lantern zachrání ADC.
+Nunu & Willump|Soraka|Léčí ADC a silence ho zastaví.
+Olaf|Leona|Engagne dřív a CC ho drží, než spustí R.
+Olaf|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Olaf|Seraphine|Pokuje ho a E ho zastaví.
+Olaf|Thresh|Hookne ho a lantern zachrání ADC.
+Orianna|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Orianna|Nami|Bublina ji chytí a léčí ADC.
+Orianna|Braum|Štít blokuje její poke a pasiv ji stunne.
+Orianna|Blitzcrank|Hookne ji a CC ji drží.
+Ornn|Thresh|Hookne ho a lantern zachrání ADC.
+Ornn|Zilean|Bomby ho pokují a revive drží ADC naživu.
+Ornn|Rell|Engagne dřív a CC ho drží.
+Ornn|Vel'Koz|Pokuje ho a true damage ho rozloží.
+Pantheon|Janna|Disengage a štíty mu kazí all-in.
+Pantheon|Taric|Stun a nesmrtelnost otočí jeho engage.
+Pantheon|Braum|Štít blokuje jeho Q a pasiv ho stunne.
+Pantheon|Alistar|Vydrží jeho all-in a combo W+Q ho zastaví.
+Poppy|Janna|Disengage jí kazí engage.
+Poppy|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Poppy|Braum|Štít ji zastaví a pasiv ji stunne.
+Poppy|Taric|Stun a nesmrtelnost otočí její engage.
+Pyke|Rakan|Je mobilní a engagne dřív než Pyke.
+Pyke|Thresh|Hookne ho a lantern zachrání ADC.
+Qiyana|Nautilus|Hookne ji a CC ji drží.
+Qiyana|Soraka|Léčí ADC a silence ji zastaví.
+Qiyana|Braum|Štít ji zastaví a pasiv ji stunne.
+Qiyana|Alistar|Vydrží její burst a combo W+Q ji zastaví.
+Quinn|Nautilus|Hookne ji a CC ji drží.
+Quinn|Bard|Roamuje a Q ji stunne.
+Quinn|Nami|Bublina ji chytí a léčí ADC.
+Quinn|Braum|Štít blokuje její autoattacky a pasiv ji stunne.
+Rakan|Zilean|Bomby ho pokují a revive drží ADC naživu.
+Rakan|Poppy|W zastaví jeho dash.
+Rammus|Thresh|Hookne ho a lantern zachrání ADC.
+Rammus|Janna|Disengage mu kazí engage.
+Rammus|Senna|Pokuje ho z dálky a W ho rootne.
+Rammus|Leona|Engagne dřív a CC ho drží.
+Rek'Sai|Morgana|Black Shield ruší její knockup a root ji chytí.
+Rek'Sai|Seraphine|Pokuje ji a E ji zastaví.
+Rek'Sai|Nami|Bublina ji chytí a léčí ADC.
+Rek'Sai|Lux|Pokuje ji z dálky a root ji chytí.
+Rell|Alistar|Vydrží její engage a combo W+Q ho otočí.
+Rell|Taliyah|E ji stunne při skoku a kamení jí zkazí engage.
+Rell|Jax|E zablokuje její autoattacky a stunne ji.
+Renata Glasc|Zilean|Bomby ji pokují a revive drží ADC naživu.
+Renata Glasc|Milio|R čistí CC z jejího R.
+Renata Glasc|Janna|Disengage a štíty jí kazí trade.
+Renekton|Leona|Engagne dřív a CC ho drží.
+Renekton|Blitzcrank|Hookne ho a CC ho drží.
+Renekton|Seraphine|Pokuje ho a E ho zastaví.
+Renekton|Lux|Pokuje ho z dálky a root ho chytí.
+Rengar|Karma|Pokuje ho a štít drží ADC.
+Rengar|Braum|Štít ho zastaví a pasiv ho stunne.
+Rengar|Seraphine|Pokuje ho a E ho zastaví.
+Rengar|Lulu|Polymorph ho zastaví po skoku.
+Riven|Lux|Pokuje ji z dálky a root ji chytí.
+Riven|Thresh|Hookne ji a lantern zachrání ADC.
+Riven|Leona|Engagne na ni a CC ji drží.
+Riven|Blitzcrank|Hookne ji a CC ji drží.
+Rumble|Leona|Engagne na něj a CC ho drží.
+Rumble|Xerath|Má delší poke range.
+Rumble|Braum|Štít blokuje jeho harpunu a pasiv ho stunne.
+Rumble|Thresh|Hookne ho a lantern zachrání ADC.
+Ryze|Nautilus|Hookne ho a CC ho drží.
+Ryze|Thresh|Hookne ho a lantern zachrání ADC.
+Ryze|Blitzcrank|Hookne ho a CC ho drží.
+Ryze|Lux|Pokuje ho z dálky a root ho chytí.
+Samira|Seraphine|Pokuje ji a E ji zastaví.
+Samira|Nautilus|Hookne ji a CC ji drží.
+Samira|Leona|Engagne na ni a CC ji drží.
+Samira|Lux|Pokuje ji z dálky a root ji chytí.
+Sejuani|Lulu|Polymorph ji zastaví a štít ochrání ADC.
+Sejuani|Milio|R čistí CC z jejího engage.
+Sejuani|Alistar|Vydrží její engage a combo W+Q ji zastaví.
+Sejuani|Senna|Pokuje ji z dálky a W ji rootne.
+Senna|Ahri|Charm ji chytí a burst ji zabije.
+Seraphine|Milio|Léčí ADC a R čistí její CC.
+Seraphine|Zilean|Bomby ji pokují a revive drží ADC naživu.
+Seraphine|Skarner|Vydrží její poke a suppress ji chytí.
+Sett|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Sett|Janna|Disengage mu kazí all-in.
+Sett|Soraka|Léčí ADC a silence ho zastaví.
+Sett|Thresh|Hookne ho a lantern zachrání ADC.
+Shaco|Soraka|Léčí ADC a silence ho zastaví.
+Shaco|Janna|Disengage a štíty mu kazí burst.
+Shaco|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Shaco|Zac|Vydrží jeho burst a engage má silnější.
+Shen|Braum|Štít ho zastaví a pasiv ho stunne.
+Shen|Janna|Disengage mu kazí taunt.
+Shen|Sona|Léčí ADC a pokuje ho.
+Shen|Rakan|Je mobilní a engagne ho.
+Shyvana|Lux|Pokuje ji z dálky a root ji chytí.
+Singed|Blitzcrank|Hookne ho a CC ho drží.
+Singed|Bard|Roamuje a Q ho stunne.
+Singed|Alistar|Vydrží jeho jed a combo W+Q ho zastaví.
+Singed|Zilean|Bomby ho pokují a E ho zpomalí.
+Sion|Braum|Štít ho zastaví a pasiv ho stunne.
+Sion|Alistar|Vydrží jeho engage a combo W+Q ho zastaví.
+Sion|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Sion|Blitzcrank|Hookne ho a CC ho drží.
+Sivir|Lux|Pokuje ji z dálky a root ji chytí.
+Sivir|Seraphine|Pokuje ji a E ji zastaví.
+Sivir|Nautilus|Hookne ji a CC ji drží.
+Skarner|Nautilus|Hookne ho a CC ho drží.
+Skarner|Thresh|Hookne ho a lantern zachrání ADC.
+Skarner|Alistar|Vydrží jeho engage a combo W+Q ho zastaví.
+Skarner|Pyke|Hookne ho a R ho popraví.
+Smolder|Lux|Má delší range a root ho chytí.
+Smolder|Morgana|Root ho chytí a Black Shield chrání ADC.
+Smolder|Nautilus|Hookne ho a CC ho drží.
+Smolder|Pantheon|Je silný early a stun ho chytí.
+Sona|Amumu|Q ji chytí a R stunne celý bot.
+Soraka|Ivern|Root ji chytí a Daisy ji zastaví.
+Soraka|Amumu|Q ji chytí a R stunne celý bot.
+Soraka|Lissandra|Zmrazí ji a R ji zastaví.
+Swain|Zilean|Bomby ho pokují a revive drží ADC naživu.
+Swain|Janna|Disengage mu kazí engage a štíty drží ADC.
+Sylas|Rell|Engagne na něj a CC ho drží.
+Sylas|Renata Glasc|W zachrání ADC a R otočí jeho engage.
+Sylas|Thresh|Hookne ho a lantern zachrání ADC.
+Sylas|Elise|Cocoon ho chytí a burst ho zabije.
+Syndra|Nami|Bublina ji chytí a léčí ADC.
+Syndra|Vel'Koz|Má delší poke range.
+Syndra|Soraka|Léčí ADC z jejího poku.
+Syndra|Zyra|Rostliny ji trestají a root ji chytí.
+Tahm Kench|Galio|Vydrží jeho engage a W ho tauntne.
+Tahm Kench|Taric|Stun a nesmrtelnost otočí jeho engage.
+Tahm Kench|Rakan|Je mobilní a engagne ho.
+Tahm Kench|Rell|Engagne dřív a CC ho drží.
+Taliyah|Blitzcrank|Hookne ji a CC ji drží.
+Taliyah|Morgana|Root ji chytí a Black Shield ruší její knockup.
+Taliyah|Xerath|Má delší poke range.
+Taliyah|Lux|Má delší range a root ji chytí.
+Talon|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Talon|Leona|Engagne na něj a CC ho drží.
+Talon|Thresh|Hookne ho a lantern zachrání ADC.
+Talon|Nautilus|Hookne ho a CC ho drží.
+Taric|Soraka|Léčí ADC a silence ho zastaví.
+Taric|Hwei|Pokuje ho z dálky a zóny ho trestají.
+Teemo|Karma|Pokuje ho a štít drží ADC.
+Teemo|Maokai|Vydrží jeho poke a engage ho chytí.
+Teemo|Thresh|Hookne ho a lantern zachrání ADC.
+Teemo|Sona|Léčí ADC a pokuje ho.
+Thresh|Braum|Štít blokuje jeho hook.
+Thresh|Karthus|Pokuje ho AoE skilly a R ho zasáhne odkudkoli.
+Tristana|Thresh|Hookne ji a lantern zachrání ADC.
+Tristana|Nautilus|Hookne ji a CC ji drží.
+Tristana|Morgana|Root ji chytí a Black Shield chrání ADC.
+Tristana|Blitzcrank|Hookne ji a CC ji drží.
+Trundle|Alistar|Vydrží jeho engage a combo W+Q ho zastaví.
+Trundle|Braum|Štít ho zastaví a pasiv ho stunne.
+Trundle|Swain|Léčí se a root ho chytí.
+Trundle|Nami|Bublina ho chytí a léčí ADC.
+Tryndamere|Thresh|Hookne ho a lantern zachrání ADC.
+Tryndamere|Alistar|Vydrží jeho all-in a combo W+Q ho zastaví.
+Tryndamere|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Tryndamere|Brand|Pokuje ho z dálky a burn ho rozloží.
+Twisted Fate|Alistar|Vydrží jeho poke a combo W+Q ho zastaví.
+Twisted Fate|Thresh|Hookne ho a lantern zachrání ADC.
+Twisted Fate|Milio|Léčí ADC a R čistí jeho stun.
+Twisted Fate|Sona|Léčí ADC a pokuje ho.
+Twitch|Nami|Bublina ho chytí a léčí ADC.
+Twitch|Rakan|Je mobilní a engagne ho.
+Twitch|Sylas|Vyhraje lajnu a ukradne mu R.
+Twitch|Braum|Štít blokuje jeho autoattacky a pasiv ho stunne.
+Udyr|Senna|Pokuje ho z dálky a W ho rootne.
+Udyr|Lux|Pokuje ho z dálky a root ho chytí.
+Udyr|Nami|Bublina ho chytí a léčí ADC.
+Udyr|Leona|Engagne dřív a CC ho drží.
+Urgot|Nautilus|Hookne ho a CC ho drží.
+Urgot|Brand|Pokuje ho z dálky a burn ho rozloží.
+Urgot|Karma|Pokuje ho a štít drží ADC.
+Urgot|Thresh|Hookne ho a lantern zachrání ADC.
+Varus|Pyke|Hookne ho a R ho popraví.
+Varus|Zilean|Bomby ho pokují a revive drží ADC naživu.
+Varus|Nautilus|Hookne ho a CC ho drží.
+Varus|Morgana|Root ho chytí a Black Shield chrání ADC.
+Vayne|Nautilus|Hookne ji a CC ji drží.
+Vayne|Nami|Bublina ji chytí a léčí ADC.
+Vayne|Karma|Pokuje ji a štít drží ADC.
+Vayne|Senna|Pokuje ji z dálky a W ji rootne.
+Veigar|Janna|Disengage a štíty mu kazí combo.
+Veigar|Alistar|Vydrží jeho burst a combo W+Q ho zastaví.
+Veigar|Soraka|Léčí ADC a silence ho zastaví.
+Veigar|Milio|Léčí ADC a R čistí stun z klece.
+Vel'Koz|Ivern|Štíty a root ho trestají.
+Vel'Koz|Rell|Engagne na něj a CC ho drží.
+Vex|Nautilus|Hookne ji a CC ji drží.
+Vex|Soraka|Léčí ADC a silence ji zastaví.
+Vex|Seraphine|Pokuje ji a E ji zastaví.
+Vex|Brand|Pokuje ji z dálky a burn ji rozloží.
+Vi|Thresh|Hookne ji a lantern zachrání ADC.
+Vi|Renata Glasc|W zachrání ADC a R otočí její engage.
+Vi|Seraphine|Pokuje ji a E ji zastaví.
+Vi|Rakan|Je mobilní a engagne ji.
+Viego|Leona|Engagne na něj a CC ho drží.
+Viego|Soraka|Léčí ADC a silence ho zastaví.
+Viego|Nautilus|Hookne ho a CC ho drží.
+Viego|Milio|Léčí ADC a R čistí jeho CC.
+Viktor|Nami|Bublina ho chytí a léčí ADC.
+Viktor|Zyra|Rostliny ho trestají a root ho chytí.
+Viktor|Blitzcrank|Hookne ho a CC ho drží.
+Viktor|Renata Glasc|W zachrání ADC a R otočí jeho engage.
+Vladimir|Thresh|Hookne ho a lantern zachrání ADC.
+Vladimir|Blitzcrank|Hookne ho a CC ho drží.
+Vladimir|Lux|Pokuje ho z dálky a root ho chytí.
+Vladimir|Leona|Engagne na něj a CC ho drží.
+Volibear|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Volibear|Soraka|Léčí ADC a silence ho zastaví.
+Volibear|Rell|Engagne dřív a CC ho drží.
+Volibear|Rakan|Je mobilní a engagne ho.
+Warwick|Thresh|Hookne ho a lantern zachrání ADC.
+Warwick|Zyra|Rostliny ho trestají a root ho chytí.
+Warwick|Nami|Bublina ho chytí a léčí ADC.
+Warwick|Alistar|Vydrží jeho engage a combo W+Q ho zastaví.
+Wukong|Thresh|Hookne ho a lantern zachrání ADC.
+Wukong|Bard|Roamuje a Q ho stunne.
+Wukong|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Wukong|Lux|Pokuje ho z dálky a root ho chytí.
+Xayah|Seraphine|Pokuje ji a E ji zastaví.
+Xayah|Lux|Pokuje ji z dálky a root ji chytí.
+Xayah|Nautilus|Hookne ji a CC ji drží.
+Xerath|Janna|Štíty pohltí jeho poke a disengage drží ADC.
+Xerath|Sona|Léčí ADC z jeho poku.
+Xerath|Leona|Engagne na něj a Xerath nemá únik.
+Xerath|Nautilus|Hookne ho a Xerath nemá únik.
+Xin Zhao|Thresh|Hookne ho a lantern zachrání ADC.
+Xin Zhao|Malphite|Armor tlumí jeho damage a E mu sníží attack speed.
+Xin Zhao|Zyra|Rostliny ho trestají a root ho chytí.
+Xin Zhao|Seraphine|Pokuje ho a E ho zastaví.
+Yasuo|Nautilus|Hookne ho a CC ho drží.
+Yasuo|Alistar|Vydrží jeho all-in a combo W+Q ho zastaví.
+Yasuo|Rakan|Je mobilní a engagne ho.
+Yasuo|Rell|Engagne na něj a CC ho drží.
+Yone|Leona|Engagne na něj a CC ho drží.
+Yone|Taric|Stun a nesmrtelnost otočí jeho all-in.
+Yone|Poppy|W zastaví jeho dashe.
+Yone|Rell|Engagne na něj a CC ho drží.
+Yorick|Seraphine|Pokuje ho a E ho zastaví.
+Yorick|Swain|Léčí se a root ho chytí.
+Yorick|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Yorick|Lux|Pokuje ho z dálky a root ho chytí.
+Yunara|Morgana|Root ji chytí a Black Shield chrání ADC.
+Yunara|Nautilus|Hookne ji a CC ji drží.
+Yunara|Seraphine|Pokuje ji a E ji zastaví.
+Yunara|Thresh|Hookne ji a lantern zachrání ADC.
+Yuumi|Rell|Engagne na ADC a Yuumi nic nezmůže.
+Zaahen|Seraphine|Pokuje ho a E ho zastaví.
+Zaahen|Zyra|Rostliny ho trestají a root ho chytí.
+Zaahen|Lulu|Polymorph ho zastaví a štít ochrání ADC.
+Zaahen|Braum|Štít ho zastaví a pasiv ho stunne.
+Zac|Janna|Disengage mu kazí skok z E.
+Zac|Alistar|Vydrží jeho engage a combo W+Q ho zastaví.
+Zac|Milio|R čistí CC z jeho engage.
+Zac|Thresh|Hookne ho a lantern zachrání ADC.
+Zed|Leona|Engagne na něj a CC ho drží.
+Zed|Neeko|Root ho chytí a R stunne celý bot.
+Zed|Pantheon|Je silný early a stun ho chytí.
+Zed|Bard|Roamuje a Q ho stunne.
+Ziggs|Xerath|Má delší poke range.
+Ziggs|Nami|Bublina ho chytí a léčí ADC.
+Ziggs|Tahm Kench|Vydrží jeho poke a W ho dostihne.
+Ziggs|Yuumi|Léčí ADC z jeho poku.
+Zilean|Hwei|Má delší poke range a zóny ho trestají.
+Zilean|Annie|Stun ho chytí a burst ho zabije.
+Zoe|Sona|Léčí ADC a pokuje ji.
+Zoe|Thresh|Hookne ji a lantern zachrání ADC.
+Zoe|Nautilus|Hookne ji a CC ji drží.
+Zoe|Braum|Štít blokuje její bublinu i Q.
+Zyra|Amumu|Q ji chytí a R stunne celý bot.
+Zyra|Milio|Léčí ADC a R čistí její root.
+Zyra|Twisted Fate|Zlatá karta ji stunne a pokuje ji.

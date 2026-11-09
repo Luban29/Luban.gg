@@ -1,0 +1,72 @@
+Aatrox|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Ahri|Xayah|Root ji chytí a během R uhne jejímu burstu.
+Akali|Jhin|Pokuje ji z dálky a W ji rootne.
+Aurora|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Aurora|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Azir|Caitlyn|Má delší range a pasti ho trestají.
+Azir|Ezreal|Pokuje ho z dálky a blinkem uteče vojákům.
+Briar|Jhin|Pokuje ji z dálky a W ji rootne.
+Cho'Gath|Tristana|Kituje ho z range a skokem mu uteče.
+Cho'Gath|Miss Fortune|Pokuje ho z range a R ho rozstřílí.
+Darius|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Diana|Jhin|Pokuje ji z dálky a W ji rootne.
+Diana|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Dr. Mundo|Jhin|Pokuje ho z dálky a W ho rootne.
+Fiora|Jinx|Kituje ji z range a E chompers ji chytí.
+Fizz|Caitlyn|Má dlouhý range a pasti ho trestají.
+Fizz|Jhin|Pokuje ho z dálky a W ho rootne.
+Gangplank|Jinx|Kituje ho z range a v late game ho přeroste.
+Gangplank|Jhin|Pokuje ho z dálky a W ho rootne.
+Garen|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Garen|Jhin|Pokuje ho z dálky a W ho rootne.
+Graves|Jinx|Má delší range a v late game ho přeroste.
+Gwen|Caitlyn|Má dlouhý range a pasti ji trestají.
+Jarvan IV|Jhin|Pokuje ho z dálky a W ho rootne.
+Jax|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Jax|Jhin|Pokuje ho z dálky a W ho rootne.
+Jayce|Yunara|Kituje ho z range a W zóna ho zpomalí.
+Karma|Jhin|Pokuje ji z dálky a W ji rootne.
+Kayle|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Kennen|Tristana|Je silná early a skokem se k němu dostane.
+Kennen|Yunara|Kituje ho z range a W zóna ho zpomalí.
+Kennen|Jinx|Kituje ho z range a v late game ho přeroste.
+Kindred|Yunara|Kituje ji z range a W zóna ji zpomalí.
+Kindred|Tristana|Je silná early a skokem se k ní dostane.
+LeBlanc|Jhin|Pokuje ji z dálky a W ji rootne.
+Lee Sin|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Lissandra|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Lissandra|Lucian|Dashem uhne jejímu Q a v krátkých tradech ji přebije.
+Malphite|Ezreal|Pokuje ho z dálky a blinkem uteče z jeho R.
+Malphite|Kai'Sa|Kituje ho a % HP damage z itemů ho rozloží.
+Mordekaiser|Caitlyn|Má dlouhý range a pasti ho trestají.
+Morgana|Caitlyn|Má delší range a pasti ji trestají.
+Morgana|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Naafiri|Jinx|Kituje ji z range a raketami zabije psy.
+Naafiri|Jhin|Pokuje ji z dálky a W ji rootne.
+Naafiri|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Nasus|Kai'Sa|Kituje ho a nedá mu v klidu stackovat.
+Nasus|Jhin|Pokuje ho z dálky a W ho rootne.
+Neeko|Ezreal|Pokuje ji z dálky a blinkem uteče z rootu.
+Nidalee|Jhin|Pokuje ji z dálky a W ji rootne.
+Nidalee|Jinx|Kituje ji z range a v late game ji přeroste.
+Orianna|Lucian|Dashem uhne kouli a v krátkých tradech ji přebije.
+Pantheon|Lucian|Dashem mu uteče a v krátkých tradech ho přebije.
+Pyke|Jinx|Má dlouhý range a E chompers ho chytí.
+Quinn|Lucian|Dashem uhne její Q a v krátkých tradech ji přebije.
+Quinn|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Quinn|Jinx|Má delší range a v late game ji přeroste.
+Rengar|Jhin|Pokuje ho z dálky a W ho rootne.
+Rengar|Ezreal|Blinkem mu uteče ze skoku a pokuje ho z dálky.
+Ryze|Ezreal|Pokuje ho z dálky a blinkem uteče z jeho rootu.
+Sett|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Sion|Lucian|Dashem mu uteče a v krátkých tradech ho přebije.
+Sylas|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Thresh|Caitlyn|Má dlouhý range a za miniony ho hook nechytí.
+Vex|Yunara|Kituje ji z range a W zóna ji zpomalí.
+Viego|Yunara|Kituje ho z range a W zóna ho zpomalí.
+Volibear|Jhin|Pokuje ho z dálky a W ho rootne.
+Volibear|Caitlyn|Má dlouhý range a pasti ho trestají.
+Xin Zhao|Jhin|Pokuje ho z dálky a W ho rootne.
+Zilean|Caitlyn|Má delší range a pasti ho trestají.
+Zoe|Ezreal|Pokuje ji z dálky a blinkem uhne bublině.
+Zoe|Jinx|Kituje ji z range a v late game ji přeroste.

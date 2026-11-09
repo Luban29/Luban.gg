@@ -1,0 +1,80 @@
+Aatrox|Irelia|Dashe přes miniony jí pomáhají uhnout jeho Q a stun z E ho chytí.
+Ahri|Sylas|Zblízka ji přetlačí a ukradne jí R se skoky.
+Akali|Ornn|Vydrží její burst a knockup z E ji zastaví v all-inu.
+Anivia|Tryndamere|Spinem z E se k ní dostane a zblízka ji rozseká.
+Anivia|Gragas|Je silný early a Q s E ji trestá dřív, než se rozjede.
+Ashe|Aatrox|Je silný v dlouhých tradech a W ji přitáhne do Q.
+Aurora|Akali|Ve shroudu ji Aurora netrefí a burst ji zabije.
+Brand|Ornn|Vydrží jeho poke a R s E ho chytí, Brand nemá únik.
+Briar|Jax|Counter Strike (E) zablokuje její útoky a stunne ji uprostřed rage.
+Briar|Malphite|Armor z W tlumí její útoky a R ji zastaví.
+Camille|Warwick|Léčení ho drží v lajně a R ji chytí, když přiskočí z E.
+Cho'Gath|Fiora|Riposte vykryje jeho knockup a true damage z vitálů ho rozloží.
+Darius|Teemo|Kituje ho z range a blind z Q mu kazí stackování pasivu.
+Darius|Quinn|Kituje ho z range a E ho odhodí, když se přiblíží.
+Darius|Ornn|Vydrží jeho trady a E s R ho zastaví dřív, než nastackuje.
+Darius|Warwick|V dlouhém tradu ho přeléčí a R ho chytí.
+Ekko|Garen|Vydrží jeho burst a v dlouhém tradu ho spinem rozseká.
+Elise|Malphite|Armor z W tlumí její burst a R ji zastaví.
+Fiora|Kayle|R zablokuje její all-in a v late game ji Kayle přeroste.
+Fiora|Camille|Stun z E jí kazí parry a true damage z Q ji v tradu bolí.
+Fizz|Malphite|Armor z W tlumí jeho burst a R ho chytí i po E.
+Gangplank|Kled|Je silný early a dash z E ho dostihne dřív, než nachystá sudy.
+Gnar|Singed|Proběhne jeho poke s jedem a fling ho odhodí z bezpečí.
+Gnar|Irelia|Dashe přes miniony ho dostihnou a stun ho chytí.
+Gragas|Shen|Taunt ho zastaví a pasivní štít mu kazí trady.
+Gragas|Kennen|Kituje ho z range a stun z pasivu ho chytí, když přiskočí.
+Gwen|Yone|Zblízka ji přetlačí a díky E se po tradu vrátí do bezpečí.
+Heimerdinger|Ornn|Vydrží palbu jeho věží a R ho chytí i za nimi.
+Illaoi|Teemo|Kituje ji z range a blind z Q jí kazí trady s chapadly.
+Illaoi|Singed|Jed ji drží v pohybu, takže netrefí E, a fling ji odhodí od chapadel.
+Ivern|Yone|Dashe mu uhnou rootu a zblízka ho rozseká.
+Jarvan IV|Yone|Vyhraje dlouhé trady a E ho vrátí z jeho komba.
+Jax|Illaoi|Chapadla ho trestají, když skočí, a E mu vytáhne duši.
+Jhin|Darius|Pull z E ho přitáhne a bleed ho zabije, Jhin nemá únik.
+K'Sante|Fiora|True damage z vitálů obchází jeho odolnost a parry vykryje jeho knockup.
+Kayle|Yone|Trestá ji early, dokud je melee, a dashe uhýbají jejímu Q.
+Kayn|Renekton|Je silný early a stun z W ho zastaví dřív, než se promění.
+Kennen|Nasus|Wither mu sebere rychlost a Nasus ho v late game přeroste.
+Kennen|Sylas|Ukradne mu R a zblízka ho přetlačí.
+Lee Sin|Darius|V dlouhém tradu ho rozseká a pull ho chytí, když se snaží utéct.
+Lee Sin|Zaahen|V dlouhém tradu ho přetlačí a vydrží jeho early burst.
+Lissandra|Cho'Gath|Vydrží její burst a knockup z Q ji chytí.
+Lissandra|Kayle|Přečká její early a v late game ji z range přestřílí.
+Locke|Malphite|Armor z W tlumí jeho burst a R ho chytí.
+Malphite|Singed|Magic damage z jedu obchází jeho armor a fling ho odhodí.
+Malzahar|Dr. Mundo|Vydrží jeho poke a v lajně ho přefarmí, Malzahar ho nemá jak zabít.
+Maokai|Shen|Pasivní štít tlumí jeho trady a taunt ho zastaví.
+Mordekaiser|Heimerdinger|Věže a rakety ho trestají v lajně, takže se k Heimerovi nedostane.
+Naafiri|Tryndamere|R ho zachrání před jejím burstem a v souboji ji rozseká.
+Nasus|Sylas|Trestá ho early, dokud nestackuje, a ukradne mu R.
+Poppy|Garen|Silence z Q ji zastaví a spin ji v dlouhém tradu rozseká.
+Quinn|Irelia|Dashe přes miniony ji dostihnou a stun ji chytí.
+Rek'Sai|Camille|Stun z E ji chytí a true damage z Q ji v tradu rozloží.
+Rengar|Darius|Pull ho chytí, když skočí, a bleed ho rozseká.
+Rumble|Sion|Vydrží jeho plameny a nabitý stun z Q ho chytí.
+Ryze|Dr. Mundo|Vydrží jeho poke a v dlouhém souboji ho přeregeneruje.
+Sett|Malphite|Armor z W tlumí jeho útoky a R ho zastaví.
+Sett|Kayle|Přečká jeho early a v late game ho z range přestřílí.
+Shyvana|Dr. Mundo|Vydrží její trady a v dlouhém souboji ji přeregeneruje.
+Singed|Kayle|Přečká jeho proxy farmu a v late game ho přeroste.
+Skarner|Olaf|R mu dává imunitu proti jeho CC a v souboji ho rozseká.
+Tristana|Irelia|Dashe ji dostihnou i po skoku a stun ji chytí.
+Trundle|Gnar|Kituje ho z range a mega Gnar ho odhodí ke zdi.
+Twisted Fate|Olaf|R mu dá imunitu proti zlaté kartě a zblízka ho rozseká.
+Udyr|Riven|Mobilitou mu uteče z jeho stunu a krátké trady ho trestají.
+Urgot|Malphite|Armor z W tlumí jeho brokovnice a R ho zastaví.
+Urgot|Kayle|Přečká jeho early a v late game ho z range přestřílí.
+Varus|Tahm Kench|Vydrží jeho poke a R ho chytí, když se přiblíží.
+Vayne|Nasus|Wither ji zpomalí a v late game ji Nasus přeroste.
+Vayne|Vladimir|Léčení ho drží v lajně a bazén uhne jejímu condemnu.
+Vladimir|Aatrox|Je silný early a knockupy ho trestají dřív, než se rozjede.
+Vladimir|Yorick|Ghoulové ho tlačí ve vlně a Yorick ho přetlačí v sidelane.
+Volibear|Teemo|Kituje ho z range a blind z Q mu zruší útoky.
+Volibear|Kayle|Přečká jeho early a v late game ho z range přestřílí.
+Yasuo|Sett|V krátkém souboji ho přetlačí a W ho dorazí true damagem.
+Yone|Gangplank|Sudy ho trestají ve vlně a v late game ho Gangplank přeroste.
+Yorick|Shen|Q mu zničí ghouly a taunt ho zastaví.
+Zaahen|Garen|Spin ho rozseká v dlouhém tradu a silence z Q ho zastaví.
+Zac|Darius|R s true damagem obchází jeho regeneraci a pull ho chytí.
+Zilean|Yone|Dashe uhýbají jeho bombám a zblízka ho rozseká.

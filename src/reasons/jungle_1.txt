@@ -1,0 +1,174 @@
+Aatrox|Nidalee|Clearuje rychleji a ganguje dřív, než se Aatrox rozjede.
+Aatrox|Zyra|Rostliny ho trestají v souboji a clearuje rychleji.
+Aatrox|Maokai|Vydrží jeho damage a root z W ho zastaví.
+Aatrox|Ivern|Štíty a root mu zkazí ganky a o kempy s ním nemusí bojovat.
+Akali|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Akshan|Kayn|Projde zdmi na jeho invade a zblízka ho zabije.
+Akshan|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Akshan|Warwick|Sustain vyhrává duel a R ho chytí.
+Akshan|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Alistar|Master Yi|Clearuje mnohem rychleji, Alistar v jungli nestíhá.
+Ambessa|Taliyah|E ji stunne při každém dashi a kamení jí uzavře cestu.
+Ambessa|Master Yi|Škáluje a v pozdním duelu ji přetlačí.
+Ambessa|Kindred|Kituje ji a R jí zkazí all-in.
+Ambessa|Wukong|Klon ji zmate a R ji vyhodí do vzduchu.
+Amumu|Zaahen|Vyhraje duel a revive mu dá druhou šanci.
+Amumu|Shyvana|Clearuje rychleji a % HP damage z E ho rozloží.
+Ashe|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Ashe|Warwick|Sustain vyhrává duel a R ji chytí.
+Ashe|Kayn|Projde zdmi a zblízka ji zabije.
+Aurelion Sol|Viego|Vyhraje duel a trestá ho, dokud nemá stacky.
+Aurelion Sol|Talon|Ganguje rychle přes zdi a bursne ho.
+Aurelion Sol|Rammus|Vydrží jeho poke a tauntem ho chytí.
+Aurelion Sol|Shyvana|Clearuje rychleji a v duelu ho přetlačí.
+Bel'Veth|Taliyah|E ji stunne při dashi a ganguje dřív, než se rozjede.
+Bel'Veth|Udyr|Vyhraje early duel a clearuje rychle.
+Bel'Veth|Ivern|Štíty a root jí zkazí all-in a o kempy s ní nemusí bojovat.
+Bel'Veth|Elise|Je silná early a cocoon ji chytí.
+Blitzcrank|Master Yi|Clearuje mnohem rychleji, Blitz v jungli nestíhá.
+Blitzcrank|Warwick|Sustain a R vyhrávají duel.
+Blitzcrank|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Blitzcrank|Kayn|Clearuje rychleji a projde zdmi.
+Brand|Master Yi|V Q mu uhne z komba a zblízka ho zabije.
+Brand|Viego|Vyhraje duel a dostane ho dřív, než se rozjede burn.
+Brand|Nocturne|R mu vypne vizi a skočí na něj.
+Brand|Evelynn|Ze stealthu ho bursne, Brand nemá únik.
+Briar|Rek'Sai|Invaduje ji early a knockup ji zastaví.
+Briar|Morgana|Root ji zastaví uprostřed frenzy a W ji dorazí.
+Caitlyn|Kayn|Projde zdmi a zblízka ji zabije.
+Caitlyn|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Camille|Wukong|Klon ji zmate a R ji vyhodí do vzduchu.
+Camille|Briar|Je silná early a invaduje ji.
+Camille|Cho'Gath|Vydrží její burst a Q ji vyhodí.
+Camille|Warwick|Sustain vyhrává duel a R ji chytí.
+Cho'Gath|Zyra|Rostliny ho trestají a kituje ho.
+Cho'Gath|Ivern|Clearuje rychleji a štíty mu zkazí ganky.
+Darius|Evelynn|Ze stealthu ho trestá a ganguje bez varování.
+Diana|Taliyah|E ji stunne při dashi a ganguje rychleji.
+Diana|Cho'Gath|Vydrží její burst a W ji umlčí.
+Diana|Warwick|Sustain vyhrává duel a R ji chytí.
+Diana|Master Yi|Škáluje a v pozdním duelu ji přetlačí.
+Draven|Lee Sin|Je silný early a invaduje ho.
+Draven|Kayn|Projde zdmi a zblízka ho zabije.
+Dr. Mundo|Ivern|O kempy s ním nemusí bojovat a štíty mu zkazí ganky.
+Dr. Mundo|Nunu & Willump|Bere objektivy rychleji a sněhovou koulí ho drží na místě.
+Dr. Mundo|Udyr|Vyhrává dlouhé duely a clearuje rychle.
+Ekko|Gragas|E ho srazí z dashe a W tlumí jeho burst.
+Ekko|Rek'Sai|Invaduje ho early a knockup ho zastaví.
+Ekko|Taliyah|E ho stunne při dashi a ganguje rychleji.
+Ekko|Zaahen|Vydrží jeho burst a revive mu dá druhou šanci.
+Elise|Rek'Sai|Invaduje ji early a tunelem jí uteče z cocoonu.
+Elise|Zac|Vydrží její burst a skokem z E ganguje odkudkoli.
+Evelynn|Briar|Invaduje ji před šestkou, Eve je do té doby slabá.
+Evelynn|Rammus|Vydrží její burst a tauntem ji chytí.
+Evelynn|Skarner|Vydrží její burst a suppress ji chytí.
+Ezreal|Lee Sin|Je silný early a invaduje ho.
+Ezreal|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Ezreal|Warwick|Sustain vyhrává duel a R ho chytí.
+Ezreal|Briar|Je silná early a invaduje ho.
+Fiddlesticks|Udyr|Invaduje ho early a clearuje rychleji.
+Fiddlesticks|Cho'Gath|Vydrží jeho fear a W ho umlčí.
+Fiora|Kayn|Clearuje rychleji a projde zdmi.
+Fizz|Shyvana|Clearuje rychleji a vydrží jeho burst.
+Fizz|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Fizz|Diana|Vyhraje duel a R ho přitáhne.
+Fizz|Talon|Ganguje rychleji přes zdi a bursne ho.
+Galio|Master Yi|Clearuje rychleji a fyzický damage obchází jeho štít.
+Galio|Amumu|Vydrží jeho engage a R ho stunne.
+Galio|Cho'Gath|Vydrží jeho engage a W ho umlčí.
+Galio|Wukong|Dává fyzický damage a R ho vyhodí do vzduchu.
+Garen|Cho'Gath|Vydrží jeho spin a W ho umlčí.
+Garen|Rammus|Armor z W tlumí jeho fyzický damage a taunt ho chytí.
+Garen|Lillia|Kituje ho a uspí ho.
+Garen|Lee Sin|Je silný early a invaduje ho.
+Gnar|Kayn|Clearuje rychleji a projde zdmi.
+Gnar|Lee Sin|Je silný early a invaduje ho.
+Gnar|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Gnar|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Gragas|Elise|Je silná early a cocoon ho chytí.
+Gragas|Cho'Gath|Vydrží jeho burst a W ho umlčí.
+Gragas|Kindred|Kituje ho a R mu zkazí all-in.
+Graves|Nidalee|Clearuje stejně rychle a kopím ho pokuje z dálky.
+Graves|Skarner|Vydrží jeho burst a suppress ho chytí.
+Graves|Naafiri|Psi a burst ho zabijí dřív, než se otočí.
+Gwen|Udyr|Vyhraje early duel a clearuje rychle.
+Hecarim|Mordekaiser|R ho izoluje od týmu a v souboji ho přetlačí.
+Heimerdinger|Master Yi|Clearuje mnohem rychleji a v duelu ho přetlačí.
+Heimerdinger|Qiyana|Bursne ho a R ho omráčí.
+Heimerdinger|Rammus|Vydrží věžičky a tauntem ho chytí.
+Heimerdinger|Amumu|Vydrží věžičky a stunem ho chytí.
+Illaoi|Master Yi|Clearuje mnohem rychleji, Illaoi v jungli nestíhá.
+Irelia|Kayn|Clearuje rychleji a projde zdmi.
+Irelia|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Ivern|Taliyah|Ganguje rychle, Ivern se nemá jak bránit.
+Ivern|Sion|Má silnější engage a Ivern mu v souboji nic neudělá.
+Ivern|Rammus|Ganguje rychle a tauntem chytí, Ivern nemá damage.
+Ivern|Maokai|Vydrží jeho damage a root z W ho chytí.
+Jarvan IV|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Jarvan IV|Master Yi|Škáluje a v pozdním duelu ho přetlačí.
+Jarvan IV|Nidalee|Clearuje rychleji a kopím ho pokuje.
+Jax|Kha'Zix|Bursne ho, když je izolovaný, dřív než Jax spustí E.
+Jax|Lillia|Kituje ho a uspí ho.
+Jax|Elise|Je silná early a cocoon ho chytí.
+Jayce|Zyra|Rostliny ho trestají a root ho chytí.
+Jayce|Morgana|Root ho chytí a W ho rozpustí.
+Jayce|Nidalee|Clearuje rychleji a kopím ho pokuje.
+Jayce|Ivern|Štíty mu zkazí ganky a o kempy s ním nemusí bojovat.
+Jhin|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Jhin|Rammus|Taunt ho chytí a Jhin nemá únik.
+Jhin|Lillia|Kituje ho a uspí ho.
+Jhin|Kayn|Projde zdmi a zblízka ho zabije.
+Jinx|Lee Sin|Je silný early a invaduje ji.
+Jinx|Kayn|Projde zdmi a zblízka ji zabije.
+Jinx|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Kai'Sa|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Kai'Sa|Amumu|Vydrží její burst a stunem ji chytí.
+Kai'Sa|Rammus|Armor tlumí její damage a taunt ji chytí.
+Kai'Sa|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Karthus|Bel'Veth|Invaduje ho a zblízka ho přetlačí, Karthus nemá únik.
+Karthus|Sion|Vydrží jeho damage a engage ho chytí.
+Karthus|Dr. Mundo|Má tolik HP a regenerace, že ho Karthus neprorazí.
+Karthus|Sejuani|Vydrží jeho damage a CC ho zastaví.
+Kassadin|Master Yi|Clearuje rychleji a fyzický damage obchází jeho štít.
+Kassadin|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Kassadin|Kayn|Clearuje rychleji a projde zdmi.
+Katarina|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Katarina|Nocturne|R jí vypne vizi a skočí na ni.
+Katarina|Cho'Gath|Vydrží její burst a W ji umlčí uprostřed R.
+Katarina|Wukong|Klon ji zmate a R přeruší její R.
+Kayle|Kayn|Clearuje rychleji a trestá ji, dokud je slabá.
+Kayle|Amumu|Vydrží její damage a stunem ji chytí.
+Kayle|Xin Zhao|Je silný early a skokem z E ji dostihne.
+Kayle|Lillia|Kituje ji a uspí ji.
+Kayn|Master Yi|Škáluje a v pozdním duelu ho přetlačí.
+Kha'Zix|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Kha'Zix|Cho'Gath|Vydrží jeho burst a W ho umlčí.
+Kindred|Elise|Je silná early a cocoon ji chytí.
+Kindred|Zac|Vydrží její damage a skokem z E ji chytí.
+Kindred|Rammus|Armor tlumí její autoattacky a taunt ji chytí.
+Kindred|Zyra|Rostliny ji trestají a root ji chytí.
+Kled|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Kled|Sylas|Vyhraje duel a ukradne mu R.
+Kled|Lillia|Kituje ho a uspí ho.
+Kled|Kayn|Clearuje rychleji a projde zdmi.
+Kog'Maw|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Kog'Maw|Cho'Gath|Vydrží jeho damage a W ho umlčí.
+Kog'Maw|Kha'Zix|Bursne ho, když je izolovaný.
+Kog'Maw|Warwick|Sustain vyhrává duel a R ho chytí.
+K'Sante|Master Yi|Clearuje rychleji a E s true damagem ho rozloží.
+K'Sante|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Lee Sin|Rek'Sai|Je silná early a tunely jí dávají rychlejší ganky.
+Lee Sin|Cho'Gath|Vydrží jeho combo a W ho umlčí.
+Leona|Nocturne|R jí vypne vizi a skočí na ni.
+Leona|Kayn|Clearuje rychleji a projde zdmi.
+Leona|Warwick|Sustain vyhrává duel a R ji chytí.
+Leona|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Lillia|Fizz|E jí uhne z R a burst ji zabije.
+Lillia|Riven|Je silná early a combo ji zabije.
+Lillia|Rumble|Plamen ji trestá v souboji a R ji zpomalí.
+Locke|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Locke|Gragas|E ho srazí a W tlumí jeho burst.
+Locke|Briar|Je silná early a invaduje ho.
+Locke|Nunu & Willump|Vydrží jeho burst a bere objektivy rychleji.
+Lux|Master Yi|V Q jí uhne z komba a zblízka ji zabije.
+Lux|Kayn|Projde zdmi a zblízka ji zabije.

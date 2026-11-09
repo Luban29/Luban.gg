@@ -1,0 +1,265 @@
+Aatrox|Twisted Fate|Pokuje ho z dálky a zlatou kartou přeruší jeho combo.
+Aatrox|Anivia|Zeď ho odřízne a vajíčko ji drží naživu.
+Aatrox|Katarina|Mobilitou mu uhne z Q a burst ho zabije.
+Aatrox|Lissandra|Zmrazí ho z dálky a R zastaví jeho all-in.
+Ahri|Neeko|Pokuje ji a root ji chytí po dashi.
+Ahri|Olaf|R ho udělá imunním na charm a zblízka ji rozseká.
+Akali|Kennen|Pokuje ji z dálky a stun ji chytí, když vyleze ze shroudu.
+Akshan|Annie|Stun ho chytí a burst ho zabije.
+Akshan|Twisted Fate|Zlatá karta ho stunne a vlnu čistí rychleji.
+Akshan|Diana|Bursne ho a R ho přitáhne.
+Alistar|Ahri|Charm ho zastaví a z dálky ho pokuje.
+Alistar|Veigar|Klec ho chytí a v late game ho přeroste.
+Alistar|Diana|Vyhraje lajnu a štít pohltí jeho combo.
+Alistar|Sylas|Ukradne mu R a v lajně ho přetlačí.
+Ambessa|Lissandra|Zmrazí ji a R zastaví její all-in.
+Ambessa|Taliyah|E ji stunne při každém dashi.
+Ambessa|Vex|Pasiv ji trestá za každý dash.
+Ambessa|Hwei|Pokuje ji z dálky a zóny ji trestají za dashe.
+Amumu|Yasuo|Wind wall blokuje jeho Q a zblízka ho přetlačí.
+Anivia|Ahri|Charm ji chytí a přes R uteče ze zdi.
+Annie|Vladimir|Bazén mu uhne z jejího stunu a léčení ho drží v lajně.
+Annie|Lux|Pokuje ji z dálky a root ji chytí.
+Annie|Talon|Roamuje a bursne ji dřív, než nabije stun.
+Aphelios|Viktor|Pokuje ho a W ho zastaví, Aphelios nemá únik.
+Aphelios|Diana|Skočí na něj a bursne ho.
+Aphelios|Veigar|Klec ho chytí a burst ho zabije.
+Aphelios|Yasuo|Wind wall blokuje jeho autoattacky.
+Ashe|Fizz|Uhne jí přes E a burst ji zabije.
+Ashe|Aurelion Sol|Pokuje ji a v late game ji přeroste.
+Ashe|Diana|Skočí na ni a bursne ji.
+Ashe|Katarina|Přes E se k ní dostane a burst ji zabije.
+Aurelion Sol|Katarina|Přes E se k němu dostane a burst ho zabije.
+Aurelion Sol|Kassadin|Blinkem ho dostihne a pasivně snižuje jeho magický damage.
+Aurora|Akshan|Je mobilní a přes E ji dostihne i po jejím skoku.
+Aurora|Talon|Roamuje a bursne ji přes zdi.
+Aurora|Kayle|Škáluje a v late game ji přeroste.
+Aurora|Vel'Koz|Má delší poke range.
+Azir|Ekko|Uhne vojákům přes E a burst ho zabije.
+Azir|Xerath|Má delší poke range.
+Bel'Veth|Yone|Vyhraje lajnu a dashe mu uhýbají.
+Bel'Veth|Akali|Ve shroudu ji nezasáhne a burst ji zabije.
+Bel'Veth|Ahri|Charm ji zastaví a z dálky ji pokuje.
+Bel'Veth|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Blitzcrank|Yasuo|Wind wall blokuje jeho hook.
+Blitzcrank|Lux|Pokuje ho z dálky a root ho chytí.
+Blitzcrank|Ahri|Charm ho chytí a mobilita jí dává útěk z hooku.
+Blitzcrank|Malzahar|Pasivní štít pohltí hook a R ho chytí.
+Brand|Ekko|Uhne mu přes E a burst ho zabije.
+Brand|Fizz|E mu uhne z komba a burst ho zabije.
+Brand|Ahri|Charm ho chytí a mobilita jí dá uhnout jeho stunu.
+Brand|Lux|Má delší range a root ho chytí.
+Briar|Ahri|Charm ji zastaví a mobilita jí dá útěk z frenzy.
+Briar|Hwei|Pokuje ji a zóny ji trestají.
+Briar|Aurora|Je mobilní a pokuje ji.
+Briar|Syndra|E ji odhodí a burst ji zabije.
+Caitlyn|Katarina|Přes E se k ní dostane a burst ji zabije.
+Caitlyn|Hwei|Má delší poke range a zóny ji trestají.
+Caitlyn|Aurora|Je mobilní a bursne ji.
+Caitlyn|Syndra|Stunne ji a bursne.
+Camille|Malzahar|Pasivní štít pohltí její combo a R ji chytí.
+Camille|Lissandra|Zmrazí ji a R ji zastaví.
+Camille|Aurora|Je mobilní a pokuje ji.
+Camille|Hwei|Pokuje ji a zóny ji trestají.
+Cassiopeia|Ekko|Uhne jí přes E a burst ji zabije.
+Cassiopeia|Hwei|Má delší poke range.
+Cassiopeia|Xerath|Má delší poke range.
+Cho'Gath|Ekko|Je mobilní a pokuje ho, Cho ho nechytí.
+Cho'Gath|Lux|Pokuje ho z dálky a root ho chytí.
+Cho'Gath|Anivia|Zeď ho odřízne a z dálky ho pokuje.
+Cho'Gath|Kayle|Škáluje a v late game ho přeroste.
+Corki|Syndra|Stunne ho a bursne.
+Corki|Annie|Stun ho chytí a burst ho zabije.
+Corki|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Corki|Twisted Fate|Zlatá karta ho stunne a roamuje.
+Darius|Katarina|Mobilitou mu uhne a burst ho zabije.
+Darius|Akali|Ve shroudu ji nezasáhne a burst ho zabije.
+Darius|Ahri|Charm ho zastaví a z dálky ho pokuje.
+Darius|Lissandra|Zmrazí ho a R ho zastaví.
+Diana|Zac|Vydrží její burst a skokem z E ji chytí.
+Diana|Nasus|Vydrží její burst a W ji zpomalí.
+Draven|Syndra|Stunne ho a bursne.
+Draven|Veigar|Klec ho chytí a burst ho zabije.
+Draven|Malphite|Armor tlumí jeho sekyry a R ho chytí.
+Draven|Yasuo|Wind wall blokuje jeho sekyry.
+Dr. Mundo|Syndra|Pokuje ho z dálky a E ho odhodí.
+Dr. Mundo|Aurora|Je mobilní a pokuje ho.
+Dr. Mundo|LeBlanc|Pokuje ho a odskočí přes W.
+Dr. Mundo|Akali|Ve shroudu ji Mundo nezasáhne a burst ho bolí.
+Ekko|Singed|Vydrží jeho burst a flipne ho.
+Elise|Ahri|Charm ji chytí a mobilita jí dá uhnout cocoonu.
+Elise|Malzahar|Pasivní štít pohltí její cocoon a R ji chytí.
+Elise|Viktor|Pokuje ji a W ji zastaví.
+Elise|Diana|Vyhraje duel a štít pohltí její burst.
+Evelynn|Fizz|E jí uhne z komba a burst ji zabije.
+Evelynn|Yone|Vyhraje lajnu a R ji chytí.
+Evelynn|Syndra|Stunne ji a bursne.
+Evelynn|Locke|Bursne ji a R ji popraví.
+Ezreal|Katarina|Přes E se k němu dostane a burst ho zabije.
+Ezreal|Xerath|Má delší poke range.
+Ezreal|Yasuo|Wind wall blokuje jeho Q.
+Ezreal|Fizz|E mu uhne z poku a burst ho zabije.
+Fiddlesticks|Zed|Je mobilní a bursne ho dřív, než nabije fear.
+Fiddlesticks|Ekko|Je mobilní a bursne ho.
+Fiddlesticks|Hwei|Pokuje ho z dálky a zóny ho trestají.
+Fiddlesticks|Xerath|Má delší poke range.
+Fiora|Ahri|Charm ji zastaví a z dálky ji pokuje.
+Fiora|Viktor|Pokuje ji a W ji zastaví.
+Fiora|Malzahar|Pasivní štít pohltí její trade a pokuje ji.
+Fiora|Vex|Pasiv ji trestá za každý dash.
+Fizz|Fiora|W odrazí jeho combo a duel vyhraje.
+Fizz|Gragas|E ho srazí a W tlumí jeho burst.
+Galio|Hwei|Má delší poke range a zóny ho trestají.
+Galio|Kled|Dává fyzický damage a Skaarl mu dá druhý život.
+Galio|Tryndamere|Dává fyzický damage, proti kterému Galiův štít nepomůže.
+Gangplank|Hwei|Má delší poke range a zóny ho trestají.
+Gangplank|Akshan|Je mobilní a pokuje ho.
+Gangplank|Aurelion Sol|Pokuje ho a v late game ho přeroste.
+Gangplank|Syndra|Stunne ho a bursne.
+Garen|Lissandra|Zmrazí ho z dálky a R zastaví jeho all-in.
+Garen|Ahri|Charm ho zastaví a z dálky ho pokuje.
+Garen|Pantheon|Je silný early a stun ho chytí.
+Garen|Twisted Fate|Pokuje ho z dálky a roamuje.
+Gnar|Ahri|Charm ho zastaví a z dálky ho pokuje.
+Gnar|Lux|Pokuje ho z dálky a root ho chytí.
+Gnar|Fizz|E mu uhne z bumerangu a burst ho zabije.
+Gnar|Zed|Je mobilnější a bursne ho.
+Gragas|Malzahar|Pasivní štít pohltí jeho E a R ho chytí.
+Gragas|Ahri|Charm ho chytí a mobilita jí dá útěk.
+Gragas|Vladimir|Bazén mu uhne z komba a léčení ho drží v lajně.
+Gragas|Veigar|Klec ho chytí a v late game ho přeroste.
+Graves|Viktor|Pokuje ho a W ho zastaví.
+Graves|Vex|Pasiv ho trestá za každý dash.
+Graves|Anivia|Zeď ho odřízne a z dálky ho kituje.
+Graves|Aurora|Je mobilní a pokuje ho.
+Gwen|Yone|Vyhraje dlouhé trady a dashe mu uhýbají.
+Gwen|Talon|Roamuje a bursne ji přes zdi.
+Gwen|Kog'Maw|Kituje ji a % HP damage ji rozloží.
+Gwen|Tristana|Kituje ji a R ji odhodí z mlhy.
+Heimerdinger|Xerath|Ničí věžičky z dálky a má delší range.
+Heimerdinger|Twisted Fate|Zlatá karta ho stunne a roamuje.
+Heimerdinger|Lux|Ničí věžičky z dálky a root ho chytí.
+Heimerdinger|Hwei|Ničí věžičky z dálky a zóny ho trestají.
+Hwei|Ekko|Uhne mu přes E a burst ho zabije.
+Hwei|Neeko|Pokuje ho a root ho chytí.
+Illaoi|Yasuo|Dashe mu uhýbají z E a tentakly ho nechytí.
+Illaoi|Twisted Fate|Pokuje ji z dálky a roamuje.
+Illaoi|Veigar|Klec ji zastaví a z dálky ji bursne.
+Illaoi|Malzahar|Pasivní štít pohltí její E a R ji chytí.
+Irelia|Heimerdinger|Věžičky ji trestají za každý dash a E ji stunne.
+Irelia|Wukong|Klon ji zmate a R ji vyhodí do vzduchu.
+Irelia|Singed|Vydrží její trady a flipne ji.
+Irelia|Malphite|Armor tlumí její damage a R ji chytí.
+Ivern|Yone|Vyhraje lajnu, Ivern nemá damage.
+Ivern|Syndra|Pokuje ho z dálky a stunne ho.
+Ivern|Sylas|Vyhraje lajnu a ukradne mu R.
+Ivern|Ahri|Charm ho chytí a z dálky ho pokuje.
+Janna|Ahri|Charm ji chytí a z dálky ji pokuje.
+Janna|Yasuo|Wind wall blokuje její Q a dashe ho k ní dostanou.
+Janna|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Jarvan IV|Viktor|Pokuje ho a W ho zastaví.
+Jarvan IV|Anivia|Zeď ho odřízne a z dálky ho kituje.
+Jarvan IV|Yone|Vyhraje dlouhé trady a dashe mu uhýbají.
+Jarvan IV|Sylas|Vyhraje lajnu a ukradne mu R.
+Jax|Katarina|Mobilitou mu uhne a burst ho zabije.
+Jax|Syndra|E ho odhodí, když skočí, a burst ho zabije.
+Jax|Vladimir|Bazén mu uhne z E stunu a léčení ho drží v lajně.
+Jax|Xerath|Pokuje ho z dálky a E ho stunne.
+Jayce|Ekko|Uhne mu přes E a burst ho zabije.
+Jayce|LeBlanc|Bursne ho a odskočí přes W.
+Jayce|Qiyana|Bursne ho a R ho omráčí.
+Jayce|Diana|Skočí na něj a bursne ho.
+Jhin|Zed|Je mobilnější a bursne ho.
+Jhin|Ahri|Charm ho chytí a z dálky ho bursne.
+Jhin|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Jhin|Hwei|Má delší poke range.
+Jinx|Veigar|Klec ji chytí a burst ji zabije.
+Jinx|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Jinx|Diana|Skočí na ni a bursne ji.
+Jinx|Katarina|Přes E se k ní dostane a burst ji zabije.
+Kai'Sa|Yasuo|Wind wall blokuje její Q i autoattacky.
+Kai'Sa|Ekko|Je mobilní a bursne ji.
+Kai'Sa|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Kai'Sa|Ahri|Charm ji chytí a z dálky ji bursne.
+Kalista|Ahri|Charm ji chytí a z dálky ji bursne.
+Kalista|Fizz|E jí uhne a burst ji zabije.
+Kalista|Vex|Pasiv ji trestá za každé hopsnutí.
+Kalista|Anivia|Zeď ji odřízne a z dálky ji kituje.
+Karma|Katarina|Přes E se k ní dostane a burst ji zabije.
+Karma|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Karma|Ahri|Charm ji chytí a z dálky ji bursne.
+Karma|Lux|Má delší range a root ji chytí.
+Karthus|Locke|Bursne ho a R ho popraví.
+Karthus|Vladimir|Bazén mu uhne z Q a léčení ho drží v lajně.
+Karthus|Ekko|Je mobilní a bursne ho.
+Karthus|Ahri|Charm ho chytí a z dálky ho bursne.
+Kassadin|Pantheon|Je silný early a stun ho chytí, než Kassadin dosáhne šestky.
+Kassadin|Sett|Vydrží jeho burst a dává fyzický damage, proti kterému štít nepomůže.
+Kassadin|Master Yi|Fyzický damage obchází jeho štít a v duelu ho přetlačí.
+Kassadin|Heimerdinger|Věžičky ho trestají early a E ho stunne.
+Katarina|Singed|Vydrží její burst a flipne ji.
+Katarina|Heimerdinger|Věžičky ji trestají za každý skok a E ji stunne.
+Katarina|Tryndamere|R ho drží naživu přes její burst.
+Kayle|LeBlanc|Bursne ji early, dokud je slabá.
+Kayle|Anivia|Zeď ji odřízne a z dálky ji kituje.
+Kayle|Twisted Fate|Zlatá karta ji stunne a roamuje, dokud je Kayle slabá.
+Kayle|Syndra|Stunne ji a bursne early.
+Kayn|Ahri|Charm ho chytí a z dálky ho pokuje.
+Kayn|Lissandra|Zmrazí ho a R ho zastaví.
+Kayn|Vladimir|Bazén mu uhne z komba a léčení ho drží v lajně.
+Kayn|Vex|Pasiv ho trestá za dash.
+Kennen|Ahri|Charm ho chytí a z dálky ho pokuje.
+Kennen|Ryze|Škáluje a v dlouhém tradu ho přetlačí.
+Kennen|Kassadin|Pasivně snižuje magický damage a štít z Q pohltí jeho poke.
+Kennen|Aurelion Sol|Pokuje ho a v late game ho přeroste.
+Kha'Zix|Yone|Vyhraje lajnu a W štít pohltí jeho burst.
+Kha'Zix|Ahri|Charm ho chytí a z dálky ho pokuje.
+Kha'Zix|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Kha'Zix|Zed|Je mobilnější a bursne ho.
+Kindred|Veigar|Klec ji chytí a burst ji zabije.
+Kindred|Malzahar|Pasivní štít pohltí její poke a R ji chytí.
+Kindred|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Kindred|Ahri|Charm ji chytí a z dálky ji bursne.
+Kled|Viktor|Pokuje ho a W ho zastaví.
+Kled|Twisted Fate|Pokuje ho z dálky a roamuje.
+Kled|Orianna|Pokuje ho a koule ho zpomalí.
+Kled|Zoe|Bublina ho uspí a z dálky ho pokuje.
+Kog'Maw|Xerath|Má delší poke range.
+Kog'Maw|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Kog'Maw|LeBlanc|Bursne ho a odskočí přes W.
+Kog'Maw|Katarina|Přes E se k němu dostane a burst ho zabije.
+K'Sante|Yone|Vyhraje dlouhé trady a dashe mu uhýbají.
+K'Sante|Lux|Pokuje ho z dálky a root ho chytí.
+K'Sante|Twisted Fate|Pokuje ho z dálky a roamuje.
+K'Sante|Hwei|Pokuje ho a zóny ho drží od těla.
+LeBlanc|Fiddlesticks|Fear ji zastaví po skoku a drain ji dorazí.
+LeBlanc|Naafiri|Psi a burst ji zabijí dřív, než odskočí.
+Lee Sin|LeBlanc|Bursne ho a odskočí přes W.
+Lee Sin|Vex|Pasiv ho trestá za každý dash.
+Lee Sin|Sylas|Vyhraje lajnu a ukradne mu R.
+Lee Sin|Aurora|Je mobilní a pokuje ho.
+Leona|Ahri|Charm ji chytí a z dálky ji pokuje.
+Leona|Yasuo|Vyhraje lajnu a dashe mu uhýbají.
+Leona|Yone|Vyhraje lajnu a dashe mu uhýbají.
+Lillia|Fizz|E jí uhne z R a burst ji zabije.
+Lillia|Ahri|Charm ji chytí a z dálky ji bursne.
+Lillia|Yone|Dashe ho k ní dostanou a R ji chytí.
+Lillia|Lux|Pokuje ji z dálky a root ji chytí.
+Lissandra|Zilean|Bomby ji pokují a revive drží Zileana naživu.
+Lissandra|Kog'Maw|Kituje ji z dálky a % HP damage ji rozloží.
+Lissandra|Gwen|Mlha ji chrání a zblízka ji přebije.
+Locke|Riven|Vyhraje dlouhé trady a combo ho zabije.
+Locke|Kled|Je silný early a Skaarl mu dá druhý život.
+Locke|Akali|Ve shroudu ji nezasáhne a burst ho zabije.
+Lucian|Aurora|Je mobilní a pokuje ho.
+Lucian|Vex|Pasiv ho trestá za každý dash.
+Lucian|Talon|Roamuje a bursne ho přes zdi.
+Lucian|Katarina|Přes E se k němu dostane a burst ho zabije.
+Lulu|Ahri|Charm ji chytí a z dálky ji bursne.
+Lulu|Veigar|Klec ji chytí a burst ji zabije.
+Lulu|Fizz|E jí uhne z polymorphu a burst ji zabije.
+Lulu|Viktor|Pokuje ji a W ji zastaví.
+Lux|Gwen|V mlze ji Lux nezasáhne a zblízka ji zabije.
+Lux|Xerath|Má delší poke range.
+Lux|Aurora|Je mobilní a uhne jejímu Q.
+Lux|Vel'Koz|Má delší poke range a true damage ji rozloží.

@@ -1,0 +1,59 @@
+Aurelion Sol|Rengar|Bursne ho z bushe dřív, než nastackuje.
+Aurelion Sol|Ekko|Je mobilní a bursne ho.
+Aurelion Sol|Jarvan IV|Je silný early a engage s CC ho zastaví.
+Camille|Kayn|Clearuje rychleji a projde zdmi.
+Camille|Jarvan IV|Je silný early a engage má rychlejší.
+Garen|Graves|Clearuje rychleji a kituje ho.
+Garen|Qiyana|Bursne ho a R ho omráčí.
+Garen|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Heimerdinger|Kayn|Clearuje rychleji a projde zdmi.
+Heimerdinger|Jarvan IV|Je silný early a engage s CC ho zastaví.
+Heimerdinger|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Jhin|Cho'Gath|Vydrží jeho damage a knockup ho chytí.
+Jhin|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Jhin|Jarvan IV|Je silný early a engage s CC ho zastaví.
+Kai'Sa|Wukong|Klon ji zmate a R ji vyhodí do vzduchu.
+Kai'Sa|Cho'Gath|Vydrží její burst a knockup ji chytí.
+Kog'Maw|Kayn|Projde zdmi a zblízka ho zabije.
+Kog'Maw|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Kog'Maw|Qiyana|Bursne ho a R ho omráčí.
+Nasus|Kayn|Clearuje rychleji a projde zdmi.
+Nasus|Zac|Vydrží jeho Q a skokem z E ho chytí.
+Nautilus|Jarvan IV|Je silný early a engage má rychlejší.
+Nautilus|Shyvana|Clearuje rychleji a % HP damage ho rozloží.
+Nautilus|Cho'Gath|Vydrží jeho engage a W ho umlčí.
+Neeko|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Neeko|Master Yi|Clearuje rychleji a v duelu ji přetlačí.
+Ornn|Master Yi|Clearuje rychleji a E s true damagem ho rozloží.
+Ornn|Jarvan IV|Je silný early a engage má rychlejší.
+Riven|Cho'Gath|Vydrží její combo a W ji umlčí.
+Rumble|Elise|Je silná early a cocoon ho chytí.
+Rumble|Rengar|Bursne ho z bushe.
+Rumble|Diana|Vyhraje duel a R ho přitáhne.
+Sett|Sylas|Vyhraje duel a ukradne mu R.
+Sett|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Singed|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Singed|Lee Sin|Je silný early a kopnutím ho odhodí.
+Singed|Cho'Gath|Vydrží jeho jed a W ho umlčí.
+Singed|Jarvan IV|Je silný early a engage s CC ho zastaví.
+Taric|Wukong|Klon ho zmate a R ho vyhodí do vzduchu.
+Taric|Viego|Vyhraje duel a resety mu dávají skirmishe.
+Taric|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Taric|Jarvan IV|Je silný early a engage má rychlejší.
+Twisted Fate|Lee Sin|Je silný early a invaduje ho.
+Twisted Fate|Sylas|Vyhraje duel a ukradne mu R.
+Urgot|Lee Sin|Je silný early a invaduje ho.
+Vayne|Kha'Zix|Bursne ji, když je izolovaná.
+Vayne|Cho'Gath|Vydrží její damage a knockup ji chytí.
+Vayne|Lee Sin|Je silný early a invaduje ji.
+Vayne|Sylas|Vyhraje duel a ukradne jí R.
+Yasuo|Lee Sin|Je silný early a invaduje ho.
+Yasuo|Kayn|Clearuje rychleji a projde zdmi.
+Yasuo|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Yone|Lillia|Kituje ho a uspí ho.
+Yone|Master Yi|Clearuje rychleji a v duelu ho přetlačí.
+Yorick|Graves|Clearuje rychleji a brokovnice čistí ghouly.
+Yorick|Qiyana|Bursne ho a R ho omráčí.
+Zeri|Kha'Zix|Bursne ji, když je izolovaná.
+Zeri|Lee Sin|Je silný early a invaduje ji.
+Zeri|Graves|Clearuje rychleji a bursne ji.

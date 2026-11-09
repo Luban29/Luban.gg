@@ -1,0 +1,94 @@
+Akshan|Sion|Vydrží jeho poke a škáluje HP.
+Alistar|Jayce|Pokuje ho z dálky a v lajně ho farmí.
+Alistar|Sett|Je silný early a W s true damagem prorazí jeho tankiness.
+Alistar|Darius|Pull a bleed vyhrávají dlouhé trady.
+Annie|Garen|Silence přeruší její combo a W tlumí burst.
+Annie|Fiora|W odrazí její stun a zblízka ji zabije.
+Annie|Shen|Vydrží její burst a taunt ji chytí.
+Ashe|Malphite|Armor tlumí její autoattacky a R ji chytí.
+Aurelion Sol|Pantheon|Je silný early a stun ho chytí, než nastackuje.
+Caitlyn|Darius|Pull ji chytí a bleed ji zabije.
+Caitlyn|Mordekaiser|R ji izoluje a zblízka ji přetlačí.
+Draven|Gnar|Kituje ho a v Mega formě ho zastaví.
+Ezreal|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Ezreal|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Ezreal|Jax|Skočí na něj přes Q a E zablokuje jeho autoattacky.
+Fizz|Pantheon|Je silný early a stun ho chytí.
+Fizz|Gangplank|Q ho pokuje a W ho očistí z CC.
+Fizz|Nasus|Vydrží jeho burst a W ho zpomalí.
+Graves|Jax|E zablokuje jeho autoattacky a stunne ho.
+Graves|Aatrox|Sustain ho drží v lajně a Q ho trestá.
+Hwei|Pantheon|Je silný early a stun ho chytí.
+Ivern|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Jarvan IV|Darius|Pull ho chytí a bleed vyhraje dlouhý trade.
+Jarvan IV|Gangplank|Q ho pokuje a škáluje lépe.
+Jhin|Yasuo|Wind wall blokuje jeho střely.
+Jhin|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Karthus|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Karthus|Darius|Pull ho chytí a bleed ho zabije.
+Kassadin|Yone|Je silný early a trestá ho, dokud Kassadin nemá R.
+Kassadin|Garen|Dává fyzický damage, proti kterému mu štít nepomůže.
+Kassadin|Gangplank|Q ho pokuje fyzickým damagem a nedá mu farmit.
+Kassadin|Sett|Je silný early a v all-inu ho přetlačí.
+Katarina|Irelia|Vyhraje dlouhé trady a stun ji chytí.
+LeBlanc|Teemo|Pokuje ji z dálky a houby ji trestají při roamech.
+Lee Sin|Gragas|E ho srazí a W tlumí jeho combo.
+Lillia|Garen|Silence ji zastaví a W tlumí její damage.
+Lillia|Malphite|Vydrží její poke a R ji chytí.
+Lucian|Fiora|W odrazí jeho burst a zblízka ho zabije.
+Lulu|Malphite|Vydrží její poke a R ji chytí.
+Lulu|Jayce|Pokuje ji z dálky a v lajně ji přetlačí.
+Lux|Garen|Silence ji zastaví a E ji rozseká, když spálí root.
+Mel|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Miss Fortune|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Morgana|Pantheon|Je silný early a stun ji chytí.
+Morgana|Yasuo|Wind wall blokuje její root a dashe ho k ní dostanou.
+Nautilus|Jayce|Pokuje ho z dálky a knockback ho odhodí.
+Nautilus|Jax|E zablokuje jeho autoattacky a stunne ho.
+Neeko|Gangplank|Q ji pokuje a W ho očistí z rootu.
+Neeko|Yasuo|Wind wall blokuje její root a dashe ho k ní dostanou.
+Nidalee|Garen|Silence ji zastaví a W tlumí její poke.
+Nocturne|Yone|Vyhraje lajnu a W štít pohltí jeho burst.
+Nocturne|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Nocturne|Renekton|Je silný early a stun ho zastaví.
+Nunu & Willump|Yone|Vyhraje lajnu a dashe mu uhýbají z koule.
+Orianna|Teemo|Pokuje ji z dálky a blind jí zkazí trady.
+Rammus|Yone|Dává mixed damage, takže mu armor z W nestačí.
+Rammus|Tryndamere|R ho drží naživu a duel vyhraje.
+Rammus|Malphite|Vydrží jeho engage a R ho chytí.
+Rek'Sai|Zaahen|Vyhraje dlouhé trady a revive mu dá druhou šanci.
+Rek'Sai|Gnar|Kituje ji a v Mega formě ji zastaví.
+Rek'Sai|Urgot|Vyhrává dlouhé trady a R ji na konci popraví.
+Senna|Darius|Pull ji chytí a bleed ji zabije.
+Shaco|Yone|Vyhraje lajnu a W štít pohltí jeho burst.
+Shaco|Renekton|Je silný early a stun ho zastaví.
+Shaco|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Shaco|Nasus|Vydrží jeho burst a W ho zpomalí.
+Skarner|Ornn|Vydrží jeho trady a v teamfightu má silnější engage.
+Skarner|Yone|Vyhraje dlouhé trady a dashe mu uhýbají.
+Soraka|Irelia|Dashuje se k ní po minionech a zblízka ji zabije.
+Syndra|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Syndra|Ornn|Vydrží její burst a E ji chytí.
+Talon|Jayce|Pokuje ho z dálky a knockback ho odhodí, když skočí.
+Talon|Yone|Vyhraje lajnu a W štít pohltí jeho burst.
+Talon|Garen|W tlumí jeho burst a silence ho zastaví.
+Thresh|Darius|Pull ho chytí a bleed vyhraje dlouhý trade.
+Thresh|Yone|Vyhraje lajnu a dashe mu uhýbají z hooku.
+Twitch|Malphite|Armor tlumí jeho autoattacky a R ho chytí.
+Veigar|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Veigar|Yasuo|Wind wall blokuje jeho Q a dashe ho k němu dostanou.
+Vel'Koz|Nasus|Vydrží jeho poke a W ho zpomalí.
+Vex|Yasuo|Wind wall blokuje její Q a zblízka ji přetlačí.
+Vex|Malphite|Vydrží její burst a R ji chytí.
+Vi|Garen|Silence ji zastaví a W tlumí její burst.
+Vi|Mordekaiser|R ji izoluje a magic damage ji rozloží.
+Viego|Jax|E zablokuje jeho autoattacky a stunne ho.
+Viego|Renekton|Je silný early a stun ho zastaví.
+Xerath|Jayce|Pokuje ho z dálky a dostihne ho skokem.
+Zeri|Darius|Pull ji chytí a bleed ji zabije.
+Zeri|Gangplank|Q ji pokuje a škáluje lépe.
+Ziggs|Mordekaiser|R ho izoluje a zblízka ho přetlačí.
+Ziggs|Heimerdinger|Věžičky ho trestají a E ho stunne.
+Ziggs|Malphite|Vydrží jeho poke a R ho chytí.
+Ziggs|Teemo|Pokuje ho z dálky a v lajně ho přetlačí.
+Zyra|Garen|Silence ji zastaví a E roztočí i rostliny.

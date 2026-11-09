@@ -1,0 +1,58 @@
+Akshan|Samira|Zblízka ho rozseká a W zablokuje jeho střely.
+Aphelios|Karthus|Aphelios nemá únik a Q s E ho z dálky rozloží.
+Ashe|Swain|E ji chytí a R ho v all-inu přeléčí.
+Ashe|Yasuo|Wind wall blokuje její autoattacky i šíp z R.
+Ashe|Twitch|Ze stealthu ji chytí a jed ji v souboji rozloží.
+Brand|Vayne|Tumble uhne jeho kombu a W s true damagem ho zabije.
+Brand|Veigar|Klec ho chytí a burst ho zabije, Brand nemá únik.
+Brand|Karthus|Q ho pokuje z dálky a v late game ho přeroste.
+Caitlyn|Ziggs|Pokuje ji z ještě větší dálky a čistí vlnu rychleji.
+Caitlyn|Yasuo|Wind wall blokuje její autoattacky a dashe ho k ní dostanou.
+Caitlyn|Swain|E ji chytí a R ho v all-inu přeléčí.
+Draven|Veigar|Klec ho chytí, když jde chytat sekery, a burst ho zabije.
+Draven|Swain|Vydrží jeho early díky drainu a E ho chytí.
+Ezreal|Zeri|Mobilitou drží krok a v tradu ho přestřílí.
+Ezreal|Kai'Sa|Dashem uhne jeho poku a v teamfightu ho přeroste.
+Heimerdinger|Yunara|Kituje ho z range a věže ničí z bezpečné vzdálenosti.
+Irelia|Sivir|Štít zablokuje její stun a vlnu čistí rychleji.
+Jhin|Swain|Jhin nemá únik a E s R ho v all-inu udolá.
+Jinx|Karthus|Jinx nemá únik a Q ji z dálky rozloží.
+Kai'Sa|Kog'Maw|W mu dává delší range a % HP damage ji rozloží.
+Katarina|Karthus|W ji zpomalí a Q ji rozloží dřív, než se dostane blíž.
+LeBlanc|Ezreal|Pokuje ji z dálky a blinkem uteče jejímu burstu.
+Lucian|Kog'Maw|Přečká jeho early a v late game ho přestřílí.
+Lucian|Xayah|Root ho chytí po dashi a R uhne jeho burstu.
+Lucian|Swain|Vydrží jeho krátké trady drainem a E ho chytí.
+Lux|Karthus|Pokuje ji z dálky a v late game ji přeroste.
+Mel|Veigar|Klec ji chytí a burst ji zabije.
+Mel|Swain|Vydrží její poke drainem a E ji chytí.
+Miss Fortune|Viktor|Pokuje ji a stun z W přeruší její R.
+Nilah|Karthus|Kituje ji Q z dálky a W ji zpomalí.
+Samira|Veigar|Klec ji chytí, když skočí, a burst ji zabije.
+Seraphine|Ziggs|Pokuje ji z dálky a satchel jí kazí engage.
+Seraphine|Kai'Sa|Dostane se k ní přes R a zblízka ji zabije.
+Sivir|Draven|Je silný early a sekyry ji v lajně zničí.
+Smolder|Sivir|Štít zablokuje jeho Q a vlnu čistí rychleji, takže v klidu nestackuje.
+Smolder|Karthus|Q ho pokuje z dálky dřív, než nastackuje.
+Swain|Veigar|Klec ho chytí a burst ho zabije dřív, než se vyléčí.
+Swain|Karthus|Pokuje ho Q z dálky, takže se k němu Swain nedostane.
+Syndra|Sivir|Štít zablokuje její stun a vlnu čistí rychleji.
+Taliyah|Sivir|Štít zablokuje její kameny a vlnu čistí rychleji.
+Teemo|Xayah|Root ho chytí a v tradu ho přestřílí.
+Twisted Fate|Kalista|Je silná early a skáče kolem jeho karet.
+Twisted Fate|Viktor|Pokuje ho a čistí vlnu rychleji.
+Twitch|Swain|E ho chytí, když vyleze ze stealthu, a drain ho přeléčí.
+Varus|Ziggs|Pokuje ho z dálky a satchel uhne jeho R.
+Vel'Koz|Karthus|Q ho pokuje z dálky a v late game ho přeroste.
+Viktor|Veigar|Klec ho chytí a burst ho zabije.
+Vladimir|Yunara|Kituje ho z range a W zóna ho zpomalí.
+Vladimir|Karthus|Pokuje ho z dálky a v late game ho přeroste.
+Xayah|Karthus|Q ji pokuje z dálky a pasiv mu dává damage i po smrti.
+Xerath|Kalista|Skáče kolem jeho skillshotů a v early ho přetlačí.
+Yasuo|Kalista|Je silná early a Rend z E wind wall nezablokuje.
+Yunara|Twitch|Ze stealthu ji chytí a jed ji v souboji rozloží.
+Yunara|Jinx|Má delší range a v late game ji přeroste.
+Ziggs|Sivir|Štít zablokuje jeho poke a vlnu čistí rychleji.
+Ziggs|Kog'Maw|W mu dává delší range a % HP damage ho rozloží.
+Zoe|Yunara|Kituje ji z range a W zóna ji zpomalí.
+Zyra|Twitch|Ze stealthu obejde její rostliny a jed ji rozloží.

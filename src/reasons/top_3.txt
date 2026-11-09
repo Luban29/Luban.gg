@@ -1,0 +1,8 @@
+Kha'Zix|Teemo|Blind mu zruší autoattacky a z dálky ho pokuje.
+Kha'Zix|Darius|Pull ho chytí a bleed vyhraje dlouhý trade.
+Kha'Zix|Mordekaiser|Vydrží jeho burst a v dlouhém tradu ho přetlačí.
+Kha'Zix|Yone|Vyhraje lajnu a W štít pohltí jeho burst.
+Kindred|Sett|Je silný early a v all-inu ji přetlačí.
+Kindred|Malphite|Armor tlumí její autoattacky a R ji chytí.
+Kindred|Mordekaiser|R ji izoluje a zblízka ji přetlačí.
+Kindred|Teemo|Blind jí zruší autoattacky.

@@ -1,0 +1,41 @@
+Aatrox|Elise|Clearuje rychleji a cocoon ho chytí do burstu.
+Amumu|Trundle|Pilíř ho odřízne a R mu sebere odolnost.
+Amumu|Ivern|Clearuje bez boje a štít z E zablokuje jeho engage.
+Brand|Jarvan IV|Je silný early a engage s CC ho zastaví.
+Dr. Mundo|Sylas|Ukradne mu R a magic damage ho rozloží.
+Evelynn|Udyr|Clearuje rychleji a stun z medvědí formy ji zastaví.
+Fizz|Bel'Veth|Vyhraje dlouhý duel a skoky z Q ho dostihnou.
+Gragas|Zyra|Clearuje rychleji a rostliny ho trestají, když skočí.
+Hecarim|Shyvana|Clearuje rychleji a % HP damage ho v souboji rozloží.
+Jax|Quinn|Kituje ho z range a E ho odhodí, když skočí.
+Jayce|Kindred|Clearuje rychleji a stacky z pasivu ho v late game přerostou.
+Kai'Sa|Lillia|Clearuje rychleji a uspí ji dřív, než se dostane na damage.
+Karthus|Lillia|Kituje ho z range a uspí ho, než stihne zahrát R.
+Karthus|Shyvana|Clearuje rychleji a v duelu ho rozseká.
+Kayn|Quinn|Kituje ho z range a E ho odhodí, když skočí.
+Lee Sin|Taliyah|Kameny z E ho trestají, když skočí, a zeď mu zkazí kopnutí.
+Lillia|Kindred|Kituje ji z range a R ji nenechá zabít v souboji.
+Locke|Talon|Clearuje rychleji a bursne ho, když je sám.
+Malphite|Darius|R s true damagem obchází jeho armor a pull ho chytí.
+Maokai|Sylas|Ukradne mu R a magic damage ho rozloží.
+Nasus|Master Yi|Clearuje rychleji a v duelu ho rozseká.
+Nocturne|Lillia|Kituje ho a uspí ho, když skočí přes R.
+Nunu & Willump|Bel'Veth|Clearuje rychleji a v dlouhém duelu ho přetlačí.
+Pantheon|Ekko|Vyhraje skirmish a R ho vrátí z jeho komba.
+Rek'Sai|Shyvana|Clearuje rychleji a % HP damage ji rozloží.
+Sejuani|Taliyah|Clearuje rychleji a zeď z R ji odřízne od engage.
+Shaco|Taliyah|Kameny z E ho trestají a zeď mu kazí ganky.
+Skarner|Bel'Veth|Vyhraje dlouhý duel a skoky z Q mu uhýbají.
+Sylas|Zyra|Rostliny ho trestají, když skočí, a root ho chytí.
+Taliyah|Evelynn|Bursne ji ze stealthu, když je sama.
+Teemo|Ivern|Clearuje bez boje a root ho chytí.
+Volibear|Sejuani|Vydrží jeho engage a CC ho zastaví.
+Volibear|Lillia|Kituje ho a uspí ho, když skočí.
+Volibear|Taliyah|Kameny z E ho trestají, když skočí, a W ho vyhodí.
+Warwick|Cho'Gath|Vydrží jeho duel a W ho umlčí.
+Xin Zhao|Udyr|Vyhraje dlouhý duel a stun ho zastaví.
+Yone|Lee Sin|Je silný early a invaduje ho.
+Zaahen|Evelynn|Clearuje rychleji a bursne ho ze stealthu.
+Zac|Bel'Veth|Vyhraje dlouhý duel a skoky z Q mu uhýbají.
+Zed|Cho'Gath|Vydrží jeho burst a W ho umlčí.
+Zeri|Jarvan IV|Je silný early a engage s CC ji zastaví.

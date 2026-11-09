@@ -1,0 +1,76 @@
+Ahri|Katarina|Shunpo (E) jí uhne charmu a R ji v teamfightu rozseká.
+Akali|Vex|Akali pořád dashuje, takže ji pasiv Vex vystraší a burst ji zabije.
+Anivia|Aurora|Mobilitou uhne jejímu Q a skoky ji zeď nezastaví.
+Annie|Fizz|Přes E uhne jejímu stunu a burst ji zabije.
+Aurora|Ziggs|Pokuje ji z dálky a čistí vlnu rychleji.
+Brand|Diana|Skokem z R se k němu dostane a burst ho zabije.
+Cho'Gath|Hwei|Pokuje ho z dálky a fear ho chytí.
+Diana|Kassadin|Magic štít tlumí její burst a v late game ji přeroste.
+Diana|Vex|Diana dashuje, takže ji pasiv vystraší a burst ji zabije.
+Ekko|Vladimir|Bazén mu uhne z komba a léčení ho drží v lajně.
+Galio|Veigar|Pokuje ho z dálky a klec z E ho chytí.
+Garen|LeBlanc|Pokuje ho a přes W odskočí, takže ji Garen nedohoní.
+Gwen|Taliyah|Kameny z E ji trestají a zeď ji odřízne.
+Heimerdinger|Syndra|Koulemi ničí jeho věže a stun ho chytí.
+Hwei|Fizz|Přes E uhne jeho kouzlům a burst ho zabije.
+Irelia|Vex|Irelia dashuje, takže ji pasiv vystraší a burst ji zabije.
+Irelia|Ekko|Pokuje ji a stun z W ji chytí, když dashne.
+Irelia|Kassadin|Přečká její early a v late game ji přeroste.
+Irelia|Lissandra|Zmrazí ji a R zastaví její all-in.
+Jayce|Taliyah|Kameny z E ho trestají, když skočí, a zeď ho odřízne.
+Jhin|Irelia|Dashe přes miniony ho dostihnou a stun ho chytí.
+Karma|Twisted Fate|Pokuje ji, zlatá karta ji stunne a pak roamuje.
+Karthus|Hwei|Pokuje ho z dálky a fear ho chytí.
+Kassadin|Yone|Je silný early a zblízka ho přetlačí dřív, než Kassadin naroste.
+Kassadin|Qiyana|Je silná early a bursne ho dřív, než naroste.
+Katarina|Yasuo|Wind wall blokuje její Q a zblízka ji přetlačí.
+Katarina|Galio|Taunt z E přeruší její R a W tlumí burst.
+Kog'Maw|Locke|Bursne ho a R ho popraví.
+Lee Sin|Twisted Fate|Pokuje ho z dálky a zlatá karta ho stunne.
+Lissandra|Hwei|Pokuje ji z dálky a fear ji chytí.
+Lissandra|Anivia|Zeď ji odřízne a z dálky ji kituje.
+Lissandra|Vel'Koz|Má delší range a pokuje ji.
+Locke|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk z jeho burstu.
+Lux|Talon|Skáče přes zdi, uhne jejímu Q a bursne ji.
+Malzahar|Taliyah|Pokuje ho z dálky a zeď ho odřízne.
+Malzahar|Fizz|Untargetable E mu uhne z R a burst ho zabije.
+Malzahar|Xerath|Má delší range a pokuje ho z dálky.
+Master Yi|Akali|Ve shroudu ji nenajde a burst ho zabije.
+Mel|Aurelion Sol|Pokuje ji z dálky a v late game ji přeroste.
+Mordekaiser|Twisted Fate|Pokuje ho z dálky a roamuje rychleji.
+Morgana|Twisted Fate|Pokuje ji z dálky, roamuje a zlatá karta ji stunne.
+Naafiri|Lissandra|Zmrazí ji a R zastaví její all-in.
+Olaf|Lissandra|Pokuje ho z dálky a zmrazí ho dřív, než zapne R.
+Ornn|Lissandra|Pokuje ho a zmrazí ho v jeho engage.
+Qiyana|Diana|Vyhraje all-in a R ji přitáhne.
+Qiyana|Vladimir|Bazén mu uhne z jejího komba a léčení ho drží v lajně.
+Qiyana|Vex|Qiyana dashuje, takže ji pasiv vystraší a burst ji zabije.
+Qiyana|Lux|Pokuje ji z dálky a root ji chytí.
+Rumble|Diana|Skokem z R se k němu dostane a burst ho zabije.
+Ryze|Hwei|Pokuje ho z dálky a fear ho chytí.
+Ryze|Xerath|Má delší range a pokuje ho z dálky.
+Sett|Vladimir|Bazén mu uhne z komba a léčení ho drží v lajně.
+Singed|LeBlanc|Pokuje ho a odskočí přes W.
+Sion|Ekko|Je mobilní a pokuje ho.
+Sion|Hwei|Pokuje ho z dálky a fear ho chytí.
+Swain|Aurora|Je mobilní a uhne jeho rootu.
+Sylas|Yasuo|Wind wall blokuje jeho řetěz a zblízka ho přetlačí.
+Sylas|Talon|Bursne ho dřív, než se vyléčí, a roamuje.
+Talon|Lissandra|Zmrazí ho a R zastaví jeho all-in.
+Talon|Vladimir|Bazén mu uhne z komba a léčení ho drží v lajně.
+Teemo|Katarina|Přes E se k němu dostane a burst ho zabije.
+Tristana|Vex|Tristana skáče, takže ji pasiv vystraší a burst ji zabije.
+Twisted Fate|Ziggs|Čistí vlnu rychleji a pokuje ho z dálky.
+Twitch|Katarina|Přes E se k němu dostane a burst ho zabije.
+Varus|Yasuo|Wind wall blokuje jeho šípy a dashe ho k němu dostanou.
+Veigar|Katarina|Přes E uhne kleci a burst ho zabije.
+Veigar|Zed|Je mobilnější a bursne ho.
+Vel'Koz|Zoe|Bublina ho uspí a burst ho zabije.
+Vi|Lissandra|Zmrazí ji a R zastaví její engage.
+Viktor|Locke|Bursne ho a R ho popraví.
+Viktor|Talon|Skáče přes zdi a bursne ho.
+Yasuo|Vladimir|Bazén mu uhne z komba a léčení ho drží v lajně.
+Yasuo|Vex|Yasuo pořád dashuje, takže ho pasiv vystraší a burst ho zabije.
+Yasuo|Taliyah|Zeď z R ho odřízne a kameny ho trestají, když dashne.
+Zed|Ekko|Vydrží jeho burst díky R a stun z W ho chytí.
+Zilean|Ekko|Je mobilní a bursne ho.

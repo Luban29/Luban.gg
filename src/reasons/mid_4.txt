@@ -1,0 +1,114 @@
+Alistar|Akali|Ve shroudu ji nezasáhne a burst ho bolí.
+Alistar|Yone|Vyhraje lajnu a dashe mu uhýbají.
+Aphelios|Syndra|Stunne ho a bursne.
+Aphelios|Ahri|Charm ho chytí a z dálky ho bursne.
+Ashe|Zed|Je mobilnější a bursne ji.
+Ashe|Locke|Bursne ji a R ji popraví.
+Ashe|Yone|Dashe ho k ní dostanou a zblízka ji zabije.
+Caitlyn|Ahri|Charm ji chytí a z dálky ji bursne.
+Caitlyn|Zed|Je mobilnější a bursne ji.
+Camille|Katarina|Mobilitou jí uhne a burst ji zabije.
+Camille|Viktor|Pokuje ji a W ji zastaví.
+Darius|Locke|Bursne ho a R ho popraví.
+Darius|Syndra|E ho odhodí a burst ho zabije.
+Draven|Zed|Je mobilnější a bursne ho.
+Draven|Ahri|Charm ho chytí a z dálky ho bursne.
+Draven|Viktor|Pokuje ho a W ho zastaví.
+Dr. Mundo|Viktor|Pokuje ho a W ho zastaví.
+Dr. Mundo|Zed|Je mobilnější a pokuje ho přes stín.
+Evelynn|Ahri|Charm ji chytí a z dálky ji bursne.
+Fiddlesticks|Sylas|Ukradne mu R a v lajně ho přetlačí.
+Fiddlesticks|Syndra|Stunne ho a bursne.
+Fiora|Vladimir|Bazén mu uhne z jejího komba a léčení ho drží v lajně.
+Graves|Yone|Dashe ho k němu dostanou a zblízka ho zabije.
+Graves|Ahri|Charm ho chytí a z dálky ho bursne.
+Graves|Zed|Je mobilnější a bursne ho.
+Illaoi|Viktor|Pokuje ji a W ji zastaví.
+Illaoi|Katarina|Mobilitou jí uhne z E a burst ji zabije.
+Illaoi|Ahri|Charm ji chytí a z dálky ji pokuje.
+Jarvan IV|Lissandra|Zmrazí ho a R zastaví jeho engage.
+Jarvan IV|Ahri|Charm ho chytí a z dálky ho pokuje.
+Jarvan IV|Lux|Pokuje ho z dálky a root ho chytí.
+Jax|Fizz|Uhne jeho stunu přes E a burst ho zabije.
+Jax|Akali|Ve shroudu ji nezasáhne a burst ho zabije.
+Jinx|Fizz|Uhne jí přes E a burst ji zabije.
+Jinx|Locke|Bursne ji a R ji popraví.
+Jinx|Zed|Je mobilnější a bursne ji.
+Jinx|Syndra|Stunne ji a bursne.
+Kalista|Vladimir|Bazén mu uhne z kopí a léčení ho drží v lajně.
+Kalista|Syndra|Stunne ji a bursne.
+Kalista|Viktor|Pokuje ji a W ji zastaví.
+Kled|Yone|Vyhraje dlouhé trady a dashe mu uhýbají.
+Kled|Ahri|Charm ho chytí a z dálky ho pokuje.
+K'Sante|Viktor|Pokuje ho a W ho zastaví.
+K'Sante|Fizz|E mu uhne z komba a burst ho bolí.
+Lee Sin|Yasuo|Wind wall blokuje jeho Q.
+Lee Sin|Syndra|E ho odhodí, když skočí, a burst ho zabije.
+Lulu|Zed|Je mobilnější a bursne ji.
+Lulu|Katarina|Přes E se k ní dostane a burst ji zabije.
+Lulu|Akali|Ve shroudu ji nezasáhne a burst ji zabije.
+Maokai|Akali|Ve shroudu ji nezasáhne a burst ho bolí.
+Miss Fortune|Ekko|Bursne ji a W stun přeruší její R.
+Miss Fortune|Ahri|Charm ji chytí a z dálky ji bursne.
+Miss Fortune|Locke|Bursne ji a R ji popraví.
+Miss Fortune|Sylas|Ukradne jí R a zblízka ji zabije.
+Nautilus|Sylas|Ukradne mu R a v lajně ho přetlačí.
+Nocturne|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Nocturne|Sylas|Vyhraje lajnu a ukradne mu R.
+Olaf|Viktor|Pokuje ho z dálky a zóna z W ho drží od těla.
+Ornn|Ekko|Je mobilní a pokuje ho.
+Ornn|Ahri|Charm ho chytí a z dálky ho pokuje.
+Ornn|Yone|Vyhraje dlouhé trady a dashe mu uhýbají.
+Poppy|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Pyke|Ahri|Charm ho chytí a z dálky ho bursne.
+Rakan|Yasuo|Vyhraje lajnu, Rakan nemá damage.
+Samira|Yasuo|Wind wall blokuje její střely a dashe ho k ní dostanou.
+Samira|Zed|Je mobilnější a bursne ji.
+Samira|Locke|Bursne ji a R ji popraví.
+Sejuani|Yasuo|Vyhraje lajnu a dashe mu uhýbají.
+Sejuani|Ahri|Charm ji chytí a z dálky ji pokuje.
+Senna|Yasuo|Wind wall blokuje její autoattacky a dashe ho k ní dostanou.
+Seraphine|Syndra|Má delší range a stun ji chytí.
+Seraphine|Ahri|Charm ji chytí a z dálky ji bursne.
+Shaco|Ahri|Charm ho chytí a z dálky ho pokuje.
+Shen|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Shen|Yone|Vyhraje lajnu a dashe mu uhýbají.
+Shen|Twisted Fate|Pokuje ho z dálky a roamuje rychleji než Shen.
+Shyvana|Yasuo|Vyhraje lajnu a dashe mu uhýbají.
+Shyvana|Ahri|Charm ji chytí a z dálky ji pokuje.
+Shyvana|Zed|Je mobilnější a pokuje ji přes stín.
+Sivir|Ahri|Charm ji chytí a z dálky ji bursne.
+Soraka|Ahri|Charm ji chytí a burst ji zabije dřív, než se vyléčí.
+Tahm Kench|Ahri|Charm ho chytí a z dálky ho pokuje.
+Tahm Kench|Twisted Fate|Pokuje ho z dálky a roamuje.
+Tahm Kench|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Teemo|Akali|Ve shroudu ji nezasáhne a burst ho zabije.
+Trundle|Irelia|Vyhraje dlouhé trady a stun ho chytí.
+Udyr|Zed|Je mobilnější a pokuje ho přes stín.
+Udyr|Akali|Ve shroudu ji nezasáhne a burst ho zabije.
+Udyr|Locke|Bursne ho a R ho popraví.
+Urgot|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Urgot|Viktor|Pokuje ho a W ho zastaví.
+Urgot|Locke|Bursne ho a R ho popraví.
+Vayne|Ahri|Charm ji chytí a z dálky ji bursne.
+Vayne|Yasuo|Wind wall blokuje její autoattacky.
+Vayne|Katarina|Přes E se k ní dostane a burst ji zabije.
+Vi|Yone|Vyhraje lajnu a dashe mu uhýbají.
+Vi|Viktor|Pokuje ji a W ji zastaví.
+Warwick|Locke|Bursne ho a R ho popraví.
+Warwick|Yone|Vyhraje dlouhé trady a dashe mu uhýbají.
+Wukong|Ekko|Je mobilní a bursne ho.
+Yorick|Ahri|Charm ho chytí a z dálky ho pokuje.
+Yorick|Locke|Bursne ho a R ho popraví.
+Yunara|Ahri|Charm ji chytí a z dálky ji bursne.
+Yunara|Syndra|Stunne ji a bursne.
+Yunara|Yasuo|Wind wall blokuje její autoattacky.
+Zaahen|Akali|Ve shroudu ji nezasáhne a burst ho zabije.
+Zaahen|Yone|Vyhraje dlouhé trady a dashe mu uhýbají.
+Zaahen|Galio|Vydrží jeho trady a W ho tauntne.
+Zaahen|Sylas|Ukradne mu R a v lajně ho přetlačí.
+Zeri|LeBlanc|Bursne ji a odskočí přes W.
+Zeri|Locke|Bursne ji a R ji popraví.
+Zeri|Twisted Fate|Zlatá karta ji stunne a roamuje.
+Zyra|Aurora|Je mobilní a pokuje ji.
+Zyra|Sylas|Ukradne jí R a zblízka ji zabije.

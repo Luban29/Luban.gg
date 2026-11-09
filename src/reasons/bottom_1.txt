@@ -1,0 +1,233 @@
+Aatrox|Caitlyn|Má dlouhý range a pasti ho zastaví, když skočí.
+Aatrox|Jinx|Kituje ho z range a E chompers ho chytí.
+Aatrox|Ashe|Slow z autoattacků ho kituje a R ho stunne.
+Aatrox|Lucian|Kituje ho dashem a v krátkých tradech ho přebije.
+Ahri|Kai'Sa|Vyhraje dlouhé trady a v late game ji přeroste.
+Ahri|Jinx|Má delší range a v late game ji přeroste.
+Ahri|Twitch|Ze stealthu ji dostihne a v late game ji přeroste.
+Ahri|Lucian|Dashem uhne charmu a v krátkých tradech ji přebije.
+Akali|Kai'Sa|Škáluje a v teamfightu ji přeroste.
+Akali|Miss Fortune|Pokuje ji z range a R ji zasáhne i ve shroudu.
+Akali|Jinx|Kituje ji z range a E chompers ji chytí.
+Akali|Yunara|Kituje ji z range a W zóna ji zpomalí.
+Akshan|Xayah|Root z pírek ho chytí a během R uhne jeho burstu.
+Akshan|Aphelios|Škáluje a v teamfightu ho přeroste.
+Akshan|Yasuo|Wind wall blokuje jeho autoattacky.
+Akshan|Viktor|Pokuje ho a W ho zastaví.
+Alistar|Caitlyn|Má dlouhý range a pasti ho trestají za engage.
+Alistar|Jhin|Pokuje ho z dálky a v lajně ho farmí.
+Alistar|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Alistar|Miss Fortune|Pokuje ho z range a R ho rozstřílí.
+Ambessa|Kai'Sa|Kituje ji z range a v teamfightu ji přeroste.
+Ambessa|Caitlyn|Má dlouhý range a pasti ji zastaví při dashi.
+Ambessa|Jinx|Kituje ji z range a E chompers ji chytí.
+Ambessa|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Anivia|Jhin|Pokuje ji z dálky a W ji rootne.
+Anivia|Xayah|Root ji chytí a z range ji kituje.
+Anivia|Kai'Sa|Pokuje ji z dálky přes W a v late game ji přeroste.
+Anivia|Draven|Je silný early a sekyry ji v lajně zničí.
+Annie|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Annie|Kai'Sa|Kituje ji a v late game ji přeroste.
+Annie|Jinx|Má delší range a v late game ji přeroste.
+Annie|Smolder|Škáluje a z range ji pokuje.
+Aphelios|Nilah|W blokuje jeho autoattacky a zblízka ho přetlačí.
+Aphelios|Hwei|Pokuje ho z dálky a zóny ho trestají, Aphelios nemá únik.
+Aphelios|Tahm Kench|Vydrží jeho poke a zblízka ho přetlačí.
+Ashe|Master Yi|V Q jí uhne a zblízka ji rozseká.
+Aurelion Sol|Xayah|Root ho chytí a během R uhne jeho poku.
+Aurelion Sol|Zeri|Je mobilní a z range ho kituje.
+Aurelion Sol|Karthus|Pokuje ho AoE skilly a R ho zasáhne odkudkoli.
+Aurora|Yasuo|Wind wall blokuje její Q a dashe ho k ní dostanou.
+Aurora|Xayah|Root ji chytí a z range ji kituje.
+Aurora|Lucian|Dashem uhne jejímu Q a v krátkém tradu ji přebije.
+Aurora|Draven|Je silný early a sekyry ji v lajně zničí.
+Azir|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Azir|Aphelios|Škáluje a z range ho rozstřílí.
+Azir|Sivir|Štít blokuje jeho poke a vlnu čistí rychleji.
+Azir|Ashe|Slow ho kituje a R ho stunne.
+Bard|Miss Fortune|Pokuje ho z range a Bard nemá damage.
+Blitzcrank|Caitlyn|Má dlouhý range a za miniony ho hook nechytí.
+Blitzcrank|Miss Fortune|Pokuje ho z range a stojí za miniony.
+Blitzcrank|Jhin|Pokuje ho z dálky a W ho rootne.
+Blitzcrank|Jinx|Má dlouhý range a E chompers ho chytí.
+Brand|Kog'Maw|Má delší range a % HP damage ho rozloží.
+Brand|Hwei|Má delší poke range.
+Brand|Vel'Koz|Má delší poke range.
+Brand|Aurelion Sol|Pokuje ho a v late game ho přeroste.
+Briar|Jinx|Kituje ji z range a E chompers ji chytí ve frenzy.
+Briar|Tristana|Skokem jí uteče a z range ji rozstřílí.
+Briar|Caitlyn|Má dlouhý range a pasti ji zastaví.
+Briar|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Camille|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Camille|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Camille|Jhin|Pokuje ji z dálky a W ji rootne.
+Camille|Jinx|Kituje ji z range a E chompers ji chytí.
+Cassiopeia|Caitlyn|Má delší range a pasti ji trestají.
+Cassiopeia|Sivir|Štít blokuje její poke a vlnu čistí rychleji.
+Cassiopeia|Jhin|Pokuje ji z dálky a W ji rootne.
+Cassiopeia|Zeri|Je mobilní a z range ji kituje.
+Cho'Gath|Kai'Sa|Kituje ho a % HP damage z itemů ho rozloží.
+Cho'Gath|Lucian|Dashem uhne jeho Q a v krátkých tradech ho přebije.
+Cho'Gath|Jinx|Kituje ho z range a v late game ho přeroste.
+Cho'Gath|Xayah|Root ho chytí a z range ho kituje.
+Corki|Jinx|Škáluje a v teamfightu ho přeroste.
+Darius|Tristana|Skokem mu uteče a z range ho rozstřílí.
+Darius|Vayne|Kituje ho a condemn ho odhodí.
+Darius|Xayah|Během R uhne jeho pullu a root ho chytí.
+Darius|Smolder|Kituje ho z range a škáluje přes stacky.
+Diana|Jinx|Kituje ji z range a E chompers ji chytí.
+Diana|Lucian|Dashem uhne jejímu skoku a v krátkém tradu ji přebije.
+Diana|Vayne|Kituje ji a condemn ji odhodí.
+Diana|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Draven|Vel'Koz|Má delší poke range a Draven ho v lajně nedostane.
+Draven|Zyra|Rostliny ho trestají za chytání seker.
+Dr. Mundo|Jinx|Kituje ho z range a škáluje lépe.
+Dr. Mundo|Smolder|Kituje ho a škáluje přes stacky.
+Dr. Mundo|Kai'Sa|Kituje ho a % HP damage z itemů ho rozloží.
+Dr. Mundo|Tristana|Kituje ho z range a skokem mu uteče.
+Ekko|Viktor|Pokuje ho a W ho zastaví.
+Ekko|Xayah|Root ho chytí a během R uhne jeho burstu.
+Ekko|Draven|Je silný early a sekyry ho v lajně zničí.
+Ezreal|Vex|Pasiv ho trestá za každý blink z E.
+Ezreal|Fiora|W odrazí jeho Q a zblízka ho zabije.
+Fiddlesticks|Caitlyn|Má dlouhý range a pasti ho trestají.
+Fiddlesticks|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Fiddlesticks|Jinx|Kituje ho z range a E chompers ho chytí.
+Fiddlesticks|Jhin|Pokuje ho z dálky a W ho rootne.
+Fiora|Yunara|Kituje ji z range a W zóna ji zpomalí.
+Fiora|Vayne|Kituje ji a condemn ji odhodí.
+Fiora|Lucian|Dashem jí uteče a v krátkých tradech ji přebije.
+Fiora|Kalista|Hopsáním ji kituje a z range ji rozstřílí.
+Fizz|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Fizz|Sivir|Štít zablokuje jeho combo a vlnu čistí rychleji.
+Fizz|Kalista|Hopsáním ho kituje a z range ho rozstřílí.
+Fizz|Jinx|Kituje ho z range a E chompers ho chytí.
+Galio|Caitlyn|Má dlouhý range a fyzický damage obchází jeho štít.
+Galio|Miss Fortune|Pokuje ho z range fyzickým damagem.
+Galio|Tristana|Kituje ho z range a skokem mu uteče.
+Galio|Jinx|Kituje ho z range a v late game ho přeroste.
+Gangplank|Caitlyn|Má delší range a pasti ho trestají.
+Gangplank|Miss Fortune|Pokuje ho z range a R ho rozstřílí.
+Gangplank|Twitch|Ze stealthu ho dostihne a v late game ho přeroste.
+Gangplank|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Garen|Tristana|Kituje ho z range a skokem mu uteče.
+Garen|Aphelios|Kituje ho z range a v teamfightu ho přeroste.
+Garen|Vayne|Kituje ho a condemn ho odhodí.
+Garen|Twitch|Kituje ho z range a v late game ho přeroste.
+Gnar|Tristana|Kituje ho z range a skokem mu uteče.
+Gnar|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Gnar|Lucian|Dashem uhne bumerangu a v krátkých tradech ho přebije.
+Gnar|Jhin|Pokuje ho z dálky a W ho rootne.
+Gragas|Jinx|Kituje ho z range a v late game ho přeroste.
+Gragas|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Gragas|Jhin|Pokuje ho z dálky a W ho rootne.
+Gragas|Miss Fortune|Pokuje ho z range a R ho rozstřílí.
+Graves|Ashe|Má delší range a slow ho kituje.
+Graves|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Graves|Jhin|Má delší range a W ho rootne.
+Graves|Aphelios|Má delší range a v teamfightu ho přeroste.
+Gwen|Xayah|Root ji chytí a během R uhne jejímu all-inu.
+Gwen|Aphelios|Kituje ji z range a v teamfightu ji přeroste.
+Gwen|Lucian|Dashem jí uteče a v krátkých tradech ji přebije.
+Gwen|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Heimerdinger|Kalista|Hopsáním uhne granátu a z range ničí věžičky.
+Heimerdinger|Sivir|Štít blokuje jeho granát a vlnu i věžičky čistí rychle.
+Hwei|Katarina|Přes E se k němu dostane a burst ho zabije.
+Hwei|Ziggs|Ničí věž a vlnu z dálky a pokuje ho.
+Hwei|Vayne|Q ji dostane ze zón a W s true damagem ho rozloží.
+Hwei|Vel'Koz|Má delší poke range a true damage ho rozloží.
+Illaoi|Caitlyn|Má dlouhý range a pasti ji trestají.
+Illaoi|Jinx|Kituje ji z range, kam tentakly nedosáhnou.
+Illaoi|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Illaoi|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Irelia|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Irelia|Tristana|Kituje ji z range a skokem jí uteče.
+Irelia|Jinx|Kituje ji z range a E chompers ji chytí.
+Irelia|Yasuo|Vyhraje dlouhé trady a wind wall blokuje její R.
+Jarvan IV|Miss Fortune|Pokuje ho z range a R ho rozstřílí.
+Jarvan IV|Tristana|Kituje ho z range a skokem mu uteče.
+Jarvan IV|Yunara|Kituje ho z range a W zóna ho zpomalí.
+Jarvan IV|Jinx|Kituje ho z range a E chompers ho chytí.
+Jax|Caitlyn|Má dlouhý range a pasti ho trestají za skok.
+Jax|Jinx|Kituje ho z range a E chompers ho chytí.
+Jax|Vayne|Kituje ho a W s true damagem ho rozloží.
+Jax|Smolder|Kituje ho a škáluje přes stacky.
+Jayce|Jinx|Škáluje a v late game ho přeroste.
+Jayce|Lucian|Dashem uhne poku a v krátkých tradech ho přebije.
+Jayce|Miss Fortune|Pokuje ho z range a R ho rozstřílí.
+Jayce|Jhin|Pokuje ho z dálky a W ho rootne.
+Jhin|Katarina|Přes E se k němu dostane a burst ho zabije.
+Jinx|Lux|Pokuje ji z dálky a root ji chytí.
+Kai'Sa|Heimerdinger|Věžičky ji trestají v lajně a E ji stunne.
+Kalista|Karthus|Pokuje ji AoE skilly a R ji zasáhne odkudkoli.
+Kalista|Vladimir|Bazén mu uhne z kopí a léčení ho drží v lajně.
+Kalista|Swain|Léčí se z jejího poku a root ji chytí.
+Karma|Caitlyn|Má dlouhý range a pasti ji trestají.
+Karma|Yunara|Kituje ji z range a W zóna ji zpomalí.
+Karma|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Karma|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Karthus|Sivir|Štít blokuje jeho Q a vlnu čistí rychleji.
+Karthus|Ziggs|Ničí věž a vlnu z dálky a pokuje ho.
+Karthus|Vladimir|Bazén mu uhne z Q a léčení ho drží v lajně.
+Kassadin|Miss Fortune|Pokuje ho z range a fyzický damage obchází jeho štít.
+Kassadin|Jhin|Pokuje ho z dálky a W ho rootne.
+Kassadin|Caitlyn|Má dlouhý range a pasti ho trestají.
+Kassadin|Jinx|Kituje ho z range a E chompers ho chytí.
+Katarina|Xayah|Root ji chytí a během R uhne jejímu R.
+Katarina|Vladimir|Léčí se a bazénem se vyhne jejímu R.
+Katarina|Tristana|Kituje ji z range a R ji odhodí.
+Katarina|Draven|Je silný early a sekyry ji v lajně zničí.
+Kayle|Jinx|Kituje ji z range a škáluje stejně dobře.
+Kayle|Twitch|Ze stealthu ji dostihne a v late game ji přeroste.
+Kayle|Caitlyn|Má dlouhý range a trestá ji early.
+Kayle|Vayne|Trestá ji early a W s true damagem ji rozloží.
+Kayn|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Kayn|Miss Fortune|Pokuje ho z range a R ho rozstřílí.
+Kayn|Jinx|Kituje ho z range a E chompers ho chytí.
+Kayn|Caitlyn|Má dlouhý range a pasti ho trestají.
+Kennen|Miss Fortune|Pokuje ho z range a R ho rozstřílí.
+Kennen|Smolder|Kituje ho a škáluje přes stacky.
+Kennen|Caitlyn|Má delší range a pasti ho trestají.
+Kennen|Twitch|Ze stealthu ho dostihne a v late game ho přeroste.
+Kindred|Jinx|Má delší range a v late game ji přeroste.
+Kindred|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Kindred|Caitlyn|Má delší range a pasti ji trestají.
+Kindred|Smolder|Kituje ji a škáluje přes stacky.
+Kled|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Kled|Jinx|Kituje ho z range a E chompers ho chytí.
+Kled|Tristana|Kituje ho z range a skokem mu uteče.
+Kog'Maw|Senna|Má delší range a W ho rootne.
+K'Sante|Jinx|Kituje ho z range a v late game ho přeroste.
+K'Sante|Miss Fortune|Pokuje ho z range a R ho rozstřílí.
+K'Sante|Caitlyn|Má dlouhý range a pasti ho trestají.
+K'Sante|Kai'Sa|Kituje ho a % HP damage z itemů ho rozloží.
+LeBlanc|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+LeBlanc|Xayah|Root ji chytí a během R uhne jejímu burstu.
+LeBlanc|Jinx|Kituje ji z range a v late game ji přeroste.
+LeBlanc|Caitlyn|Má dlouhý range a pasti ji trestají.
+Lee Sin|Jinx|Kituje ho z range a E chompers ho chytí.
+Lee Sin|Twitch|Ze stealthu ho dostihne a v late game ho přeroste.
+Lee Sin|Samira|W blokuje jeho Q a v all-inu ho přetlačí.
+Lee Sin|Jhin|Pokuje ho z dálky a W ho rootne.
+Leona|Jinx|Kituje ji z range a E chompers ji chytí.
+Leona|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Leona|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Leona|Jhin|Pokuje ji z dálky a W ji rootne.
+Lissandra|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Lissandra|Zeri|Je mobilní a z range ji kituje.
+Lissandra|Ezreal|Pokuje ji z dálky a blinkem uteče z jejího komba.
+Lissandra|Jinx|Kituje ji z range a v late game ji přeroste.
+Locke|Kai'Sa|Kituje ho a v teamfightu ho přeroste.
+Locke|Yasuo|Vyhraje dlouhé trady a dashe mu dávají útěk.
+Locke|Tristana|Kituje ho z range a skokem mu uteče.
+Locke|Jinx|Kituje ho z range a E chompers ho chytí.
+Lucian|Vladimir|Bazén mu uhne z burstu a léčení ho drží v lajně.
+Lucian|Zyra|Rostliny ho trestají za krátký range a root ho chytí.
+Lulu|Jhin|Pokuje ji z dálky a W ji rootne.
+Lulu|Caitlyn|Má dlouhý range a pasti ji trestají.
+Lulu|Kai'Sa|Kituje ji a v teamfightu ji přeroste.
+Lulu|Miss Fortune|Pokuje ji z range a R ji rozstřílí.
+Lux|Sivir|Štít blokuje její root a vlnu čistí rychleji.
+Lux|Aurelion Sol|Pokuje ji a v late game ji přeroste.
+Lux|Yasuo|Wind wall blokuje její root a dashe ho k ní dostanou.
+Lux|Kalista|Hopsáním uhne rootu a z range ji rozstřílí.

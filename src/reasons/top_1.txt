@@ -1,0 +1,245 @@
+Aatrox|Zed|Pokuje ho přes stín a W mu uhne z Q sweet spotů.
+Aatrox|Fiora|W odrazí jeho Q3 a vitaly ho rozloží i přes sustain.
+Ahri|Gragas|E ji srazí a W sníží damage z jejího komba.
+Ahri|Vayne|Q jí uhne z charmu a W s true damagem ji v krátkém tradu roztrhá.
+Akali|Kassadin|Pasivně snižuje magický damage a Q štít pohltí její combo.
+Akali|Rengar|Bursne ji z bushe dřív, než se schová do shroudu.
+Akshan|Jax|E mu zablokuje autoattacky a skokem z Q ho dostihne.
+Akshan|Tryndamere|Dostihne ho přes E a v all-inu ho R drží naživu.
+Akshan|Malphite|Armor tlumí jeho autoattacky a Q ho zpomalí.
+Akshan|Irelia|Dashuje se k němu po minionech a W tlumí jeho damage.
+Alistar|Mordekaiser|Dává magic damage a pasiv rozloží tanka v dlouhém tradu.
+Alistar|Cho'Gath|Vydrží jeho engage, W ho umlčí a R ho dorazí true damagem.
+Alistar|Teemo|Pokuje ho z dálky a blind z Q mu zkazí trady.
+Alistar|Dr. Mundo|Q bere % HP a regenerace ho drží v lajně déle než Alistara.
+Ambessa|Renekton|Je silný early a W stun ji zastaví mezi dashi.
+Amumu|Sett|Je silný early a W s true damagem prorazí jeho tankiness.
+Amumu|Dr. Mundo|Má regeneraci a Q mu bere % HP, Amumu ho v lajně neutáhne.
+Amumu|Mordekaiser|Dává magic damage zblízka a R ho odřízne od týmu.
+Amumu|Nasus|Stackuje v klidu, Amumu ho v lajně netrestá, a W ho zpomalí.
+Anivia|Aurora|Je mobilní, přes W uteče ze zdi a pokuje ji z dálky.
+Anivia|Ekko|Burst z E a pasivu jí rozbije i vajíčko.
+Annie|Nasus|W ji zpomalí, takže neuteče, a Nasus vydrží její burst.
+Annie|Dr. Mundo|Má tolik HP a regenerace, že ho její burst nezabije.
+Annie|Olaf|R ho udělá imunním na její stun a zblízka ji přebije.
+Annie|Yorick|Ghouly a Maiden ji v lajně přetlačí a W klec jí nedá utéct.
+Aphelios|Yone|Přes Q3 a E se k němu dostane a Aphelios nemá žádný únik.
+Aphelios|Jax|E zablokuje jeho autoattacky a Q ho dostihne.
+Aphelios|Nasus|W ho zpomalí a bez dashe mu Aphelios neuteče.
+Aphelios|Malphite|Armor tlumí jeho autoattacky a R ho chytí, Aphelios nemá únik.
+Ashe|Yone|Přes Q3 se k ní dostane a W štít pohltí její poke.
+Ashe|Ornn|Vydrží její poke a E s knockupem ji chytí.
+Ashe|Yasuo|Wind wall blokuje její autoattacky i šíp z R.
+Ashe|Irelia|Dashuje se k ní po minionech a Ashe nemá únik.
+Aurelion Sol|Yone|Trestá ho early, dokud nemá stacky, a dashe mu uhýbají.
+Aurelion Sol|Irelia|Dashuje se k němu po minionech a zblízka ho přebije.
+Aurelion Sol|Zaahen|Vyhraje early trady a W pull ho dostane k sobě.
+Aurelion Sol|Riven|Je silná early a combo ho zabije dřív, než nastackuje.
+Aurora|Irelia|Dashuje se k ní po minionech a stun z E ji zastaví.
+Aurora|Cassiopeia|W jí zakáže skoky a v dlouhém tradu ji přetlačí.
+Aurora|Sion|Má tolik HP, že ho její poke neubije.
+Aurora|Yasuo|Wind wall blokuje její Q a dashe ho k ní dostanou.
+Azir|Ornn|Vydrží poke vojáků a engage z E ho dostihne.
+Azir|Irelia|Dashuje se k němu po minionech, Azir ji early nezastaví.
+Azir|Olaf|R ho udělá imunním na Azirovu R a zblízka ho rozseká.
+Azir|Vladimir|Léčí se z jeho poku a v late game ho přeroste.
+Bard|Mordekaiser|Dává magic damage zblízka a R ho izoluje, Bard v lajně nemá damage.
+Bel'Veth|Garen|Silence z Q přeruší její trade a W sníží damage z autoattacků.
+Bel'Veth|Malphite|Armor tlumí její autoattacky a E jí sníží attack speed.
+Bel'Veth|Renekton|Je silný early a W stun ji zastaví.
+Bel'Veth|Sett|Je silný early a W s true damagem ji v all-inu trestá.
+Blitzcrank|Yone|Je silný v lajně a dashe mu uhýbají z hooku.
+Blitzcrank|Nasus|Stackuje v klidu, Blitz mu v lajně nic neudělá.
+Blitzcrank|Volibear|Q ho stunne a zblízka ho Volibear rozseká.
+Blitzcrank|Teemo|Pokuje ho z dálky a blind mu zkazí trady.
+Brand|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Brand|Akali|Ve shroudu ji nezasáhne a burst ho zabije.
+Brand|Yasuo|Wind wall blokuje jeho Q a dashe ho k němu dostanou.
+Brand|Sion|Má tolik HP, že ho Brandův burn neubije.
+Briar|Garen|Silence z Q ji zastaví a W sníží její damage.
+Briar|Illaoi|Tentakly ji trestají, když se rozběhne do frenzy.
+Briar|Ornn|Vydrží její all-in a E ji chytí.
+Briar|Cho'Gath|Vydrží její all-in a Q s knockupem ji zastaví.
+Caitlyn|Malphite|Armor tlumí její autoattacky a R ji chytí přes celou lajnu.
+Caitlyn|Pantheon|W skok se stunem ji chytí a zblízka ji Pantheon rozseká.
+Caitlyn|Yasuo|Wind wall blokuje její autoattacky i Q.
+Caitlyn|Camille|Hookshot ji dostane k Caitlyn a true damage z Q ji zabije.
+Camille|Zilean|Bomby ji pokují a E ji zpomalí, když chce skočit.
+Camille|Shen|W zablokuje její autoattacky a taunt z E přeruší její skok.
+Camille|Mordekaiser|R ji odřízne od týmu a v dlouhém tradu ji přetlačí.
+Cassiopeia|Tahm Kench|Vydrží její poke a W skokem ji dostihne.
+Cassiopeia|Cho'Gath|Vydrží její DPS a Q s knockupem ji zastaví.
+Cassiopeia|Yorick|Ghouly ji přetlačí v lajně a W klec jí nedá utéct.
+Cho'Gath|Zilean|Bomby ho pokují z dálky a E ho zpomalí, Cho ho nechytí.
+Cho'Gath|Dr. Mundo|Q bere % aktuálního HP, takže čím víc Cho stackuje, tím víc ho bolí.
+Corki|Malphite|Armor tlumí jeho poke a R ho chytí.
+Corki|Kennen|Pokuje ho z dálky a stun ho chytí, když přiletí s W.
+Corki|Gangplank|Q ho pokuje z dálky a škáluje lépe.
+Corki|Dr. Mundo|Má tolik HP a regenerace, že ho Corkiho poke neubije.
+Darius|Zilean|Bomby ho pokují a E ho zpomalí, takže se k Zileanovi nedostane.
+Darius|Zoe|Bublina ho uspí a z dálky ho pokuje.
+Diana|Renekton|Je silný early a W stun ji zastaví.
+Diana|Ornn|Vydrží její burst a E ji chytí.
+Diana|Sett|Vydrží její burst a W jí vrátí damage, který dostal.
+Diana|Olaf|Sustain a R ho drží v boji, Diana ho nezabije.
+Draven|Malphite|Armor tlumí jeho sekyry a R ho chytí.
+Draven|Yasuo|Wind wall blokuje jeho sekyry.
+Draven|Irelia|Dashuje se k němu po minionech a W tlumí jeho damage.
+Draven|Ornn|Armor tlumí jeho damage a E ho chytí.
+Dr. Mundo|Qiyana|Bursne ho dřív, než se regenerace rozjede, a R ho omráčí u zdi.
+Ekko|Yasuo|Wind wall blokuje jeho Q a zblízka ho přetlačí.
+Ekko|Fiora|W odrazí jeho stun a duel vyhraje.
+Ekko|Ambessa|Je silnější early a dashe z pasivu jí dovolí uhnout jeho W.
+Ekko|Akali|Ve shroudu ji Ekko nezasáhne a zblízka ho zabije.
+Elise|Garen|Silence přeruší její combo a W tlumí její burst.
+Elise|Fiora|W odrazí její cocoon a duel vyhraje.
+Elise|Shen|Vydrží její burst a taunt ji chytí.
+Elise|Sion|Má tolik HP, že ho její burst nezabije.
+Evelynn|Garen|Silence ji zastaví a W sníží její burst.
+Evelynn|Darius|Pull ji chytí a bleed ji zabije.
+Evelynn|Yone|Vyhraje lajnu a bursne ji dřív, než se z ní stane hrozba.
+Evelynn|Volibear|Q ji stunne a zblízka ji rozseká.
+Ezreal|Malphite|Armor tlumí jeho poke a R ho chytí.
+Ezreal|Olaf|Q ho zpomalí a zblízka ho rozseká.
+Ezreal|Sion|Vydrží jeho poke a škáluje HP.
+Ezreal|Cho'Gath|Vydrží jeho poke a W ho umlčí.
+Fiddlesticks|Garen|Silence přeruší jeho drain a W tlumí jeho damage.
+Fiddlesticks|Illaoi|Tentakly ho trestají a v dlouhém tradu ho přetlačí.
+Fiddlesticks|Riven|Je silná early a combo ho zabije, než se rozjede.
+Fiddlesticks|Zaahen|Vyhraje early trady a W pull ho dostane k sobě.
+Fiora|Warwick|Sustain a % HP damage z Q mu dají dlouhé trady.
+Fizz|Sett|Vydrží jeho burst a W s true damagem ho potrestá.
+Fizz|Shen|Vydrží jeho burst a taunt ho chytí po E.
+Fizz|Garen|Silence přeruší jeho combo a W tlumí burst.
+Fizz|Riven|Je silná early a stun z W ho zastaví.
+Galio|Garen|Dává fyzický damage, proti kterému Galiův štít nepomůže.
+Galio|Gangplank|Q ho pokuje fyzickým damagem, proti kterému štít nepomůže.
+Galio|Zaahen|Fyzický damage a sustain mu dávají dlouhé trady.
+Galio|Illaoi|Tentakly ho trestají v dlouhých tradech.
+Gangplank|Hwei|Má delší poke range a zóny ho trestají při farmení barelů.
+Garen|Rek'Sai|Je silná early a knockup z unburrow ho zastaví.
+Gnar|Zilean|Bomby ho pokují a E ho zpomalí, mini Gnar ho nedostane.
+Gnar|Lissandra|Zmrazí ho a R zastaví jeho Mega skok.
+Gnar|Ornn|Vydrží jeho poke a v teamfightu má silnější engage.
+Gragas|Zilean|Bomby ho pokují a E ho zpomalí, takže Gragasovo E netrefí.
+Gragas|Ornn|Vydrží jeho poke a itemy si staví přímo v lajně.
+Graves|Malphite|Armor tlumí jeho brokovnici a R ho chytí.
+Graves|Yasuo|Wind wall blokuje jeho střely.
+Graves|Tahm Kench|Vydrží jeho burst a W ho dostihne.
+Graves|Shen|W blokuje jeho autoattacky a taunt ho chytí.
+Gwen|Singed|Flipne ji z mlhy a jed ji trestá, když ho honí.
+Gwen|Warwick|Sustain a % HP damage mu dají dlouhé trady.
+Gwen|Ahri|Charm ji zastaví a z dálky ji pokuje.
+Gwen|Fiora|W odrazí její combo a vitaly ji rozloží.
+Hecarim|Garen|Silence přeruší jeho engage a v dlouhém tradu ho přetlačí.
+Hecarim|Yone|Vyhraje lajnu a W štít pohltí jeho engage.
+Hecarim|Darius|Pull ho chytí a bleed vyhraje dlouhý trade.
+Hecarim|Jax|E zablokuje jeho autoattacky a stunne ho.
+Heimerdinger|Kayle|Škáluje a v late game ho přeroste.
+Heimerdinger|Dr. Mundo|Má HP a regeneraci, takže věžičky ho neubijí.
+Hwei|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Hwei|Dr. Mundo|Má HP a regeneraci, takže ho Hweiův poke neubije.
+Hwei|Ornn|Vydrží jeho poke a E ho chytí.
+Hwei|Yasuo|Wind wall blokuje část jeho skillů a dashe ho k němu dostanou.
+Illaoi|Kayle|Škáluje, z range jí uhýbá a v late game ji přeroste.
+Illaoi|Veigar|Klec ji zastaví a z dálky ji bursne, kam tentakly nedosáhnou.
+Illaoi|Anivia|Zeď ji odřízne a z dálky ji kituje.
+Ivern|Sett|Je silný early, Ivern v lajně nemá damage.
+Ivern|Dr. Mundo|Má HP a regeneraci, Ivern ho neprorazí.
+Ivern|Camille|Je silná early a true damage ho zabije.
+Ivern|Yorick|Ghouly ho přetlačí v lajně.
+Janna|Teemo|Blind a poke ji z dálky trestají.
+Janna|Yone|Je silný v lajně a Janna nemá damage, aby ho zastavila.
+Janna|Malphite|Q ji pokuje a R ji chytí.
+Janna|Sett|Je silný early a Janna nemá damage.
+Jarvan IV|Sett|Vydrží jeho engage a W s true damagem ho potrestá.
+Jarvan IV|Renekton|Je silný early a stun přeruší jeho combo.
+Jarvan IV|Shen|Taunt ho chytí po engage a W blokuje autoattacky.
+Jarvan IV|Cho'Gath|Vydrží jeho engage a Q s knockupem ho zastaví.
+Jax|Ahri|Charm ho zastaví před skokem a z dálky ho pokuje.
+Jax|Vladimir|Bazén mu uhne z E stunu a léčení ho drží v lajně.
+Jayce|Irelia|Dashuje se k němu po minionech a W tlumí jeho poke.
+Jayce|Sion|Vydrží jeho poke a škáluje HP.
+Jhin|Malphite|Armor tlumí jeho střely a R ho chytí.
+Jhin|Kennen|Pokuje ho a stun ho chytí.
+Jhin|Camille|Hookshot ji k němu dostane a Jhin nemá únik.
+Jhin|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Jinx|Teemo|Blind jí zruší autoattacky a z dálky ji pokuje.
+Jinx|Mordekaiser|R ji izoluje a zblízka ji přetlačí.
+Jinx|Dr. Mundo|Má HP a regeneraci a Q ji zpomalí.
+Jinx|Malphite|Armor tlumí její autoattacky a R ji chytí.
+Kai'Sa|Malphite|Armor tlumí její damage a R ji chytí.
+Kai'Sa|Jax|E zablokuje její autoattacky a stunne ji.
+Kai'Sa|Gragas|E ji srazí a Gragas vydrží její burst.
+Kai'Sa|Nasus|W ji zpomalí a Nasus vydrží její burst.
+Kalista|Nasus|W jí sníží attack speed i pohyb, takže nehopsá.
+Kalista|Jax|E zablokuje její autoattacky a Q ji dostihne.
+Kalista|Irelia|Dashuje se k ní po minionech a W tlumí její damage.
+Karma|Irelia|Dashuje se k ní po minionech a zblízka ji přebije.
+Karma|Cho'Gath|Vydrží její poke a W ji umlčí.
+Karma|Ornn|Vydrží její poke a E ji chytí.
+Karma|Yorick|Ghouly ji přetlačí v lajně.
+Karthus|Irelia|Dashuje se k němu po minionech a zblízka ho zabije.
+Karthus|Garen|Silence ho zastaví a zblízka ho Garen zabije.
+Karthus|Nasus|W ho zpomalí a Nasus vydrží jeho Q.
+Karthus|Olaf|Zblízka ho rozseká a R ho udělá imunním na jeho W.
+Kassadin|Renekton|Je silný early a trestá ho, dokud Kassadin nemá R.
+Kassadin|Riven|Je silná early a combo ho zabije, než se rozjede.
+Kassadin|Yorick|Ghouly ho přetlačí a Kassadin nemá jak bránit věž.
+Kassadin|Fiora|Dává fyzický damage, proti kterému mu štít nepomůže, a duel vyhraje.
+Katarina|Malphite|Q ji zpomalí a R přeruší její R.
+Katarina|Shen|Taunt ji chytí a přeruší její R.
+Katarina|Yasuo|Wind wall blokuje její dýky i R.
+Katarina|Mordekaiser|R ji izoluje a zblízka ji přetlačí.
+Kayle|Xin Zhao|Skočí na ni přes E a early ji rozseká, dokud nemá range.
+Kayle|Ekko|Bursne ji early, dokud je slabá.
+Kayn|Malphite|Armor tlumí jeho damage a R ho chytí.
+Kayn|Camille|True damage z Q a hookshot vyhrávají trady.
+Kayn|Teemo|Blind mu zruší autoattacky a z dálky ho pokuje.
+Kayn|Tryndamere|R ho drží naživu a duel vyhraje.
+Kennen|Anivia|Zeď ho odřízne a vajíčko ji drží naživu přes jeho R.
+Kennen|Kassadin|Pasivně snižuje magický damage a štít z Q pohltí jeho poke.
+Kennen|Shyvana|Vydrží jeho poke a E s % HP damagem ho rozloží.
+Kled|Gwen|Mlha ji chrání a % HP damage ho rozloží.
+Kled|Vayne|Kituje ho a condemn ho odhodí, když skočí.
+Kog'Maw|Irelia|Dashuje se k němu po minionech, Kog'Maw nemá únik.
+Kog'Maw|Yasuo|Wind wall blokuje jeho autoattacky.
+Kog'Maw|Shen|W blokuje jeho autoattacky a taunt ho chytí.
+Kog'Maw|Akali|Ve shroudu ji nezasáhne a burst ho zabije.
+K'Sante|Hwei|Pokuje ho z dálky a zóny ho nepustí blízko.
+LeBlanc|Malphite|Vydrží její burst a R ji chytí.
+LeBlanc|Sion|Má tolik HP, že ho její burst nezabije.
+LeBlanc|Gragas|E ji srazí a W tlumí její burst.
+LeBlanc|Ornn|Vydrží její burst a E ji chytí.
+Lee Sin|Volibear|Vydrží jeho combo a Q ho stunne.
+Lee Sin|Sett|Vydrží jeho burst a W s true damagem ho potrestá.
+Lee Sin|Malphite|Armor tlumí jeho damage a R ho chytí.
+Lee Sin|Cho'Gath|Vydrží jeho combo a W ho umlčí.
+Leona|Sett|Je silný early a v all-inu ji přetlačí.
+Leona|Tahm Kench|Vydrží její engage a W ji dostihne.
+Leona|Jax|E zablokuje její autoattacky a stunne ji.
+Leona|Garen|W mu dá tenacity proti jejímu CC a v dlouhém tradu ji přetlačí.
+Lillia|Yone|Je silný v lajně a R ji chytí dřív, než uteče.
+Lillia|Teemo|Blind a houby ji trestají a z dálky ji pokuje.
+Lillia|Riven|Je silná early a combo ji zabije.
+Lillia|Irelia|Dashuje se k ní po minionech a stun ji zastaví.
+Lissandra|Sion|Má tolik HP, že ho její burst nezabije.
+Lissandra|Gwen|Mlha ji chrání a zblízka ji přebije.
+Lissandra|Riven|Je silná early a combo ji zabije.
+Lissandra|Ryze|Škáluje a v dlouhém tradu ji přetlačí.
+Locke|Yasuo|Je silný v lajně a v dlouhém tradu ho přetlačí.
+Locke|Zed|Je mobilnější a bursne ho dřív, než Locke stihne R.
+Locke|Camille|True damage z Q a hookshot vyhrávají trady.
+Locke|Urgot|Vyhrává dlouhé trady a R ho na konci popraví.
+Lucian|Irelia|Dashuje se k němu po minionech a W tlumí jeho burst.
+Lucian|Yasuo|Wind wall blokuje jeho střely.
+Lucian|Garen|Silence ho zastaví a W tlumí jeho burst.
+Lucian|Malphite|Armor tlumí jeho damage a R ho chytí.
+Lulu|Sett|Je silný early a Lulu v lajně nemá damage.
+Lulu|Olaf|Zblízka ji rozseká a R ho udělá imunním na polymorph.
+Lulu|Sion|Vydrží její poke a škáluje HP.
+Lulu|Teemo|Blind a poke ji z dálky trestají.
+Lux|Irelia|Dashuje se k ní po minionech a zblízka ji zabije.
+Lux|Yone|Dashe uhýbají jejímu Q a zblízka ji zabije.
+Lux|Kled|Q ji přitáhne a zblízka ji Kled rozseká.
+Lux|Ornn|Vydrží její poke a E ji chytí.
