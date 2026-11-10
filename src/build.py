@@ -8,7 +8,7 @@ from dump_missing import key, load_have, canon
 from sel import LANES
 from cls_why import CLS_WHY
 
-# Emerald+ only, last 30 days (fetched 7–8 Nov 2026). Modes from e30/sel.py:
+# Emerald+ only, last 30 days (fetched 10 Nov 2026). Modes from e30/sel.py:
 #   E = reliable winner (300+ games), L = reliable picks but none above 50 %, S = winners only with small samples,
 #   C = enemy barely played in the lane, picks by win rate against the enemy's class,
 #   X = not even class data, picks by kit with their overall lane win rate.
@@ -46,7 +46,7 @@ for lane, d in ten.items():
         counts[lane][mode] += 1
 filled = sum(1 for d in out.values() for v in d.values() for p in v[2] if p[4] == 2)
 
-# Items tab: Emerald+ builds from Lolalytics (items/lol.tsv) and pro builds from pros.lol (items/pro.tsv), fetched 8 Nov 2026.
+# Items tab: Emerald+ builds from Lolalytics (items/lol.tsv) and pro builds from pros.lol (items/pro.tsv), fetched 10 Nov 2026.
 # B[lane][champ] = [wr, pick rate, games, start, boots, builds, 4th items, pro]
 #   start = [[ids, share %]], boots = [[id, share %]], builds = [[full ids, wr of the first three, games, share %, most common, k]],
 #   late = situational item ids
@@ -84,7 +84,7 @@ for line in open(os.path.join(HERE, "items", "pro.tsv"), encoding="utf-8"):
             pro, team, win, kda, vs, its = g.split(",")
             games.append([pro, team, int(win), kda, vs, ids(its)])
         B[lane][name][7] = [cnt, used, top, games]
-# Full builds (items/full.tsv, fetched 8 Nov 2026 from the Lolalytics item-set data): each core above is extended item by item
+# Full builds (items/full.tsv, fetched 10 Nov 2026 from the Lolalytics item-set data): each core above is extended item by item
 # with what players who built exactly that start most often bought next, up to six items (bot lane: seven, the 7th by late-game popularity).
 # Per build: ids after the core and k = how many items of the full build come from real item sequences (the rest by popularity).
 # The last field lists other popular late items that are not in any of the three builds (situational picks).

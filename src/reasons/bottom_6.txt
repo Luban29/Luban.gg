@@ -1,0 +1,51 @@
+# Důvody doplněné při aktualizaci 10. 11. 2026 (enemy|pick|proč)
+Ahri|Draven|Silné early trady ji potrestají a sekery ji dostanou dřív, než skočí.
+Akshan|Kai'Sa|V late game ho přeroste a izolované trady ho rozbijí.
+Anivia|Sivir|Spell shieldem zablokuje její stun a vlny čistí rychleji.
+Aphelios|Kog'Maw|V late game ho přeroste a z dálky ho rozstřílí.
+Ashe|Kog'Maw|V late game ji přeroste a dlouhým range ji rozstřílí.
+Aurelion Sol|Draven|Silné early trady ho potrestají dřív, než se rozjede.
+Brand|Viktor|Ve scalingu ho přeroste a pole ho zastaví při poke.
+Cassiopeia|Jinx|Kituje ji z dálky a E ji chytí, když se přiblíží.
+Cho'Gath|Caitlyn|Kituje ho z dálky a pasti ho zastaví při skoku.
+Corki|Zeri|Mobilitou ho v tradech přetlačí a v late game ho přeroste.
+Ekko|Varus|Kituje ho z dálky a R ho chytí při skoku.
+Hwei|Zeri|Mobilitou se vyhne jeho poke a v late game ho přeroste.
+Kalista|Draven|Silné early trady ji potrestají a sekery ji dostanou.
+Karthus|Kog'Maw|V late game ho přeroste a dlouhým range ho rozstřílí.
+Katarina|Kalista|Skáče mezi útoky a kituje ji dřív, než se přiblíží.
+Kennen|Kai'Sa|V late game ho přeroste a izolované trady ho rozbijí.
+Kindred|Aphelios|V late game má víc damage a dlouhým range drží Kindred daleko.
+Lissandra|Caitlyn|Kituje ji z dálky a pasti ji zastaví při skoku.
+Locke|Xayah|Root z pírek zastaví každý all-in a R vykryje burst.
+Lucian|Yasuo|Windwall mu chytí střely a v dlouhém tradu ho přetlačí.
+Lux|Zeri|Mobilitou se vyhne jejímu poke a v late game ji přeroste.
+Mel|Jhin|Poke z dálky ji vyčerpá a W ji chytí do rootu.
+Mel|Kalista|Skáče mezi útoky a v tradech ji přetlačí.
+Miss Fortune|Swain|Drain mu vrátí její poke a v all-inu ji přetlačí.
+Pantheon|Tristana|Kituje ho z dálky a R ho odhodí, když skočí.
+Qiyana|Ezreal|Kituje ji z dálky a E jí uteče z all-inu.
+Senna|Xayah|V tradech ji přetlačí a pírka ji chytí, když se přiblíží.
+Senna|Zeri|Mobilitou se vyhne jejímu poke a v late game ji přeroste.
+Seraphine|Viktor|Ve scalingu ji přeroste a pole ji zastaví v teamfightu.
+Swain|Sivir|Rychle čistí vlny a spell shield jí zablokuje jeho root.
+Swain|Smolder|Ve scalingu se stacky z Q ho přeroste a z dálky ho rozstřílí.
+Sylas|Miss Fortune|Poke z Q ho vyčerpá dřív, než se přiblíží, a v teamfightu ho R dostane.
+Tahm Kench|Xayah|Root z pírek ho zastaví a v tradech ho přetlačí.
+Tahm Kench|Sivir|Rychle čistí vlny a v tradech ho kituje.
+Taliyah|Jhin|Poke z dálky ji vyčerpá a root z W ji chytí.
+Teemo|Aphelios|V late game ho přeroste a z dálky ho rozstřílí.
+Twisted Fate|Aphelios|V tradech ho přetlačí a v late game ho přeroste.
+Twisted Fate|Ashe|Slow z autoattacků ho kituje a R ho chytí.
+Twisted Fate|Zeri|Mobilitou se vyhne jeho kartám a v late game ho přeroste.
+Viktor|Zeri|Mobilitou se vyhne jeho poli a v late game ho přeroste.
+Vladimir|Varus|Kituje ho z dálky a R ho chytí při skoku.
+Xayah|Veigar|Klec ji chytí a v late game ji přeroste.
+Xerath|Yasuo|Windwall mu chytí kouzla a dashem ho dostane.
+Xerath|Zeri|Mobilitou se vyhne jeho poke a dostane se k němu.
+Yunara|Kog'Maw|V late game ji přeroste a dlouhým range ji rozstřílí.
+Zed|Vayne|Kituje ho a E ho přirazí ke zdi, když skočí.
+Zed|Sivir|Spell shield jí zablokuje jeho burst a vlny čistí rychle.
+Ziggs|Veigar|Klec ho chytí a v late game ho přeroste.
+Zoe|Lucian|V krátkých tradech ji přetlačí a dashem uhne jejímu spánku.
+Zyra|Ashe|Slow ji kituje a z dálky ji drží mimo rostliny.

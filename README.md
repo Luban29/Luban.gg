@@ -13,6 +13,11 @@ Web: https://luban29.github.io/Luban.gg/
 - Úprava = změnit soubory v `src/`, spustit `python3 src/build.py`, commitnout a pushnout na `main`.
   GitHub Pages web obnoví zhruba do minuty.
 
+## Aktualizace dat
+
+Skripty v `src/collect/` stahují data v prohlížeči (Lolalytics a pros.lol), skripty v `src/update/` z nich vyrobí
+soubory níže. Postup krok za krokem je v `CLAUDE.md`.
+
 ## Data v `src/`
 
 | Soubor | Co obsahuje |
@@ -27,7 +32,7 @@ Web: https://luban29.github.io/Luban.gg/
 | `meta.py` | championi, jejich typ a tip na lajnu |
 | `why.py`, `alt_why.py`, `reasons/`, `exc.py`, `e30/cls_why.py`, `e30/lane_why.py` | napsané důvody u counterů a popisy, jak picky hrají lajnu |
 
-Data jsou stažená 7. a 8. 11. 2026. Procenta jsou winrate picku v daném matchupu, pokud stránka neříká jinak.
+Data jsou stažená 10. 11. 2026. Procenta jsou winrate picku v daném matchupu, pokud stránka neříká jinak.
 
 ## Poznámka k právům
 

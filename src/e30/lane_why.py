@@ -213,4 +213,7 @@ LANE_WHY = {
     ("support", "Yuumi"): "Přichytí se ke spoluhráči, léčí ho a nejde trefit.",
     ("support", "Zilean"): "Bomby omráčí a R oživí spoluhráče.",
     ("support", "Zyra"): "Rostliny pokují, root z E chytí cíl.",
+    ("top", "Trundle"): "Pilíř z E zastaví ústup a R ukradne tankům staty, takže vyhraje dlouhé trady.",
+    ("mid", "Mel"): "Dlouhý poke z Q, W odrazí projektily zpět a root z E chytí cíl.",
+    ("support", "Camille"): "Hákem z E přeskočí zeď do engage a R uvězní cíl s ADC.",
 }

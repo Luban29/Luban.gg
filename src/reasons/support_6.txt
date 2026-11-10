@@ -1,0 +1,77 @@
+# Důvody doplněné při aktualizaci 10. 11. 2026 (enemy|pick|proč)
+Ahri|Nautilus|Hák ji chytí a R ji dostane i po skoku.
+Amumu|Braum|Štít z E zablokuje jeho bandáž a R ho zastaví při engage.
+Anivia|Xerath|Poke z dálky ji vyčerpá dřív, než se přiblíží.
+Ashe|Sona|Poke a heal ji vyčerpají v dlouhých tradech.
+Ashe|Tahm Kench|Její poke ustojí díky HP a R zachrání ADC před jejím engage.
+Braum|Alistar|Combo W+Q obejde jeho štít a v engage má víc CC.
+Camille|Janna|Tornádo ji zastaví při skoku a R ji odhodí.
+Cho'Gath|Blitzcrank|Hák ho chytí dřív, než stihne Q, a ADC ho rozstřílí.
+Dr. Mundo|Blitzcrank|Hák ho odtáhne od věže a ADC ho rozstřílí.
+Ekko|Alistar|Combo W+Q ho chytí při skoku a v melee ho přetlačí.
+Elise|Janna|Tornádo ji zastaví a štít z E vezme její poke.
+Fiddlesticks|Sona|Poke a heal ho vyčerpají a R ho zastaví při fearu.
+Fiddlesticks|Poppy|Stun o zeď mu přeruší R a v melee ho přetlačí.
+Fizz|Seraphine|Poke z dálky ho vyčerpá a R ho zastaví při skoku.
+Galio|Thresh|Hák ho chytí a lucerna zachrání ADC před jeho R.
+Gragas|Rakan|Je rychlejší v engage a W ho odhodí dřív, než stihne E.
+Gragas|Renata Glasc|R obrátí jeho tým proti sobě a štít z W zachrání ADC.
+Heimerdinger|Leona|Engage přes věžičky ho chytí a ADC ho dorazí.
+Heimerdinger|Senna|Poke z dálky ho vyčerpá a root z W ho chytí.
+Hwei|Senna|Poke z dálky ho vyčerpá a root z W ho chytí.
+Ivern|Nami|Bublina ho chytí a s ADC ho v tradech přetlačí.
+Jarvan IV|Maokai|Jeho engage ustojí a root ho zastaví při skoku.
+Jarvan IV|Nami|Bublina ho chytí a R ho odhodí při engage.
+Jax|Pyke|Hák ho chytí a R ho dorazí.
+Kai'Sa|Nautilus|Hák ji chytí a R ji dostane i po skoku.
+Karthus|Lulu|Polymorph ho zastaví a štít zachrání ADC před jeho burstem.
+Kled|Lulu|Polymorph ho zastaví při skoku a R zachrání ADC.
+Kog'Maw|Leona|Engage ho chytí a ADC ho dorazí dřív, než se rozjede.
+K'Sante|Leona|Má víc CC v engage a ADC ho dorazí.
+Lee Sin|Thresh|Hák ho chytí a lucerna zachrání ADC před jeho kopem.
+Lee Sin|Sona|Poke a heal ho vyčerpají v dlouhých tradech.
+Lee Sin|Leona|Má víc CC v engage a ADC ho dorazí.
+Lissandra|Milio|Očistí ADC z jejího CC a poke ji vyčerpá.
+Locke|Leona|Má víc CC v engage a s ADC vyhraje každý all-in.
+Locke|Nautilus|Hák a R mají větší dosah a s ADC vyhraje každý all-in.
+Lux|Soraka|Heal vrátí ADC všechen její poke a silence ji zastaví.
+Malphite|Lulu|Polymorph ho zastaví a R zachrání ADC před jeho engage.
+Maokai|Amumu|Bandáž ho chytí a R zastaví celý jeho tým.
+Milio|Taric|Stun ho chytí a R zachrání ADC před jeho poke.
+Miss Fortune|Sona|Poke a heal ji vyčerpají v dlouhých tradech.
+Neeko|Sona|Poke a heal ji vyčerpají a R ji zastaví při engage.
+Neeko|Rell|Má víc CC v engage a ADC ji dorazí.
+Nidalee|Poppy|W jí zablokuje skok a stun o zeď ji chytí.
+Nunu & Willump|Leona|Má víc CC v engage a s ADC vyhraje každý all-in.
+Orianna|Nautilus|Hák ji chytí přes vlnu a R ji dostane i z dálky.
+Ornn|Nami|Bublina ho chytí a s ADC ho v tradech přetlačí.
+Ornn|Lux|Poke z dálky ho vyčerpá a root ho zastaví při engage.
+Pantheon|Milio|Očistí ADC z jeho stunu a poke ho vyčerpá.
+Qiyana|Leona|Má víc CC v engage a ADC ji dorazí.
+Rammus|Pyke|Hák ho chytí a R ho dorazí.
+Rek'Sai|Thresh|Hák ji chytí a lucerna zachrání ADC.
+Sejuani|Braum|Štít z E jí zablokuje engage a R ji zastaví.
+Senna|Amumu|Bandáž ji chytí přes vlnu a ADC ji dorazí.
+Sett|Alistar|Combo W+Q ho chytí a v engage ho přetlačí.
+Shaco|Milio|Očistí ADC z jeho fearu a poke ho vyčerpá.
+Shen|Taric|Stun ho chytí při skoku a R zachrání ADC.
+Shen|Zilean|Bomby ho omráčí a R zachrání ADC před jeho engage.
+Skarner|Soraka|Heal vrátí ADC všechen jeho damage a silence ho zastaví.
+Swain|Yuumi|Neustálý poke a heal ho vyčerpají a v lajně nemá koho drainovat.
+Syndra|Leona|Engage ji chytí přes vlnu a ADC ji dorazí.
+Syndra|Neeko|Root ji chytí a R ji zastaví v teamfightu.
+Tahm Kench|Thresh|Hák ho chytí a lucerna zachrání ADC před jeho R.
+Taric|Zilean|Bomby ho omráčí a R zachrání ADC před jeho engage.
+Teemo|Rakan|Engage ho chytí a houbám se vyhne skokem.
+Trundle|Nautilus|Hák ho chytí a R ho dostane i po skoku.
+Trundle|Lulu|Polymorph ho zastaví a štít zachrání ADC.
+Veigar|Brand|Poke z dálky ho vyčerpá a stun ho chytí.
+Vel'Koz|Janna|Tornádo ho zastaví a štít z E vezme jeho poke.
+Vi|Nautilus|Hák ji chytí a R ji dostane i po skoku.
+Vi|Braum|Štít z E jí zablokuje engage a R ji zastaví.
+Wukong|Senna|Poke z dálky ho vyčerpá a root z W ho chytí.
+Yasuo|Karma|Poke z dálky ho vyčerpá a root ho chytí při skoku.
+Zac|Poppy|W mu zablokuje skok z E a stun o zeď ho chytí.
+Zed|Milio|Štíty a heal zachrání ADC před jeho burstem.
+Ziggs|Lulu|Polymorph ho zastaví a štít zachrání ADC před jeho poke.
+Zyra|Janna|Tornádo ji zastaví a štít z E vezme její poke.

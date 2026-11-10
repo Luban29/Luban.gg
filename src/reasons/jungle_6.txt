@@ -1,0 +1,62 @@
+# Důvody doplněné při aktualizaci 10. 11. 2026 (enemy|pick|proč)
+Aatrox|Sejuani|V duelu ho zmrazí a v teamfightu má silnější engage.
+Ambessa|Nidalee|Rychlejší clear a invade ji připraví o farmu.
+Bel'Veth|Cho'Gath|Její duel ustojí díky HP a Q s R ji potrestá.
+Camille|Rengar|Z keře ji bursne dřív, než se stihne bránit, a v early ji přetlačí.
+Darius|Wukong|Klonem z W mu uteče z pasivky a v teamfightu má lepší R.
+Darius|Elise|Kituje ho zámotkem a early invade mu zničí pomalý clear.
+Diana|Bel'Veth|V dlouhém duelu ji přetlačí útočnou rychlostí.
+Dr. Mundo|Zac|Gankuje z větší dálky a v teamfightu ho R rozhodí.
+Ekko|Talon|Rychlejší clear a ganky přes zdi mu nedají prostor rozjet se.
+Evelynn|Sejuani|Její burst ustojí a W ji zmrazí, než stihne kombo.
+Gragas|Nunu & Willump|Q mu ukradne objektivy a sněhová koule předběhne jeho ganky.
+Gwen|Darius|Jakmile ji chytí E, stackne pasivku a R ji dorazí.
+Ivern|Talon|Rychlé ganky a invade ho připraví o pomalé začátky.
+Jarvan IV|Talon|Je po mapě rychlejší a v early invadu ho bursne.
+Jayce|Kha'Zix|Izoluje ho v jungli a z keře ho bursne.
+Kai'Sa|Lee Sin|Silná early fáze a ganky ji potrestají, než se rozjede.
+Kai'Sa|Ekko|Rychlý clear a burst ji dostanou v early dřív, než se rozjede.
+Karthus|Udyr|Rychlý clear a invade ho připraví o farmu a v melee ho rozbije.
+Lillia|Rengar|Z keře ji bursne dřív, než stihne utéct, a v early duelech ji přetlačí.
+Locke|Kha'Zix|Izolované cíle v jungli bursne z keře a early invade trestá pomalý clear.
+Malphite|Zyra|Rychlý clear a ganky s rooty ho předběhnou.
+Maokai|Xin Zhao|Silná early fáze ho potrestá a v duelu ho přetlačí.
+Maokai|Kindred|Krade mu kempy a v early duelu ho přetlačí.
+Mordekaiser|Lillia|Kituje ho rychlostí a uspí ho dřív, než dojde do melee.
+Morgana|Kha'Zix|Izoluje ji v jungli a z keře ji bursne.
+Morgana|Jarvan IV|Silná early fáze a combo E+Q ji chytí dřív, než stihne root.
+Nautilus|Ekko|Rychlý clear a burst ho dostanou dřív, než se rozjede.
+Nautilus|Sylas|Ukradne mu R a v duelu ho přetlačí.
+Neeko|Rengar|Z keře ji bursne a v early duelech ji přetlačí.
+Nocturne|Master Yi|V dlouhém duelu ho přetlačí a Q mu pomůže vyhnout se burstu.
+Nunu & Willump|Rammus|Díky armoru z W vyhraje každý duel a gankuje stejně rychle.
+Pantheon|Fiddlesticks|Fear ho zastaví při skoku a v teamfightu ho R potrestá.
+Qiyana|Rengar|Z keře ji bursne dřív, než stihne kombo.
+Quinn|Sejuani|Při ganku ji chytí a W ji zmrazí, než stihne utéct.
+Quinn|Skarner|R ji chytí a odtáhne rovnou do týmu.
+Rek'Sai|Nunu & Willump|Q jí ukradne objektivy a sněhová koule předběhne její ganky.
+Rumble|Naafiri|Silná early fáze ho potrestá dřív, než se rozjede, a burst ho dostane v duelu.
+Rumble|Kha'Zix|Izoluje ho v jungli a z keře ho bursne.
+Sejuani|Trundle|Ukradne jí staty z R a v duelu ji přetlačí.
+Sett|Lee Sin|Silná early fáze a mobilita mu nedají prostor rozjet se.
+Shen|Kayn|Rychlé ganky a invade ho připraví o farmu.
+Shen|Xin Zhao|Silnou early fází a duelem ho potrestá.
+Shyvana|Udyr|Rychlý clear a invade jí vezmou farmu a v duelu ji přetlačí.
+Singed|Kayn|Rychlé ganky a mobilita ho předběhnou.
+Skarner|Kayn|Rychlé ganky přes zdi ho předběhnou a v teamfightu ho R rozhodí.
+Sylas|Zac|Gankuje z větší dálky a jeho burst ustojí díky pasivce.
+Sylas|Bel'Veth|V dlouhém duelu ho přetlačí útočnou rychlostí.
+Taliyah|Master Yi|V duelu ji přetlačí a Q mu dá únik z jejích kamenů.
+Teemo|Kha'Zix|Izoluje ho v jungli a z keře ho bursne.
+Teemo|Sejuani|Chytí ho W a zmrazí dřív, než stihne utéct.
+Trundle|Nidalee|Rychlý clear a invade ho připraví o farmu.
+Tryndamere|Jayce|Kituje ho z dálky a E ho odhodí, když jde do all-inu.
+Twitch|Graves|Jako silný early jungler mu krade kempy a v duelu ho přetlačí.
+Twitch|Viego|V duelu ho přetlačí a po skoku z R ho dostane i schovaného.
+Vi|Zac|Gankuje z větší dálky a v teamfightu ji R rozhodí.
+Viego|Sejuani|Chytí ho W a zmrazí, než stihne resetovat.
+Yone|Wukong|Klonem mu uhne a v teamfightu má silnější R.
+Yone|Cho'Gath|Jeho burst ustojí díky HP a Q ho chytí při skoku.
+Yorick|Jarvan IV|Rychlé ganky ho předběhnou a R ho uvězní i s ghouly.
+Zaahen|Trundle|Ukradne mu staty z R a v duelu ho přetlačí.
+Zyra|Evelynn|Z neviditelnosti ji bursne dřív, než stihne rostliny.

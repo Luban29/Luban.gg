@@ -1,0 +1,75 @@
+# Důvody doplněné při aktualizaci 10. 11. 2026 (enemy|pick|proč)
+Aatrox|Irelia|Stackuje pasivku na minionech a v dlouhém tradu ho přetlačí.
+Anivia|Kassadin|R ho dostane přes její zeď a v late game ji přeroste.
+Annie|Aurora|Je mobilnější a z dálky ji kituje dřív, než stihne stun.
+Ashe|Ahri|Charm ji chytí a s R jí uteče z dosahu.
+Aurora|Katarina|Resety z dýk ji dostanou v teamfightu a roamem ji v lajně předběhne.
+Aurora|Twisted Fate|Roamem s R ji předběhne a stun ji chytí.
+Azir|Vel'Koz|Poke z dálky ho donutí ustupovat a v teamfightu ho přetlačí.
+Caitlyn|Viktor|Gravitační pole ji zastaví a v teamfightu ji přeroste.
+Camille|Fizz|Přes E jí uhne a v melee ji bursne.
+Cho'Gath|Ahri|Kituje ho z dálky a s R mu uteče z Q.
+Ezreal|Locke|Rychlý all-in dostane Ezreala dřív, než stihne poke.
+Fiddlesticks|Twisted Fate|Roamem s R ho předběhne a stun ho chytí.
+Fiora|Katarina|Uhne jejímu W a resety z dýk ji v melee roztrhají.
+Fiora|Akali|V mlze jí parry nic nechytí a burst ji dostane.
+Galio|Taliyah|Kituje ho z dálky a roamem ho předběhne.
+Gangplank|Ahri|Charm ho chytí a s R mu uteče ze sudů.
+Gragas|Zoe|Poke z dálky ho donutí ustupovat a spánek ho zastaví.
+Graves|Syndra|Stun ho zastaví a burst ho dostane dřív, než se přiblíží.
+Graves|Yasuo|Windwall mu chytí střely a dashem ho dostane.
+Hwei|Aurora|Je mobilnější a jeho poke se vyhne dashem.
+Irelia|Akali|V mlze se jí schová a burst ji dostane po spálení Q.
+Jayce|Veigar|Klec ho chytí a v late game ho přeroste.
+Jayce|Xerath|Poke z dálky ho donutí ustupovat dřív, než se přiblíží.
+Kai'Sa|Viktor|Gravitační pole ji zastaví a v teamfightu ji přetlačí.
+Kalista|Malzahar|R ji potlačí a voidlingové ji v tradech přetlačí.
+Kalista|Xerath|Poke z dálky ji vyčerpá dřív, než se přiblíží.
+Karthus|Syndra|Burst ho dostane dřív, než stihne farmit, a stun ho zastaví.
+Katarina|Fizz|E jí uhne a burst ji dostane dřív, než skočí.
+Kayle|Ekko|Silná early fáze ji potrestá dřív, než se rozjede.
+Kayle|Locke|Silná early fáze Kayle potrestá dřív, než se rozjede.
+Kennen|Annie|Stun ho chytí a burst ho dostane dřív, než skočí.
+Kled|Lissandra|R ho zamrazí při skoku a W ho chytí.
+Kog'Maw|Ekko|Dostane se mu na tělo a burst ho zabije dřív, než se rozjede.
+LeBlanc|Kassadin|Štít z W mu vezme její burst a v late game ji přeroste.
+Lee Sin|Zed|Stíny ho v tradech přetlačí a R ho dostane i po ústupu.
+Locke|Diana|Rychlý all-in s R potrestá každou chybu v pozicování.
+Lucian|Xerath|Poke z dálky ho donutí ustupovat a stun ho chytí při skoku.
+Malphite|Lissandra|R ho zamrazí při skoku a W ho chytí.
+Malzahar|Kassadin|Štít z W mu vezme poke a v late game ho přeroste.
+Master Yi|Xerath|Poke z dálky ho donutí ustupovat a stun ho chytí při skoku.
+Morgana|Hwei|Poke z dálky ji vyčerpá a komba z kouzel ji chytí.
+Naafiri|Ekko|Její burst přečká díky R a W ji omráčí.
+Neeko|Aurelion Sol|Poke z dálky ji udrží daleko a ve scalingu ji přeroste.
+Olaf|Zed|Kituje ho stíny a burst ho dostane dřív, než se přiblíží.
+Pantheon|Lux|Poke z dálky ho vyčerpá a root ho zastaví při skoku.
+Quinn|Akshan|V krátkých tradech ji přetlačí a hákem se dostane z dosahu.
+Riven|Ahri|Charm ji chytí při skoku a z dálky ji kituje.
+Rumble|Xerath|Poke z dálky ho vyčerpá dřív, než se přiblíží.
+Shen|Viktor|Kituje ho z dálky a gravitační pole ho zastaví při skoku.
+Sion|Twisted Fate|Roamem s R ho předběhne a stun ho chytí.
+Smolder|Fizz|Přes E mu uhne a bursne ho dřív, než se rozjede.
+Swain|Ekko|Dostane se mu na tělo a burst ho zabije dřív, než stihne drain.
+Sylas|Hwei|Poke z dálky ho vyčerpá dřív, než se přiblíží.
+Syndra|Xerath|Poke z dálky ji vyčerpá dřív, než se dostane do range.
+Talon|LeBlanc|Bursne ho dřív, než stihne kombo, a W jí dá bezpečný únik.
+Talon|Taliyah|Minové pole z E ho potrestá za každý dash a zeď z R mu zablokuje cestu.
+Tristana|Xerath|Poke z dálky ji vyčerpá dřív, než skočí.
+Twitch|Zoe|Spánek ho chytí i po neviditelnosti a burst ho dostane.
+Udyr|Yasuo|V krátkých tradech ho přetlačí a dashem mu uteče.
+Vex|Annie|Stun ji chytí a burst ji dostane dřív, než stihne R.
+Vi|Locke|Kituje Vi z dálky a po jejím Q jí uteče.
+Viego|Katarina|Resety z dýk ho dostanou v teamfightu a roamem ho v lajně předběhne.
+Viego|Diana|Burst s R ho dostane dřív, než stihne resetovat.
+Vladimir|Zoe|Poke z dálky ho vyčerpá a spánek ho chytí.
+Vladimir|Vel'Koz|Poke z dálky ho vyčerpá dřív, než se rozjede.
+Volibear|Taliyah|Kituje ho z dálky a minové pole ho potrestá za skok.
+Xin Zhao|Twisted Fate|Roamem s R ho předběhne a stun ho chytí.
+Yone|Vladimir|Díky poolu přežije jeho all-in a v dlouhém tradu ho přetlačí.
+Zaahen|Syndra|Kituje ho z dálky a stun ho zastaví při skoku.
+Zac|Yone|Rychlými trady ho přetlačí a E mu dá únik z jeho skoku.
+Zeri|Syndra|Burst ji dostane dřív, než se přiblíží, a stun ji zastaví.
+Zilean|LeBlanc|Bursne ho dřív, než stihne R.
+Zoe|Akshan|Hákem se dostane z jejího spánku a v krátkých tradech ji přetlačí.
+Zyra|Katarina|Resety ji dostanou přes rostliny a burst ji zabije.

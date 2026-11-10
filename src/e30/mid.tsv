@@ -1,173 +1,173 @@
-Aatrox	S	6117	Twisted Fate:60.1:223,Anivia:62.1:116,Katarina:58.2:201,Lissandra:54.2:236
-Ahri	L	581440	Katarina:49.3:19126
-Akali	E	401841	Lissandra:54.1:13904,Twisted Fate:54.0:11570,Vex:53.2:7427,Taliyah:53.4:3764
-Akshan	E	128331	Yasuo:55.0:4238,Annie:53.2:1913,Twisted Fate:52.0:3534,Diana:52.0:2578
+Aatrox	S	6083	Anivia:65.0:120,Katarina:59.4:197,Twisted Fate:57.8:230,Irelia:57.1:105
+Ahri	L	600487	Katarina:49.2:19730
+Akali	E	419001	Twisted Fate:54.2:12008,Lissandra:54.0:14475,Vex:53.5:7873,Taliyah:53.7:4245
+Akshan	E	128679	Yasuo:54.8:4157,Annie:53.1:2003,Twisted Fate:51.8:3459,Diana:52.0:2623
 Alistar	N	0	
-Ambessa	E	13591	Lissandra:54.3:311,Taliyah:61.2:152,Vex:60.7:135,Hwei:55.9:247
+Ambessa	E	13556	Lissandra:55.1:316,Taliyah:61.4:158,Vex:59.3:140,Hwei:56.1:246
 Amumu	N	0	
-Anivia	E	132938	Ahri:51.1:7048,Xerath:51.5:3745,Vel'Koz:52.2:878,Aurora:50.5:2180
-Annie	E	106546	Syndra:51.0:5029,Vladimir:50.5:2225,Veigar:50.7:1838,Fizz:50.3:2546
-Aphelios	S	355	Syndra:58.1:105,Ahri:55.7:149,Viktor:55.5:101
-Ashe	S	2715	Zed:62.5:144,Locke:60.5:172,Katarina:60.8:130,Yone:59.4:180
-Aurelion Sol	E	97270	Yone:55.4:4225,Fizz:53.3:2475,Katarina:51.6:3131,Kassadin:51.7:1782
-Aurora	E	150157	Akshan:51.5:1980,Talon:50.2:1366,Ziggs:50.9:509
-Azir	E	107286	LeBlanc:56.1:3210,Ekko:55.3:2908,Xerath:54.5:2734,Syndra:53.8:5054
+Anivia	E	134975	Ahri:51.0:7300,Xerath:51.2:3781,Aurora:50.6:2193,Kassadin:50.5:2203
+Annie	E	109068	Syndra:51.0:5258,Veigar:51.4:1922,Vladimir:50.8:2280,Aurora:51.3:1406
+Aphelios	S	250	Syndra:60.2:103,Ahri:58.5:147
+Ashe	S	2690	Yone:64.2:176,Locke:64.0:175,Katarina:62.7:126,Ahri:57.5:247
+Aurelion Sol	E	99283	Yone:55.5:4253,Fizz:52.7:2550,Katarina:52.0:3133,Zed:51.0:3263
+Aurora	E	150816	Akshan:51.5:1970,Katarina:50.2:4296,Twisted Fate:50.1:4065,Talon:50.4:1381
+Azir	E	107695	LeBlanc:56.0:3297,Vel'Koz:56.7:623,Syndra:54.0:5125,Ekko:54.4:2894
 Bard	N	0	
 Bel'Veth	N	0	
 Blitzcrank	N	0	
-Brand	E	34051	Ekko:53.3:899,Fizz:52.9:912,Ahri:50.6:1793,Diana:52.0:614
+Brand	E	34002	Fizz:53.0:884,Ekko:52.9:903,Diana:52.9:618,Ahri:51.0:1824
 Braum	N	0	
-Briar	E	10214	Ahri:54.6:540,Hwei:59.6:223,Aurora:60.8:143,Syndra:51.3:468
-Caitlyn	E	4211	Ahri:55.5:312,Katarina:64.7:190,Zed:59.4:224,Syndra:59.0:212
-Camille	S	2905	Malzahar:60.8:107,Lissandra:59.4:101,Katarina:51.8:191,Viktor:50.9:171
-Cassiopeia	E	68084	Vel'Koz:59.1:487,Xerath:54.7:1546,Hwei:54.8:1384,Syndra:53.6:3828
-Cho'Gath	E	30861	Ekko:55.4:870,Lux:55.1:610,Anivia:55.4:390,Hwei:53.3:638
-Corki	E	16234	Syndra:58.1:719,Twisted Fate:58.2:526,Annie:61.1:157,Yone:56.3:840
-Darius	S	3280	Ahri:63.2:125,Locke:56.0:225,Katarina:54.0:174,Syndra:55.6:115
-Diana	E	202577	Yasuo:51.0:8285,Ekko:50.3:5288,Kassadin:50.4:2697,Vex:50.1:3275
-Dr. Mundo	S	3282	LeBlanc:59.9:167,Viktor:57.1:247,Zed:56.8:234,Akali:56.6:166
-Draven	S	1348	Syndra:58.5:130,Zed:57.8:147,Ahri:54.3:173,Viktor:55.2:134
-Ekko	L	296816	Vladimir:49.6:6584
-Elise	S	365	Ahri:54.4:125
+Briar	E	9978	Ahri:53.2:534,Hwei:60.7:219,Aurora:57.5:134,Syndra:51.4:457
+Caitlyn	E	3982	Ahri:53.9:323,Katarina:64.1:181,Zed:60.3:209,Viktor:59.5:237
+Camille	S	2794	Lissandra:56.6:106,Katarina:50.8:185,Viktor:50.3:167,Fizz:50.4:115
+Cassiopeia	E	72169	Vel'Koz:57.0:533,Xerath:54.4:1618,Ekko:54.1:1832,Hwei:54.4:1452
+Cho'Gath	E	29836	Ekko:55.7:864,Lux:55.2:578,Hwei:54.7:609,Ahri:53.3:1419
+Corki	E	16704	Syndra:58.5:764,Zoe:61.1:275,Twisted Fate:58.1:537,Yone:56.3:842
+Darius	S	3321	Ahri:57.7:130,Syndra:57.8:116,Locke:54.7:225,Katarina:53.7:177
+Diana	E	203952	Yasuo:50.7:8307,Ekko:50.2:5365,Kassadin:50.4:2689
+Draven	S	1352	Yasuo:62.8:102,Syndra:59.1:127,Zed:57.1:147,Viktor:57.4:129
+Dr. Mundo	S	3352	Viktor:58.6:256,LeBlanc:59.3:162,Akali:57.5:181,Zed:56.0:250
+Ekko	L	301499	Vladimir:49.6:6712
+Elise	S	350	Ahri:53.7:121
 Evelynn	N	0	
-Ezreal	E	19510	Katarina:62.0:690,Xerath:61.4:531,Yasuo:59.6:824,Fizz:59.0:551
-Fiddlesticks	S	3350	Ekko:55.1:118,Sylas:53.3:165,Syndra:51.3:199,Zed:50.7:217
-Fiora	S	3576	Malzahar:56.7:104,Ahri:52.2:232,Viktor:54.1:135,Vladimir:54.5:101
-Fizz	E	297930	Lissandra:50.9:11386,Diana:50.4:6419
-Galio	E	240185	Hwei:54.6:4247,Vel'Koz:55.8:1039,Ahri:53.4:11112,Veigar:53.1:3294
-Gangplank	E	22307	Hwei:55.0:413,Akshan:57.0:251,Aurelion Sol:56.8:206,Syndra:52.2:927
-Garen	E	27333	Lissandra:53.4:534,Ahri:51.3:1056,Twisted Fate:52.2:582,LeBlanc:52.0:561
+Ezreal	E	20193	Katarina:62.9:701,Xerath:60.9:552,Yasuo:58.3:812,Locke:57.4:805
+Fiddlesticks	S	3288	Syndra:52.6:211,Sylas:53.3:150,Ekko:54.2:120,Twisted Fate:50.7:136
+Fiora	S	3230	Katarina:53.7:175,Malzahar:55.7:106,Akali:53.0:166,Ahri:51.3:226
+Fizz	E	298228	Lissandra:50.7:11596,Diana:50.4:6503
+Galio	E	247235	Hwei:55.4:4391,Ahri:53.7:11828,Vel'Koz:55.4:1093,Taliyah:53.3:2416
+Gangplank	E	21852	Syndra:53.2:923,Akshan:56.6:221,Aurelion Sol:56.6:198,Ahri:52.3:1217
+Garen	E	27298	Lissandra:53.2:538,Twisted Fate:52.3:581,LeBlanc:51.6:566,Ahri:50.3:1079
 Gnar	N	0	
-Gragas	E	29722	Malzahar:52.3:666,Ahri:50.8:1474,Vladimir:51.6:702,Veigar:51.4:555
-Graves	S	492	Yone:60.9:115,Ahri:59.4:138,Zed:52.4:126
-Gwen	E	29087	Yone:50.5:1319,Taliyah:50.9:283
+Gragas	E	29301	Malzahar:53.2:641,Ahri:50.8:1494,Zoe:52.9:369,Vladimir:51.3:686
+Graves	S	581	Ahri:64.1:131,Yone:59.3:113,Syndra:59.6:104,Yasuo:50.5:105
+Gwen	E	28711	Yone:50.2:1278
 Hecarim	N	0	
-Heimerdinger	E	14199	Xerath:55.4:343,Twisted Fate:53.4:393,Lux:53.1:307,Syndra:51.5:569
-Hwei	E	211981	Katarina:51.8:6314,Xerath:51.8:6966,Ekko:50.9:5310,Fizz:50.3:5180
-Illaoi	S	2225	Yasuo:56.3:231,Katarina:52.3:128,Viktor:52.9:104,Ahri:51.4:111
-Irelia	E	164382	Vex:53.5:3327,Ekko:52.5:3739,Kassadin:52.4:2628,Lissandra:51.8:4616
+Heimerdinger	E	13956	Twisted Fate:54.9:386,Xerath:53.8:346,Hwei:54.0:272,Syndra:51.9:570
+Hwei	E	213055	Katarina:51.9:6285,Xerath:51.8:6896,Ekko:50.9:5406,Aurora:50.5:3217
+Illaoi	S	2208	Yasuo:53.6:224,Ahri:52.9:119,Katarina:51.2:125,Viktor:51.9:106
+Irelia	E	164869	Vex:53.4:3306,Ekko:53.0:3755,Akali:51.6:6570,Lissandra:51.8:4613
 Ivern	N	0	
 Janna	N	0	
-Jarvan IV	S	2077	Lissandra:61.0:105,Ahri:56.1:196,Lux:57.7:104,Viktor:55.9:143
-Jax	S	3469	Syndra:62.6:115,Fizz:61.5:109,Katarina:55.7:185,Akali:56.8:118
-Jayce	E	40641	Ekko:54.7:1013,LeBlanc:54.3:1060,Diana:54.8:684,Taliyah:55.6:448
-Jhin	E	7743	Zed:55.5:344,Yone:54.7:391,Ahri:54.0:524,Irelia:57.6:118
+Jarvan IV	S	2111	Lissandra:60.4:106,Ahri:56.1:198,Lux:57.7:104,Viktor:54.3:153
+Jax	S	3505	Fizz:60.2:113,Akali:59.2:125,Syndra:59.0:117,Katarina:56.0:193
+Jayce	E	40937	Taliyah:55.7:479,Veigar:55.3:541,Ekko:54.0:1012,Xerath:54.3:784
+Jhin	E	7523	Zed:57.9:347,Hwei:57.4:190,Yone:55.2:377,Ahri:53.9:531
 Jinx	N	0	
-K'Sante	E	4132	Yone:56.7:307,Viktor:56.9:197,Twisted Fate:57.7:130,Fizz:54.7:170
-Kai'Sa	E	13632	Yasuo:57.1:622,Yone:56.9:571,Ekko:57.6:406,Ahri:55.4:868
-Kalista	E	4022	Ahri:52.0:321,Vladimir:57.8:128,Syndra:53.5:269,Viktor:52.9:221
-Karma	E	9229	Katarina:58.6:331,Yone:56.5:432,Ahri:55.6:606,Twisted Fate:57.6:236
-Karthus	E	7340	Ahri:50.3:473,Vladimir:54.3:175,Ekko:53.1:211,Hwei:53.7:162
-Kassadin	E	174128	Zed:51.4:4478,Yone:50.9:9575,Qiyana:51.0:2636,Talon:51.3:1516
-Katarina	E	387490	Vladimir:53.1:10180,Kassadin:52.0:7769,Yasuo:50.5:18089,Galio:50.5:10598
-Kayle	E	29847	LeBlanc:55.1:768,Anivia:54.6:359,Twisted Fate:52.6:756,Syndra:50.8:1190
-Kayn	S	258	Ahri:55.1:107
-Kennen	E	19524	Kassadin:51.8:305,Ryze:53.6:196,Aurelion Sol:50.8:181
+Kai'Sa	E	13659	Ekko:58.0:407,Viktor:56.9:634,Yasuo:56.4:614,Ahri:55.5:880
+Kalista	S	4130	Syndra:54.3:265,Vladimir:56.7:127,Malzahar:52.8:142,Xerath:52.8:127
+Karma	E	9121	Katarina:58.1:327,Twisted Fate:58.9:236,Lux:57.7:241,Yone:55.3:414
+Karthus	E	7311	Locke:51.8:303,Ekko:54.2:216,Ahri:50.3:493,Syndra:51.0:363
+Kassadin	E	173790	Zed:51.5:4424,Yone:50.6:9490,Talon:51.8:1542,Qiyana:50.9:2537
+Katarina	E	387034	Vladimir:53.2:10055,Kassadin:51.7:7741,Galio:50.7:10906,Fizz:50.5:10905
+Kayle	E	30420	LeBlanc:54.9:762,Twisted Fate:53.3:763,Ekko:50.9:929,Locke:50.2:1256
+Kayn	S	249	Ahri:55.3:103
+Kennen	S	19530	Ryze:52.5:198,Annie:50.8:181
 Kha'Zix	N	0	
 Kindred	N	0	
-Kled	E	4507	Yone:50.3:318,Viktor:53.9:208,Twisted Fate:54.3:153,Ahri:51.1:274
-Kog'Maw	E	40535	Xerath:52.9:1122,Locke:51.8:1669,Katarina:52.0:1343,Yone:51.4:1814
-LeBlanc	E	319923	Vex:52.6:10691,Malzahar:51.9:10662,Twisted Fate:50.5:8575,Vladimir:50.4:6749
-Lee Sin	E	5157	Yasuo:55.0:347,LeBlanc:62.6:187,Sylas:61.3:248,Twisted Fate:56.7:187
+Kled	S	4548	Twisted Fate:55.0:151,Ahri:50.4:286,Viktor:50.7:207,Lissandra:51.8:137
+Kog'Maw	E	41461	Katarina:53.5:1350,Yone:52.3:1819,Ekko:52.2:1117,Xerath:52.0:1141
+K'Sante	E	4136	Yone:55.9:306,Viktor:57.6:191,Twisted Fate:58.0:131,Fizz:56.1:173
+LeBlanc	E	324310	Vex:52.5:10681,Malzahar:51.8:10707,Kassadin:50.9:5010,Twisted Fate:50.6:8691
+Lee Sin	E	5280	Zed:54.0:396,LeBlanc:63.0:184,Sylas:60.6:236,Syndra:56.4:264
 Leona	N	0	
 Lillia	N	0	
-Lissandra	E	320578	Xerath:51.1:7552,Hwei:51.0:5696,Anivia:50.5:3428,Vel'Koz:50.4:1463
-Locke	E	416430	Akali:51.9:18785,Katarina:51.9:14644,Kassadin:51.7:8006,Yasuo:51.0:18270
-Lucian	E	29034	Aurora:64.3:428,Vex:62.8:398,Talon:62.1:301,Katarina:59.4:875
-Lulu	S	100	Ahri:59.0:100
-Lux	E	234774	Xerath:50.4:7050,Vel'Koz:50.6:1543,Talon:50.5:1555
-Malphite	E	43805	Sylas:56.9:2287,Lux:55.1:608,Malzahar:53.6:657,Vel'Koz:57.9:140
-Malzahar	E	302247	Hwei:51.6:5845,Taliyah:52.2:2628,Fizz:51.0:8044,Xerath:50.9:7464
+Lissandra	E	323160	Hwei:51.2:5736,Xerath:51.0:7528,Anivia:50.7:3510,Vel'Koz:50.6:1523
+Locke	E	407939	Katarina:52.4:14314,Akali:52.0:18750,Kassadin:51.9:7831,Diana:51.6:8991
+Lucian	E	27214	Aurora:65.1:398,Vex:62.8:382,Xerath:61.0:587,Katarina:59.4:822
+Lulu	N	0	
+Lux	E	235249	Xerath:50.7:7066,Aurora:50.1:2958,Vel'Koz:50.7:1575,Talon:50.5:1534
+Malphite	E	43713	Sylas:56.3:2292,Lissandra:54.4:752,Lux:54.7:605,Malzahar:54.3:667
+Malzahar	E	301470	Taliyah:52.2:2832,Hwei:51.5:5847,Fizz:51.0:7941,Kassadin:51.5:4152
 Maokai	N	0	
-Master Yi	E	5539	Ahri:53.9:321,Vladimir:59.2:157,Ekko:54.9:226,Akali:54.8:199
-Mel	E	114283	Xerath:58.6:3433,Syndra:56.9:5165,Fizz:56.5:3137,Aurelion Sol:56.9:930
+Master Yi	E	5455	Ahri:52.5:324,Vladimir:59.4:155,Xerath:56.1:132,Sylas:53.6:237
+Mel	E	111285	Xerath:58.3:3319,Syndra:56.5:5189,Fizz:56.7:3064,Aurelion Sol:56.8:919
 Milio	N	0	
-Miss Fortune	S	2292	Xerath:65.3:101,Ekko:64.5:107,Ahri:58.8:228,Locke:58.7:138
-Mordekaiser	E	7137	Ahri:53.7:328,Syndra:57.3:267,Twisted Fate:54.4:138,Zed:50.8:358
-Morgana	E	19131	Katarina:53.3:555,Fizz:51.7:582,LeBlanc:51.4:669,Twisted Fate:51.7:557
-Naafiri	E	41131	Yone:53.9:1782,Yasuo:53.8:1620,Irelia:55.1:544,Lissandra:53.5:1217
+Miss Fortune	S	2346	Ekko:63.9:108,Ahri:58.2:251,Locke:59.6:141,Sylas:56.8:125
+Mordekaiser	E	6892	Zed:51.7:362,Syndra:55.1:254,Twisted Fate:56.9:144,Hwei:55.6:124
+Morgana	E	19015	Hwei:54.8:383,Katarina:52.4:552,Fizz:51.9:563,LeBlanc:51.3:681
+Naafiri	E	42756	Yone:54.6:1814,Lissandra:53.9:1259,Yasuo:53.1:1662,Ekko:52.7:1121
 Nami	N	0	
-Nasus	E	39650	Aurelion Sol:56.3:467,LeBlanc:55.0:812,Ahri:52.9:1504,Lissandra:53.6:909
+Nasus	E	37601	Aurelion Sol:56.6:440,LeBlanc:54.6:778,Lissandra:53.6:875,Ahri:52.5:1473
 Nautilus	N	0	
-Neeko	E	16465	Katarina:51.5:569,Yasuo:50.4:787,Zed:50.4:704,Ekko:50.5:444
-Nidalee	S	459	Ahri:60.8:130
+Neeko	E	16536	Zed:51.2:711,Yasuo:50.8:760,Katarina:51.2:584,Aurelion Sol:53.7:164
+Nidalee	S	445	Ahri:60.3:131
 Nilah	N	0	
-Nocturne	S	473	Ahri:66.1:112,Yone:58.0:112,Yasuo:53.5:142,Sylas:51.4:107
-Nunu & Willump	E	16647	Katarina:56.1:570,Ekko:56.2:397,Hwei:54.4:430,Yone:52.4:799
-Olaf	S	1408	Lissandra:54.0:100,Viktor:51.0:149
-Orianna	E	222342	Ekko:55.0:5514,Aurelion Sol:55.2:2043,LeBlanc:54.1:6514,Locke:53.6:8250
-Ornn	S	2748	Ekko:63.7:102,Locke:58.8:170,Lissandra:55.9:152,Ahri:54.4:215
-Pantheon	E	52862	Hwei:54.4:708,Malzahar:54.0:859,Ahri:51.3:1752,Syndra:50.9:1593
-Poppy	S	138	Yasuo:52.2:138
-Pyke	S	113	Ahri:53.1:113
-Qiyana	E	149386	Diana:52.2:2856,Vladimir:51.9:3273,Vex:52.1:2419,Lux:51.7:2975
-Quinn	E	12769	Locke:52.6:591,Diana:54.4:239,Viktor:51.3:441,LeBlanc:50.9:436
+Nocturne	S	478	Ahri:63.3:120,Yone:61.6:112,Yasuo:52.8:142
+Nunu & Willump	E	16450	Katarina:56.8:546,Ekko:55.8:385,Yone:53.5:764,Hwei:53.6:407
+Olaf	S	1321	Zed:51.0:100
+Orianna	E	237800	Ekko:55.1:5978,Aurelion Sol:55.1:2247,LeBlanc:54.2:7112,Locke:53.2:8625
+Ornn	S	2687	Locke:58.0:162,Ahri:56.0:200,Yone:55.9:179,Lissandra:55.6:142
+Pantheon	E	53169	Hwei:55.2:687,Ahri:52.0:1828,Malzahar:52.3:856,Lux:51.9:707
+Poppy	S	128	Yasuo:53.1:128
+Pyke	S	115	Ahri:53.0:115
+Qiyana	E	146254	Vladimir:52.6:3202,Vex:52.8:2337,Diana:51.8:2777,Lux:51.6:2886
+Quinn	E	12539	Locke:52.2:567,Akshan:58.1:184,Diana:54.2:236,Viktor:52.1:413
 Rakan	N	0	
-Rammus	S	117	Yasuo:47.0:117
+Rammus	S	117	Yasuo:49.6:117
 Rek'Sai	N	0	
 Rell	N	0	
 Renata Glasc	N	0	
-Renekton	E	14244	Zed:53.3:747,Viktor:56.8:294,Hwei:58.5:135,Ahri:55.7:264
+Renekton	E	14169	Zed:52.9:751,Viktor:57.6:281,Ahri:55.2:277,Hwei:57.7:130
 Rengar	N	0	
-Riven	E	25957	Lux:56.9:457,Vex:60.0:295,Annie:59.1:198,Taliyah:57.4:317
-Rumble	E	5725	Ahri:54.8:374,Locke:53.9:256,Hwei:56.3:128,Diana:55.9:118
-Ryze	E	120082	Zoe:56.1:1514,Hwei:55.3:2354,Vel'Koz:57.3:585,Xerath:55.0:2184
+Riven	E	26250	Lux:56.4:482,Vex:59.6:287,Taliyah:56.6:343,Ahri:53.4:1251
+Rumble	E	5731	Ahri:55.6:381,Hwei:59.4:138,Locke:54.8:250,Xerath:57.1:105
+Ryze	E	120111	Hwei:55.2:2351,Aurelion Sol:55.8:1251,Zoe:55.3:1535,Vel'Koz:56.8:602
 Samira	N	0	
-Sejuani	S	368	Yasuo:56.1:132,Ahri:53.3:120
+Sejuani	S	478	Viktor:59.4:101,Yasuo:54.5:134,Ahri:51.6:122
 Senna	N	0	
-Seraphine	E	6555	Syndra:57.1:408,Twisted Fate:61.0:182,Fizz:59.6:151,Ahri:54.5:477
-Sett	E	8575	Zed:50.7:404,Lux:58.9:124,Ekko:54.5:231,Vladimir:55.3:152
+Seraphine	E	6383	Syndra:57.9:394,Ekko:60.1:223,Twisted Fate:60.7:163,Ahri:55.7:483
+Sett	E	8376	Zed:50.5:412,Lux:60.7:122,Talon:59.5:111,Ekko:55.5:236
 Shaco	N	0	
-Shen	E	2311	Yasuo:52.1:305,Yone:54.8:230,Ahri:55.5:164,Twisted Fate:53.6:138
+Shen	E	2372	Yasuo:54.1:305,Ahri:58.8:170,Yone:55.5:229,Viktor:53.7:136
 Shyvana	N	0	
-Singed	E	11999	Lissandra:58.1:310,Kassadin:58.2:165,Ahri:50.8:657,LeBlanc:51.7:300
-Sion	E	31192	Aurelion Sol:58.8:311,Yone:54.1:1118,Ekko:52.6:701,Hwei:51.5:625
-Sivir	S	125	Ahri:52.0:125
+Singed	E	12146	Lissandra:56.3:316,Kassadin:55.6:160,Ahri:50.5:659,LeBlanc:51.9:312
+Sion	E	32498	Aurelion Sol:59.1:330,Yone:53.8:1161,Ekko:53.9:761,Twisted Fate:51.9:829
+Sivir	S	134	Ahri:51.5:134
 Skarner	N	0	
-Smolder	E	30331	Irelia:62.2:384,Hwei:61.5:395,Syndra:59.7:861,Xerath:60.3:572
+Smolder	E	29780	Syndra:60.1:830,Fizz:60.9:517,Xerath:60.4:566,Irelia:61.1:373
 Sona	N	0	
 Soraka	N	0	
-Swain	E	48683	Katarina:51.4:1423,Hwei:50.7:979,Fizz:50.5:976,Aurora:50.9:666
-Sylas	E	401916	Vex:54.4:7054,Taliyah:54.4:4261,Yasuo:52.3:18031,Talon:53.0:3590
-Syndra	E	483249	Katarina:54.0:15279,Fizz:53.5:16449,Ekko:52.3:13293,Locke:51.5:17818
-Tahm Kench	S	1634	Ahri:50.3:163
-Taliyah	E	105321	Katarina:57.7:2756,Zed:53.1:3044,Xerath:53.3:2284,Kassadin:52.9:1418
-Talon	E	94529	Zoe:51.6:1463,Vex:51.3:1881,Lissandra:50.2:2845,Vladimir:50.1:1831
+Swain	E	47669	Katarina:51.7:1432,Hwei:51.1:939,Ekko:50.5:1312,Fizz:50.9:939
+Sylas	E	401875	Vex:54.0:6958,Taliyah:53.8:4503,Hwei:52.7:6464,Yasuo:52.1:17721
+Syndra	E	498904	Katarina:54.0:15702,Fizz:53.4:17007,Ekko:52.6:13932,Xerath:51.9:15279
+Tahm Kench	S	1595	Yasuo:49.0:208
+Taliyah	E	113119	Katarina:57.9:2965,Xerath:53.1:2415,Zed:52.5:3267,Kassadin:52.7:1479
+Talon	E	94672	Vex:51.3:1854,Lissandra:50.3:2826,LeBlanc:50.5:2058,Taliyah:50.4:1014
 Taric	N	0	
-Teemo	E	6069	Ahri:50.8:390,Lux:61.1:180,Viktor:55.2:261,Katarina:54.5:255
+Teemo	E	5955	Ahri:50.4:397,Lux:64.4:163,Viktor:56.1:253,Katarina:55.8:260
 Thresh	N	0	
-Tristana	E	39119	Yasuo:56.8:1325,Diana:56.5:603,Vex:56.4:567,Ekko:55.4:948
-Trundle	S	140	Yasuo:42.9:140
-Tryndamere	E	18078	LeBlanc:54.1:410,Aurora:57.2:222,Ahri:52.9:755,Lissandra:53.4:423
-Twisted Fate	E	293509	Aurelion Sol:51.0:2789,Vel'Koz:51.4:1452,Ziggs:50.4:994
-Twitch	E	8275	Locke:57.0:302,Diana:64.0:153,Akshan:64.3:115,Katarina:56.5:299
-Udyr	S	1030	Ahri:62.0:163,Zed:57.5:113,Akali:50.8:120,Locke:50.9:110
-Urgot	S	997	Yasuo:57.9:152,Viktor:58.4:101,Locke:50.9:118
-Varus	E	11170	Yasuo:57.8:377,Xerath:61.0:282,Anivia:61.3:150,Lux:59.4:251
-Vayne	S	3822	Ahri:57.6:288,Viktor:58.3:199,Yasuo:53.9:243,Katarina:54.3:188
-Veigar	E	190124	Xerath:51.4:5276,Kassadin:51.4:3643,Katarina:50.9:6690,Zed:50.3:7217
-Vel'Koz	E	58667	Yasuo:50.6:2442,Locke:50.6:2197,Katarina:50.1:1760,Zoe:50.2:813
-Vex	E	182120	Vladimir:51.9:3480,Veigar:50.2:3207
-Vi	S	1852	Ahri:61.2:196,Yone:59.0:178,Ekko:56.7:104,Lissandra:55.0:109
-Viego	E	7770	Ahri:56.3:442,LeBlanc:57.9:214,Talon:60.0:115,Twisted Fate:55.2:315
-Viktor	E	451113	Vel'Koz:53.2:3141,Xerath:52.1:15961,Locke:51.6:16976,Talon:52.3:3790
-Vladimir	E	248828	Malzahar:52.5:8488,Anivia:50.1:3583
-Volibear	E	15451	Vladimir:61.8:340,Ahri:58.4:767,Lux:59.6:337,LeBlanc:59.5:336
-Warwick	S	736	Locke:60.6:104
-Wukong	S	2764	Ekko:59.8:122,Ahri:55.3:217,Lissandra:57.4:101,Syndra:53.5:155
+Tristana	E	38653	Yasuo:56.1:1296,Xerath:56.2:918,Ekko:55.7:953,Vex:56.2:553
+Trundle	S	134	Yasuo:41.8:134
+Tryndamere	E	17944	LeBlanc:53.0:413,Aurora:56.0:225,Lissandra:52.4:450,Ahri:50.1:766
+Twisted Fate	E	293678	Aurelion Sol:50.9:2847,Vel'Koz:50.7:1513,Ziggs:50.7:978
+Twitch	E	8344	Locke:56.7:307,Akshan:66.7:114,Diana:62.5:160,Zoe:59.0:144
+Udyr	S	892	Ahri:60.1:158,Yasuo:51.0:157,Zed:52.2:113
+Urgot	S	986	Viktor:60.4:101,Yasuo:56.5:147
+Varus	E	11343	Zed:56.9:480,Lux:61.6:245,Anivia:62.7:150,Xerath:59.4:286
+Vayne	S	3934	Ahri:58.7:288,Viktor:59.2:201,Twisted Fate:56.8:125,Katarina:55.3:179
+Veigar	E	190373	Xerath:51.3:5249,Kassadin:51.3:3615,Katarina:50.5:6581,Zed:50.4:7239
+Vel'Koz	E	61461	Yasuo:50.9:2504,Locke:50.6:2236,Zoe:51.0:857
+Vex	E	182035	Vladimir:51.9:3441,Veigar:50.4:3209,Annie:50.3:1417
+Vi	S	1615	Ahri:59.3:189,Yone:56.7:164,Lissandra:56.4:117,Locke:54.3:162
+Viego	E	7408	Ahri:55.7:429,Twisted Fate:58.6:292,Katarina:55.8:319,Diana:57.0:135
+Viktor	E	447060	Xerath:52.4:15554,Vel'Koz:53.3:3269,Ekko:51.8:11510,Locke:51.5:16238
+Vladimir	E	248904	Malzahar:52.8:8447,Zoe:50.7:3472,Vel'Koz:50.8:1335
+Volibear	E	14401	Vladimir:60.9:322,Ahri:58.4:728,Taliyah:63.3:128,Lux:60.1:313
+Warwick	S	614	Yone:50.8:120
+Wukong	S	2732	Ekko:58.5:118,Ahri:55.5:218,Syndra:53.0:149
 Xayah	N	0	
-Xerath	E	246418	Talon:53.4:1606,Locke:51.9:8202,Katarina:51.5:6538,Aurora:51.7:3108
-Xin Zhao	E	5508	Ahri:53.3:338,Lissandra:59.5:173,Sylas:54.4:270,Viktor:53.0:285
-Yasuo	E	538360	Lissandra:52.5:19775,Vladimir:52.0:15205,Vex:51.8:12502,Taliyah:52.0:6475
-Yone	E	486719	Vex:54.1:8631,Annie:52.8:5104,Ahri:51.3:23627,Aurora:51.8:6769
-Yorick	E	4842	Ahri:53.6:345,Yasuo:58.3:278,Lissandra:59.6:171,Locke:56.7:231
+Xerath	E	245668	Talon:53.6:1577,Locke:51.8:8027,Katarina:51.7:6459,Aurora:51.4:3093
+Xin Zhao	E	5627	Ahri:52.4:330,Lissandra:58.1:172,Twisted Fate:55.6:205,Sylas:52.6:266
+Yasuo	E	534933	Lissandra:52.5:19667,Vladimir:52.1:15040,Taliyah:52.3:6794,Vex:51.7:12410
+Yone	E	481000	Vex:54.4:8534,Annie:52.5:5134,Ahri:51.5:23882,Vladimir:51.6:10957
+Yorick	E	4840	Ahri:53.5:346,Yasuo:58.1:270,Lissandra:57.8:180,Locke:56.6:221
 Yunara	N	0	
 Yuumi	N	0	
-Zaahen	S	1297	Akali:58.5:106,Yone:53.4:204,Galio:53.9:156,Sylas:51.4:144
-Zac	E	6606	Syndra:55.0:327,Vladimir:59.5:185,LeBlanc:55.6:198,Vex:56.3:112
-Zed	E	482001	Xerath:51.2:9471,Katarina:50.9:17814,Ekko:50.9:15557,Fizz:50.4:15972
-Zeri	S	1983	LeBlanc:59.6:104,Yone:56.2:162,Locke:54.4:147,Twisted Fate:54.5:110
-Ziggs	E	35742	Xerath:53.2:1307,Kassadin:54.3:503,Ahri:51.3:1868,Ekko:51.3:939
-Zilean	E	13076	Yone:50.6:625,Akshan:56.6:173,Aurelion Sol:54.5:132,Ekko:50.1:375
-Zoe	E	163920	Katarina:51.4:5622,Malzahar:51.0:4510,Ekko:50.7:4437,Vex:50.5:2465
-Zyra	E	5161	Ahri:52.1:413,Sylas:56.8:192,Fizz:56.8:169,Aurora:58.6:104
+Zaahen	S	1431	Akali:60.0:110,Galio:53.5:157,Sylas:52.3:153,Syndra:50.5:103
+Zac	E	6700	Syndra:54.8:323,Vladimir:58.4:178,LeBlanc:56.0:200,Yone:51.6:384
+Zed	E	485769	Katarina:51.0:17861,Xerath:51.3:9460,Ekko:50.8:15702,Diana:50.4:11369
+Zeri	S	1643	Yone:57.7:163,Twisted Fate:54.8:104,Yasuo:53.0:134,Syndra:51.7:174
+Ziggs	E	35920	Xerath:52.8:1266,Kassadin:54.3:481,Ahri:51.7:1933,Ekko:51.2:943
+Zilean	E	13239	Ekko:51.0:392,Akshan:53.7:175,LeBlanc:50.1:355,Aurelion Sol:53.0:132
+Zoe	E	164482	Katarina:51.4:5652,Malzahar:51.1:4524,Ekko:50.8:4457,Akshan:51.3:2057
+Zyra	E	5190	Ahri:51.6:432,Sylas:57.2:194,Fizz:56.6:166,Katarina:54.5:231

@@ -1,0 +1,83 @@
+# Důvody doplněné při aktualizaci 10. 11. 2026 (enemy|pick|proč)
+Akali|Dr. Mundo|Její burst mu nestačí, R ho vyléčí a v dlouhém fightu ji přetlačí.
+Akshan|Mordekaiser|Z R mu neuteče a jakmile ho chytí v melee range, rozdrtí ho.
+Alistar|Malphite|Alistar mu skoro neublíží, pod štítem v klidu farmí a v teamfightu má silnější engage.
+Ambessa|Teemo|Slepota z Q jí zruší trady a houby ji zpomalí, když se snaží dashovat dovnitř.
+Anivia|Gwen|V mlze z W se schová před jejím poke a z blízka ji roztrhá.
+Ashe|Darius|Jakmile ji chytí E, stackne pasivku a R ji dorazí.
+Aurelion Sol|Cho'Gath|Jeho poke ustojí díky HP a Q s W ho zastaví, když stackuje.
+Azir|Zaahen|Přečká jeho poke a v melee range ho přetlačí, jakmile Azir spálí E.
+Azir|Nasus|Wither ho zpomalí a se stacky ho v pozdní hře přeroste.
+Caitlyn|Yone|E mu dá bezpečný all-in přes její pasti a R ji dostane i z dálky.
+Camille|Malphite|Štít z pasivky jí bere poke a R ji zastaví, kdykoli se pokusí o all-in.
+Camille|Teemo|Slepota z Q jí vypne trady a houby ji udrží daleko.
+Cho'Gath|Sett|W mu vrátí jeho damage a v dlouhém fightu ho přetlačí.
+Corki|Cho'Gath|Jeho poke ustojí díky regeneraci z pasivky a Q ho chytí, když se přiblíží.
+Diana|Dr. Mundo|Její all-in ho nezabije a v dlouhém tradu ji přetlačí regenerací.
+Diana|Nasus|Wither ji zpomalí po all-inu a v late game ji přeroste.
+Ekko|Cho'Gath|Jeho burst ustojí díky HP a Q ho chytí při skoku.
+Elise|Dr. Mundo|Její poke mu skoro neublíží a po šesté úrovni ji přetlačí regenerací.
+Ezreal|Sett|Jakmile ho dožene, ustojí jeho poke štítem z W a v melee ho přetlačí.
+Gnar|Nasus|Wither ho zpomalí, když chce kitovat, a se stacky ho přeroste.
+Graves|Darius|V krátkém souboji ho chytí E, stackne pasivku a R ho dorazí.
+Gwen|Tryndamere|Díky R přežije její all-in a v dlouhém fightu ji přetlačí.
+Heimerdinger|Sion|Věžičky ustojí díky HP a štít z W mu vydrží jeho poke.
+Hwei|Akali|V mlze se vyhne jeho poke a dashem ho dostane, než stihne kombo.
+Jarvan IV|Mordekaiser|R ho vytáhne do říše smrti a tam ho 1v1 přetlačí.
+Jhin|Sion|Jeho poke ustojí díky HP a pod štítem z W se dostane do all-inu.
+Kai'Sa|Riven|Dashi ji dostane dřív, než se rozjede, a štít z E jí vezme poke.
+Kalista|Kayle|Do šesté úrovně ji ustojí a potom ji ve scalingu přeroste.
+Karma|Sion|Její poke ustojí díky HP a štítu a v late game ji přetlačí.
+Karthus|Sion|Jeho poke ustojí díky HP a v melee ho rozbije.
+Kassadin|Pantheon|Silná early fáze a stun z W ho potrestají dřív, než se rozjede.
+Kled|Kennen|Kituje ho z dálky a stun z pasivky ho zastaví, když chce skočit.
+Kog'Maw|Kennen|Je mnohem rychlejší a stunem ho chytí, Kog'Maw nemá jak utéct.
+Lee Sin|Yasuo|Windwall mu chytí Q a v delším fightu ho přetlačí.
+Lissandra|Sett|Ustojí její burst a W jí vrátí damage zpátky.
+Locke|Shen|Štít z pasivky pohltí poke a E vynutí výhodný trade.
+Lucian|Olaf|Když Lucian spálí dash, Olaf ho dožene a v melee ho přetlačí.
+Mordekaiser|Fiora|W mu vykryje E a true damagem ho rozebere.
+Morgana|Teemo|Kituje ji z range a slepota z Q jí zruší trady.
+Naafiri|Warwick|Lifesteal mu vrátí její burst a R ji chytí, když se stáhne.
+Naafiri|Sion|Její burst ustojí díky HP a štítu a E ji zpomalí.
+Nasus|Ornn|Před stacky ho W s křehkostí potrestá a v late game mu stačí jako tank.
+Nautilus|Yone|E mu dá bezpečný trade a v melee ho přetlačí.
+Nautilus|Garen|Q ho umlčí a v dlouhém tradu ho přetlačí.
+Neeko|Garen|Q ji umlčí, takže nestihne kombo, a v melee ji přetlačí.
+Neeko|Darius|Jakmile ji chytí E, stackne pasivku a R ji dorazí.
+Olaf|Kayle|Kituje ho z range a v late game ho přeroste.
+Ornn|Fiora|True damage z pasivky ignoruje jeho armor a W mu vykryje stun.
+Pantheon|Singed|Ustojí jeho early trady a E ho vyhodí, když jde do all-inu.
+Poppy|Warwick|Lifesteal mu vrátí její poke a R ji chytí.
+Rammus|Irelia|Neustálými trady ho vyčerpá a v dlouhém fightu ho přetlačí.
+Rek'Sai|Pantheon|Silnou early fází ji potrestá a W ji omráčí, když vyleze.
+Ryze|Darius|Jakmile ho chytí E, stackne pasivku a R ho dorazí.
+Sejuani|Ornn|V tank matchupu má lepší scaling díky itemům a W s křehkostí ji potrestá.
+Sejuani|Shen|Štít z pasivky jí vezme damage a v teamfightu má silnější R.
+Shen|Sett|W mu vrátí jeho damage a v dlouhém fightu ho přetlačí.
+Shyvana|Sion|Její damage ustojí díky HP a E ji zpomalí.
+Smolder|Ambessa|Dashe ji dostanou až k němu a v melee ho roztrhá.
+Swain|Dr. Mundo|Jeho poke ustojí a v dlouhém fightu ho přetlačí regenerací.
+Sylas|Urgot|E ho zastaví při skoku a W ho v melee rozstřílí.
+Syndra|Shen|Štít mu vezme poke a E ji chytí, když vleze do range.
+Tahm Kench|Ornn|V tank matchupu má lepší scaling díky itemům a W s křehkostí ho potrestá.
+Tristana|Camille|E se k ní přitáhne i po skoku a v melee Tristanu roztrhá.
+Tristana|Teemo|Slepota z Q jí vypne autoattacky a houby ji zastaví při skoku.
+Trundle|Akali|Kituje ho z mlhy a bursne ho dřív, než mu ukradne staty z R.
+Tryndamere|Camille|Z R mu neuteče a true damage ho rozebere i během jeho R.
+Twisted Fate|Jayce|Poke z dálky ho donutí ustupovat a v melee ho dorazí.
+Urgot|Olaf|Během R ho nic nezastaví a v melee ho přetlačí.
+Varus|Yasuo|Windwall mu chytí šípy a dashem ho dostane.
+Veigar|Gwen|V mlze z W se vyhne jeho kleci a z blízka ho roztrhá.
+Veigar|Gangplank|Poke z Q a sudy ho donutí ustupovat a v late game ho přetlačí.
+Vel'Koz|Yasuo|Windwall mu chytí kouzla a dashem ho dostane.
+Vi|Aatrox|Drain mu vrátí její damage a Q ji zastaví po skoku.
+Vi|Yone|Její Q přečká díky E, vrátí se do bezpečí a v tradech ji přetlačí.
+Viego|Teemo|Slepota z Q mu vypne autoattacky a houby ho udrží daleko.
+Vladimir|Tryndamere|Díky R přežije jeho burst a v melee ho dorazí.
+Warwick|Jax|E mu vykryje autoattacky a v dlouhém fightu ho přetlačí.
+Xin Zhao|Zaahen|Jako bruiser vydrží jeho early tlak a v dlouhém fightu ho přetlačí.
+Xin Zhao|Olaf|Během R je imunní na jeho knock-up a v melee ho přetlačí.
+Zac|Garen|Q ho umlčí a v dlouhém tradu ho přetlačí.
+Zed|Tryndamere|Díky R přežije jeho burst a pak ho dorazí.
+Zoe|Ornn|Její poke ustojí díky HP a W ji zastaví v melee.

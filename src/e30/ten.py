@@ -1,4 +1,4 @@
-# Up to ten counter picks per enemy and lane (Emerald+, last 30 days, data fetched 7–8 Nov 2026).
+# Up to ten counter picks per enemy and lane (Emerald+, last 30 days, data fetched 10 Nov 2026).
 # Order: the picks chosen before (main + alternatives with written reasons), then more direct matchups
 # (winners first, then the rest by reliability), then picks by the enemy's class, then the lane's strongest champions.
 # Pick = [name, wr, games, why or None, kind, vs]; kind 0 main, 1 alt, 2 by class, 3 strong in lane;

@@ -1,4 +1,4 @@
-# Selection from fresh Emerald+ data (last 30 days, fetched 7 Nov 2026).
+# Selection from fresh Emerald+ data (last 30 days, fetched 10 Nov 2026).
 # e30/<lane>.tsv: enemy, mode, enemy games in lane, picks as Name:pickWR:games (main first, ranked by WR - 100/sqrt(games)).
 #   E = main pick has 300+ games and WR > 50, L = 300+ games but nobody above 50 %, S = only small samples (30-299 games),
 #   N = no lane pick has even 30 games against this enemy.
