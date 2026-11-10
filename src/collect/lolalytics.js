@@ -182,10 +182,18 @@ function fullBuilds(res, sets, lane) {
   const situational = res.pop.filter(id => !used.has(id)).slice(0, 4);
   return exts.map((e, i) => e.seq.slice(res.cores[i].length).join("_") + ":" + e.k).join(";") + "\t" + situational.join(";");
 }
+// Item tier list input: win rate and games of every finished item as the 1st to 5th item, and of boots
+// ("id:wr:games" with 50+ games; slots separated by "|", boots last).
+function slotLine(b) {
+  const row = r => r[0] + ":" + r[1] + ":" + r[3];
+  const slots = [b.item1, b.item2, b.item3, b.item4, b.item5].map(a => (a || []).filter(r => r[3] >= 50).map(row).join(","));
+  const bt = (b.boots || []).filter(r => r[0] !== 1001 && r[0] !== 9999 && r[3] >= 50).map(row).join(",");
+  return slots.join("|") + "|" + bt;
+}
 L.builds = queue => {
   const slug = {};
   for (const s in L.champions) slug[L.champions[s]] = s;
-  L.out.lol = {}; L.out.full = {};
+  L.out.lol = {}; L.out.full = {}; L.out.slots = {};
   return start("builds", queue, 3, async ([n, lane]) => {
     const d = L.qd(await json(`/lol/${slug[n]}/build/q-data.json?lane=${Q[lane]}&tier=emerald_plus&patch=30`));
     const b = Object.values(d.loaders).find(x => x && x.builtBootSet3);
@@ -194,6 +202,7 @@ L.builds = queue => {
     if (g) L.itemNames = g.items;
     const res = extract(b, L.itemNames);
     L.out.lol[n + "|" + lane] = res.line;
+    L.out.slots[n + "|" + lane] = slotLine(b);
     const sets = (await json(`${API}&ep=build-itemset&c=${slug[n]}&lane=${Q[lane]}`)).itemSets || {};
     L.out.full[n + "|" + lane] = fullBuilds(res, sets, lane);
   });

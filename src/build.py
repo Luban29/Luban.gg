@@ -106,6 +106,62 @@ for line in open(os.path.join(HERE, "items", "full.tsv"), encoding="utf-8"):
         b[0] = full
         b.append(int(k))
     e[6] = ids(f[3].replace(";", "_"))
+# Item tier list (items/slots.tsv): for every champion and lane, the win rate and games of each finished item completed as
+# the 1st..5th item, and of boots. Items finished late always win more (they get finished mostly in won games), so an item
+# is compared with the champion's other items finished in the same order: delta = games-weighted mean of
+# (item win rate - average win rate of that slot), in percentage points. Boots are compared with other boots.
+# Deltas are shrunk towards 0 by TIER_K games so that small samples stay in the middle tiers.
+# Lane lists add up all champions in that lane. Only items bought in at least 1 % of the games are listed (champion lists:
+# 1 % of that champion's games, at least 300 games). Mejai's Soulstealer (3041) is left out: it gets finished mostly when
+# ahead; so are Slightly Magical Footwear (2422), free boots from a rune, not a purchase.
+# T[lane] = {"a": items, "ab": boots, "c": {champ: items}, "cb": {champ: boots}}, entry = [id, delta*10, games, win rate*10, slot]
+TIER_K, TIER_MIN_GAMES, TIER_SHARE = 1000, 300, 0.01
+def tier_rows(groups):
+    """groups: list of slot lists [(id, wr, n)]; returns {id: [n, sum n*delta, sum n*wr, {slot: n}]}."""
+    acc = {}
+    for si, rows in enumerate(groups):
+        rows = [r for r in rows if r[0] not in (3041, 2422)]
+        tot = sum(r[2] for r in rows)
+        if not tot:
+            continue
+        avg = sum(r[1] * r[2] for r in rows) / tot
+        for i, wr, n in rows:
+            a = acc.setdefault(i, [0, 0.0, 0.0, {}])
+            a[0] += n; a[1] += n * (wr - avg); a[2] += n * wr; a[3][si + 1] = a[3].get(si + 1, 0) + n
+    return acc
+def tier_out(acc, minn):
+    res = []
+    for i, (n, d, w, sl) in acc.items():
+        if n < minn:
+            continue
+        if i not in ITEMS:
+            raise SystemExit(f"unknown item {i}")
+        delta = d / n * n / (n + TIER_K)
+        res.append([i, round(delta * 10), n, round(w / n * 10), max(sl, key=sl.get)])
+    res.sort(key=lambda r: (-r[1], -r[2]))
+    return res
+T, lane_acc = {}, {}
+for line in open(os.path.join(HERE, "items", "slots.tsv"), encoding="utf-8"):
+    f = line.rstrip("\n").split("\t")
+    name, lane = canon(f[0]), f[1]
+    parts = [[(int(a), float(b), int(c)) for a, b, c in (x.split(":") for x in p.split(",") if x)] for p in f[2].split("|")]
+    if len(parts) != 6:
+        raise SystemExit(f"bad slots line {lane} {name}")
+    items_acc, boots_acc = tier_rows(parts[:5]), tier_rows([parts[5]])
+    t = T.setdefault(lane, {"a": [], "ab": [], "c": {}, "cb": {}})
+    games = B[lane][name][2]
+    minn = max(TIER_MIN_GAMES, TIER_SHARE * games)
+    t["c"][name], t["cb"][name] = tier_out(items_acc, minn), tier_out(boots_acc, minn)
+    for key_, acc in (("a", items_acc), ("ab", boots_acc)):
+        la = lane_acc.setdefault((lane, key_), {})
+        for i, (n, d, w, sl) in acc.items():
+            x = la.setdefault(i, [0, 0.0, 0.0, {}])
+            x[0] += n; x[1] += d; x[2] += w
+            for k_, v_ in sl.items():
+                x[3][k_] = x[3].get(k_, 0) + v_
+for (lane, key_), acc in lane_acc.items():
+    T[lane][key_] = tier_out(acc, TIER_SHARE * sum(e[2] for e in B[lane].values()))
+print("item tier list:", {lane: [len(T[lane]["a"]), len(T[lane]["ab"]), len(T[lane]["c"])] for lane in LANES})
 nb = sum(len(v) for v in B.values())
 print("builds:", nb, "with pro data:", sum(1 for v in B.values() for e in v.values() if e[7]))
 # every recommended counter pick should have a build in that lane, so its "Build" button works
@@ -115,7 +171,9 @@ champs = [{"n": n, "c": M[n][0], "t": M[n][2]} for n in sorted(M, key=key)]
 used_items = sorted({i for d in B.values() for e in d.values() for i in
     [x for s in e[3] for x in s[0]] + [b[0] for b in e[4]] + [x for b in e[5] for x in b[0]] + list(e[6]) +
     ([t[0] for t in e[7][2]] + [x for g in e[7][3] for x in g[5]] if e[7] else [])})
-payload = {"champs": champs, "d": out, "g": G, "b": B, "items": {i: ITEMS[i] for i in used_items}}
+used_items = sorted(set(used_items) | {r[0] for t in T.values() for k_ in ("a", "ab") for r in t[k_]} |
+                    {r[0] for t in T.values() for k_ in ("c", "cb") for rows in t[k_].values() for r in rows})
+payload = {"champs": champs, "d": out, "g": G, "b": B, "t": T, "items": {i: ITEMS[i] for i in used_items}}
 for lane in LANES:
     print(lane, len(out[lane]), counts[lane])
 print("class-based picks in the lists:", filled)

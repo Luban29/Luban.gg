@@ -22,7 +22,8 @@ Claude na počítači uživatele (nástroje `Claude_Browser`). Když prohlíže�
 3. `python3 src/update/counters.py raw.json` přepíše soubory v `src/e30/` (výběr picků je stejný jako dřív,
    ze starých dat dává přesně původní soubory).
 4. `LUBAN.builds(LUBAN.makeQueue())`, po doběhnutí
-   `LUBAN.put("builds", JSON.stringify({lol: LUBAN.out.lol, full: LUBAN.out.full, items: LUBAN.itemNames, patch: LUBAN.patch}))`
+   `LUBAN.put("builds", JSON.stringify({lol: LUBAN.out.lol, full: LUBAN.out.full, slots: LUBAN.out.slots, items: LUBAN.itemNames, patch: LUBAN.patch}))`
+   (`slots` jsou data pro tier list itemů)
    a přenos jako v kroku 2. Krátký výsledek doplň znaky „~“ (`LUBAN.get("builds", 0) + "~".repeat(160000)`), ať skončí v souboru.
 5. Otevři `https://pros.lol/champion/aatrox/probuilds?lane=top`, vlož `src/collect/proslol.js`,
    `await PROS.meta()`, `PROS.run(fronta)` se stejnou frontou (`JSON.stringify(LUBAN.queue)` z lolalytics záložky),

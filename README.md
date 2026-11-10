@@ -27,6 +27,7 @@ soubory níže. Postup krok za krokem je v `CLAUDE.md`.
 | `e30/pools.txt` | championi, kteří se na lince opravdu hrají (pick rate a winrate na lince) |
 | `e30/pr.txt` | pick rate enemy na linkách |
 | `items/lol.tsv`, `items/full.tsv` | buildy z Lolalytics (Emerald+), plné buildy po šesti a sedmi itemech |
+| `items/slots.tsv` | winrate a počet her každého itemu jako 1. až 5. item a bot, podklad pro tier list itemů |
 | `items/pro.tsv` | buildy pro hráčů z pros.lol |
 | `items/items.tsv` | názvy itemů podle Data Dragon |
 | `meta.py` | championi, jejich typ a tip na lajnu |

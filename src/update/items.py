@@ -1,8 +1,8 @@
 """Write the Items tab data in src/items/ from what the collectors gathered.
 
-Inputs: builds.json from src/collect/lolalytics.js ({"lol": {"Name|lane": line}, "full": {...}, "items": {id: name}})
+Inputs: builds.json from src/collect/lolalytics.js ({"lol": {"Name|lane": line}, "full": {...}, "slots": {...}, "items": {id: name}})
 and pro.json from src/collect/proslol.js ({"Name|lane": line}).
-Outputs: items/lol.tsv, items/full.tsv, items/pro.tsv and new item names appended to items/items.tsv.
+Outputs: items/lol.tsv, items/full.tsv, items/slots.tsv (item tier list), items/pro.tsv and new item names in items/items.tsv.
 
 Usage: python3 src/update/items.py builds.json pro.json
 """
@@ -36,6 +36,10 @@ def main(builds_path, pro_path):
     open(os.path.join(D, "lol.tsv"), "w", encoding="utf-8").write("".join(f"{n}\t{l}\t{v}\n" for n, l, v in lol))
     open(os.path.join(D, "full.tsv"), "w", encoding="utf-8").write("".join(f"{n}\t{l}\t{v}\n" for n, l, v in full))
     # pro line: games, games used, items, three games (the collector adds two timestamps, not used by the page)
+    # item tier list input: per champion and lane "slot1|...|slot5|boots", each "id:wr:games,..."
+    slots = rows(b.get("slots", {}))
+    if slots:
+        open(os.path.join(D, "slots.tsv"), "w", encoding="utf-8").write("".join(f"{n}\t{l}\t{v}\n" for n, l, v in slots))
     open(os.path.join(D, "pro.tsv"), "w", encoding="utf-8").write(
         "".join(f"{n}\t{l}\t" + "\t".join((v.split("\t") + ["", "", "", ""])[:4]) + "\n" for n, l, v in pros))
     # item names: keep the existing ones (Data Dragon names), add new ids with the Lolalytics name
@@ -61,6 +65,9 @@ def main(builds_path, pro_path):
         used.update(int(x.split(":")[0]) for x in f[2].split(";") if x)
         for g in filter(None, f[3].split("|")):
             used.update(ids(g.split(",")[-1]))
+    for _, _, v in slots:
+        for part in v.split("|"):
+            used.update(int(x.split(":")[0]) for x in part.split(",") if x)
     names = {int(k): v for k, v in b["items"].items()}
     new = sorted(i for i in used if i not in known and i in names)
     bad = [i for i in new if not names[i] or "deprecated" in names[i].lower()]

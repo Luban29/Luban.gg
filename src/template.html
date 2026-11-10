@@ -167,6 +167,31 @@ textarea{width:100%;box-sizing:border-box;min-height:52px;font:500 .95rem var(--
 
 /* items card */
 .ihead{display:flex;align-items:center;gap:14px;padding:16px;border-bottom:1px solid var(--line);background:linear-gradient(104deg,var(--ally-soft),var(--surface) 78%)}
+/* items tab: builds / tier list switch and the item tier list */
+.iviews{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:3px;margin-bottom:10px;border-radius:9px;background:var(--surface);border:1px solid var(--line)}
+.iviews button{padding:7px 8px;border-radius:6px;border:1px solid transparent;background:transparent;color:var(--dim);font:600 .95rem var(--ui);cursor:pointer}
+.iviews button:hover{color:var(--ink)}
+.iviews button[aria-pressed="true"]{background:var(--raise);color:var(--ink);border-color:var(--line)}
+.lanemark{width:68px;height:68px;flex:none;display:grid;place-items:center;border-radius:14px;border:1px solid var(--gold-deep);background:var(--bg);color:var(--gold)}
+.lanemark svg{width:38px;height:38px}
+.tscope{display:flex;flex-wrap:wrap;gap:6px}
+.tscope button{padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--raise);color:var(--dim);font:600 .92rem var(--ui);cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tscope button:hover:not(:disabled){color:var(--ink)}
+.tscope button[aria-pressed="true"]{background:var(--ally-soft);border-color:var(--ally);color:var(--ink)}
+.tscope button:disabled{opacity:.5;cursor:not-allowed}
+.tiers{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+.trow{display:grid;grid-template-columns:40px minmax(0,1fr);gap:10px;align-items:start}
+.tl{display:grid;place-items:center;width:40px;height:40px;border-radius:8px;font:700 1.3rem/1 var(--display);border:1px solid transparent}
+.tchips{display:flex;flex-wrap:wrap;align-items:center;gap:5px;min-height:40px;margin:0;padding:0;list-style:none}
+.tchip{display:inline-flex;align-items:baseline;gap:7px;padding:5px 9px;border-radius:6px;border:1px solid var(--line);background:var(--raise);font-weight:600;max-width:100%;overflow-wrap:anywhere}
+.tchip .tv{flex:none;font-size:.86rem;font-variant-numeric:tabular-nums;color:var(--dim)}
+.tchip .tb{flex:none;align-self:center;display:grid;place-items:center;width:20px;height:20px;border-radius:4px;font:700 .78rem/1 var(--display)}
+.t0 .tl,.tchip.t0 .tb{background:var(--gold);color:var(--bg)}
+.t1 .tl,.tchip.t1 .tb{background:var(--ally);color:var(--bg)}
+.t2 .tl,.tchip.t2 .tb{background:var(--raise);color:var(--ink);border:1px solid var(--line)}
+.t3 .tl,.tchip.t3 .tb{background:var(--amber);color:var(--bg)}
+.t4 .tl,.tchip.t4 .tb{background:var(--enemy);color:var(--bg)}
+.t0 .tv{color:var(--gold)}.t1 .tv{color:var(--ally)}.t3 .tv{color:var(--amber)}.t4 .tv{color:var(--enemy)}
 .ihead .crest{width:68px;height:68px;margin:0}
 .ih{display:flex;flex-direction:column;min-width:0}
 .ih .lbl{color:var(--ally)}
@@ -249,7 +274,7 @@ textarea{width:100%;box-sizing:border-box;min-height:52px;font:500 .95rem var(--
     <div class="chips" id="chips"></div>
   </section>
   <p class="foot" data-for="c">Ke každému enemy je deset picků. Nejdřív přímé matchupy nad 50 %, pak další přímé matchupy do 50 %, potom championi s nejlepším winratem proti championům stejného typu jako enemy a nakonec nejsilnější championi na lince podle celkového winratu. Uvnitř skupiny rozhoduje winrat po odečtení nejistoty z malého vzorku, takže vyšší číslo z mála her může stát za nižším z mnoha her. Picky podle typu a podle linky mají čárkovaný okraj. Procento je winrate tvého picku přímo v tomhle matchupu na stejné lince, pokud detail neříká jinak. Modrá část pruhu patří tobě, červená enemy, ryska uprostřed je 50 %. Kosočtverce ukazují, z kolika her číslo je: tři od 1 000 her, dva od 300, jeden méně. Data jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stažená 10. 11. 2026. Doporučují se jen championi, kteří se na lince opravdu hrají: objeví se aspoň v 1 % her na té lince, nebo v 0,5 %, když tam odehrají aspoň čtvrtinu svých zápasů. Matchup musí mít aspoň 100 her a pod 300 je označený jako malý vzorek. Když se enemy na lince skoro nehraje, picky jsou vybrané podle winratu proti championům stejného typu, a když chybí i to, podle kitu. Hlavní counter a první alternativy mají napsaný důvod proti tomuhle enemy, ostatní picky krátký popis, jak hrají lajnu. Důvody, popisy i tipy na lajnu vycházejí z kitů championů, ne ze statistik. Erby jsou vlastní znaky podle typu championa, ne oficiální obrázky. Poznámka se ukládá jen v tomhle prohlížeči.</p>
-  <p class="foot" data-for="i" hidden>Buildy jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stav k 10. 11. 2026. Základ buildu tvoří první tři dokončené itemy včetně bot v pořadí, v jakém je hráči kupují. Varianty se stejnými itemy, jen v jiném pořadí nebo s jinými botami, se sčítají dohromady. Základy se řadí podle winratu po odečtení nejistoty z malého vzorku a berou se jen ty, které staví aspoň 3 % hráčů (když jich tolik není, i méně časté). Nejhranější je mezi nimi vždycky. Zbytek buildu do šesti itemů, na botu do sedmi, je poskládaný krok po kroku z her, které začaly stejně: vždycky item, který si hráči koupili jako další nejčastěji. Kde takové hry chybí, je item doplněný podle celkové oblíbenosti a má čárkovaný okraj. Buildy s Mejai's Soulstealer se do žebříčku nepočítají, protože ho hráči dokončí hlavně ve hrách, které už vyhrávají. U startu a bot je procento podíl hráčů, kteří je kupují. Itemy proplayerů jsou z pros.lol: hry profesionálních hráčů v sólo frontě a procento říká, v kolika z jejich posledních her item postavili. Názvy itemů jsou anglicky. Erby jsou vlastní znaky podle typu championa, ne oficiální obrázky.</p>
+  <p class="foot" data-for="i" hidden>Buildy jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stav k 10. 11. 2026. Základ buildu tvoří první tři dokončené itemy včetně bot v pořadí, v jakém je hráči kupují. Varianty se stejnými itemy, jen v jiném pořadí nebo s jinými botami, se sčítají dohromady. Základy se řadí podle winratu po odečtení nejistoty z malého vzorku a berou se jen ty, které staví aspoň 3 % hráčů (když jich tolik není, i méně časté). Nejhranější je mezi nimi vždycky. Zbytek buildu do šesti itemů, na botu do sedmi, je poskládaný krok po kroku z her, které začaly stejně: vždycky item, který si hráči koupili jako další nejčastěji. Kde takové hry chybí, je item doplněný podle celkové oblíbenosti a má čárkovaný okraj. Buildy s Mejai's Soulstealer se do žebříčku nepočítají, protože ho hráči dokončí hlavně ve hrách, které už vyhrávají. U startu a bot je procento podíl hráčů, kteří je kupují. Itemy proplayerů jsou z pros.lol: hry profesionálních hráčů v sólo frontě a procento říká, v kolika z jejich posledních her item postavili. Názvy itemů jsou anglicky. Erby jsou vlastní znaky podle typu championa, ne oficiální obrázky. Tier list itemů porovnává winrate každého dokončeného itemu s ostatními itemy dokončenými jako stejný v pořadí (první, druhý, třetí… item), protože pozdní itemy se dostaví hlavně ve vyhraných hrách a jinak by vycházely vždycky nejlíp. Boty se porovnávají s jinými botami. Tier je podle pořadí v seznamu: S je zhruba nejlepší osmina itemů, D nejhorší osmina. Na linku se počítají itemy, které se staví aspoň v 1 % her, u championa aspoň v 1 % jeho her a aspoň v 300 hrách. Číslo z mála her se stahuje k nule. Mejai's Soulstealer v tier listu není, protože se dokupuje hlavně ve vyhraných hrách.</p>
   <p class="foot legal" lang="en">Luban.GG was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
 </div>
 
@@ -400,14 +425,45 @@ function proSection(c,pro){
     <ul class="pbars">${top.map(t=>`<li><span class="nm">${esc(itemName(t[0]))}</span><span class="pbar"><i style="width:${t[1]}%"></i></span><span class="pv">${t[1]} %</span></li>`).join("")}</ul>
     ${games.length?`<p class="sub">Poslední hry</p><ul class="pgames">${games.map(g=>`<li><p class="pg"><b>${esc(g[0])}</b><span class="team">${esc(g[1])}</span><span class="${g[2]?"win":"loss"}">${g[2]?"výhra":"prohra"}</span><span class="kda">${esc(g[3])}</span>${g[4]?`<span class="vsn">proti ${esc(g[4])}</span>`:""}</p>${g[5].length?itemList(g[5],true):'<p class="none">Žádný dokončený item.</p>'}</li>`).join("")}</ul>`:""}
   </section>`}
+/* items: builds or the item tier list. Tier = place in the list by win rate compared with items finished in the same order */
+let iview=store.get("iview")==="t"?"t":"b",tscope=store.get("tscope")==="c"?"c":"a";
+const TIER=["S","A","B","C","D"];
+const tierOf=rows=>rows.map((r,i)=>{const q=(i+.5)/rows.length;return q<.12?0:q<.35?1:q<.65?2:q<.88?3:4});
+const signed=d=>(d>0?"+":d<0?"−":"")+pct(Math.abs(d));
+function viewSwitch(){return `<div class="iviews" role="group" aria-label="Co ukázat"><button type="button" data-iview="b" aria-pressed="${iview==="b"}">Buildy</button><button type="button" data-iview="t" aria-pressed="${iview==="t"}">Tier list itemů</button></div>`}
+function tipOf(r,boots){const [id,,n,w,sl]=r;return `${itemName(id)}: winrate ${pct(w/10)} z ${cnt(n)}${boots?"":`, nejčastěji jako ${sl}. item`}`}
+function tierRows(rows){const t=tierOf(rows);
+  return `<ol class="tiers">${TIER.map((L,k)=>{const its=rows.filter((r,i)=>t[i]===k);
+    return its.length?`<li class="trow t${k}"><span class="tl" role="img" aria-label="${L} tier">${L}</span><ul class="tchips">${its.map(r=>`<li class="tchip" title="${esc(tipOf(r))}"><span class="tn">${esc(itemName(r[0]))}</span><span class="tv">${signed(r[1]/10)}</span></li>`).join("")}</ul></li>`:""}).join("")}</ol>`}
+function bootRows(rows){const t=tierOf(rows);
+  return `<ul class="tchips">${rows.map((r,i)=>`<li class="tchip t${t[i]}" title="${esc(tipOf(r,1))}"><b class="tb" role="img" aria-label="${TIER[t[i]]} tier">${TIER[t[i]]}</b><span class="tn">${esc(itemName(r[0]))}</span><span class="tv">${signed(r[1]/10)}</span></li>`).join("")}</ul>`}
+function showTiers(c){
+  const out=$("out");markCur(c);cur=null;
+  const t=(P.t||{})[lane]||{a:[],ab:[],c:{},cb:{}};
+  const has=!!(c&&t.c[c.n]&&t.c[c.n].length);
+  const scope=has&&tscope==="c"?"c":"a";
+  const rows=scope==="c"?t.c[c.n]:t.a,boots=scope==="c"?(t.cb[c.n]||[]):t.ab;
+  const laneSvg=(document.querySelector(`.lanes button[data-lane="${lane}"] svg`)||{outerHTML:""}).outerHTML;
+  const mark=scope==="c"?crest(c.c,"ally"):`<span class="lanemark">${laneSvg}</span>`;
+  const who=scope==="c"?esc(c.n):"Všichni championi";
+  const btns=`<div class="tscope" role="group" aria-label="Čí itemy"><button type="button" data-scope="a" aria-pressed="${scope==="a"}">Všichni championi</button><button type="button" data-scope="c" aria-pressed="${scope==="c"}"${has?"":" disabled"}>${c?esc(c.n):"Tvůj champion"}</button></div>`;
+  const miss=c&&!has?`<p class="pnote">${esc(c.n)} se ${LANE_PHRASE[lane]} v Emerald+ skoro nehraje, vlastní tier list nemá.</p>`:"";
+  out.innerHTML=viewSwitch()+`<article class="card enter"><div class="ihead">${mark}<div class="ih"><span class="lbl">Tier list itemů</span><span class="name">${who}</span><span class="role">${LANE_PHRASE[lane]}, Emerald+</span></div></div><div class="inner">
+    ${btns}${miss}
+    ${rows.length?tierRows(rows):'<p class="none">Na tuhle linku tu data o itemech nejsou.</p>'}
+    ${boots.length?`<section class="sect"><p class="sub">Boty</p>${bootRows(boots)}</section>`:""}
+    <p class="pnote">Číslo u itemu říká, o kolik % častěji vyhrávají hry s ním než hry s jinými itemy dokončenými jako stejný v pořadí. U bot je to proti jiným botám.</p>
+    ${scope==="c"?`<div class="acts"><a href="${buildLink(c.n)}" target="_blank" rel="noopener">Ověřit itemy na Lolalytics</a></div>`:""}
+  </div></article>`;
+}
 function showItems(c){
   const out=$("out");markCur(c);cur=null;
-  if(!c)return unknown();
+  if(!c){unknown();out.insertAdjacentHTML("afterbegin",viewSwitch());return}
   const e=(P.b[lane]||{})[c.n];
   const head=extra=>`<div class="ihead">${crest(c.c,"ally")}<div class="ih"><span class="lbl">Tvůj champion</span><span class="name">${esc(c.n)}</span><span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span>${extra||""}</div></div>`;
   if(!e){
     const ls=Object.keys(LANE_PHRASE).filter(l=>P.b[l]&&P.b[l][c.n]);
-    out.innerHTML=`<article class="card enter">${head()}<div class="inner"><p class="none">${esc(c.n)} se ${LANE_PHRASE[lane]} v Emerald+ skoro nehraje, takže tu pro tuhle linku build není.</p>${ls.length?`<div class="acts">${ls.map(l=>`<button class="btn" type="button" data-golane="${l}">Build ${LANE_PHRASE[l]}</button>`).join("")}</div>`:""}</div></article>`;
+    out.innerHTML=viewSwitch()+`<article class="card enter">${head()}<div class="inner"><p class="none">${esc(c.n)} se ${LANE_PHRASE[lane]} v Emerald+ skoro nehraje, takže tu pro tuhle linku build není.</p>${ls.length?`<div class="acts">${ls.map(l=>`<button class="btn" type="button" data-golane="${l}">Build ${LANE_PHRASE[l]}</button>`).join("")}</div>`:""}</div></article>`;
     return}
   const [wr,pr,n,start,boots,builds,late,pro]=e;
   const kpis=`<p class="kpis"><span><b>${pct(wr)}</b> winrate</span><span><b>${pct(pr)}</b> pick rate</span><span><b>${num(n)}</b> her</span></p>`;
@@ -415,7 +471,7 @@ function showItems(c){
   const buildsHtml=`<ol class="builds">${builds.map(b=>`<li class="build"><div class="bhead"><span class="bwr">${pct(b[1])}</span><span class="games">${cnt(b[2])} ${pips(b[2])}${small(b[2])}</span>${b[4]?'<span class="tag">nejhranější</span>':""}<span class="sh">${players(b[3])}</span></div>${meter(b[1])}${buildItems(b[0],b[5])}</li>`).join("")}</ol>`;
   const guess=builds.some(b=>b[5]<b[0].length);
   const cap=`<p class="pnote">Winrate a počet her platí pro první tři itemy. Zbytek buildu je to, co hráči se stejným začátkem kupují nejčastěji.${guess?" Item s čárkovaným okrajem je doplněný podle celkové oblíbenosti, protože tak dlouhých her je v datech málo.":""}</p>`;
-  out.innerHTML=`<article class="card enter">${head(kpis)}<div class="inner">
+  out.innerHTML=viewSwitch()+`<article class="card enter">${head(kpis)}<div class="inner">
     <section class="sect"><p class="sub">Start</p>${startHtml}</section>
     <section class="sect"><p class="sub">${builds.length===3?"3 nejlepší buildy":"Nejlepší buildy"} v Emerald+</p>${buildsHtml}${cap}</section>
     ${boots.length?`<section class="sect"><p class="sub">Boty</p>${optList(boots)}</section>`:""}
@@ -435,7 +491,7 @@ function chips(){
   $("chips").innerHTML=list.map(c=>`<button type="button" data-n="${esc(c.n)}">${esc(c.n)}</button>`).join("");
   markNotes();
 }
-function render(){const c=find($("q").value);if(tab==="i")showItems(c);else showCounter(c)}
+function render(){const c=find($("q").value);if(tab==="i"){if(iview==="t")showTiers(c);else showItems(c)}else showCounter(c)}
 function syncLanes(){document.querySelectorAll(".lanes button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.lane===lane)))}
 function setLane(l){lane=l;store.set("lane",l);syncLanes();chips();render()}
 function setTab(t,focus){tab=t;store.set("tab",t);
@@ -459,6 +515,8 @@ $("chips").addEventListener("click",e=>{const b=e.target.closest("button");if(!b
 $("out").addEventListener("click",e=>{
   const p=e.target.closest(".pick");if(p){selectPick(+p.dataset.i);return}
   const b=e.target.closest("[data-build]");if(b){last.i=b.dataset.build;setTab("i");window.scrollTo({top:0,behavior:"smooth"});return}
+  const v=e.target.closest("[data-iview]");if(v){iview=v.dataset.iview;store.set("iview",iview);render();return}
+  const sc=e.target.closest("[data-scope]");if(sc){if(!sc.disabled){tscope=sc.dataset.scope;store.set("tscope",tscope);render()}return}
   const g=e.target.closest("[data-golane]");if(g)setLane(g.dataset.golane)});
 
 const saved=store.get("lane");lane=P.d[saved]?saved:"top";syncLanes();
