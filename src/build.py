@@ -167,13 +167,14 @@ print("builds:", nb, "with pro data:", sum(1 for v in B.values() for e in v.valu
 # every recommended counter pick should have a build in that lane, so its "Build" button works
 nobuild = sorted({(lane, p[0]) for lane, d in out.items() for e in d.values() for p in e[2] if p[0] not in B.get(lane, {})})
 print("counter picks without a build in their lane:", len(nobuild), nobuild[:12])
-champs = [{"n": n, "c": M[n][0], "t": M[n][2]} for n in sorted(M, key=key)]
+from dd import DD, DD_VERSION
+champs = [{"n": n, "c": M[n][0], "t": M[n][2], "i": DD[n]} for n in sorted(M, key=key)]
 used_items = sorted({i for d in B.values() for e in d.values() for i in
     [x for s in e[3] for x in s[0]] + [b[0] for b in e[4]] + [x for b in e[5] for x in b[0]] + list(e[6]) +
     ([t[0] for t in e[7][2]] + [x for g in e[7][3] for x in g[5]] if e[7] else [])})
 used_items = sorted(set(used_items) | {r[0] for t in T.values() for k_ in ("a", "ab") for r in t[k_]} |
                     {r[0] for t in T.values() for k_ in ("c", "cb") for rows in t[k_].values() for r in rows})
-payload = {"champs": champs, "d": out, "g": G, "b": B, "t": T, "items": {i: ITEMS[i] for i in used_items}}
+payload = {"dd": DD_VERSION, "champs": champs, "d": out, "g": G, "b": B, "t": T, "items": {i: ITEMS[i] for i in used_items}}
 for lane in LANES:
     print(lane, len(out[lane]), counts[lane])
 print("class-based picks in the lists:", filled)

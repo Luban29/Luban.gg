@@ -64,6 +64,11 @@ h1 span{color:var(--gold)}
 .side.ally{align-items:flex-end;text-align:right;padding:16px 16px 14px 30px}
 .crest{width:76px;height:76px;display:block;flex:none;margin-bottom:auto}
 .crest+.lbl{margin-top:8px}
+.face{position:relative;overflow:hidden;border-radius:14px;border:2px solid var(--tc);background:var(--bg);box-shadow:0 0 0 3px color-mix(in srgb,var(--tc) 22%,transparent)}
+.face .fb{position:absolute;inset:0;width:100%;height:100%}
+.face img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.1)}
+.face.mini{border-radius:50%;border-width:1.5px;box-shadow:none}
+.chips button img{width:20px;height:20px;border-radius:50%;object-fit:cover;flex:none}
 .lbl{font-weight:700;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--enemy)}
 .side.ally .lbl{color:var(--ally)}
 .side.none .lbl{color:var(--dim)}
@@ -273,8 +278,8 @@ textarea{width:100%;box-sizing:border-box;min-height:52px;font:500 .95rem var(--
     <p class="legend" id="legend"></p>
     <div class="chips" id="chips"></div>
   </section>
-  <p class="foot" data-for="c">Ke každému enemy je deset picků. Nejdřív přímé matchupy nad 50 %, pak další přímé matchupy do 50 %, potom championi s nejlepším winratem proti championům stejného typu jako enemy a nakonec nejsilnější championi na lince podle celkového winratu. Uvnitř skupiny rozhoduje winrat po odečtení nejistoty z malého vzorku, takže vyšší číslo z mála her může stát za nižším z mnoha her. Picky podle typu a podle linky mají čárkovaný okraj. Procento je winrate tvého picku přímo v tomhle matchupu na stejné lince, pokud detail neříká jinak. Modrá část pruhu patří tobě, červená enemy, ryska uprostřed je 50 %. Kosočtverce ukazují, z kolika her číslo je: tři od 1 000 her, dva od 300, jeden méně. Data jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stažená 10. 11. 2026. Doporučují se jen championi, kteří se na lince opravdu hrají: objeví se aspoň v 1 % her na té lince, nebo v 0,5 %, když tam odehrají aspoň čtvrtinu svých zápasů. Matchup musí mít aspoň 100 her a pod 300 je označený jako malý vzorek. Když se enemy na lince skoro nehraje, picky jsou vybrané podle winratu proti championům stejného typu, a když chybí i to, podle kitu. Hlavní counter a první alternativy mají napsaný důvod proti tomuhle enemy, ostatní picky krátký popis, jak hrají lajnu. Důvody, popisy i tipy na lajnu vycházejí z kitů championů, ne ze statistik. Erby jsou vlastní znaky podle typu championa, ne oficiální obrázky. Poznámka se ukládá jen v tomhle prohlížeči.</p>
-  <p class="foot" data-for="i" hidden>Buildy jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stav k 10. 11. 2026. Základ buildu tvoří první tři dokončené itemy včetně bot v pořadí, v jakém je hráči kupují. Varianty se stejnými itemy, jen v jiném pořadí nebo s jinými botami, se sčítají dohromady. Základy se řadí podle winratu po odečtení nejistoty z malého vzorku a berou se jen ty, které staví aspoň 3 % hráčů (když jich tolik není, i méně časté). Nejhranější je mezi nimi vždycky. Zbytek buildu do šesti itemů, na botu do sedmi, je poskládaný krok po kroku z her, které začaly stejně: vždycky item, který si hráči koupili jako další nejčastěji. Kde takové hry chybí, je item doplněný podle celkové oblíbenosti a má čárkovaný okraj. Buildy s Mejai's Soulstealer se do žebříčku nepočítají, protože ho hráči dokončí hlavně ve hrách, které už vyhrávají. U startu a bot je procento podíl hráčů, kteří je kupují. Itemy proplayerů jsou z pros.lol: hry profesionálních hráčů v sólo frontě a procento říká, v kolika z jejich posledních her item postavili. Názvy itemů jsou anglicky. Erby jsou vlastní znaky podle typu championa, ne oficiální obrázky. Tier list itemů porovnává winrate každého dokončeného itemu s ostatními itemy dokončenými jako stejný v pořadí (první, druhý, třetí… item), protože pozdní itemy se dostaví hlavně ve vyhraných hrách a jinak by vycházely vždycky nejlíp. Boty se porovnávají s jinými botami. Tier je podle pořadí v seznamu: S je zhruba nejlepší osmina itemů, D nejhorší osmina. Na linku se počítají itemy, které se staví aspoň v 1 % her, u championa aspoň v 1 % jeho her a aspoň v 300 hrách. Číslo z mála her se stahuje k nule. Mejai's Soulstealer v tier listu není, protože se dokupuje hlavně ve vyhraných hrách.</p>
+  <p class="foot" data-for="c">Ke každému enemy je deset picků. Nejdřív přímé matchupy nad 50 %, pak další přímé matchupy do 50 %, potom championi s nejlepším winratem proti championům stejného typu jako enemy a nakonec nejsilnější championi na lince podle celkového winratu. Uvnitř skupiny rozhoduje winrat po odečtení nejistoty z malého vzorku, takže vyšší číslo z mála her může stát za nižším z mnoha her. Picky podle typu a podle linky mají čárkovaný okraj. Procento je winrate tvého picku přímo v tomhle matchupu na stejné lince, pokud detail neříká jinak. Modrá část pruhu patří tobě, červená enemy, ryska uprostřed je 50 %. Kosočtverce ukazují, z kolika her číslo je: tři od 1 000 her, dva od 300, jeden méně. Data jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stažená 10. 11. 2026. Doporučují se jen championi, kteří se na lince opravdu hrají: objeví se aspoň v 1 % her na té lince, nebo v 0,5 %, když tam odehrají aspoň čtvrtinu svých zápasů. Matchup musí mít aspoň 100 her a pod 300 je označený jako malý vzorek. Když se enemy na lince skoro nehraje, picky jsou vybrané podle winratu proti championům stejného typu, a když chybí i to, podle kitu. Hlavní counter a první alternativy mají napsaný důvod proti tomuhle enemy, ostatní picky krátký popis, jak hrají lajnu. Důvody, popisy i tipy na lajnu vycházejí z kitů championů, ne ze statistik. Ikony championů jsou z Riot Data Dragon, a když se nenačtou, ukáže se místo nich znak podle typu championa. Poznámka se ukládá jen v tomhle prohlížeči.</p>
+  <p class="foot" data-for="i" hidden>Buildy jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stav k 10. 11. 2026. Základ buildu tvoří první tři dokončené itemy včetně bot v pořadí, v jakém je hráči kupují. Varianty se stejnými itemy, jen v jiném pořadí nebo s jinými botami, se sčítají dohromady. Základy se řadí podle winratu po odečtení nejistoty z malého vzorku a berou se jen ty, které staví aspoň 3 % hráčů (když jich tolik není, i méně časté). Nejhranější je mezi nimi vždycky. Zbytek buildu do šesti itemů, na botu do sedmi, je poskládaný krok po kroku z her, které začaly stejně: vždycky item, který si hráči koupili jako další nejčastěji. Kde takové hry chybí, je item doplněný podle celkové oblíbenosti a má čárkovaný okraj. Buildy s Mejai's Soulstealer se do žebříčku nepočítají, protože ho hráči dokončí hlavně ve hrách, které už vyhrávají. U startu a bot je procento podíl hráčů, kteří je kupují. Itemy proplayerů jsou z pros.lol: hry profesionálních hráčů v sólo frontě a procento říká, v kolika z jejich posledních her item postavili. Názvy itemů jsou anglicky. Ikony championů jsou z Riot Data Dragon, a když se nenačtou, ukáže se místo nich znak podle typu championa. Tier list itemů porovnává winrate každého dokončeného itemu s ostatními itemy dokončenými jako stejný v pořadí (první, druhý, třetí… item), protože pozdní itemy se dostaví hlavně ve vyhraných hrách a jinak by vycházely vždycky nejlíp. Boty se porovnávají s jinými botami. Tier je podle pořadí v seznamu: S je zhruba nejlepší osmina itemů, D nejhorší osmina. Na linku se počítají itemy, které se staví aspoň v 1 % her, u championa aspoň v 1 % jeho her a aspoň v 300 hrách. Číslo z mála her se stahuje k nule. Mejai's Soulstealer v tier listu není, protože se dokupuje hlavně ve vyhraných hrách.</p>
   <p class="foot legal" lang="en">Luban.GG was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
 </div>
 
@@ -326,9 +331,14 @@ const EMBLEM={
   unknown:'<circle cx="50" cy="50" r="6" fill="var(--go)"/>'
 };
 const SIDE={ally:["var(--ally)","#13213a"],enemy:["var(--enemy)","#2a1418"],none:["var(--dim)","#1a212c"]};
-function crest(cls,team,size){
+/* champion portrait from Riot Data Dragon in a team-coloured frame; the class crest stays underneath as a fallback */
+const FACE=id=>`https://ddragon.leagueoflegends.com/cdn/${P.dd}/img/champion/${id}.png`;
+function crest(cls,team,size,name){
   const [tc,tb]=SIDE[team]||SIDE.none;
-  return `<svg class="crest${size?" "+size:""}" viewBox="0 0 100 100" aria-hidden="true" focusable="false" style="--tc:${tc};--tb:${tb};--li:#efe7da;--go:#c8a35a">${FRAME}${EMBLEM[cls]||EMBLEM.unknown}</svg>`;
+  const svg=k=>`<svg class="${k}" viewBox="0 0 100 100" aria-hidden="true" focusable="false" style="--tc:${tc};--tb:${tb};--li:#efe7da;--go:#c8a35a">${FRAME}${EMBLEM[cls]||EMBLEM.unknown}</svg>`;
+  const id=name&&CH[name]&&CH[name].i;
+  if(!id)return svg("crest"+(size?" "+size:""));
+  return `<span class="crest face${size?" "+size:""}" style="--tc:${tc}" aria-hidden="true">${svg("fb")}<img src="${FACE(id)}" alt="" loading="lazy" decoding="async" onerror="this.remove()"></span>`;
 }
 
 function find(q){const n=norm(q);if(!n)return null;const list=P.champs;
@@ -346,7 +356,7 @@ const SHORT={"Heimerdinger":"Heimer","Mordekaiser":"Morde","Nunu & Willump":"Nun
 function picksOf(d){return d[2].map(p=>({n:p[0],wr:p[1],g:p[2],why:p[3]||"",kind:KINDS[p[4]],vs:VS[p[5]]}))}
 function allySide(p){const pc=CH[p.n]||{c:"unknown"};
   const lbl=p.kind==="alt"&&p.vs!=="lane"&&p.wr<=50?"Záložní pick":KIND_LBL[p.kind];
-  return `<div class="side ally">${crest(pc.c,"ally")}<span class="lbl">${lbl}</span><span class="name">${esc(p.n)}</span><span class="role">${CLS_NAME[pc.c]||""}</span></div>`}
+  return `<div class="side ally">${crest(pc.c,"ally",0,p.n)}<span class="lbl">${lbl}</span><span class="name">${esc(p.n)}</span><span class="role">${CLS_NAME[pc.c]||""}</span></div>`}
 function detail(p){
   const games=p.vs==="lane"?`<span class="games">celkový winrate ${LANE_PHRASE[lane]}</span>`
     :`<span class="games">${cnt(p.g)}${p.vs==="cls"?" proti "+cur.vsCls:""} ${pips(p.g)}${small(p.g)}</span>`;
@@ -369,14 +379,14 @@ function stripHtml(ps){
       else if(p.vs!=="lane"&&p.vs===prev.vs&&p.wr<=50&&prev.wr>50) sep="Do 50 %";
     }
     const cls="pick"+(p.kind==="fill"||p.kind==="lane"?" fill":"")+(p.vs!=="lane"&&p.wr<50?" low":"");
-    return (sep?`<span class="sep">${sep}</span>`:"")+`<button type="button" class="${cls}" data-i="${i}" aria-pressed="${i===0}" title="${esc(p.n)}" aria-label="${esc(p.n)} ${pct(p.wr)}">${crest((CH[p.n]||{c:"unknown"}).c,"ally","mini")}<span class="pn">${esc(SHORT[p.n]||p.n)}</span><span class="pw">${pct(p.wr)}</span></button>`}).join("")}</div></div>`}
+    return (sep?`<span class="sep">${sep}</span>`:"")+`<button type="button" class="${cls}" data-i="${i}" aria-pressed="${i===0}" title="${esc(p.n)}" aria-label="${esc(p.n)} ${pct(p.wr)}">${crest((CH[p.n]||{c:"unknown"}).c,"ally","mini",p.n)}<span class="pn">${esc(SHORT[p.n]||p.n)}</span><span class="pw">${pct(p.wr)}</span></button>`}).join("")}</div></div>`}
 
 function showCounter(c){
   const out=$("out");markCur(c);cur=null;
   if(!c)return unknown();
   const d=(P.d[lane]||{})[c.n];
   const key="note:"+lane+":"+c.n;
-  const enemySide=`<div class="side enemy">${crest(c.c,"enemy")}<span class="lbl">Enemy</span><span class="name">${esc(c.n)}</span><span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span></div>`;
+  const enemySide=`<div class="side enemy">${crest(c.c,"enemy",0,c.n)}<span class="lbl">Enemy</span><span class="name">${esc(c.n)}</span><span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span></div>`;
   const tail=`<div class="tip"><p class="sub">Tip na lajnu</p><p>${esc(c.t)}</p></div>
     <div class="note"><label class="sub" for="note">Moje poznámka</label><textarea id="note" placeholder="Co ti proti němu fungovalo…">${esc(store.get(key)||"")}</textarea></div>`;
   if(!d){
@@ -444,7 +454,7 @@ function showTiers(c){
   const scope=has&&tscope==="c"?"c":"a";
   const rows=scope==="c"?t.c[c.n]:t.a,boots=scope==="c"?(t.cb[c.n]||[]):t.ab;
   const laneSvg=(document.querySelector(`.lanes button[data-lane="${lane}"] svg`)||{outerHTML:""}).outerHTML;
-  const mark=scope==="c"?crest(c.c,"ally"):`<span class="lanemark">${laneSvg}</span>`;
+  const mark=scope==="c"?crest(c.c,"ally",0,c.n):`<span class="lanemark">${laneSvg}</span>`;
   const who=scope==="c"?esc(c.n):"Všichni championi";
   const btns=`<div class="tscope" role="group" aria-label="Čí itemy"><button type="button" data-scope="a" aria-pressed="${scope==="a"}">Všichni championi</button><button type="button" data-scope="c" aria-pressed="${scope==="c"}"${has?"":" disabled"}>${c?esc(c.n):"Tvůj champion"}</button></div>`;
   const miss=c&&!has?`<p class="pnote">${esc(c.n)} se ${LANE_PHRASE[lane]} v Emerald+ skoro nehraje, vlastní tier list nemá.</p>`:"";
@@ -460,7 +470,7 @@ function showItems(c){
   const out=$("out");markCur(c);cur=null;
   if(!c){unknown();out.insertAdjacentHTML("afterbegin",viewSwitch());return}
   const e=(P.b[lane]||{})[c.n];
-  const head=extra=>`<div class="ihead">${crest(c.c,"ally")}<div class="ih"><span class="lbl">Tvůj champion</span><span class="name">${esc(c.n)}</span><span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span>${extra||""}</div></div>`;
+  const head=extra=>`<div class="ihead">${crest(c.c,"ally",0,c.n)}<div class="ih"><span class="lbl">Tvůj champion</span><span class="name">${esc(c.n)}</span><span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span>${extra||""}</div></div>`;
   if(!e){
     const ls=Object.keys(LANE_PHRASE).filter(l=>P.b[l]&&P.b[l][c.n]);
     out.innerHTML=viewSwitch()+`<article class="card enter">${head()}<div class="inner"><p class="none">${esc(c.n)} se ${LANE_PHRASE[lane]} v Emerald+ skoro nehraje, takže tu pro tuhle linku build není.</p>${ls.length?`<div class="acts">${ls.map(l=>`<button class="btn" type="button" data-golane="${l}">Build ${LANE_PHRASE[l]}</button>`).join("")}</div>`:""}</div></article>`;
@@ -488,7 +498,7 @@ function chips(){
   $("roster-h").textContent=tab==="i"?`Championi ${LANE_PHRASE[lane]}`:"Všichni championi";
   $("legend").textContent=tab==="i"?`Jen ti, kdo se ${LANE_PHRASE[lane]} opravdu hrají. Klikni na toho, za koho hraješ.`:"Klikni na championa, kterého hraje enemy. Zlatá tečka znamená tvou poznámku.";
   $("chips").dataset.tab=tab;
-  $("chips").innerHTML=list.map(c=>`<button type="button" data-n="${esc(c.n)}">${esc(c.n)}</button>`).join("");
+  $("chips").innerHTML=list.map(c=>`<button type="button" data-n="${esc(c.n)}"><img src="${FACE(c.i)}" alt="" loading="lazy" decoding="async" onerror="this.remove()">${esc(c.n)}</button>`).join("");
   markNotes();
 }
 function render(){const c=find($("q").value);if(tab==="i"){if(iview==="t")showTiers(c);else showItems(c)}else showCounter(c)}
