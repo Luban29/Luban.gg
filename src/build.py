@@ -186,8 +186,8 @@ head_end = html.index("</style>") + len("</style>")
 head, body = html[:head_end], html[head_end:]
 head = head.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "")
 DESC = "Countery na každého championa podle Emerald+ dat, klikací matchupy a nejlepší buildy včetně pro hráčů."
-ICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23010a13'/%3E"
-        "%3Cpath d='M32 9 53 32 32 55 11 32Z' fill='none' stroke='%23d2b26f' stroke-width='5'/%3E%3Cpath d='M32 22 42 32 32 42 22 32Z' fill='%233fa9f5'/%3E%3C/svg%3E")
+ICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 4 89 27v46L50 96 11 73V27z' fill='%23010a13' stroke='%23c8aa6e' stroke-width='6'/%3E"
+        "%3Cpath d='M37 26h10v38h20l-6 10H37z' fill='%23c8aa6e'/%3E%3Cpath d='M58 34l7-8 7 8-7 8z' fill='%230ac8b9'/%3E%3C/svg%3E")
 site = f"""<!doctype html>
 <html lang="cs">
 <head>
