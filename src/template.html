@@ -338,7 +338,7 @@ function crest(cls,team,size,name){
   const svg=k=>`<svg class="${k}" viewBox="0 0 100 100" aria-hidden="true" focusable="false" style="--tc:${tc};--tb:${tb};--li:#efe7da;--go:#c8a35a">${FRAME}${EMBLEM[cls]||EMBLEM.unknown}</svg>`;
   const id=name&&CH[name]&&CH[name].i;
   if(!id)return svg("crest"+(size?" "+size:""));
-  return `<span class="crest face${size?" "+size:""}" style="--tc:${tc}" aria-hidden="true">${svg("fb")}<img src="${FACE(id)}" alt="" loading="lazy" decoding="async" onerror="this.remove()"></span>`;
+  return `<span class="crest face${size?" "+size:""}" style="--tc:${tc}" aria-hidden="true">${svg("fb")}<img src="${FACE(id)}" alt="" decoding="async" onerror="this.remove()"></span>`;
 }
 
 function find(q){const n=norm(q);if(!n)return null;const list=P.champs;
