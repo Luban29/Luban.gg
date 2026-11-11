@@ -222,6 +222,9 @@ textarea{width:100%;box-sizing:border-box;min-height:52px;font:500 .95rem var(--
   font-weight:600;font-size:.94rem;line-height:1.2}
 .item i{font-style:normal;flex:none;width:18px;height:18px;border-radius:50%;display:grid;place-items:center;font-size:.72rem;font-weight:700;
   color:var(--gold);border:1px solid var(--gold-deep);background:var(--bg)}
+.ico{width:22px;height:22px;border-radius:4px;flex:none;border:1px solid var(--line);background:var(--bg)}
+.tchip{align-items:center!important}.tchip .ico{width:26px;height:26px}
+.pbars .nm{display:inline-flex;align-items:center;gap:6px}.pbars .nm .ico{width:18px;height:18px}
 .item .x{color:var(--dim);font-weight:600;font-variant-numeric:tabular-nums}
 .item.next{background:transparent}
 .item.guess{border-style:dashed}
@@ -322,6 +325,8 @@ const proLink=name=>`https://pros.lol/champion/${slug(name)}/probuilds/?lane=${L
 const share=p=>p>=0.01?"jen "+p.toLocaleString("cs-CZ",{maximumFractionDigits:2})+" % her":"méně než 0,01 % her";
 const players=s=>s>=1?`${s} % hráčů`:"méně než 1 % hráčů";
 const itemName=id=>P.items[id]||"neznámý item";
+/* item icon from Riot Data Dragon; if it fails to load only the name stays */
+const ico=id=>`<img class="ico" src="https://ddragon.leagueoflegends.com/cdn/${P.dd}/img/item/${id}.png" alt="" loading="lazy" decoding="async" onerror="this.remove()">`;
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 const width=wr=>Math.max(3,Math.min(97,(wr-40)/20*100));
 const meter=wr=>`<div class="meter" role="img" aria-label="${pct(wr)} winrate"><div class="fill" data-w="${width(wr).toFixed(1)}"></div></div>`;
@@ -435,9 +440,9 @@ function selectPick(i){
 /* items: three best Emerald+ builds, start, boots, 4th item and what pro players build */
 function itemList(ids,numbered){const g=[];ids.forEach(id=>{const l=g[g.length-1];if(!numbered&&l&&l[0]===id)l[1]++;else g.push([id,1])});
   const tag=numbered?"ol":"ul";
-  return `<${tag} class="items">${g.map(([id,k],i)=>`<li class="item">${numbered?`<i aria-hidden="true">${i+1}</i>`:""}${esc(itemName(id))}${k>1?`<span class="x">×${k}</span>`:""}</li>`).join("")}</${tag}>`}
-function buildItems(ids,k){return `<ol class="items">${ids.map((id,i)=>`<li class="item${i>=3?" next":""}${i>=k?" guess":""}"><i aria-hidden="true">${i+1}</i>${esc(itemName(id))}</li>`).join("")}</ol>`}
-const optList=rows=>`<ul class="items">${rows.map(r=>`<li class="item">${esc(itemName(r[0]))}<span class="x">${r[1]} %</span></li>`).join("")}</ul>`;
+  return `<${tag} class="items">${g.map(([id,k],i)=>`<li class="item">${numbered?`<i aria-hidden="true">${i+1}</i>`:""}${ico(id)}${esc(itemName(id))}${k>1?`<span class="x">×${k}</span>`:""}</li>`).join("")}</${tag}>`}
+function buildItems(ids,k){return `<ol class="items">${ids.map((id,i)=>`<li class="item${i>=3?" next":""}${i>=k?" guess":""}"><i aria-hidden="true">${i+1}</i>${ico(id)}${esc(itemName(id))}</li>`).join("")}</ol>`}
+const optList=rows=>`<ul class="items">${rows.map(r=>`<li class="item">${ico(r[0])}${esc(itemName(r[0]))}<span class="x">${r[1]} %</span></li>`).join("")}</ul>`;
 function proSection(c,pro){
   const head='<h3 class="ph">Co staví proplayeři</h3>';
   if(!pro)return `<section class="sect pro">${head}<p class="none">Hry proplayerů s ${esc(c.n)} ${LANE_PHRASE[lane]} v datech nejsou.</p></section>`;
@@ -445,7 +450,7 @@ function proSection(c,pro){
   const basis=used===1?"Procenta jsou z jediné hry.":`Procenta říkají, v kolika z posledních ${used} her item postavili.`;
   const few=n<10?`<p class="pnote">Jen ${n} ${herWord(n)}, ber to jako ukázku, ne jako pravidlo.</p>`:"";
   return `<section class="sect pro">${head}<p class="lead">${num(n)} ${herWord(n)} proplayerů ${LANE_PHRASE[lane]} v sólo frontě. ${basis}</p>${few}
-    <ul class="pbars">${top.map(t=>`<li><span class="nm">${esc(itemName(t[0]))}</span><span class="pbar"><i style="width:${t[1]}%"></i></span><span class="pv">${t[1]} %</span></li>`).join("")}</ul>
+    <ul class="pbars">${top.map(t=>`<li><span class="nm">${ico(t[0])}${esc(itemName(t[0]))}</span><span class="pbar"><i style="width:${t[1]}%"></i></span><span class="pv">${t[1]} %</span></li>`).join("")}</ul>
     ${games.length?`<p class="sub">Poslední hry</p><ul class="pgames">${games.map(g=>`<li><p class="pg"><b>${esc(g[0])}</b><span class="team">${esc(g[1])}</span><span class="${g[2]?"win":"loss"}">${g[2]?"výhra":"prohra"}</span><span class="kda">${esc(g[3])}</span>${g[4]?`<span class="vsn">proti ${esc(g[4])}</span>`:""}</p>${g[5].length?itemList(g[5],true):'<p class="none">Žádný dokončený item.</p>'}</li>`).join("")}</ul>`:""}
   </section>`}
 /* items: builds or the item tier list. Tier = place in the list by win rate compared with items finished in the same order */
@@ -457,9 +462,9 @@ function viewSwitch(){return `<div class="iviews" role="group" aria-label="Co uk
 function tipOf(r,boots){const [id,,n,w,sl]=r;return `${itemName(id)}: winrate ${pct(w/10)} z ${cnt(n)}${boots?"":`, nejčastěji jako ${sl}. item`}`}
 function tierRows(rows){const t=tierOf(rows);
   return `<ol class="tiers">${TIER.map((L,k)=>{const its=rows.filter((r,i)=>t[i]===k);
-    return its.length?`<li class="trow t${k}"><span class="tl" role="img" aria-label="${L} tier">${L}</span><ul class="tchips">${its.map(r=>`<li class="tchip" title="${esc(tipOf(r))}"><span class="tn">${esc(itemName(r[0]))}</span><span class="tv">${signed(r[1]/10)}</span></li>`).join("")}</ul></li>`:""}).join("")}</ol>`}
+    return its.length?`<li class="trow t${k}"><span class="tl" role="img" aria-label="${L} tier">${L}</span><ul class="tchips">${its.map(r=>`<li class="tchip" title="${esc(tipOf(r))}">${ico(r[0])}<span class="tn">${esc(itemName(r[0]))}</span><span class="tv">${signed(r[1]/10)}</span></li>`).join("")}</ul></li>`:""}).join("")}</ol>`}
 function bootRows(rows){const t=tierOf(rows);
-  return `<ul class="tchips">${rows.map((r,i)=>`<li class="tchip t${t[i]}" title="${esc(tipOf(r,1))}"><b class="tb" role="img" aria-label="${TIER[t[i]]} tier">${TIER[t[i]]}</b><span class="tn">${esc(itemName(r[0]))}</span><span class="tv">${signed(r[1]/10)}</span></li>`).join("")}</ul>`}
+  return `<ul class="tchips">${rows.map((r,i)=>`<li class="tchip t${t[i]}" title="${esc(tipOf(r,1))}"><b class="tb" role="img" aria-label="${TIER[t[i]]} tier">${TIER[t[i]]}</b>${ico(r[0])}<span class="tn">${esc(itemName(r[0]))}</span><span class="tv">${signed(r[1]/10)}</span></li>`).join("")}</ul>`}
 function showTiers(c){
   const out=$("out");markCur(c);cur=null;
   const t=(P.t||{})[lane]||{a:[],ab:[],c:{},cb:{}};
