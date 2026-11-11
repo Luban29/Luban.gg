@@ -33,3 +33,9 @@ Claude na počítači uživatele (nástroje `Claude_Browser`). Když prohlíže�
    bez důvodu dostanou popis lajny. Důvody piš do nového souboru `src/reasons/<linka>_<n>.txt` (`enemy|pick|proč`).
 8. Uprav datum v patičkách `src/template.html`, v README a v komentářích `src/build.py`.
 9. Build, kontrola stránky, commit a push. Po minutě ověř živý web na https://luban29.github.io/Luban.gg/.
+
+## Vzhled
+
+Výchozí je téma Hextech (tmavý jako herní klient): barvy v `:root` na začátku `src/template.html` a blok
+„Hextech look“ na konci stylů. Jiné téma ze světa League (Ionia, Noxus, Pergamen…) se dělá výměnou těchto dvou míst;
+modrozelená = tvoje strana, červená = enemy, zlatá = výběr.

@@ -6,29 +6,16 @@
    then a strip of ten picks (each opens its matchup), the matchup bar, lane tip and note; champion roster below.
    Team colors carry meaning: ally blue = your pick, enemy red = the champion you face. Gold = selection, emblem trim and brand. */
 :root{
-  --bg:#0a1018; --surface:#111a26; --raise:#182334; --line:#26354a;
-  --ink:#ece6d6; --dim:#8f9cb0;
-  --gold:#d2b26f; --gold-deep:#7d6232;
-  --ally:#3fa9f5; --ally-soft:#12314b; --enemy:#e5534b; --enemy-soft:#4b1f24;
-  --amber:#e8a849; --amber-soft:#3a2c15;
+  --bg:#010a13; --surface:#091428; --raise:#0f1e33; --line:#3c3221;
+  --ink:#f0e6d2; --dim:#a09b8c;
+  --gold:#c8aa6e; --gold-deep:#785a28;
+  --ally:#0ac8b9; --ally-soft:#06323a; --enemy:#d33f49; --enemy-soft:#3a1219;
+  --amber:#c89b3c; --amber-soft:#2e2412;
   --display:"Cinzel", "Trajan Pro", "Palatino Linotype", Georgia, serif;
   --ui:"Barlow Semi Condensed", "Arial Narrow", system-ui, sans-serif;
   color-scheme:dark;
 }
-@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
-  --bg:#eef1f5; --surface:#ffffff; --raise:#f4f6f9; --line:#d3dae4;
-  --ink:#121c2b; --dim:#556275;
-  --gold:#8a6a2c; --gold-deep:#c4a46a;
-  --ally:#1c6db0; --ally-soft:#d8e8f6; --enemy:#b8423a; --enemy-soft:#f4d6d2;
-  --amber:#94570f; --amber-soft:#f7e8d2;
-  color-scheme:light}}
-:root[data-theme="light"]{
-  --bg:#eef1f5; --surface:#ffffff; --raise:#f4f6f9; --line:#d3dae4;
-  --ink:#121c2b; --dim:#556275;
-  --gold:#8a6a2c; --gold-deep:#c4a46a;
-  --ally:#1c6db0; --ally-soft:#d8e8f6; --enemy:#b8423a; --enemy-soft:#f4d6d2;
-  --amber:#94570f; --amber-soft:#f7e8d2;
-  color-scheme:light}
+/* Hextech theme (dark like the game client) for every viewer; other League themes can replace these tokens and the block at the end */
 body{background:var(--bg);color:var(--ink);font-family:var(--ui);font-size:15.5px;font-weight:500;line-height:1.45;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 32px}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
@@ -247,6 +234,18 @@ textarea{width:100%;box-sizing:border-box;min-height:52px;font:500 .95rem var(--
 .chips[data-tab="i"] button.cur{border-color:var(--ally)}
 @media (prefers-reduced-motion: reduce){.meter .fill{transition:none}.enter .side,.enter .vs,.det.swap,.pop .crest{animation:none}}
 @media (max-width:360px){.mark{width:64px;height:64px}.lanes button{font-size:.72rem}.crest{width:62px;height:62px}}
+
+/* Hextech look: thin gold frames, square corners, gold glow on the selected control */
+body{background:radial-gradient(120% 60% at 50% 0%,#0a1a2e 0%,#010a13 60%) fixed #010a13}
+.bar{background:linear-gradient(#010a13,#010a13ee)}
+.hero,.card,.tabs,.iviews,.pickbox,.tip,.note,.flag{border-radius:2px!important}
+.card,.hero{border:1px solid #785a28;box-shadow:inset 0 0 0 1px #01080f,0 0 0 1px #00000080}
+.card{background:linear-gradient(180deg,#0a1628,#060f1c)}
+.tabs button,.iviews button,.lanes button,.pick,.tchip,.btn,.tscope button,.chips button{border-radius:2px!important}
+.tabs button[aria-pressed="true"],.lanes button[aria-pressed="true"],.iviews button[aria-pressed="true"]{background:linear-gradient(180deg,#1e2328,#0a1428);border-color:#c8aa6e;color:#f0e6d2;box-shadow:inset 0 0 12px #c8aa6e33}
+.pick[aria-pressed="true"]{border-color:#c8aa6e;box-shadow:inset 0 0 10px #c8aa6e30}
+.face{border-radius:50%!important;border-color:#c8aa6e!important;box-shadow:0 0 0 2px #010a13,0 0 0 3px #785a28!important}
+.versus{border-bottom:1px solid #785a28}
 </style>
 
 <div class="wrap">

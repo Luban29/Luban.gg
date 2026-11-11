@@ -186,7 +186,7 @@ head_end = html.index("</style>") + len("</style>")
 head, body = html[:head_end], html[head_end:]
 head = head.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "")
 DESC = "Countery na každého championa podle Emerald+ dat, klikací matchupy a nejlepší buildy včetně pro hráčů."
-ICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a1018'/%3E"
+ICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23010a13'/%3E"
         "%3Cpath d='M32 9 53 32 32 55 11 32Z' fill='none' stroke='%23d2b26f' stroke-width='5'/%3E%3Cpath d='M32 22 42 32 32 42 22 32Z' fill='%233fa9f5'/%3E%3C/svg%3E")
 site = f"""<!doctype html>
 <html lang="cs">
@@ -197,8 +197,7 @@ site = f"""<!doctype html>
 <meta property="og:title" content="Luban.GG">
 <meta property="og:description" content="{DESC}">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#0a1018" media="(prefers-color-scheme: dark)">
-<meta name="theme-color" content="#eef1f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#010a13">
 <link rel="icon" href="{ICON}">
 {head}
 </head>
