@@ -19,7 +19,8 @@ CSS = """:root{--bg:#010a13;--surface:#091428;--raise:#0f1e33;--line:#3c3221;--i
 --gold-deep:#785a28;--ally:#0ac8b9;--enemy:#d33f49;color-scheme:dark}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(120% 60% at 50% 0%,#0a1a2e,#010a13 60%) fixed #010a13;color:var(--ink);
 font:500 16px/1.5 "Barlow Semi Condensed","Arial Narrow",system-ui,sans-serif;padding:0 16px 40px}
-main{max-width:640px;margin:0 auto}a{color:var(--gold)}
+main{max-width:640px;margin:0 auto}
+a{color:var(--gold)}
 .top{display:flex;align-items:center;gap:10px;padding:16px 0;text-decoration:none;color:var(--ink);font:700 1.25rem Cinzel,Georgia,serif}
 .top svg{width:34px;height:34px}.top em{font-style:normal;color:var(--gold)}
 header.h{display:flex;align-items:center;gap:14px;padding:16px;border:1px solid var(--gold-deep);background:linear-gradient(104deg,#3a121980,#091428 70%)}
@@ -38,7 +39,8 @@ ol.p .g{display:block;font-size:.8rem;color:var(--dim);font-weight:500}
 font-weight:700;text-decoration:none}
 .lanes,.idx{display:flex;flex-wrap:wrap;gap:6px;padding:0;list-style:none}.lanes a,.idx a{display:inline-block;padding:5px 10px;
 border:1px solid var(--line);background:var(--surface);text-decoration:none;color:var(--ink)}
-footer{margin-top:30px;color:var(--dim);font-size:.82rem}"""
+footer{margin-top:30px;color:var(--dim);font-size:.82rem}
+@media (min-width:960px){main{max-width:1080px}ol.p{display:grid;grid-template-columns:1fr 1fr}header.h{padding:22px}h1{font-size:1.9rem}}"""
 LOGO = ('<svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 4 89 27v46L50 96 11 73V27z" fill="#010a13" stroke="#c8aa6e" '
         'stroke-width="5"/><path d="M37 26h10v38h20l-6 10H37z" fill="#c8aa6e"/><path d="M58 34l7-8 7 8-7 8z" fill="#0ac8b9"/></svg>')
 ICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 4 89 27v46L50 96 11 73V27z' "

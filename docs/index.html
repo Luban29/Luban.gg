@@ -269,6 +269,19 @@ body{background:radial-gradient(120% 60% at 50% 0%,#0a1a2e 0%,#010a13 60%) fixed
 .hero .hero-text,.hero .mark{position:relative;z-index:1}
 .hero .mark{width:58px;height:58px;filter:drop-shadow(0 0 10px #c8aa6e40)}
 @media (prefers-reduced-motion:reduce){.hero .splash{transition:none}}
+
+/* wide screens: controls in one row, the card in the main column, the champion list and notes beside it */
+.rail{display:flex;flex-direction:column;gap:18px;min-width:0}
+@media (min-width:1024px){
+  .wrap{max-width:1180px;display:grid;grid-template-columns:minmax(0,1fr) 340px;grid-template-rows:auto auto auto 1fr;
+    column-gap:28px;row-gap:14px;align-items:start}
+  .hero{grid-column:1/-1;grid-row:1;min-height:200px}
+  .tabs{grid-column:1;grid-row:2}
+  .bar{grid-column:1;grid-row:3;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;column-gap:16px}
+  #out{grid-column:1;grid-row:4;min-width:0}
+  .rail{grid-column:2;grid-row:2/5}
+}
+@container (min-width:700px){.picks{grid-template-columns:repeat(5,minmax(0,1fr))}}
 </style>
 </head>
 <body>
@@ -303,6 +316,7 @@ body{background:radial-gradient(120% 60% at 50% 0%,#0a1a2e 0%,#010a13 60%) fixed
   </div>
   <datalist id="names"></datalist>
   <div id="out" role="tabpanel" aria-labelledby="t-c" aria-live="polite"></div>
+  <aside class="rail">
   <section class="roster">
     <h3 id="roster-h">Všichni championi</h3>
     <p class="legend" id="legend"></p>
@@ -312,6 +326,7 @@ body{background:radial-gradient(120% 60% at 50% 0%,#0a1a2e 0%,#010a13 60%) fixed
   <p class="foot" data-for="i" hidden>Buildy jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stav k 10. 11. 2026. Základ buildu tvoří první tři dokončené itemy včetně bot v pořadí, v jakém je hráči kupují. Varianty se stejnými itemy, jen v jiném pořadí nebo s jinými botami, se sčítají dohromady. Základy se řadí podle winratu po odečtení nejistoty z malého vzorku a berou se jen ty, které staví aspoň 3 % hráčů (když jich tolik není, i méně časté). Nejhranější je mezi nimi vždycky. Zbytek buildu do šesti itemů, na botu do sedmi, je poskládaný krok po kroku z her, které začaly stejně: vždycky item, který si hráči koupili jako další nejčastěji. Kde takové hry chybí, je item doplněný podle celkové oblíbenosti a má čárkovaný okraj. Buildy s Mejai's Soulstealer se do žebříčku nepočítají, protože ho hráči dokončí hlavně ve hrách, které už vyhrávají. U startu a bot je procento podíl hráčů, kteří je kupují. Itemy proplayerů jsou z pros.lol: hry profesionálních hráčů v sólo frontě a procento říká, v kolika z jejich posledních her item postavili. Názvy itemů jsou anglicky. Ikony championů, itemů a linek jsou od Riotu (Data Dragon a herní klient), a když se ikona championa nenačte, ukáže se místo ní znak podle typu. Tier list itemů porovnává winrate každého dokončeného itemu s ostatními itemy dokončenými jako stejný v pořadí (první, druhý, třetí… item), protože pozdní itemy se dostaví hlavně ve vyhraných hrách a jinak by vycházely vždycky nejlíp. Boty se porovnávají s jinými botami. Tier je podle pořadí v seznamu: S je zhruba nejlepší osmina itemů, D nejhorší osmina. Na linku se počítají itemy, které se staví aspoň v 1 % her, u championa aspoň v 1 % jeho her a aspoň v 300 hrách. Číslo z mála her se stahuje k nule. Mejai's Soulstealer v tier listu není, protože se dokupuje hlavně ve vyhraných hrách.</p>
   <p class="foot"><a href="counter/">Countery na všechny championy jako samostatné stránky</a></p>
   <p class="foot legal" lang="en">Luban.GG was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
+  </aside>
 </div>
 
 <script>
