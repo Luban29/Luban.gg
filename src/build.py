@@ -208,6 +208,10 @@ site = f"""<!doctype html>
 """
 SITE = os.path.join(os.path.dirname(HERE), "docs", "index.html")
 open(SITE, "w", encoding="utf-8").write(site)
+# official Czech champion lore (Data Dragon cs_CZ: title and story), loaded by the page only when someone opens it
+LORE = json.load(open(os.path.join(HERE, "lore", "cs_CZ.json"), encoding="utf-8"))
+open(os.path.join(os.path.dirname(SITE), "lore.json"), "w", encoding="utf-8").write(
+    json.dumps({c["i"]: LORE[c["i"]][1:] for c in champs if c["i"] in LORE}, ensure_ascii=False, separators=(",", ":")))
 print("champions:", len(champs), "site:", SITE, len(site.encode("utf-8")), "bytes")
 # pages for search engines (see seo.py)
 import seo

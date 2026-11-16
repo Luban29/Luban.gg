@@ -259,6 +259,28 @@ body{background:radial-gradient(120% 60% at 50% 0%,#0a1a2e 0%,#010a13 60%) fixed
 .hero .mark{width:58px;height:58px;filter:drop-shadow(0 0 10px #c8aa6e40)}
 @media (prefers-reduced-motion:reduce){.hero .splash{transition:none}}
 
+/* lore: the champion name in a card opens the official story in a dialog */
+.lorebtn{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;border-radius:4px}
+.side.ally .lorebtn{flex-direction:row-reverse}
+.lorebtn svg{width:15px;height:15px;flex:none;color:var(--gold);opacity:.55;transition:opacity .15s}
+.lorebtn:hover svg,.lorebtn:focus-visible svg{opacity:1}
+.lorebtn:hover{color:var(--gold)}
+.lorebtn:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+dialog.lore{width:min(640px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:0;border:1px solid var(--gold-deep);border-radius:12px;
+  background:var(--surface);color:var(--ink);overflow:auto;box-shadow:0 20px 60px #000c}
+dialog.lore::backdrop{background:#010a13d9}
+.lore .art{position:relative;aspect-ratio:1215/717;background:var(--bg) center 20%/cover no-repeat}
+.lore .art::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 45%,var(--surface))}
+.lore .lh{position:relative;z-index:1;margin:-64px 20px 0}
+.lore .lh .lbl{color:var(--gold)}
+.lore h2{margin:2px 0 0;font:700 clamp(1.5rem,6vw,2rem)/1.1 var(--display)}
+.lore .ttl{margin:4px 0 0;color:var(--gold);font-weight:600;font-size:1.05rem}
+.lore .txt{margin:0;padding:14px 20px 4px;line-height:1.6;max-width:68ch}
+.lore .acts{padding:10px 20px 20px}
+.lore .x{position:absolute;top:10px;right:10px;z-index:2;width:36px;height:36px;border-radius:50%;border:1px solid var(--gold-deep);
+  background:#010a13cc;color:var(--ink);font-size:1.3rem;line-height:1;cursor:pointer}
+.lore .x:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
 /* wide screens: controls in one row, the card in the main column, the champion list and notes beside it */
 .rail{display:flex;flex-direction:column;gap:18px;min-width:0}
 @media (min-width:1024px){
@@ -315,6 +337,9 @@ body{background:radial-gradient(120% 60% at 50% 0%,#0a1a2e 0%,#010a13 60%) fixed
   <p class="foot legal" lang="en">Luban.GG was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
   </aside>
 </div>
+<dialog class="lore" id="lore" aria-labelledby="lore-n"><button class="x" type="button" data-close aria-label="Zavřít">×</button>
+  <div class="art" id="lore-art"></div><div class="lh"><span class="lbl">Příběh</span><h2 id="lore-n"></h2><p class="ttl" id="lore-t"></p></div>
+  <p class="txt" id="lore-x"></p><div class="acts" id="lore-a"></div></dialog>
 
 <script>
 const P=/*__DATA__*/null;
@@ -376,6 +401,19 @@ function crest(cls,team,size,name){
   return `<span class="crest face${size?" "+size:""}" style="--tc:${tc}" aria-hidden="true">${svg("fb")}<img src="${FACE(id)}" alt="" decoding="async" onerror="this.remove()"></span>`;
 }
 
+const ICON_BOOK='<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 4.5C5.5 3.5 8 3.7 10 5.2c2-1.5 4.5-1.7 7-.7v11c-2.5-1-5-.8-7 .7-2-1.5-4.5-1.7-7-.7z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 5.2v11" stroke="currentColor" stroke-width="1.4"/></svg>';
+/* the champion name opens the official Czech story (lore.json is fetched the first time someone asks for it) */
+const nameBtn=n=>CH[n]?`<button type="button" class="name lorebtn" data-lore="${esc(n)}" title="Příběh championa">${esc(n)}${ICON_BOOK}</button>`:`<span class="name">${esc(n)}</span>`;
+let LORE=null;
+async function openLore(n){const c=CH[n];if(!c)return;const d=$("lore");
+  $("lore-n").textContent=c.n;$("lore-t").textContent="";$("lore-x").textContent="Načítám příběh…";
+  $("lore-art").style.backgroundImage=`url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${c.i}_0.jpg)`;
+  $("lore-a").innerHTML=`<a href="https://universe.leagueoflegends.com/cs_CZ/story/champion/${c.i.toLowerCase()}/" target="_blank" rel="noopener">Celý příběh na League of Legends Universe</a>`;
+  if(!d.open)d.showModal();
+  try{if(!LORE)LORE=await fetch("lore.json").then(r=>{if(!r.ok)throw 0;return r.json()});
+    const l=LORE[c.i];$("lore-t").textContent=l?l[0]:"";$("lore-x").textContent=l?l[1]:"Příběh k tomuhle championovi tu zatím není."}
+  catch(e){$("lore-x").textContent="Příběh se nepodařilo načíst. Zkus to za chvíli znovu, nebo ho otevři na Universe."}}
+
 function find(q){const n=norm(q);if(!n)return null;const list=P.champs;
   return list.find(c=>norm(c.n)===n)||list.find(c=>norm(c.n).startsWith(n))||list.find(c=>norm(c.n).includes(n))||null}
 function fillBars(root){requestAnimationFrame(()=>requestAnimationFrame(()=>root.querySelectorAll(".fill").forEach(f=>f.style.width=f.dataset.w+"%")))}
@@ -391,7 +429,7 @@ const SHORT={"Heimerdinger":"Heimer","Mordekaiser":"Morde","Nunu & Willump":"Nun
 function picksOf(d){return d[2].map(p=>({n:p[0],wr:p[1],g:p[2],why:p[3]||"",kind:KINDS[p[4]],vs:VS[p[5]]}))}
 function allySide(p){const pc=CH[p.n]||{c:"unknown"};
   const lbl=p.kind==="alt"&&p.vs!=="lane"&&p.wr<=50?"Záložní pick":KIND_LBL[p.kind];
-  return `<div class="side ally">${crest(pc.c,"ally",0,p.n)}<span class="lbl">${lbl}</span><span class="name">${esc(p.n)}</span><span class="role">${CLS_NAME[pc.c]||""}</span></div>`}
+  return `<div class="side ally">${crest(pc.c,"ally",0,p.n)}<span class="lbl">${lbl}</span>${nameBtn(p.n)}<span class="role">${CLS_NAME[pc.c]||""}</span></div>`}
 function detail(p){
   const games=p.vs==="lane"?`<span class="games">celkový winrate ${LANE_PHRASE[lane]}</span>`
     :`<span class="games">${cnt(p.g)}${p.vs==="cls"?" proti "+cur.vsCls:""} ${pips(p.g)}${small(p.g)}</span>`;
@@ -421,7 +459,7 @@ function showCounter(c){
   if(!c)return unknown();
   const d=(P.d[lane]||{})[c.n];
   const key="note:"+lane+":"+c.n;
-  const enemySide=`<div class="side enemy">${crest(c.c,"enemy",0,c.n)}<span class="lbl">Enemy</span><span class="name">${esc(c.n)}</span><span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span></div>`;
+  const enemySide=`<div class="side enemy">${crest(c.c,"enemy",0,c.n)}<span class="lbl">Enemy</span>${nameBtn(c.n)}<span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span></div>`;
   const tail=`<div class="tip"><p class="sub">Tip na lajnu</p><p>${esc(c.t)}</p></div>
     <div class="note"><label class="sub" for="note">Moje poznámka</label><textarea id="note" placeholder="Co ti proti němu fungovalo…">${esc(store.get(key)||"")}</textarea></div>`;
   if(!d){
@@ -505,7 +543,7 @@ function showItems(c){
   const out=$("out");markCur(c);cur=null;
   if(!c){unknown();out.insertAdjacentHTML("afterbegin",viewSwitch());return}
   const e=(P.b[lane]||{})[c.n];
-  const head=extra=>`<div class="ihead">${crest(c.c,"ally",0,c.n)}<div class="ih"><span class="lbl">Tvůj champion</span><span class="name">${esc(c.n)}</span><span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span>${extra||""}</div></div>`;
+  const head=extra=>`<div class="ihead">${crest(c.c,"ally",0,c.n)}<div class="ih"><span class="lbl">Tvůj champion</span>${nameBtn(c.n)}<span class="role">${CLS_NAME[c.c]?CLS_NAME[c.c]+" · ":""}${LANE_PHRASE[lane]}</span>${extra||""}</div></div>`;
   if(!e){
     const ls=Object.keys(LANE_PHRASE).filter(l=>P.b[l]&&P.b[l][c.n]);
     out.innerHTML=viewSwitch()+`<article class="card enter">${head()}<div class="inner"><p class="none">${esc(c.n)} se ${LANE_PHRASE[lane]} v Emerald+ skoro nehraje, takže tu pro tuhle linku build není.</p>${ls.length?`<div class="acts">${ls.map(l=>`<button class="btn" type="button" data-golane="${l}">Build ${LANE_PHRASE[l]}</button>`).join("")}</div>`:""}</div></article>`;
@@ -570,6 +608,9 @@ $("out").addEventListener("click",e=>{
   const v=e.target.closest("[data-iview]");if(v){iview=v.dataset.iview;store.set("iview",iview);render();return}
   const sc=e.target.closest("[data-scope]");if(sc){if(!sc.disabled){tscope=sc.dataset.scope;store.set("tscope",tscope);render()}return}
   const g=e.target.closest("[data-golane]");if(g)setLane(g.dataset.golane)});
+
+document.addEventListener("click",e=>{const b=e.target.closest("[data-lore]");if(b)openLore(b.dataset.lore)});
+$("lore").addEventListener("click",e=>{if(e.target===e.currentTarget||e.target.closest("[data-close]"))e.currentTarget.close()});
 
 const qs=new URLSearchParams(location.search);
 const saved=qs.get("l")||store.get("lane");lane=P.d[saved]?saved:"top";syncLanes();

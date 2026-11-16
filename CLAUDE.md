@@ -43,4 +43,7 @@ modrozelená = tvoje strana, červená = enemy, zlatá = výběr.
 ## Sdílení a stránky pro Google
 
 - Adresa aplikace popisuje, co je vidět: `?l=linka&c=champion` (Itemy `&t=i`, tier list `&v=t`); tlačítko Sdílet ji pošle/zkopíruje.
+- Příběh championa: jméno v kartě (enemy, counter, Itemy) otevře okno s oficiálním českým lore z Data Dragon `cs_CZ`
+  (`src/lore/cs_CZ.json`, build z něj zapíše `docs/lore.json`, stránka ho stáhne až při otevření). Při novém championovi
+  ho stáhni přes prohlížeč z `cdn/<verze>/data/cs_CZ/championFull.json` (`name`, `title`, `lore`).
 - `src/seo.py` při buildu vygeneruje `docs/counter/<linka>/<champion>/` (865 stránek s countery), `docs/counter/` a `docs/sitemap.xml`.
