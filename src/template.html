@@ -39,7 +39,11 @@ h1 span{color:var(--gold)}
 .search{position:relative}
 .search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:17px;height:17px;color:var(--dim);pointer-events:none}
 #q{width:100%;box-sizing:border-box;font:500 1.08rem var(--ui);padding:11px 12px 11px 38px;border-radius:8px;
-  border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+  border:1px solid var(--line);background:var(--surface);color:var(--ink);padding-right:100px}
+.share{position:absolute;right:5px;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:6px;padding:6px 10px;border:1px solid var(--gold-deep);border-radius:2px;background:var(--raise);color:var(--gold);font:600 .9rem var(--ui);cursor:pointer}
+.share svg{position:static;transform:none;width:15px;height:15px;color:var(--gold);fill:currentColor}
+.share:hover{border-color:var(--gold)}
+.share.done{color:var(--ally);border-color:var(--ally)}
 #q::placeholder{color:var(--dim)}
 #q:focus,button:focus-visible,textarea:focus,a:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
 
@@ -281,6 +285,7 @@ body{background:radial-gradient(120% 60% at 50% 0%,#0a1a2e 0%,#010a13 60%) fixed
     <div class="search">
       <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       <input id="q" type="search" placeholder="Proti komu hraješ? Třeba Garen" autocomplete="off" list="names" aria-label="Enemy champion">
+      <button type="button" id="share" class="share" aria-label="Sdílet odkaz na tohle zobrazení"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="15" cy="4.5" r="2.5"/><circle cx="5" cy="10" r="2.5"/><circle cx="15" cy="15.5" r="2.5"/><path d="M7.2 8.8l5.6-3M7.2 11.2l5.6 3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Sdílet</span></button>
     </div>
   </div>
   <datalist id="names"></datalist>
@@ -292,6 +297,7 @@ body{background:radial-gradient(120% 60% at 50% 0%,#0a1a2e 0%,#010a13 60%) fixed
   </section>
   <p class="foot" data-for="c">Ke každému enemy je deset picků. Nejdřív přímé matchupy nad 50 %, pak další přímé matchupy do 50 %, potom championi s nejlepším winratem proti championům stejného typu jako enemy a nakonec nejsilnější championi na lince podle celkového winratu. Uvnitř skupiny rozhoduje winrat po odečtení nejistoty z malého vzorku, takže vyšší číslo z mála her může stát za nižším z mnoha her. Picky podle typu a podle linky mají čárkovaný okraj. Procento je winrate tvého picku přímo v tomhle matchupu na stejné lince, pokud detail neříká jinak. Modrá část pruhu patří tobě, červená enemy, ryska uprostřed je 50 %. Kosočtverce ukazují, z kolika her číslo je: tři od 1 000 her, dva od 300, jeden méně. Data jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stažená 10. 11. 2026. Doporučují se jen championi, kteří se na lince opravdu hrají: objeví se aspoň v 1 % her na té lince, nebo v 0,5 %, když tam odehrají aspoň čtvrtinu svých zápasů. Matchup musí mít aspoň 100 her a pod 300 je označený jako malý vzorek. Když se enemy na lince skoro nehraje, picky jsou vybrané podle winratu proti championům stejného typu, a když chybí i to, podle kitu. Hlavní counter a první alternativy mají napsaný důvod proti tomuhle enemy, ostatní picky krátký popis, jak hrají lajnu. Důvody, popisy i tipy na lajnu vycházejí z kitů championů, ne ze statistik. Ikony championů, itemů a linek jsou od Riotu (Data Dragon a herní klient), a když se ikona championa nenačte, ukáže se místo ní znak podle typu. Poznámka se ukládá jen v tomhle prohlížeči.</p>
   <p class="foot" data-for="i" hidden>Buildy jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stav k 10. 11. 2026. Základ buildu tvoří první tři dokončené itemy včetně bot v pořadí, v jakém je hráči kupují. Varianty se stejnými itemy, jen v jiném pořadí nebo s jinými botami, se sčítají dohromady. Základy se řadí podle winratu po odečtení nejistoty z malého vzorku a berou se jen ty, které staví aspoň 3 % hráčů (když jich tolik není, i méně časté). Nejhranější je mezi nimi vždycky. Zbytek buildu do šesti itemů, na botu do sedmi, je poskládaný krok po kroku z her, které začaly stejně: vždycky item, který si hráči koupili jako další nejčastěji. Kde takové hry chybí, je item doplněný podle celkové oblíbenosti a má čárkovaný okraj. Buildy s Mejai's Soulstealer se do žebříčku nepočítají, protože ho hráči dokončí hlavně ve hrách, které už vyhrávají. U startu a bot je procento podíl hráčů, kteří je kupují. Itemy proplayerů jsou z pros.lol: hry profesionálních hráčů v sólo frontě a procento říká, v kolika z jejich posledních her item postavili. Názvy itemů jsou anglicky. Ikony championů, itemů a linek jsou od Riotu (Data Dragon a herní klient), a když se ikona championa nenačte, ukáže se místo ní znak podle typu. Tier list itemů porovnává winrate každého dokončeného itemu s ostatními itemy dokončenými jako stejný v pořadí (první, druhý, třetí… item), protože pozdní itemy se dostaví hlavně ve vyhraných hrách a jinak by vycházely vždycky nejlíp. Boty se porovnávají s jinými botami. Tier je podle pořadí v seznamu: S je zhruba nejlepší osmina itemů, D nejhorší osmina. Na linku se počítají itemy, které se staví aspoň v 1 % her, u championa aspoň v 1 % jeho her a aspoň v 300 hrách. Číslo z mála her se stahuje k nule. Mejai's Soulstealer v tier listu není, protože se dokupuje hlavně ve vyhraných hrách.</p>
+  <p class="foot"><a href="counter/">Countery na všechny championy jako samostatné stránky</a></p>
   <p class="foot legal" lang="en">Luban.GG was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
 </div>
 
@@ -518,7 +524,11 @@ function chips(){
 let splashId="";
 function setSplash(c){const id=c&&c.i;if(!id||id===splashId)return;splashId=id;const el=$("splash");
   const img=new Image();img.onload=()=>{el.style.backgroundImage=`url(${img.src})`};img.src=`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${id}_0.jpg`}
-function render(){const c=find($("q").value);setSplash(c);if(tab==="i"){if(iview==="t")showTiers(c);else showItems(c)}else showCounter(c)}
+/* the address always describes what you see (?l=lane&c=champion, Items tab t=i, item tier list v=t), so it can be shared */
+function shareUrl(){const c=find($("q").value),u=new URL(location.href.split(/[?#]/)[0]);u.searchParams.set("l",lane);
+  if(c)u.searchParams.set("c",c.n);if(tab==="i"){u.searchParams.set("t","i");if(iview==="t")u.searchParams.set("v","t")}return u.toString()}
+function syncUrl(){try{history.replaceState(null,"",shareUrl())}catch(e){}}
+function render(){const c=find($("q").value);setSplash(c);if(tab==="i"){if(iview==="t")showTiers(c);else showItems(c)}else showCounter(c);syncUrl()}
 function syncLanes(){document.querySelectorAll(".lanes button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.lane===lane)))}
 function setLane(l){lane=l;store.set("lane",l);syncLanes();chips();render()}
 function setTab(t,focus){tab=t;store.set("tab",t);
@@ -546,6 +556,15 @@ $("out").addEventListener("click",e=>{
   const sc=e.target.closest("[data-scope]");if(sc){if(!sc.disabled){tscope=sc.dataset.scope;store.set("tscope",tscope);render()}return}
   const g=e.target.closest("[data-golane]");if(g)setLane(g.dataset.golane)});
 
-const saved=store.get("lane");lane=P.d[saved]?saved:"top";syncLanes();
-setTab(store.get("tab")==="i"?"i":"c");
+const qs=new URLSearchParams(location.search);
+const saved=qs.get("l")||store.get("lane");lane=P.d[saved]?saved:"top";syncLanes();
+const startTab=qs.get("t")==="i"?"i":qs.has("c")?"c":(store.get("tab")==="i"?"i":"c");
+if(qs.has("c")&&find(qs.get("c")))last[startTab]=find(qs.get("c")).n;
+if(qs.get("v")==="t")iview="t";else if(qs.get("t")==="i")iview="b";
+setTab(startTab);
+$("share").addEventListener("click",async()=>{const url=shareUrl(),c=find($("q").value),b=$("share");
+  const title=c?(tab==="i"?`${c.n} ${LANE_PHRASE[lane]}: buildy`:`Counter na ${c.n} ${LANE_PHRASE[lane]}`):"Luban.GG";
+  if(navigator.share){try{await navigator.share({title,url});return}catch(e){if(e.name==="AbortError")return}}
+  try{await navigator.clipboard.writeText(url);b.classList.add("done");b.lastChild.textContent="Zkopírováno";
+    setTimeout(()=>{b.classList.remove("done");b.lastChild.textContent="Sdílet"},1800)}catch(e){b.lastChild.textContent="Odkaz je v adrese"}});
 </script>

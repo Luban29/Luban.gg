@@ -197,6 +197,7 @@ site = f"""<!doctype html>
 <meta property="og:title" content="Luban.GG">
 <meta property="og:description" content="{DESC}">
 <meta property="og:type" content="website">
+<link rel="canonical" href="https://luban29.github.io/Luban.gg/">
 <meta name="theme-color" content="#010a13">
 <link rel="icon" href="{ICON}">
 {head}
@@ -208,6 +209,10 @@ site = f"""<!doctype html>
 SITE = os.path.join(os.path.dirname(HERE), "docs", "index.html")
 open(SITE, "w", encoding="utf-8").write(site)
 print("champions:", len(champs), "site:", SITE, len(site.encode("utf-8")), "bytes")
+# pages for search engines (see seo.py)
+import seo
+DATE = re.search(r"stažená ([0-9. ]+20[0-9]{2})", tpl).group(1)
+print("seo pages:", seo.write(out, G, champs, DD_VERSION, DATE, os.path.dirname(SITE), key))
 # optional: also write the fragment for a Claude artifact, e.g. python3 src/build.py --artifact /path/page.html
 if "--artifact" in sys.argv:
     dest = sys.argv[sys.argv.index("--artifact") + 1]

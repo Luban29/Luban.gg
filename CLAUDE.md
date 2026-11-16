@@ -39,3 +39,8 @@ Claude na počítači uživatele (nástroje `Claude_Browser`). Když prohlíže�
 Výchozí je téma Hextech (tmavý jako herní klient): barvy v `:root` na začátku `src/template.html` a blok
 „Hextech look“ na konci stylů. Jiné téma ze světa League (Ionia, Noxus, Pergamen…) se dělá výměnou těchto dvou míst;
 modrozelená = tvoje strana, červená = enemy, zlatá = výběr.
+
+## Sdílení a stránky pro Google
+
+- Adresa aplikace popisuje, co je vidět: `?l=linka&c=champion` (Itemy `&t=i`, tier list `&v=t`); tlačítko Sdílet ji pošle/zkopíruje.
+- `src/seo.py` při buildu vygeneruje `docs/counter/<linka>/<champion>/` (865 stránek s countery), `docs/counter/` a `docs/sitemap.xml`.
