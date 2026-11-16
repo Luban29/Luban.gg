@@ -168,7 +168,17 @@ print("builds:", nb, "with pro data:", sum(1 for v in B.values() for e in v.valu
 nobuild = sorted({(lane, p[0]) for lane, d in out.items() for e in d.values() for p in e[2] if p[0] not in B.get(lane, {})})
 print("counter picks without a build in their lane:", len(nobuild), nobuild[:12])
 from dd import DD, DD_VERSION
-champs = [{"n": n, "c": M[n][0], "t": M[n][2], "i": DD[n]} for n in sorted(M, key=key)]
+# main lane: where the champion is picked most (pick rate in Emerald+, every lane has one player per team, so rates compare)
+MAIN = {}
+for line in open(os.path.join(HERE, "e30", "pools.txt"), encoding="utf-8"):
+    lane, _, v = line.rstrip("\n").partition("\t")
+    if lane not in LANES:
+        continue
+    for x in filter(None, v.split(",")):
+        n, pr, _wr = x.rsplit(":", 2)
+        if float(pr) > MAIN.get(n, ("", -1))[1]:
+            MAIN[n] = (lane, float(pr))
+champs = [{"n": n, "c": M[n][0], "t": M[n][2], "i": DD[n], "m": MAIN[n][0] if n in MAIN else ""} for n in sorted(M, key=key)]
 used_items = sorted({i for d in B.values() for e in d.values() for i in
     [x for s in e[3] for x in s[0]] + [b[0] for b in e[4]] + [x for b in e[5] for x in b[0]] + list(e[6]) +
     ([t[0] for t in e[7][2]] + [x for g in e[7][3] for x in g[5]] if e[7] else [])})

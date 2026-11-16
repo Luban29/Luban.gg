@@ -581,9 +581,13 @@ function setSplash(c){const id=c&&c.i;if(!id||id===splashId)return;splashId=id;c
 function shareUrl(){const c=find($("q").value),u=new URL(location.href.split(/[?#]/)[0]);u.searchParams.set("l",lane);
   if(c)u.searchParams.set("c",c.n);if(tab==="i"){u.searchParams.set("t","i");if(iview==="t")u.searchParams.set("v","t")}return u.toString()}
 function syncUrl(){try{history.replaceState(null,"",shareUrl())}catch(e){}}
-function render(){const c=find($("q").value);setSplash(c);if(tab==="i"){if(iview==="t")showTiers(c);else showItems(c)}else showCounter(c);syncUrl()}
+function render(){const c=find($("q").value);goMain(c);setSplash(c);if(tab==="i"){if(iview==="t")showTiers(c);else showItems(c)}else showCounter(c);syncUrl()}
+/* picking another champion jumps to the lane where he is played most (counters), or to it when the Items tab has no build here */
+let shown="";
+function goMain(c){if(!c||c.n===shown)return;shown=c.n;const m=c.m;if(!m||m===lane)return;
+  if(tab==="i"?!(P.b[lane]&&P.b[lane][c.n])&&P.b[m]&&P.b[m][c.n]:P.d[m]&&P.d[m][c.n]){lane=m;store.set("lane",m);syncLanes();chips()}}
 function syncLanes(){document.querySelectorAll(".lanes button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.lane===lane)))}
-function setLane(l){lane=l;store.set("lane",l);syncLanes();chips();render()}
+function setLane(l){const c=find($("q").value);if(c)shown=c.n;lane=l;store.set("lane",l);syncLanes();chips();render()}
 function setTab(t,focus){tab=t;store.set("tab",t);
   document.querySelectorAll(".tabs button").forEach(b=>{const on=b.dataset.tab===t;b.setAttribute("aria-selected",String(on));b.tabIndex=on?0:-1;if(on&&focus)b.focus()});
   $("out").setAttribute("aria-labelledby","t-"+t);
@@ -616,6 +620,7 @@ const qs=new URLSearchParams(location.search);
 const saved=qs.get("l")||store.get("lane");lane=P.d[saved]?saved:"top";syncLanes();
 const startTab=qs.get("t")==="i"?"i":qs.has("c")?"c":(store.get("tab")==="i"?"i":"c");
 if(qs.has("c")&&find(qs.get("c")))last[startTab]=find(qs.get("c")).n;
+if(qs.has("l")&&qs.has("c")&&find(qs.get("c")))shown=find(qs.get("c")).n; /* a shared link keeps its lane */
 if(qs.get("v")==="t")iview="t";else if(qs.get("t")==="i")iview="b";
 setTab(startTab);
 $("share").addEventListener("click",async()=>{const url=shareUrl(),c=find($("q").value),b=$("share");
