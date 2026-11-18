@@ -281,16 +281,27 @@ dialog.lore::backdrop{background:#010a13d9}
   background:#010a13cc;color:var(--ink);font-size:1.3rem;line-height:1;cursor:pointer}
 .lore .x:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 
-/* wide screens: controls in one row, the card in the main column, the champion list and notes beside it */
-.rail{display:flex;flex-direction:column;gap:18px;min-width:0}
+/* champion list: on a phone a few rows with a button to show the rest, on a computer a panel that stays in view and scrolls inside */
+.rail,.notes{display:flex;flex-direction:column;gap:18px;min-width:0}
+.roster{display:flex;flex-direction:column;min-height:0}
+.roster:not(.open) .chips{max-height:116px;overflow:hidden;-webkit-mask-image:linear-gradient(#000 55%,transparent);mask-image:linear-gradient(#000 55%,transparent)}
+.more{align-self:flex-start;margin-top:8px;font:600 .9rem var(--ui);padding:7px 12px;border:1px solid var(--gold-deep);background:var(--raise);color:var(--gold);cursor:pointer;border-radius:2px}
+.more:hover{border-color:var(--gold)}.more:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.chips{scrollbar-width:thin;scrollbar-color:var(--gold-deep) transparent}
+
+/* wide screens: controls in one row, the card in the main column, the champion list beside it, notes below */
 @media (min-width:1024px){
-  .wrap{max-width:1180px;display:grid;grid-template-columns:minmax(0,1fr) 340px;grid-template-rows:auto auto auto 1fr;
+  .wrap{max-width:1180px;display:grid;grid-template-columns:minmax(0,1fr) 340px;grid-template-rows:auto auto auto 1fr auto;
     column-gap:28px;row-gap:14px;align-items:start}
   .hero{grid-column:1/-1;grid-row:1;min-height:200px}
   .tabs{grid-column:1;grid-row:2}
   .bar{grid-column:1;grid-row:3;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;column-gap:16px}
   #out{grid-column:1;grid-row:4;min-width:0}
-  .rail{grid-column:2;grid-row:2/5}
+  .rail{grid-column:2;grid-row:2/6;position:sticky;top:12px;max-height:calc(100vh - 24px)}
+  .roster{flex:1;padding:14px;border:1px solid var(--line);background:var(--surface)}
+  .roster .chips,.roster:not(.open) .chips{max-height:none;overflow-y:auto;-webkit-mask-image:none;mask-image:none;padding-right:4px;align-content:flex-start}
+  .more{display:none}
+  .notes{grid-column:1;grid-row:5;padding-top:10px;border-top:1px solid var(--line)}
 }
 @container (min-width:700px){.picks{grid-template-columns:repeat(5,minmax(0,1fr))}}
 </style>
@@ -330,12 +341,15 @@ dialog.lore::backdrop{background:#010a13d9}
     <h3 id="roster-h">Všichni championi</h3>
     <p class="legend" id="legend"></p>
     <div class="chips" id="chips"></div>
+    <button type="button" class="more" id="more" aria-controls="chips" aria-expanded="false"></button>
   </section>
+  </aside>
+  <div class="notes">
   <p class="foot" data-for="c">Ke každému enemy je deset picků. Nejdřív přímé matchupy nad 50 %, pak další přímé matchupy do 50 %, potom championi s nejlepším winratem proti championům stejného typu jako enemy a nakonec nejsilnější championi na lince podle celkového winratu. Uvnitř skupiny rozhoduje winrat po odečtení nejistoty z malého vzorku, takže vyšší číslo z mála her může stát za nižším z mnoha her. Picky podle typu a podle linky mají čárkovaný okraj. Procento je winrate tvého picku přímo v tomhle matchupu na stejné lince, pokud detail neříká jinak. Modrá část pruhu patří tobě, červená enemy, ryska uprostřed je 50 %. Kosočtverce ukazují, z kolika her číslo je: tři od 1 000 her, dva od 300, jeden méně. Data jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stažená 10. 11. 2026. Doporučují se jen championi, kteří se na lince opravdu hrají: objeví se aspoň v 1 % her na té lince, nebo v 0,5 %, když tam odehrají aspoň čtvrtinu svých zápasů. Matchup musí mít aspoň 100 her a pod 300 je označený jako malý vzorek. Když se enemy na lince skoro nehraje, picky jsou vybrané podle winratu proti championům stejného typu, a když chybí i to, podle kitu. Hlavní counter a první alternativy mají napsaný důvod proti tomuhle enemy, ostatní picky krátký popis, jak hrají lajnu. Důvody, popisy i tipy na lajnu vycházejí z kitů championů, ne ze statistik. Ikony championů, itemů a linek jsou od Riotu (Data Dragon a herní klient), a když se ikona championa nenačte, ukáže se místo ní znak podle typu. Poznámka se ukládá jen v tomhle prohlížeči.</p>
   <p class="foot" data-for="i" hidden>Buildy jsou z Lolalytics, jen Emerald+ za posledních 30 dní, stav k 10. 11. 2026. Základ buildu tvoří první tři dokončené itemy včetně bot v pořadí, v jakém je hráči kupují. Varianty se stejnými itemy, jen v jiném pořadí nebo s jinými botami, se sčítají dohromady. Základy se řadí podle winratu po odečtení nejistoty z malého vzorku a berou se jen ty, které staví aspoň 3 % hráčů (když jich tolik není, i méně časté). Nejhranější je mezi nimi vždycky. Zbytek buildu do šesti itemů, na botu do sedmi, je poskládaný krok po kroku z her, které začaly stejně: vždycky item, který si hráči koupili jako další nejčastěji. Kde takové hry chybí, je item doplněný podle celkové oblíbenosti a má čárkovaný okraj. Buildy s Mejai's Soulstealer se do žebříčku nepočítají, protože ho hráči dokončí hlavně ve hrách, které už vyhrávají. U startu a bot je procento podíl hráčů, kteří je kupují. Itemy proplayerů jsou z pros.lol: hry profesionálních hráčů v sólo frontě a procento říká, v kolika z jejich posledních her item postavili. Názvy itemů jsou anglicky. Ikony championů, itemů a linek jsou od Riotu (Data Dragon a herní klient), a když se ikona championa nenačte, ukáže se místo ní znak podle typu. Tier list itemů porovnává winrate každého dokončeného itemu s ostatními itemy dokončenými jako stejný v pořadí (první, druhý, třetí… item), protože pozdní itemy se dostaví hlavně ve vyhraných hrách a jinak by vycházely vždycky nejlíp. Boty se porovnávají s jinými botami. Tier je podle pořadí v seznamu: S je zhruba nejlepší osmina itemů, D nejhorší osmina. Na linku se počítají itemy, které se staví aspoň v 1 % her, u championa aspoň v 1 % jeho her a aspoň v 300 hrách. Číslo z mála her se stahuje k nule. Mejai's Soulstealer v tier listu není, protože se dokupuje hlavně ve vyhraných hrách.</p>
   <p class="foot"><a href="counter/">Countery na všechny championy jako samostatné stránky</a></p>
   <p class="foot legal" lang="en">Luban.GG was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
-  </aside>
+  </div>
 </div>
 <dialog class="lore" id="lore" aria-labelledby="lore-n"><button class="x" type="button" data-close aria-label="Zavřít">×</button>
   <div class="art" id="lore-art"></div><div class="lh"><span class="lbl">Příběh</span><h2 id="lore-n"></h2><p class="ttl" id="lore-t"></p></div>
@@ -566,13 +580,15 @@ function showItems(c){
 }
 
 function markNotes(){document.querySelectorAll("#chips button").forEach(b=>b.classList.toggle("has-note",tab==="c"&&!!store.get("note:"+lane+":"+b.dataset.n)))}
+function moreLabel(){const r=$("chips").closest(".roster"),o=r.classList.contains("open");
+  $("more").textContent=o?"Skrýt seznam":`Zobrazit všechny (${$("chips").children.length})`;$("more").setAttribute("aria-expanded",o)}
 function chips(){
   const list=tab==="i"?P.champs.filter(c=>P.b[lane]&&P.b[lane][c.n]):P.champs;
   $("roster-h").textContent=tab==="i"?`Championi ${LANE_PHRASE[lane]}`:"Všichni championi";
   $("legend").textContent=tab==="i"?`Jen ti, kdo se ${LANE_PHRASE[lane]} opravdu hrají. Klikni na toho, za koho hraješ.`:"Klikni na championa, kterého hraje enemy. Zlatá tečka znamená tvou poznámku.";
   $("chips").dataset.tab=tab;
   $("chips").innerHTML=list.map(c=>`<button type="button" data-n="${esc(c.n)}"><img src="${FACE(c.i)}" alt="" loading="lazy" decoding="async" onerror="this.remove()">${esc(c.n)}</button>`).join("");
-  markNotes();
+  markNotes();moreLabel();
 }
 let splashId="";
 function setSplash(c){const id=c&&c.i;if(!id||id===splashId)return;splashId=id;const el=$("splash");
@@ -613,6 +629,7 @@ $("out").addEventListener("click",e=>{
   const sc=e.target.closest("[data-scope]");if(sc){if(!sc.disabled){tscope=sc.dataset.scope;store.set("tscope",tscope);render()}return}
   const g=e.target.closest("[data-golane]");if(g)setLane(g.dataset.golane)});
 
+$("more").addEventListener("click",()=>{$("chips").closest(".roster").classList.toggle("open");moreLabel()});
 document.addEventListener("click",e=>{const b=e.target.closest("[data-lore]");if(b)openLore(b.dataset.lore)});
 $("lore").addEventListener("click",e=>{if(e.target===e.currentTarget||e.target.closest("[data-close]"))e.currentTarget.close()});
 
