@@ -31,6 +31,11 @@ EXC = {
         ("Xin Zhao", "Engage support v jungli nemá damage a Xin ho v souboji rozseká."),
         ("Viego", "Vyhraje duel a resety mu dávají skirmishe, engage support v jungli nemá damage."),
     ],
+    ("jungle", "tank"): [
+        ("Lillia", "Tank v jungli clearuje pomalu, Lillia ho rychlým clearem předběhne a pasiv pálí procenta jeho HP."),
+        ("Bel'Veth", "On-hit damage a true damage z E rozseká i tanka, který v jungli nemá burst na duel."),
+        ("Master Yi", "True damage z E ignoruje armor tanka a v duelu ho postupně rozseká."),
+    ],
     ("jungle", "assassin"): [
         ("Rammus", "Armor z W tlumí burst assassina a taunt ho chytí."),
         ("Sejuani", "Vydrží burst assassina a CC ho zastaví."),

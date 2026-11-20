@@ -1,0 +1,14 @@
+# Důvody doplněné při aktualizaci 20. 11. 2026 (enemy|pick|proč)
+Anivia|Ezreal|Ezreal ji přeskočí přes zeď z E a z dálky ji pokuje.
+Hwei|Sivir|Spell Shield vezme jeho poke a Sivir ho přefarmí.
+Jarvan IV|Kai'Sa|Kai'Sa mu vyskočí z R a v lajně ho přetlačí.
+Kennen|Jhin|Jhin ho trestá z dálky a W ho chytí rootem dřív, než se přiblíží.
+Kindred|Jhin|Jhin je trestá z dálky a root z W je chytí, než se přiblíží.
+Malzahar|Yunara|Yunara ho přetlačí v tradu a štít z R ji chrání před jeho R.
+Rengar|Xayah|R ji udělá nezacílitelnou a Xayah mu vrátí jeho skok rootem.
+Seraphine|Sivir|Spell Shield vezme její stun a Sivir ji v lajně přefarmí.
+Twisted Fate|Xayah|R ji udělá nezacílitelnou a Xayah ho po jeho stunu dorazí.
+Vel'Koz|Yasuo|Wind Wall chytí jeho poke a Yasuo ho dostane po dashích přes vlnu.
+Viktor|Swain|Swain ho v delším tradu přetlačí a drain z R ho dorazí.
+Yone|Kai'Sa|Kai'Sa ho z dálky pokuje a vyskočí mu z R.
+Zeri|Kog'Maw|Kog'Maw ji přetlačí v dlouhém tradu a z dálky ji dorazí.

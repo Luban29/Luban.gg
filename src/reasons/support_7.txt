@@ -1,0 +1,24 @@
+# Důvody doplněné při aktualizaci 20. 11. 2026 (enemy|pick|proč)
+Aatrox|Nautilus|Hák ho chytí, Aatrox na supportu nemá únik a ADC ho dorazí.
+Annie|Alistar|Combo W+Q ji chytí dřív, než nastackuje stun, a ADC ji dorazí.
+Ekko|Thresh|Hák ho chytí a lucerna zachrání ADC před jeho burstem.
+Hwei|Pyke|Hák ho chytí a R ho dorazí, Hwei na supportu nemá únik.
+Janna|Thresh|Hák ji chytí, než stihne odhodit engage, a ADC ji dorazí.
+Jax|Lulu|Polymorph ho zastaví při skoku a štít zachrání ADC.
+Jayce|Karma|Karma ho z dálky pokuje a štít z E vezme jeho burst.
+Jhin|Nami|Bublina ho chytí, Jhin na supportu nemá únik a Nami s ADC ho přetlačí.
+LeBlanc|Poppy|W jí zablokuje skok a stun o zeď ji chytí.
+Neeko|Taric|Stun ji chytí při engage a R zachrání ADC před jejím R.
+Nunu & Willump|Nautilus|Hák ho chytí a Nautilus má víc CC v engage.
+Quinn|Alistar|Combo W+Q ji chytí a Alistar v melee ji přetlačí.
+Rammus|Rakan|Rakan je rychlejší v engage a W ho odhodí dřív, než stihne taunt.
+Rengar|Alistar|Combo W+Q ho chytí při skoku a heal zachrání ADC.
+Soraka|Senna|Senna ji z dálky pokuje a root z W ji chytí.
+Taliyah|Nami|Bublina ji chytí a Nami ji s ADC v tradech přetlačí.
+Teemo|Lulu|Polymorph ho zastaví a štít zachrání ADC před jeho damagem.
+Varus|Lulu|Štít a polymorph zachrání ADC před jeho engage.
+Veigar|Nami|Bublina ho chytí a Nami ho s ADC v tradech přetlačí.
+Yuumi|Amumu|Bandáž chytí ADC, Yuumi ho neochrání a R zastaví celý jejich bot.
+Zilean|Sona|Poke a heal ho vyčerpají v dlouhých tradech.
+Zoe|Alistar|Combo W+Q ji chytí a Zoe na supportu nemá únik.
+Zyra|Taric|Taric vydrží její poke a stun ji chytí dřív, než položí rostliny.

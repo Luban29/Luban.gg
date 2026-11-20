@@ -14,6 +14,10 @@
 Lolalytics ani pros.lol nejsou ze sandboxu dostupné, data se stahují přes vestavěný prohlížeč desktopové aplikace
 Claude na počítači uživatele (nástroje `Claude_Browser`). Když prohlížeč není k dispozici, řekni to uživateli.
 
+Kolektory není potřeba vkládat celé: v záložce stačí `(0,eval)(await fetch('https://raw.githubusercontent.com/Luban29/Luban.gg/main/src/collect/lolalytics.js?x='+Date.now()).then(r=>r.text()))`
+(stejně `proslol.js`). Frontu pro pros.lol přenes přes `window.name` (zůstává při přechodu na jiný web), pak ho vymaž.
+Když Lolalytics hlásí nový patch, zvedni i `DD_VERSION` v `src/dd.py` podle `ddragon.leagueoflegends.com/api/versions.json`.
+
 1. Otevři `https://lolalytics.com/lol/aatrox/build/?lane=top&tier=emerald_plus&patch=30` a přes `javascript_tool`
    vlož celý `src/collect/lolalytics.js`. Pak `await LUBAN.meta()` a `LUBAN.counters()`; průběh `LUBAN.status()` (asi 15 s).
 2. `LUBAN.put("raw", LUBAN.rawText())` vrátí počet částí, délku a kontrolní součet. Každou část vyžádej

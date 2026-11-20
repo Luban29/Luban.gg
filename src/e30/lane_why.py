@@ -71,6 +71,7 @@ LANE_WHY = {
     ("jungle", "Kayn"): "Prochází zdmi a podle týmu si vybere formu assassina nebo bruisera.",
     ("jungle", "Kha'Zix"): "Burst na izolovaný cíl, stealth z R a skok z E.",
     ("jungle", "Kindred"): "Kituje z range, marky škálují a R zachrání tým.",
+    ("jungle", "Pantheon"): "Silný early, ganky se skokem z W a stunem, R dovolí gank přes celou mapu.",
     ("jungle", "Lee Sin"): "Silný early, ganky s Q a kopnutí z R rozbije pozici.",
     ("jungle", "Lillia"): "Rychlý clear, kituje rychlostí a R uspí celý tým.",
     ("jungle", "Master Yi"): "Škáluje, Q uhne CC a v late game rozseká tým.",

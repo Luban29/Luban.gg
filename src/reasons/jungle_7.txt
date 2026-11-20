@@ -1,0 +1,15 @@
+# Důvody doplněné při aktualizaci 20. 11. 2026 (enemy|pick|proč)
+Briar|Wukong|Klon z W ji zmate při skoku a Wukong ji v duelu se slow přetlačí.
+Ekko|Zyra|Rostliny clearují rychle a Zyra ho v ganku chytí rootem, když skočí.
+Fizz|Hecarim|Hecarim vydrží jeho burst a fear z R ho chytí i po skoku.
+Jhin|Graves|Graves ho v jungli předuelí a Jhin bez lajny nemá jak bránit kempy.
+Morgana|Sylas|Sylas jí ukradne R a v duelu ji přetlačí, štít mu nevadí.
+Nasus|Viego|Nasus v jungli pomalu stackuje a Viego ho early invaduje a v duelu vyhraje.
+Nautilus|Master Yi|Nautilus nemá damage a Master Yi ho v duelu rozseká true damagem z E.
+Pantheon|Zyra|Rostliny ho drží daleko a Zyra mu po skoku sebere ganky rootem.
+Riven|Qiyana|Qiyana ji bursne dřív, než stihne combo, a R ji chytí o zeď.
+Trundle|Lillia|Lillia ho rychlým clearem předběhne a pasiv pálí procenta jeho HP.
+Udyr|Zac|Zac jeho ganky přežije díky HP a z dálky ho chytí skokem z E.
+Vayne|Talon|Vayne v jungli bývá sama a Talon ji přes zdi dostihne a bursne.
+Warwick|Lillia|Lillia mu uteče, než ho W dostane, a v duelu ho kitují její damage.
+Zed|Bel'Veth|Bel'Veth vyhraje duel, Zedův burst nestačí na její sustain v souboji.

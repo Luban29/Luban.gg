@@ -1,0 +1,21 @@
+# Důvody doplněné při aktualizaci 20. 11. 2026 (enemy|pick|proč)
+Alistar|Renekton|Alistar na topu nemá damage a Renekton ho v lajně přetlačí a W stun mu vrátí combo.
+Annie|Sion|Velké HP vydrží její burst a stun a Sion ji pak v dlouhé lajně přefarmí a přeroste.
+Azir|Malphite|Armor ani AP mu nevadí, R ho chytí přes vojáky a mage na topu nemá únik.
+Cassiopeia|Yasuo|Wind Wall zastaví její Q i W a skok přes miniony ji dostane z dosahu i k ní.
+Ekko|Jax|Counter Strike vykryje jeho combo a Jax ho po skoku dožene a v melee přetlačí.
+Fiddlesticks|Fiora|Na topu nemá jak ji trestat, Fiora ho riposte zastaví fear a vitály ho rozloží.
+Fizz|Yone|Yone ho přetlačí v delším tradu a E ho vrátí do bezpečí po jeho all-inu.
+Lee Sin|Aatrox|Lee Sin na topu nemá sustain a Aatrox ho v dlouhém tradu s healem přetlačí.
+Locke|Irelia|Irelia ho skoky přes vlnu dostane a v delším souboji s pasivem vyhraje.
+Lux|Renekton|Renekton ji skokem dostihne, mage na topu nemá únik a W stun ji dorazí.
+Naafiri|Garen|Spin z E rozseká její psy a Garen ji v dlouhém tradu přetlačí.
+Nautilus|Aatrox|Nautilus nemá damage a Aatrox ho v lajně umlátí s healem z R.
+Sejuani|Gangplank|Na topu nemá damage a Gangplank ji z dálky pokuje sudy a přefarmí.
+Shaco|Ornn|Ornn vydrží jeho burst i boxy a Shaco na topu nemá jak ho dostat.
+Skarner|Aatrox|Aatrox ho přetlačí v dlouhém tradu a heal mu vrátí Skarnerův damage.
+Vel'Koz|Camille|Camille ho hookshotem přeskočí přes poke a mage na topu nemá únik.
+Vex|Irelia|Irelia jí po skoku nedá čas na fear a v lajně ji přeroste.
+Viego|Ambessa|Ambessa ho dashy předběhne a v lajně ho přetlačí dřív, než má resety.
+Yasuo|Camille|Camille ho stunem o zeď chytí a true damage z Q mu sebere výhodu štítu.
+Zac|Singed|Singed ho proxy farmou utahá a jed mu sebere HP, které Zac potřebuje.

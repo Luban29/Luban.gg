@@ -33,7 +33,7 @@ soubory níže. Postup krok za krokem je v `CLAUDE.md`.
 | `meta.py` | championi, jejich typ a tip na lajnu |
 | `why.py`, `alt_why.py`, `reasons/`, `exc.py`, `e30/cls_why.py`, `e30/lane_why.py` | napsané důvody u counterů a popisy, jak picky hrají lajnu |
 
-Data jsou stažená 10. 11. 2026. Procenta jsou winrate picku v daném matchupu, pokud stránka neříká jinak.
+Data jsou stažená 20. 11. 2026. Procenta jsou winrate picku v daném matchupu, pokud stránka neříká jinak.
 
 ## Poznámka k právům
 

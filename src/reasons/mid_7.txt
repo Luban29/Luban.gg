@@ -1,0 +1,14 @@
+# Důvody doplněné při aktualizaci 20. 11. 2026 (enemy|pick|proč)
+Aatrox|Ahri|Ahri ho z dálky pokuje a charm ho zastaví dřív, než trefí Q.
+Ambessa|Ahri|Charm ji zastaví při dashi a Ahri ji pak z dálky dokituje s R.
+Anivia|Aurelion Sol|Aurelion Sol se v lajně nahrne do stacků a vlna Anivie mu nebrání ve scalingu.
+Gwen|Ekko|Ekko ji z dálky pokuje a R ho vrátí z její mlhy.
+Jarvan IV|Yasuo|Wind Wall chytí jeho vlajku a Yasuo ho po knockupu dorazí s R.
+Jax|Yone|Yone ho pokuje z dálky a E ho vrátí z jeho Counter Strike.
+Kennen|Syndra|Syndra ho z dálky pokuje a R ho bursne, než stihne stun.
+K'Sante|Zed|Zed ho přes vlnu pokuje stíny a jeho burst ho dostane dřív, než se rozjede.
+Riven|LeBlanc|LeBlanc ji bursne a W ji vrátí do bezpečí dřív, než stihne combo.
+Sivir|Syndra|Syndra ji bursne a stun jí sebere štít z E.
+Talon|Hwei|Hwei ho z dálky pokuje a fear z E ho zastaví při skoku.
+Trundle|Yasuo|Yasuo ho dashi přes vlnu přetlačí v tradu a R ho dostane po knockupu.
+Warwick|Yasuo|Yasuo ho přetlačí v lajně a dashe mu dávají únik z jeho R.

@@ -1,46 +1,46 @@
-top	Aatrox:6.38:51.6,Akali:3.18:50.76,Ambessa:3.9:49.42,Camille:4.32:52.22,Cho'Gath:3.04:52.21,Darius:7.21:52.43,Dr. Mundo:3.36:51.84,Fiora:4.48:52.29,Gangplank:5.12:52.58,Garen:6.24:52.91,Gnar:3.6:50.36,Gragas:2.48:51.46,Gwen:2.47:52.29,Heimerdinger:1.21:52.28,Illaoi:2.56:52.56,Irelia:4.55:51.99,Jax:5.95:51.11,Jayce:5.62:48.94,Kayle:2.37:53.42,Kennen:1.87:51.38,Kled:1.69:52.84,K'Sante:3.76:47.71,Malphite:7.15:53.38,Mordekaiser:5.58:52.57,Nasus:3.83:52.52,Olaf:2.87:52.03,Ornn:3.94:53.14,Pantheon:3.92:51.82,Poppy:0.91:52.87,Quinn:0.83:53.99,Renekton:5.8:51.45,Riven:2.31:51.32,Rumble:1.59:48.61,Sett:6.22:52.45,Shen:3.65:52.83,Singed:2.17:53.54,Sion:3.53:52.27,Sylas:1.19:51.25,Tahm Kench:1.84:52.28,Teemo:4.06:53.27,Trundle:1.67:50.7,Tryndamere:3.06:52.27,Urgot:2.36:52.51,Vayne:1.29:50.28,Vladimir:1.33:51.1,Volibear:4.03:50.83,Warwick:1.42:53.16,Yasuo:3.6:51.18,Yone:8.19:51.17,Yorick:2.76:51.03,Zaahen:2.92:52.07
-jungle	Amumu:1.95:53.05,Bel'Veth:2.57:53.33,Briar:4.29:53.58,Cho'Gath:5.78:53.64,Darius:1.07:53.37,Diana:3.5:51.84,Ekko:4.72:52.27,Elise:3.17:52.44,Evelynn:2.84:52.73,Fiddlesticks:1.99:52.86,Graves:7.77:51.08,Hecarim:5.26:50.97,Ivern:1.07:53.36,Jarvan IV:7.51:51.18,Jayce:2.03:48.32,Karthus:1.37:50.83,Kayn:7.44:52.06,Kha'Zix:6.67:51.23,Kindred:2.63:52.22,Lee Sin:12.66:49.98,Lillia:5.12:53.57,Master Yi:6.13:52.72,Naafiri:2.99:51.72,Nidalee:2.68:52.04,Nocturne:4.05:50.97,Nunu & Willump:2.03:52.6,Qiyana:7.14:48.36,Quinn:1.15:51.78,Rammus:1.82:54.61,Rek'Sai:1.36:53.16,Rengar:3.92:49.88,Sejuani:2.26:53.55,Shaco:4.31:52.63,Shyvana:3.98:53.5,Skarner:0.99:52.69,Sylas:6.33:51.31,Taliyah:1.78:52.4,Talon:5.42:51.78,Trundle:0.77:52.58,Udyr:1.84:53.04,Vi:4.51:50.86,Viego:8.22:51.44,Volibear:1.04:52.01,Warwick:2.99:53.91,Wukong:6.93:53.74,Xin Zhao:2.92:51.91,Zac:2.65:53.1,Zed:2.68:49.27,Zyra:1.73:53.72
-mid	Ahri:10.1:53.13,Akali:7.06:50.61,Akshan:2.21:51.53,Anivia:2.31:51.85,Annie:1.88:52.69,Aurelion Sol:1.71:52.24,Aurora:2.58:52.37,Azir:1.85:48.98,Cassiopeia:1.25:49.18,Diana:3.46:52.81,Ekko:5.1:53.43,Fizz:5.04:53.41,Galio:4.18:50.62,Hwei:3.61:52.57,Irelia:2.8:50.5,Kassadin:2.95:52.32,Katarina:6.53:52.57,LeBlanc:5.48:52.32,Lissandra:5.46:52.65,Locke:6.88:51.2,Lux:3.99:52.75,Malzahar:5.1:52.05,Mel:1.91:48.04,Orianna:4.03:48.67,Qiyana:2.5:50.68,Ryze:2.06:48.12,Sylas:6.77:50.17,Syndra:8.4:51.44,Taliyah:1.94:51.36,Talon:1.63:52.27,Twisted Fate:4.96:52.73,Veigar:3.24:52.68,Vel'Koz:1.08:53.36,Vex:3.1:53.95,Viktor:7.53:50.83,Vladimir:4.22:53.12,Xerath:4.16:53.16,Yasuo:9:51.9,Yone:8.1:51.97,Zed:8.18:51.47,Ziggs:0.64:52.39,Zoe:2.81:52.17
-bottom	Aphelios:7.22:51.32,Ashe:5.88:51.73,Caitlyn:13.65:50.69,Corki:2.33:50.76,Draven:4.23:51.65,Ezreal:12.51:47.86,Jhin:18.75:51.55,Jinx:14.01:53.51,Kai'Sa:21.27:51.62,Kalista:4.37:50.62,Karthus:0.6:55.18,Kog'Maw:2.36:54.08,Lucian:8.63:50.8,Miss Fortune:7.6:52.63,Nilah:1.08:54.11,Samira:3.7:51.99,Sivir:4.51:52.71,Smolder:4.49:52.2,Swain:1.01:54.34,Tristana:8.39:52.31,Twitch:5.43:53.13,Varus:3.45:50.74,Vayne:3.55:51.28,Veigar:1.07:54.48,Viktor:1.95:52.56,Xayah:7.31:53.45,Yasuo:2.29:53.72,Yunara:9.77:51.14,Zeri:4.55:52.65,Ziggs:1.59:52.76
-support	Alistar:6.12:52.82,Amumu:0.68:53.5,Bard:4.26:50.2,Blitzcrank:7.57:53.09,Brand:2.35:51.67,Braum:5.42:53.49,Camille:1.22:47.82,Janna:5.17:52.83,Karma:7.57:50.07,Leona:8.28:53.73,Lulu:12.53:51.34,Lux:6.48:51.61,Maokai:1.66:52.6,Milio:6.65:52.03,Morgana:4.26:52.06,Nami:9.12:52.36,Nautilus:10.64:51.1,Neeko:1.72:50.54,Pantheon:3.31:49.88,Poppy:1.68:52.7,Pyke:5.85:51.03,Rakan:4.4:52.57,Rell:3.95:53.2,Renata Glasc:2.17:51.38,Senna:5.63:53.12,Seraphine:6.61:52.63,Shaco:1.16:49.91,Sona:2.72:52.98,Soraka:4.78:52.46,Swain:2.83:50.55,Sylas:1.21:49.05,Tahm Kench:2.29:51.67,Taric:1.25:53.78,Thresh:15:53.36,Vel'Koz:3.11:52.77,Xerath:2.83:50.98,Yuumi:5.59:49.58,Zilean:2.92:53.24,Zyra:2.61:52.27
+top	Aatrox:6.33:51.62,Akali:3.52:50.94,Ambessa:4.23:49.38,Camille:4.46:52.12,Cho'Gath:2.9:52.29,Darius:7.44:52.97,Dr. Mundo:3.42:51.98,Fiora:4.38:52.31,Gangplank:5.03:52.51,Garen:6.29:52.94,Gnar:3.92:50.44,Gragas:2.42:51.33,Gwen:2.6:52.28,Heimerdinger:1.17:52.42,Illaoi:2.56:52.65,Irelia:4.53:52.25,Jax:6.16:51.08,Jayce:5.73:49.08,Kayle:2.55:53.62,Kennen:1.88:51.58,Kled:1.73:52.75,K'Sante:4.09:47.54,Malphite:6.93:53.32,Mordekaiser:5.3:52.44,Nasus:3.54:52.69,Olaf:3.11:51.72,Ornn:3.98:53.06,Pantheon:3.77:51.7,Poppy:0.93:53.06,Quinn:0.81:53.44,Renekton:6.1:51.37,Riven:2.35:51.43,Rumble:1.68:48.52,Sett:6.06:52.49,Shen:3.61:52.9,Singed:2.12:53.59,Sion:3.85:52.57,Sylas:1.16:51.17,Tahm Kench:1.76:52.24,Teemo:3.83:52.94,Trundle:1.68:51.01,Tryndamere:2.9:52.32,Urgot:2.26:52.45,Vayne:1.44:50.25,Vladimir:1.26:51.13,Volibear:3.83:50.96,Warwick:1.39:53.45,Yasuo:3.41:50.71,Yone:7.6:50.88,Yorick:2.71:51.11,Zaahen:3.12:52.34
+jungle	Amumu:1.91:53.16,Bel'Veth:2.61:53.39,Briar:4.17:53.6,Cho'Gath:5.4:53.77,Darius:1.2:53.67,Diana:3.41:51.85,Ekko:4.69:52.41,Elise:2.98:52.63,Evelynn:3.1:52.49,Fiddlesticks:1.89:52.83,Graves:7.41:51.08,Hecarim:5.18:51.16,Ivern:0.98:53.26,Jarvan IV:8.08:51.35,Jayce:2.33:48.05,Karthus:1.36:50.8,Kayn:6.95:52.11,Kha'Zix:6.33:51.4,Kindred:2.58:52.4,Lee Sin:12.74:49.7,Lillia:5.08:53.85,Master Yi:5.89:52.78,Naafiri:3.75:52.03,Nidalee:2.5:51.96,Nocturne:4.17:51.01,Nunu & Willump:2.08:52.72,Pantheon:1.05:49.87,Qiyana:7.11:47.61,Quinn:0.99:51.28,Rammus:1.53:54.04,Rek'Sai:1.36:53.31,Rengar:3.94:50.02,Sejuani:2.23:53.52,Shaco:4.23:52.52,Shyvana:3.92:53.55,Skarner:1.03:52.77,Sylas:6.21:51.46,Taliyah:2.48:52.03,Talon:5.24:51.66,Trundle:0.8:52.76,Udyr:1.79:53.06,Vi:4.81:50.92,Viego:8.15:51.69,Warwick:2.88:54.05,Wukong:6.69:53.63,Xin Zhao:3.19:52.29,Zac:2.58:53.1,Zed:2.65:49.21,Zyra:1.98:53.66
+mid	Ahri:10.76:53.14,Akali:7.85:50.63,Akshan:2.24:51.58,Anivia:2.31:51.91,Annie:2:52.7,Aurelion Sol:1.77:52.78,Aurora:2.56:52.49,Azir:1.95:49.35,Cassiopeia:1.41:49.06,Diana:3.44:52.9,Ekko:5.23:53.6,Fizz:4.88:53.37,Galio:4.41:50.74,Hwei:3.57:52.7,Irelia:2.69:50.58,Kassadin:3.05:52.35,Katarina:6.37:52.78,LeBlanc:5.57:52.44,Lissandra:5.48:52.69,Locke:6.31:50.74,Lux:3.85:52.77,Malzahar:4.85:52.1,Mel:1.72:48.9,Orianna:4.78:48.92,Qiyana:2.31:50.24,Ryze:2.02:48.7,Sylas:6.66:50.27,Syndra:8.99:51.22,Taliyah:2.3:51.51,Talon:1.68:52.09,Twisted Fate:5.3:52.54,Veigar:3.17:52.9,Vel'Koz:1.21:53.57,Vex:2.96:54.06,Viktor:7.22:50.39,Vladimir:4.13:53.25,Xerath:4.04:53.14,Yasuo:8.47:51.68,Yone:7.51:51.85,Zed:8.09:51.45,Ziggs:0.63:52.41,Zoe:2.8:51.97
+bottom	Aphelios:6.58:51.48,Ashe:6.07:51.97,Caitlyn:12.26:50.43,Corki:3.39:51.36,Draven:3.98:51.71,Ezreal:14.46:47.96,Jhin:19.24:51.73,Jinx:11.71:53.14,Kai'Sa:22.55:51.59,Kalista:4.4:50.61,Karthus:0.59:54.91,Kog'Maw:2.34:54.3,Lucian:8.56:50.95,Miss Fortune:8.18:52.95,Nilah:1.05:53.96,Samira:3.6:52.15,Sivir:4.63:52.72,Smolder:4.63:52.79,Swain:1.01:54.88,Tristana:6.62:51.89,Twitch:5.23:53.23,Varus:3.58:51.13,Vayne:3.48:51.41,Viktor:1.62:52.19,Xayah:8.34:53.52,Yasuo:2.14:53.57,Yunara:10.54:51.07,Zeri:4.59:52.85,Ziggs:1.61:52.7
+support	Alistar:6.63:52.69,Amumu:0.68:53.33,Bard:4.2:50.29,Blitzcrank:7.53:53.03,Brand:2.23:51.56,Braum:5.23:53.41,Camille:1:48.27,Janna:4.65:52.77,Karma:7.84:49.92,Leona:8.48:53.6,Lulu:12.61:51.28,Lux:6.31:51.41,Maokai:1.77:53.05,Milio:6.45:51.93,Morgana:4.11:52.08,Nami:9.22:52.45,Nautilus:11.11:51.03,Neeko:1.89:50.66,Pantheon:3.32:49.87,Poppy:1.7:52.82,Pyke:5.74:51.1,Rakan:4.81:52.67,Rell:3.99:53.3,Renata Glasc:2.32:51.37,Senna:5.75:53.23,Seraphine:6.95:52.71,Shaco:1.11:50.27,Sona:2.91:53.07,Soraka:4.59:52.59,Swain:2.88:50.64,Sylas:1.18:48.83,Tahm Kench:2.22:51.72,Taric:1.2:53.86,Thresh:14.26:53.11,Vel'Koz:3.3:52.86,Xerath:2.76:50.98,Yuumi:5.52:49.61,Zilean:2.88:53.43,Zyra:2.64:52.87
 #
-bottom|adc	Karthus:53.62:30811,Swain:51.84:52537,Kog'Maw:50.88:125601,Veigar:50.73:55077,Xayah:50.45:395088,Yasuo:50.53:119383
-bottom|assassin	Xayah:52.23:2964,Kai'Sa:50.27:9270,Tristana:49.47:3030,Draven:49.63:1626,Yasuo:49.82:1379,Jinx:48.47:5104
-bottom|bruiser	Nilah:54.28:1251,Xayah:51.43:6010,Kalista:51.59:3470,Swain:53.04:1003,Viktor:50.53:2080,Corki:50.48:1781
+bottom|adc	Karthus:53.41:30694,Swain:52.10:53584,Kog'Maw:51.20:126450,Xayah:50.49:456730,Yasuo:50.49:113396,Nilah:50.56:56026
+bottom|assassin	Xayah:53.35:3220,Kai'Sa:49.87:9384,Samira:51.77:1103,Kalista:50.03:1467,Yasuo:50.24:1248,Draven:49.68:1238
+bottom|bruiser	Nilah:55.31:1112,Xayah:51.85:6503,Kalista:51.83:3311,Corki:50.95:2673,Sivir:49.90:3254,Vayne:49.18:3068
 bottom|catcher	
-bottom|enchanter	Kai'Sa:50.51:2887,Miss Fortune:50.38:1056,Jinx:48.88:1917,Tristana:49.13:1203,Jhin:47.41:3168,Yunara:47.17:1433
-bottom|mage	Karthus:52.04:3011,Zeri:49.76:17375,Sivir:49.48:19870,Veigar:49.43:4975,Kai'Sa:48.18:82523,Kog'Maw:48.63:9279
-bottom|specialist	Kai'Sa:48.00:1102
-bottom|tank	Kai'Sa:47.86:2340,Jinx:46.76:1448,Jhin:45.69:1810,Yunara:45.95:1136,Caitlyn:45.14:1203,Ezreal:42.80:1119
-jungle|adc	Zyra:52.97:6426,Rammus:52.12:6139,Nidalee:51.68:12195,Skarner:52.29:3079,Sejuani:51.58:7478,Naafiri:51.31:10944
-jungle|assassin	Rek'Sai:51.92:25381,Wukong:51.13:128783,Rammus:51.37:31683,Skarner:51.04:18214,Sejuani:50.67:42711,Bel'Veth:50.62:46515
-jungle|bruiser	Rek'Sai:51.31:32903,Wukong:50.47:163821,Taliyah:50.61:42595,Ivern:50.76:24677,Elise:50.45:76205,Zyra:50.48:39799
+bottom|enchanter	Kai'Sa:50.31:2979,Miss Fortune:50.61:1140,Jhin:47.94:2939,Lucian:47.93:1208,Jinx:47.25:1528,Yunara:46.41:1478
+bottom|mage	Karthus:51.79:2885,Sivir:49.85:20097,Swain:50.53:4057,Zeri:49.06:16901,Kog'Maw:48.86:8853,Kai'Sa:48.13:85358
+bottom|specialist	Jhin:50.52:1148,Kai'Sa:48.03:1247
+bottom|tank	Kai'Sa:46.90:2367,Jinx:46.01:1091,Yunara:45.26:1180,Jhin:44.15:1887,Ezreal:43.39:1226,Caitlyn:43.49:1037
+jungle|adc	Zyra:52.85:7020,Skarner:52.39:3115,Sejuani:51.67:7101,Naafiri:51.23:12712,Elise:51.30:9858,Nidalee:51.19:10799
+jungle|assassin	Rek'Sai:52.37:25320,Wukong:51.15:123355,Skarner:51.23:18750,Rammus:50.84:26712,Bel'Veth:50.63:47029,Nunu & Willump:50.65:39528
+jungle|bruiser	Rek'Sai:51.25:33299,Ivern:50.80:23079,Wukong:50.38:163052,Elise:50.47:72808,Zyra:50.39:46503,Cho'Gath:49.97:133903
 jungle|catcher	
-jungle|enchanter	Talon:50.31:1912,Jarvan IV:48.82:2710,Shaco:48.54:1475,Master Yi:48.21:1736,Rengar:47.99:1540,Elise:48.34:1053
-jungle|mage	Zyra:50.91:9820,Taliyah:50.49:9956,Lillia:50.14:21098,Bel'Veth:50.21:14062,Ivern:50.32:6126,Elise:49.55:17425
-jungle|specialist	Zyra:56.97:1757,Nidalee:55.03:3000,Kha'Zix:54.00:5306,Sejuani:53.91:1393,Shaco:53.02:3014,Karthus:54.10:1159
-jungle|tank	Lillia:51.73:40126,Taliyah:50.27:10098,Ivern:50.15:6802,Zac:49.34:15543,Shyvana:49.14:27287,Cho'Gath:48.84:28371
-mid|adc	Akshan:55.05:2870,Yasuo:53.74:14484,Xerath:53.66:8460,Diana:53.60:6397,Katarina:52.92:12692,Annie:53.36:3984
-mid|assassin	Vex:50.57:59450,Lissandra:50.09:106644,Vladimir:50.04:74413,Kassadin:50.09:48146,Diana:49.81:63565,Ekko:49.71:80042
-mid|bruiser	Vex:52.47:27359,Lissandra:51.65:43850,Annie:51.82:14872,Vladimir:51.47:36124,Ahri:50.54:71821,Aurora:50.54:17713
+jungle|enchanter	Talon:50.03:1667,Jarvan IV:48.90:2673,Diana:48.61:1045,Rengar:47.92:1442,Ekko:47.56:1474,Lillia:47.37:1653
+jungle|mage	Zyra:50.91:11842,Lillia:50.30:22233,Bel'Veth:50.03:14958,Elise:49.73:17320,Taliyah:49.57:13758,Udyr:49.54:10096
+jungle|specialist	Zyra:56.26:2149,Kha'Zix:54.97:5594,Nidalee:55.02:3155,Kindred:54.10:2440,Sejuani:54.18:1576,Wukong:52.67:5128
+jungle|tank	Lillia:51.91:39112,Taliyah:49.68:14119,Zac:49.45:15052,Ivern:49.85:6153,Shyvana:49.06:26699,Zyra:49.20:11248
+mid|adc	Akshan:55.63:3099,Yasuo:53.78:13203,Twisted Fate:53.11:11364,Diana:53.40:6520,Xerath:53.26:8036,Katarina:52.98:12576
+mid|assassin	Vex:50.75:58270,Vladimir:50.32:73880,Lissandra:50.12:108419,Kassadin:50.27:50071,Ekko:49.85:81758,Diana:49.73:63465
+mid|bruiser	Vex:52.66:24621,Lissandra:51.84:41804,Annie:51.80:15115,Vladimir:51.52:33677,Taliyah:51.51:16850,Ahri:50.55:72267
 mid|catcher	
-mid|enchanter	Yone:52.43:1335,Ahri:51.39:1940,Yasuo:51.71:1286,Syndra:50.93:1716,Locke:49.87:1137,Zed:48.66:1340
-mid|mage	Xerath:50.88:137512,Vel'Koz:50.59:34506,Ekko:50.26:153126,Kassadin:50.16:84016,Hwei:49.81:114119,Aurora:49.87:79020
-mid|specialist	LeBlanc:52.52:2679,Vladimir:51.88:2338,Ekko:51.68:2765,Syndra:51.19:4241,Xerath:51.90:1946,Viktor:51.03:3790
-mid|tank	Hwei:53.44:7657,Ahri:52.62:20705,Vel'Koz:54.23:1713,Taliyah:52.27:4136,Twisted Fate:51.59:11568,Ekko:51.33:11428
-support|adc	Senna:54.90:3024,Blitzcrank:52.12:16479,Zilean:52.00:6490,Thresh:51.27:32205,Pyke:50.56:11882,Leona:50.07:16397
-support|assassin	Janna:54.40:4660,Braum:53.79:4423,Alistar:52.57:6727,Rell:52.83:3971,Lulu:51.83:13102,Leona:51.81:8973
-support|bruiser	Janna:55.43:6899,Taric:56.63:1720,Braum:54.49:9303,Leona:53.92:14843,Alistar:53.93:12496,Rell:54.26:6102
-support|catcher	Taric:50.86:31093,Rell:50.33:89609,Braum:50.21:139634,Alistar:50.20:147205,Rakan:50.14:96275,Leona:49.97:176695
-support|enchanter	Blitzcrank:50.71:148392,Thresh:50.41:297471,Braum:50.47:93731,Sona:50.38:65681,Amumu:50.77:13801,Janna:50.00:109543
-support|mage	Janna:51.61:41176,Sona:51.41:22003,Rell:51.01:30856,Nami:50.74:83979,Blitzcrank:50.68:79375,Zilean:50.91:25932
-support|specialist	Thresh:52.50:2598,Nautilus:52.29:1507,Lulu:51.75:2174,Leona:50.57:1317,Nami:48.26:1440,Blitzcrank:47.89:1019
-support|tank	Taric:53.79:3307,Braum:51.92:15212,Thresh:50.52:45104,Janna:50.87:12744,Senna:50.64:14148,Rell:50.38:14354
-top|adc	Malphite:58.05:12671,Irelia:54.30:7540,Yasuo:53.94:6381,Nasus:53.78:5896,Teemo:53.42:7270,Ornn:52.46:6314
-top|assassin	Kled:53.77:2280,Garen:51.89:11051,Nasus:51.99:7546,Sion:51.98:7218,Renekton:51.65:11453,Gangplank:51.63:9631
-top|bruiser	Singed:50.53:75071,Malphite:50.35:220850,Quinn:50.74:25971,Warwick:50.23:50870,Camille:49.88:152027,Poppy:50.12:32078
+mid|enchanter	Yone:53.15:1189,Locke:51.84:1007,Yasuo:50.80:1189,Ahri:49.61:1923,Syndra:49.55:1768,Zed:48.71:1281
+mid|mage	Xerath:50.88:137175,Vel'Koz:50.68:39658,Ekko:50.36:162724,Kassadin:50.09:88198,Hwei:49.94:115409,Katarina:49.85:190673
+mid|specialist	LeBlanc:52.50:2600,Xerath:52.44:1844,Veigar:52.55:1652,Aurora:52.76:1323,Hwei:52.02:1809,Ekko:51.49:2758
+mid|tank	Ahri:52.98:22642,Hwei:53.42:7918,Vel'Koz:53.67:2014,Anivia:52.03:4213,Taliyah:51.63:4809,Ekko:51.07:12244
+support|adc	Senna:54.95:3183,Blitzcrank:52.01:17001,Zilean:52.13:6478,Thresh:50.87:31617,Amumu:52.44:1314,Pyke:50.59:12071
+support|assassin	Janna:54.09:3975,Alistar:52.41:7088,Rell:52.40:3876,Braum:52.34:4008,Lulu:51.59:12614,Nami:51.81:8091
+support|bruiser	Janna:54.84:6146,Rakan:54.51:7531,Alistar:54.22:12997,Poppy:54.75:4763,Taric:55.74:1568,Braum:53.83:8548
+support|catcher	Taric:50.82:30001,Rell:50.40:92513,Braum:50.28:137752,Rakan:50.27:105780,Alistar:50.02:161950,Leona:49.89:184362
+support|enchanter	Blitzcrank:50.52:149495,Braum:50.48:90877,Sona:50.48:70534,Thresh:50.15:283661,Amumu:50.77:13835,Zilean:50.17:62019
+support|mage	Janna:51.66:37115,Sona:51.21:23529,Nami:50.88:85497,Rell:50.99:31417,Zilean:51.03:25684,Blitzcrank:50.67:79693
+support|specialist	Lulu:52.41:2112,Thresh:51.91:2360,Karma:51.87:1066,Nautilus:49.62:1602,Leona:49.58:1285,Blitzcrank:49.18:1155
+support|tank	Braum:51.97:14484,Taric:52.45:3157,Janna:50.81:11373,Rell:50.47:14483,Thresh:49.98:42937,Nami:50.09:22909
+top|adc	Malphite:57.57:12703,Irelia:55.34:7378,Teemo:54.00:7093,Nasus:53.37:5175,Yasuo:53.07:5960,Ornn:52.99:6288
+top|assassin	Garen:52.80:11756,Nasus:52.62:7333,Kled:53.42:2469,Sion:51.92:8321,Irelia:51.62:11204,Shen:51.76:6903
+top|bruiser	Singed:50.74:73447,Malphite:50.27:214671,Warwick:50.28:50407,Quinn:50.38:25721,Poppy:50.20:33401,Kayle:49.98:85494
 top|catcher	
-top|enchanter	Yone:49.64:1664,Malphite:49.92:1304,Jayce:49.18:1041,Darius:45.86:1136
-top|mage	Irelia:52.09:20667,Sion:51.67:14386,Ornn:51.30:16050,Yasuo:50.67:17550,Olaf:50.53:10838,Dr. Mundo:50.34:13136
-top|specialist	Malphite:52.96:62149,Sion:52.32:26143,Irelia:51.73:37727,Ornn:51.65:25628,Quinn:51.81:6576,Olaf:50.60:21258
-top|tank	Singed:51.77:22089,Gwen:50.69:40168,Shen:50.55:37677,Sylas:50.65:25986,Ornn:50.27:40737,Dr. Mundo:50.10:39366
+top|enchanter	Yone:49.85:1332,Malphite:49.91:1098,Jayce:48.40:1033,Darius:47.57:1171
+top|mage	Irelia:52.05:20684,Sion:52.01:15854,Ornn:51.15:16137,Dr. Mundo:50.49:13471,Olaf:50.43:11502,Shen:50.22:14828
+top|specialist	Malphite:52.96:61408,Irelia:52.19:38896,Sion:52.25:29456,Ornn:51.62:26427,Quinn:51.13:6478,Olaf:50.15:23187
+top|tank	Singed:52.13:21836,Gwen:50.86:43460,Sylas:50.66:25757,Shen:50.49:37856,Kayle:50.25:32208,Ornn:50.18:41895
